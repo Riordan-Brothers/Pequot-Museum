@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<room roomID="Area_GS-01">
+		<room_name>Area_GS-01</room_name>
+		<room_num>1</room_num>
+		<equip_ID>101</equip_ID>
+		<num_zones>32</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>10</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Day</preset01_name>
+		<preset02_name>Night</preset02_name>
+		<preset03_name>Event 01</preset03_name>
+		<preset04_name>Event 02</preset04_name>
+		<preset05_name>Event 03</preset05_name>
+		<preset06_name>Event 04</preset06_name>
+		<preset07_name>Event 05</preset07_name>
+		<preset08_name>Off with Stairs</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="Area_GS-02">
+		<room_name>Area_GS-02</room_name>
+		<room_num>2</room_num>
+		<equip_ID>102</equip_ID>
+		<num_zones>10</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>10</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Day</preset01_name>
+		<preset02_name>Night</preset02_name>
+		<preset03_name>Event 01</preset03_name>
+		<preset04_name>Event 02</preset04_name>
+		<preset05_name>Event 03</preset05_name>
+		<preset06_name>Event 04</preset06_name>
+		<preset07_name>Event 05</preset07_name>
+		<preset08_name>Off with Stairs</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+</file>
