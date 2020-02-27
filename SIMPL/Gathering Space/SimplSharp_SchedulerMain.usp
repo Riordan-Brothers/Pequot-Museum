@@ -116,6 +116,7 @@ STRING_PARAMETER  Latitude[15],
 *******************************************************************************************/
 string  Lat[15],
         Lon[15];
+integer Ready;
 
 /*******************************************************************************************
   Functions
@@ -160,7 +161,7 @@ function LoadConfig() {
 PUSH Enable { CentralScheduler.Config.EnabledSplus = 1; }
 PUSH Disable { CentralScheduler.Config.EnabledSplus = 0; }
 PUSH EnableToggle { CentralScheduler.Config.EnabledSplus = !CentralScheduler.Config.EnabledSplus; }
-PUSH ConfigLoad { LoadConfig(); } 
+PUSH ConfigLoad { if (Ready) LoadConfig(); } 
 PUSH ConfigSave { CentralScheduler.SaveConfig(); }
 CHANGE LatitudeOverride { Lat = LatitudeOverride; }
 CHANGE LongitudeOverride { Lon = LongitudeOverride; }
@@ -188,4 +189,5 @@ Function Main()
     delay(2000);  //20seconds
 	if (ConfigLoad)
 	    LoadConfig();
+	Ready = on;
 }
