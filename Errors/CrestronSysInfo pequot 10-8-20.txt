@@ -1,0 +1,663 @@
+[Toolbox Install Info]
+
+  Install Path: C:\crestron\toolbox
+
+  Data:
+                             Devices.rzinis:  160127         C:\crestron\Cresdb\Toolbox\Devices.rzinis
+                             Devices.rzinis:  200623         C:\crestron\toolbox\Data\Devices.rzinis
+
+
+  Crestron Software:
+
+        Crestron Core 3 UI Controls........:  2.15.06.01     C:\crestron\Cresdb
+        Crestron D3 Pro....................:  3.03.020.00    C:\crestron\D3 Pro
+        Crestron D3 Pro Templates (Destiny:Black-Blue):  2.02.020.00    C:\crestron\Cresdb\Templates\D3 Pro
+        Crestron Database..................:  89.05.002.00   C:\crestron\Cresdb
+        Crestron Engraver..................:  5.4.27.02      C:\crestron\engraver
+        Crestron iLux Designer.............:  2.01.05.00     Unavailable
+
+        Crestron Toolbox...................:  3.07.070.00    C:\crestron\toolbox
+            +BPC8 Tool                     :  2.07.070       C:\crestron\toolbox
+            +Complete Shell                :  2.07.070       Unavailable
+            +DMTools                       :  2.07.070       Unavailable
+            +DSP128Shell                   :  2.07.070       C:\crestron\toolbox
+            +Front End                     :  2.07.070       Unavailable
+            +Minimal Shell                 :  2.07.070       Unavailable
+            +Procise Tools                 :  2.07.070       C:\crestron\toolbox
+            +Server                        :  2.07.070       C:\crestron\toolbox
+
+        D3 Pro Templates (Destiny).........:  2.02.020.00    Unavailable
+        Device Database....................:  115.06.003.00  Unavailable
+        Legacy Device Tools................:  1.00.00        Unavailable
+        SIMPL Windows......................:  4.11.06.01     Unavailable
+        SIMPL Windows Library..............:  508            Unavailable
+        SIMPL+ Cross Compiler..............:  1.3            Unavailable
+        VisionTools Pro-e..................:  6.2.00.03      C:\crestron\vt_pro-e
+
+
+  Operating System:
+
+             Windows Version:  Microsoft Windows 7 Professional  Service Pack 1
+                  IE Version:  9.11.9600
+                         CPU:  Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz (x4) @ 2808 MHz
+             Physical Memory:  10910 MB / 16047 MB
+              Virtual Memory:  1842 MB / 2047 MB
+                Admin Rights:  Yes
+                         DPI:  X:120 Y:120
+              Scaling Factor:  100
+                 UAC Enabled:  True
+      Virtualization Enabled:  False
+
+[Product Info]
+DeviceName=DIN-AP3
+DeviceCategory=Control System
+DeviceVersion=1.600.3781.39134
+SerialNumber=1943JBH02558
+
+[Program]
+          MinimumCUZ : 
+          TargetRack : DIN-AP3
+      ProgramBootDir : \simpl\app01
+          SourceFile : C:\github\Pequot-Museum\SIMPL\Gathering Space\Pequot Museum Gathering Space v1e
+         ProgramFile : Pequot Museum Gathering Space v1e.smw
+          SystemName : RBI Base Program
+          Programmer : Hope Roth
+          CompiledOn : 1/31/2020 10:51 AM
+         CompilerRev : 3.03
+           SYMLIBRev : 1099
+            IOLIBRev : 1099
+           IOPCFGRev : 4.1.75
+       CrestronDBRev : 85.00.001.00
+   SourceEnvironment : SIMPL Windows v4.11.06
+                Type : User
+      ProgramVersion : 
+        ProgramIDTag : Lighting
+
+[Ethernet]
+NumberOfPorts=1
+LanA.IPAddress=192.168.1.50
+LanA.MACAddress=00.10.7f.d5.ab.20
+LanA.IPMask=255.255.255.0
+LanA.NegotiationSpeed=0
+LanA.NegotiationDuplex=FALSE
+LanA.Link=TRUE
+DefaultRouter=0.0.0.0
+Hostname=AP3-GATHERING
+Domain=
+DHCPEnabled=FALSE
+SSLEnabled=FALSE
+SSLCASigned=FALSE
+CIPEnable=FALSE
+PrimaryDNS=
+
+[Cresnet Devices]
+11: CNLDM-6, ver 4.1
+13: CNLDM-4, ver 4.1
+14: CNLDM-4, ver 4.1
+15: CNLDM-4, ver 4.1
+16: CNLFDB-4, ver 4.2.0
+17: CNLDM-6, ver 4.1
+18: CNLDM-6, ver 4.1
+19: CNLDM-4, ver 4.1
+1A: CNLDM-4, ver 4.1
+1B: CNLDM-6, ver 4.1
+1C: CNLDM-6, ver 4.1
+1D: CNLDM-6, ver 4.1
+1E: CNLDM-6, ver 4.1
+1F: CNLDM-6, ver 4.1
+20: CNLDM-6, ver 4.1
+21: CNLDM-6, ver 4.1
+22: CNLDM-6, ver 4.1
+23: CNLDM-6, ver 4.1
+24: CNLDM-6, ver 4.1
+25: CNLDM-6, ver 4.1
+26: CNLDM-6, ver 4.1
+27: CNLDM-4, ver 4.1
+30: C2N-CBD-P Cameo Keypad [v1.003.0045, #8C821DCC]
+31: C2N-CBD-P Cameo Keypad [v1.003.0045, #8C821E5C]
+93: GLS-SIM Sensor Interface [v1.003.0004,#00C51A0E] Dial:00
+
+ 
+
+[Error Log]
+err plogcurrent
+Persistent log contents during current boot:
+SDCardDetect: System SD card
+CSDSlot::SlotStateChange : DeviceInserted
+CM3: input file [\windows\firmware.bin] is 9932 bytes long
+CM3: firmware file read ok!
+PrcmCM3ResetAndHandshake: isM3IntReceived: 0
+PrcmDomainResetRelease DMN 0; mask 8
+Cm3ISR: M3 int recvd
+HwDogDriverInit: SystemID: 0x1
+Notice: nk.exe # 2020-09-30 16:24:09  # Power On
+detect_processor_board_id: ProcessorBoardID [0x00000003] 
+Notice: nk.exe # 2020-09-30 16:24:09  # System startup: DIN-AP3 [v1.600.0092 (May 10 2019) #8C7209FE]
+setIP: Registry static IP setting = 192.168.1.50
+Info: nk.exe # 2020-09-30 16:24:09  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2020-09-30 16:24:09  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2020-09-30 16:24:09  # Updating DHCP options on boot
+FPGA   Activated
+Cpsw3g_InitializeAdapter: mode=1, port=1, txCh=0, rxChMask=0x01, ActiveCpgmac=1
+OEMIoControl: Unsupported Code 0x1012010 - device 0x0101 func 2052
+SDHC: CPU revision 0xffffffff
++OALSetMemoryAttributes()
+-OALSetMemoryAttributes
+CSDSlot::SlotStateChange : DeviceEjected
+_cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100  DUPLEX:FD
+Info: CrestronMonitor.exe # 2020-09-30 16:24:15  # Crestron applications already installed
+ProcessPostInstall: No \windows\postinstall.bat file
+ProcessPostInstall: No \windows\shipwithinstall.bat file
+Info: nk.exe # 2020-09-30 16:24:18  # SDMemWriteCounterUpdate: InitialCounter is:2363586, MaxHourCounter is:106372
+Info: TLDM.exe # 2020-09-30 16:24:31  #  THAL loading now  .. 
+Notice: TLDM.exe # 2020-09-30 16:24:34  # CresStore: Connections OK to redis
+ 
+Notice: TLDM.exe # 2020-09-30 16:24:35  # CresStore: async context connect, status=0
+ 
+Info: TLDM.exe # 2020-09-30 16:24:35  #  CTLDMWatchdogServer: Arm Watchdog is disabled 
+Notice: CIPCommandProcessor.exe # 2020-09-30 16:24:38  # CresStore: Connections OK to redis
+ 
+Info: CloudClient.exe # 2020-09-30 16:24:40  # CloudUrl: https://api.my.crestron.com/api/Registration
+Ok: AutoUpdateInterface.exe # 2020-09-30 16:24:43  # AutoUpdate Interface Starting
+Notice: CPHProcessor.exe # 2020-09-30 16:24:45  # CresStore: Connections OK to redis
+ 
+Notice: CPHProcessor.exe # 2020-09-30 16:24:46  # CresStore: async context connect, status=0
+ 
+Info: AutoUpdateInterface.exe # 2020-09-30 16:24:48  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+Notice: HydrogenManager.exe # 2020-09-30 16:24:49  # CresStore: Connections OK to redis
+ 
+Notice: HydrogenManager.exe # 2020-09-30 16:24:49  # CresStore: async context connect, status=0
+ 
+Ok: SimplSharpPro.exe # 2020-09-30 16:25:02  # SimplSharpPro Version: 2.10.076
+Notice: SimplSharpPro.exe # 2020-09-30 16:25:06  # CresStore: Connections OK to redis
+ 
+Info: SimplSharpPro.exe # 2020-09-30 16:25:06  # Successfully registered the application with the TLDM 
+Notice: SimplSharpPro.exe # 2020-09-30 16:25:10  # Starting Programs...!
+Notice: SimplSharpPro.exe # 2020-09-30 16:25:10  # Flash Policy Server - Starting Server.
+Notice: SimplSharpPro.exe # 2020-09-30 16:25:10  # Flash Policy Server - Server Started.
+Info: LogicEngine.exe [App 1] # 2020-09-30 16:25:16  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2020-09-30 16:25:16  # Loading Program \simpl\app01\Pequot Museum Gathering Space v1e.bin.
+Notice: LogicEngine.exe # 2020-09-30 16:25:32  # CresStore: Connections OK to redis
+ 
+Notice: LogicEngine.exe [App 1] # 2020-09-30 16:25:32  # Control System: CresNextSerializerInit done! 
+Notice: LogicEngine.exe # 2020-09-30 16:25:32  # CresStore: async context connect, status=0
+ 
+Info: CIPCommandProcessor.exe # 2020-09-30 16:25:32  #  Reading in IPTable now for App 1
+Notice: LogicEngine.exe # 2020-09-30 16:25:38  # **Program 1 Started**
+Info: LogicEngine.exe [App 1] # 2020-09-30 16:25:38  #  Going to steady state now 
+Notice: LogicEngine.exe [App 1] # 2020-09-30 16:25:38  # CControlSystem::ProgramDetailsUpdate(), status: 0
+Notice: LogicEngine.exe [App 1] # 2020-09-30 16:25:38  # CControlSystem::ProgramDetailsUpdate(), saved in cresstore.
+Info: CRESLOG.exe # 2020-09-30 16:25:39  # PersistentLog: Logging is started!
+Notice: TLDM.exe # 2020-09-30 16:25:39  #  Event rcvd is 8 
+Notice: HydrogenManager.exe # 2020-09-30 16:25:43  # [..\source\XioSdk\XioConnectedExternalInterface.cpp:113] XioConnected_Init: init completed, version[1.00.00.00]
+ 
+Notice: HydrogenManager.exe # 2020-09-30 16:25:43  # [..\source\XioSdk\XioSdkStatusMgr.cpp:297] XioSdkStatusMgr: currentDeviceInfoStr[] is not a valid json.
+ 
+Error: CloudClient.exe # 2020-09-30 16:25:43  #  CloudClient Frame Response status : Cannot resolve host
+ 
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # Scheduled Event 'Late Day' for '10/1/2020 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # Scheduled Event 'Daytime' for '10/1/2020 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # Scheduled Event 'Off/stairs' for '9/30/2020 17:15' with state Enabled
+Error: HydrogenManager.exe # 2020-09-30 16:30:45  # [..\source\Wince\HTTPProxy_sub.cpp:93] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 17:15:00  # Executing scheduled event 'Off/stairs'
+Info: nk.exe # 2020-09-30 19:06:07  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-01 15:12:02  # CRM1: Timeout waiting for response from 0x31
+Notice: splusmanagerapp.exe [App 1] # 2020-10-01 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-01 17:15:00  # Executing scheduled event 'Off/stairs'
+Info: nk.exe # 2020-10-01 19:59:48  # CRM1: Timeout waiting for response from 0x1f
+Info: nk.exe # 2020-10-01 20:00:42  # CRM1: Timeout waiting for response from 0x15
+Info: nk.exe # 2020-10-02 01:19:35  # CRM1: Timeout waiting for response from 0x21
+Info: nk.exe # 2020-10-02 01:44:15  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 01:52:49  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 01:56:32  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2020-10-02 01:56:44  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 02:09:39  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 02:10:17  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:10:55  # CRM1: Timeout waiting for response from 0x11
+Info: nk.exe # 2020-10-02 02:11:49  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 02:12:12  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:13:32  # CRM1: Timeout waiting for response from 0x25
+Info: nk.exe # 2020-10-02 02:13:41  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:13:45  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:13:47  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:14:03  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:14:06  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 02:14:15  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:12:25  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:12:49  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:13:10  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:16:01  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 03:25:11  # CRM1: Timeout waiting for response from 0x1c
+Info: nk.exe # 2020-10-02 03:25:13  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 03:25:15  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:25:16  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:25:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:25:27  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 03:28:42  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:28:48  # CRM1: Timeout waiting for response from 0x1b
+Info: nk.exe # 2020-10-02 03:34:26  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:34:39  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:49:21  # CRM1: Timeout waiting for response from 0x31
+Error: LogicEngine.exe [App 1] # 2020-10-02 03:49:26  # Unknown packet type 0x0B (11) encountered from Slot-01.ID-31.  Packet:  [31][02][0B][20]).
+Info: nk.exe # 2020-10-02 03:59:16  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 03:59:33  # CRM1: Timeout waiting for response from 0x11
+Info: nk.exe # 2020-10-02 04:00:08  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2020-10-02 04:04:11  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:05:00  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:05:02  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:05:03  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 04:05:40  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:06:20  # CRM1: Timeout waiting for response from 0x24
+Info: nk.exe # 2020-10-02 04:08:09  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 04:08:10  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:08:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:09:12  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:09:18  # CRM1: Timeout waiting for response from 0x21
+Info: nk.exe # 2020-10-02 04:09:58  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:10:52  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:10:58  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:12:50  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:13:17  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:13:36  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2020-10-02 04:14:05  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 04:15:23  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:15:53  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:19:52  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:20:55  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:20:57  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:21:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:23:20  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 04:23:24  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 04:23:25  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:23:36  # CRM1: Timeout waiting for response from 0x25
+Info: nk.exe # 2020-10-02 04:23:39  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:23:42  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:24:48  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 04:25:42  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:25:43  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:26:17  # CRM1: Timeout waiting for response from 0x1f
+Info: nk.exe # 2020-10-02 04:26:42  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2020-10-02 04:27:20  # CRM1: Timeout waiting for response from 0x1b
+Info: nk.exe # 2020-10-02 04:29:40  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:29:41  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:29:48  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:30:46  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:30:51  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:31:11  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:31:36  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:31:58  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:32:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:42:53  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:43:06  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 04:44:17  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:47:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:47:24  # CRM1: Timeout waiting for response from 0x15
+Info: nk.exe # 2020-10-02 04:47:26  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:47:39  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:47:40  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:48:02  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:48:11  # CRM1: Timeout waiting for response from 0x27
+Info: nk.exe # 2020-10-02 04:48:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:48:21  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:55:45  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:57:33  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 04:57:39  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:57:54  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:58:09  # CRM1: Timeout waiting for response from 0x22
+Info: nk.exe # 2020-10-02 04:58:15  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 04:59:22  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:59:24  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:59:30  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:59:45  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 04:59:51  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:01:16  # CRM1: Timeout waiting for response from 0x21
+Info: nk.exe # 2020-10-02 05:02:47  # CRM1: Timeout waiting for response from 0x31
+Error: LogicEngine.exe [App 1] # 2020-10-02 05:03:10  # Unknown packet type 0x94 (148) encountered from Slot-01.ID-31.  Packet:  [31][05][94][20][08][20][40]).
+Info: nk.exe # 2020-10-02 05:03:22  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:03:24  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:03:43  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:03:46  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:04:29  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:04:40  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:04:43  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:07:39  # CRM1: Timeout waiting for response from 0x22
+Info: nk.exe # 2020-10-02 05:07:58  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:08:06  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 05:09:02  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:09:05  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:09:15  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:09:22  # CRM1: Timeout waiting for response from 0x19
+Info: nk.exe # 2020-10-02 05:09:44  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:09:52  # CRM1: Timeout waiting for response from 0x1b
+Info: nk.exe # 2020-10-02 05:09:56  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:11:14  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:11:38  # CRM1: Timeout waiting for response from 0x25
+Info: nk.exe # 2020-10-02 05:26:12  # CRM1: Timeout waiting for response from 0x1c
+Info: nk.exe # 2020-10-02 05:26:42  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:26:46  # CRM1: Timeout waiting for response from 0x25
+Info: nk.exe # 2020-10-02 05:26:48  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:31:13  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 05:32:13  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 05:34:26  # CRM1: Timeout waiting for response from 0x1b
+Info: nk.exe # 2020-10-02 06:33:00  # CRM1: Timeout waiting for response from 0x1c
+Info: nk.exe # 2020-10-02 06:33:45  # CRM1: Timeout waiting for response from 0x21
+Info: nk.exe # 2020-10-02 06:47:06  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:02:00  # CRM1: Timeout waiting for response from 0x27
+Info: nk.exe # 2020-10-02 07:02:17  # CRM1: Timeout waiting for response from 0x19
+Info: nk.exe # 2020-10-02 07:02:28  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:02:43  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:06:36  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 07:09:56  # CRM1: Timeout waiting for response from 0x1f
+Info: nk.exe # 2020-10-02 07:10:10  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:12:49  # CRM1: Timeout waiting for response from 0x24
+Info: nk.exe # 2020-10-02 07:13:25  # CRM1: Timeout waiting for response from 0x19
+Info: nk.exe # 2020-10-02 07:14:45  # CRM1: Timeout waiting for response from 0x19
+Info: nk.exe # 2020-10-02 07:14:59  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:15:49  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:20:27  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 07:21:41  # CRM1: Timeout waiting for response from 0x19
+Info: nk.exe # 2020-10-02 07:21:51  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 07:21:53  # CRM1: Timeout waiting for response from 0x1c
+Info: nk.exe # 2020-10-02 07:24:57  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:26:34  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:26:37  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:26:38  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:26:53  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 07:29:37  # CRM1: Timeout waiting for response from 0x1c
+Info: nk.exe # 2020-10-02 07:30:10  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 07:31:09  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 07:32:13  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:32:22  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:32:49  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:33:00  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:33:09  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:35:30  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:35:45  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:35:46  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:36:03  # CRM1: Timeout waiting for response from 0x27
+Info: nk.exe # 2020-10-02 07:36:08  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 07:36:26  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 13:45:48  # CRM1: Timeout waiting for response from 0x19
+Info: nk.exe # 2020-10-02 13:45:49  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 13:45:58  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 14:00:57  # CRM1: Timeout waiting for response from 0x14
+Info: nk.exe # 2020-10-02 14:13:11  # CRM1: Timeout waiting for response from 0x22
+Info: nk.exe # 2020-10-02 14:14:14  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:16:53  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:21:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:21:37  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:52:12  # CRM1: Timeout waiting for response from 0x22
+Info: nk.exe # 2020-10-02 14:52:16  # CRM1: Timeout waiting for response from 0x22
+Info: nk.exe # 2020-10-02 14:52:19  # CRM1: Timeout waiting for response from 0x1f
+Info: nk.exe # 2020-10-02 14:52:21  # CRM1: Timeout waiting for response from 0x14
+Info: nk.exe # 2020-10-02 14:52:23  # CRM1: Timeout waiting for response from 0x1b
+Info: nk.exe # 2020-10-02 14:52:24  # CRM1: Timeout waiting for response from 0x14
+Info: nk.exe # 2020-10-02 14:52:26  # CRM1: Timeout waiting for response from 0x26
+Info: nk.exe # 2020-10-02 14:52:29  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 14:52:50  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:53:02  # CRM1: Timeout waiting for response from 0x24
+Info: nk.exe # 2020-10-02 14:53:06  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 14:53:11  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:53:13  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 14:53:14  # CRM1: Timeout waiting for response from 0x26
+Info: nk.exe # 2020-10-02 14:53:15  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:53:29  # CRM1: Timeout waiting for response from 0x13
+Info: nk.exe # 2020-10-02 14:53:42  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:53:43  # CRM1: Timeout waiting for response from 0x15
+Info: nk.exe # 2020-10-02 14:53:45  # CRM1: Timeout waiting for response from 0x1c
+Info: nk.exe # 2020-10-02 14:53:57  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2020-10-02 14:53:58  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:54:16  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:54:20  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:54:22  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 14:54:26  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 14:54:27  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:54:35  # CRM1: Timeout waiting for response from 0x1f
+Info: nk.exe # 2020-10-02 14:54:37  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:54:42  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 14:54:45  # CRM1: Timeout waiting for response from 0x1b
+Info: nk.exe # 2020-10-02 14:54:46  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2020-10-02 14:55:20  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2020-10-02 14:55:28  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 14:55:42  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:55:47  # CRM1: Timeout waiting for response from 0x17
+Info: nk.exe # 2020-10-02 14:56:09  # CRM1: Timeout waiting for response from 0x23
+Info: nk.exe # 2020-10-02 14:56:13  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2020-10-02 14:56:15  # CRM1: Timeout waiting for response from 0x20
+Info: nk.exe # 2020-10-02 14:56:17  # CRM1: Timeout waiting for response from 0x13
+Info: nk.exe # 2020-10-02 14:56:18  # CRM1: Timeout waiting for response from 0x31
+Info: nk.exe # 2020-10-02 14:56:19  # CRM1: Timeout waiting for response from 0x26
+Info: nk.exe # 2020-10-02 14:56:21  # CRM1: Timeout waiting for response from 0x1a
+Info: nk.exe # 2020-10-02 14:56:23  # CRM1: Timeout waiting for response from 0x21
+Info: nk.exe # 2020-10-02 14:56:25  # CRM1: Timeout waiting for response from 0x1b
+Notice: splusmanagerapp.exe [App 1] # 2020-10-02 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-02 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-03 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-03 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-04 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-04 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-05 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-05 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-06 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-06 08:00:00  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-06 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-06 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-06 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-06 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-07 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-07 08:00:00  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-07 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-07 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-07 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2020-10-07 17:15:00  # Executing scheduled event 'Off/stairs'
+entering function mode
+Notice: ConsoleServiceCE.exe # 2020-10-08 12:19:10  # USB Connection has been made.
+Persistent log contents during current boot end
+
+
+[Internal Memory Usage]
+InternalMem.Program=14434495
+InternalMem.SPLUS=14434495
+InternalMem.Free=657338368
+InternalMem.Used=96133120
+InternalMem.Reclaimable=0
+InternalMem.Free_Hi=1
+InternalMem.Used_Hi=0
+InternalMem.Reclaimable_Hi=0
+InternalMem.DisplayList=-1
+InternalMem.WebPages=9903309
+
+[Compact Flash Usage]
+CompactFlash.Inserted=FALSE
+CompactFlash.Free=0
+CompactFlash.Used=0
+CompactFlash.UsageProgram=0
+CompactFlash.UsageSPLUS=0
+CompactFlash.UsageWebPages=0
+CompactFlash.UsageDisplayList=-1
+
+[System Clock]
+TimeDate=12:21:07 10-8-2020
+SystemUpTime.Days=7
+SystemUpTime.HundredthsSecs=7184001
+ProgramUpTime.Days=7
+ProgramUpTime.HundredthsSecs=7174809
+
+[IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   Model Name          Description
+03      127.000.000.001     slave       00      41794   gway                online              TSW-750             TSW-750
+10      127.000.000.001     slave       00      41794   gway                offline             XPanel 2.0 Smart GraphicsXPanel 2.0 Smart Graphics
+11      127.000.000.001     slave       00      41794   gway                offline             Crestron App        Crestron App
+F0      127.000.000.002     slave       00      41794   cip                 offline             3 Series TCP/IP Ethernet Intersystem CommunicatiFusion EISC - Area_GS-01 *32 zones
+F1      127.000.000.002     slave       00      41794   cip                 offline             3 Series TCP/IP Ethernet Intersystem CommunicatiFusion EISC - Area_GS-02 *10 zones
+
+[Firmware Capabilities]
+  Category:          Control System
+  SIMPL:             Level 1
+  SIMPL+:            Level 1
+  DisplayList:       NOT SUPPORTED
+  Web Server:        Enabled: Level 1
+  FTP Transfers:     Enabled: Level 1
+  Ethernet Ports:    1
+  Ethernet Active:   Yes
+  IP Table:          Yes
+  IP Table Format:   DIP: Level 2
+  Max IP Entries:    252
+  IP Masters:        0
+  DHCP Support:      Yes
+  Password:          Yes
+  Front Panel Type:  None
+  NVRAM Size:        262144
+  Removeable Media:  USB
+  USB:               NOT_INSERTED
+  PnP support:       Level 1
+  Network Analyzer:  SUPPORTED: Level 1
+  SSL support:       SUPPORTED: Level 1
+  RConsole support:  SUPPORTED: Level 3
+  System Monitor:    SUPPORTED: Level 4
+  TJI support:       Level 5
+  RTJI support:      Level 2
+  Max Programs:      10
+  MDBGSIGNAL:        SUPPORTED: Level 2
+  Core3UILevel:      NOT SUPPORTED
+  Max Host Name:     15 
+
+
+[Hardware Info]
+Current Hardware Configuration
+	Processor Type:    DIN-AP3
+	Num YBus Slots:    0
+	Num ZBus Slots:    1
+	   1: C2I-DIN-AP3CNET-1 Cresnet 
+	   2: C2I-DIN-AP3ENET-1 Ethernet 
+	   4: C2I-DIN-AP3-COM2-232 2 Port Internal COM 
+	   5: C2I-DIN-AP3-IO8 8 Port Internal IO 
+	   6: C2I-DIN-AP3-RY4 4 Port Internal Relay 
+	   7: C2I-DIN-AP3-IR4 4 Port Internal IR OUT 
+	   8: C2I-DIN-AP3-SYSMON System Monitor Slot 
+	   9: C2I-DIN-AP3-SNMP Slot 
+	  10: C2I-DIN-AP3-BACNET Slot 
+
+
+[Card Info]
+	   2: C2I-DIN-AP3ENET-1 Ethernet 
+	   4: C2I-DIN-AP3-COM2-232 2 Port Internal COM 
+	   5: C2I-DIN-AP3-IO8 8 Port Internal IO 
+	   6: C2I-DIN-AP3-RY4 4 Port Internal Relay 
+	   7: C2I-DIN-AP3-IR4 4 Port Internal IR OUT 
+	   8: C2I-DIN-AP3-SYSMON System Monitor Slot 
+	   9: C2I-DIN-AP3-SNMP Slot 
+	  10: C2I-DIN-AP3-BACNET Slot 
+
+
+[*ADV* Touch Settable Devices]
+8C821E5C Y 31 Y C2N-CBD-P Cameo Keypad [v1.003.0045, #8C821E5C]8C821DCC Y 30 Y C2N-CBD-P Cameo Keypad [v1.003.0045, #8C821DCC]00C51A0E Y 93 Y GLS-SIM Sensor Interface [v1.003.0004,#00C51A0E]
+
+[EBoot.Product Info]
+DeviceName=DIN-AP3-Module-EBOOT
+DeviceCategory=Firmware Module
+DeviceVersion=1.22.00
+SerialNumber=
+
+[FPGA.Product Info]
+DeviceName=DIN-AP3-Module-FPGA
+DeviceCategory=Firmware Module
+DeviceVersion=09
+SerialNumber=
+
+[OS.Product Info]
+DeviceName=DIN-AP3-Module-OS
+DeviceCategory=Firmware Module
+DeviceVersion=1.600.3781.39134
+SerialNumber=1943JBH02558
+
+[Program01.Program]
+          MinimumCUZ : 
+          TargetRack : DIN-AP3
+      ProgramBootDir : \simpl\app01
+          SourceFile : C:\github\Pequot-Museum\SIMPL\Gathering Space\Pequot Museum Gathering Space v1e
+         ProgramFile : Pequot Museum Gathering Space v1e.smw
+          SystemName : RBI Base Program
+          Programmer : Hope Roth
+          CompiledOn : 1/31/2020 10:51 AM
+         CompilerRev : 3.03
+           SYMLIBRev : 1099
+            IOLIBRev : 1099
+           IOPCFGRev : 4.1.75
+       CrestronDBRev : 85.00.001.00
+   SourceEnvironment : SIMPL Windows v4.11.06
+                Type : User
+      ProgramVersion : 
+        ProgramIDTag : Lighting
+
+[Program01.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   Model Name          Description
+03      127.000.000.001     slave       00      41794   gway                online              TSW-750             TSW-750
+10      127.000.000.001     slave       00      41794   gway                offline             XPanel 2.0 Smart GraphicsXPanel 2.0 Smart Graphics
+11      127.000.000.001     slave       00      41794   gway                offline             Crestron App        Crestron App
+F0      127.000.000.002     slave       00      41794   cip                 offline             3 Series TCP/IP Ethernet Intersystem CommunicatiFusion EISC - Area_GS-01 *32 zones
+F1      127.000.000.002     slave       00      41794   cip                 offline             3 Series TCP/IP Ethernet Intersystem CommunicatiFusion EISC - Area_GS-02 *10 zones
+
+[Program02.Program]
+No Program Loaded.
+
+[Program02.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program03.Program]
+No Program Loaded.
+
+[Program03.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program04.Program]
+No Program Loaded.
+
+[Program04.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program05.Program]
+No Program Loaded.
+
+[Program05.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program06.Program]
+No Program Loaded.
+
+[Program06.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program07.Program]
+No Program Loaded.
+
+[Program07.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program08.Program]
+No Program Loaded.
+
+[Program08.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program09.Program]
+No Program Loaded.
+
+[Program09.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Program10.Program]
+No Program Loaded.
+
+[Program10.IP Table]
+IP ID   Address             Entry Type  Dev ID  Port    Connection Type     Status      Fixed   
+
+[Updater.Product Info]
+DeviceName=DIN-AP3-Module-UPDATER
+DeviceCategory=Firmware Module
+DeviceVersion=1.4.28
+SerialNumber=
+

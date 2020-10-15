@@ -1,0 +1,337 @@
+err sys SYSTEM LOG:
+  1. SDCardDetect: System SD card
+  2. CSDSlot::SlotStateChange : DeviceInserted
+  3. CM3: input file [\windows\firmware.bin] is 9932 bytes long
+  4. CM3: firmware file read ok!
+  5. PrcmCM3ResetAndHandshake: isM3IntReceived: 0
+  6. PrcmDomainResetRelease DMN 0; mask 8
+  7. Cm3ISR: M3 int recvd
+  8. HwDogDriverInit: SystemID: 0x1
+  9. Notice: nk.exe # 2020-09-30 16:24:09  # Power On
+ 10. detect_processor_board_id: ProcessorBoardID [0x00000003] 
+ 11. Notice: nk.exe # 2020-09-30 16:24:09  # System startup: DIN-AP3 [v1.600.0092 (May 10 2019) #8C7209FE]
+ 12. setIP: Registry static IP setting = 192.168.1.50
+ 13. Info: nk.exe # 2020-09-30 16:24:09  #  UpdateDHCPOptions:HostName option selected 
+ 14. Info: nk.exe # 2020-09-30 16:24:09  #  UpdateDHCPOptions:HostName option selected 
+ 15. Info: nk.exe # 2020-09-30 16:24:09  # Updating DHCP options on boot
+ 16. FPGA   Activated
+ 17. Cpsw3g_InitializeAdapter: mode=1, port=1, txCh=0, rxChMask=0x01, ActiveCpgmac=1
+ 18. OEMIoControl: Unsupported Code 0x1012010 - device 0x0101 func 2052
+ 19. SDHC: CPU revision 0xffffffff
+ 20. +OALSetMemoryAttributes()
+ 21. -OALSetMemoryAttributes
+ 22. CSDSlot::SlotStateChange : DeviceEjected
+ 23. _cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100  DUPLEX:FD
+ 24. Info: CrestronMonitor.exe # 2020-09-30 16:24:15  # Crestron applications already installed
+ 25. ProcessPostInstall: No \windows\postinstall.bat file
+ 26. ProcessPostInstall: No \windows\shipwithinstall.bat file
+ 27. Info: nk.exe # 2020-09-30 16:24:18  # SDMemWriteCounterUpdate: InitialCounter is:2363586, MaxHourCounter is:106372
+ 28. Info: TLDM.exe # 2020-09-30 16:24:31  #  THAL loading now  .. 
+ 29. Notice: TLDM.exe # 2020-09-30 16:24:34  # CresStore: Connections OK to redis
+ 
+ 30. Notice: TLDM.exe # 2020-09-30 16:24:35  # CresStore: async context connect, status=0
+ 
+ 31. Info: TLDM.exe # 2020-09-30 16:24:35  #  CTLDMWatchdogServer: Arm Watchdog is disabled 
+ 32. Notice: CIPCommandProcessor.exe # 2020-09-30 16:24:38  # CresStore: Connections OK to redis
+ 
+ 33. Info: CloudClient.exe # 2020-09-30 16:24:40  # CloudUrl: https://api.my.crestron.com/api/Registration
+ 34. Ok: AutoUpdateInterface.exe # 2020-09-30 16:24:43  # AutoUpdate Interface Starting
+ 35. Notice: CPHProcessor.exe # 2020-09-30 16:24:45  # CresStore: Connections OK to redis
+ 
+ 36. Notice: CPHProcessor.exe # 2020-09-30 16:24:46  # CresStore: async context connect, status=0
+ 
+ 37. Info: AutoUpdateInterface.exe # 2020-09-30 16:24:48  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+ 38. Notice: HydrogenManager.exe # 2020-09-30 16:24:49  # CresStore: Connections OK to redis
+ 
+ 39. Notice: HydrogenManager.exe # 2020-09-30 16:24:49  # CresStore: async context connect, status=0
+ 
+ 40. Ok: SimplSharpPro.exe # 2020-09-30 16:25:02  # SimplSharpPro Version: 2.10.076
+ 41. Notice: SimplSharpPro.exe # 2020-09-30 16:25:06  # CresStore: Connections OK to redis
+ 
+ 42. Info: SimplSharpPro.exe # 2020-09-30 16:25:06  # Successfully registered the application with the TLDM 
+ 43. Notice: SimplSharpPro.exe # 2020-09-30 16:25:10  # Starting Programs...!
+ 44. Notice: SimplSharpPro.exe # 2020-09-30 16:25:10  # Flash Policy Server - Starting Server.
+ 45. Notice: SimplSharpPro.exe # 2020-09-30 16:25:10  # Flash Policy Server - Server Started.
+ 46. Info: LogicEngine.exe [App 1] # 2020-09-30 16:25:16  # Loading program from \simpl\app01
+ 47. Info: LogicEngine.exe [App 1] # 2020-09-30 16:25:16  # Loading Program \simpl\app01\Pequot Museum Gathering Space v1e.bin.
+ 48. Notice: LogicEngine.exe # 2020-09-30 16:25:32  # CresStore: Connections OK to redis
+ 
+ 49. Notice: LogicEngine.exe [App 1] # 2020-09-30 16:25:32  # Control System: CresNextSerializerInit done! 
+ 50. Notice: LogicEngine.exe # 2020-09-30 16:25:32  # CresStore: async context connect, status=0
+ 
+ 51. Info: CIPCommandProcessor.exe # 2020-09-30 16:25:32  #  Reading in IPTable now for App 1
+ 52. Notice: LogicEngine.exe # 2020-09-30 16:25:38  # **Program 1 Started**
+ 53. Info: LogicEngine.exe [App 1] # 2020-09-30 16:25:38  #  Going to steady state now 
+ 54. Notice: LogicEngine.exe [App 1] # 2020-09-30 16:25:38  # CControlSystem::ProgramDetailsUpdate(), status: 0
+ 55. Notice: LogicEngine.exe [App 1] # 2020-09-30 16:25:38  # CControlSystem::ProgramDetailsUpdate(), saved in cresstore.
+ 56. Info: CRESLOG.exe # 2020-09-30 16:25:39  # PersistentLog: Logging is started!
+ 57. Notice: TLDM.exe # 2020-09-30 16:25:39  #  Event rcvd is 8 
+ 58. Notice: HydrogenManager.exe # 2020-09-30 16:25:43  # [..\source\XioSdk\XioConnectedExternalInterface.cpp:113] XioConnected_Init: init completed, version[1.00.00.00]
+ 
+ 59. Notice: HydrogenManager.exe # 2020-09-30 16:25:43  # [..\source\XioSdk\XioSdkStatusMgr.cpp:297] XioSdkStatusMgr: currentDeviceInfoStr[] is not a valid json.
+ 
+ 60. Error: CloudClient.exe # 2020-09-30 16:25:43  #  CloudClient Frame Response status : Cannot resolve host
+ 
+ 61. Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+ 62. Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # Scheduled Event 'Late Day' for '10/1/2020 15:00' with state Enabled
+ 63. Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # Scheduled Event 'Daytime' for '10/1/2020 8:00' with state Enabled
+ 64. Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:26:27  # Scheduled Event 'Off/stairs' for '9/30/2020 17:15' with state Enabled
+ 65. Error: HydrogenManager.exe # 2020-09-30 16:30:45  # [..\source\Wince\HTTPProxy_sub.cpp:93] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+ 66. Notice: splusmanagerapp.exe [App 1] # 2020-09-30 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+ 67. Notice: splusmanagerapp.exe [App 1] # 2020-09-30 17:15:00  # Executing scheduled event 'Off/stairs'
+ 68. Info: nk.exe # 2020-09-30 19:06:07  # CRM1: Timeout waiting for response from 0x31
+ 69. Info: nk.exe # 2020-10-01 15:12:02  # CRM1: Timeout waiting for response from 0x31
+ 70. Notice: splusmanagerapp.exe [App 1] # 2020-10-01 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+ 71. Notice: splusmanagerapp.exe [App 1] # 2020-10-01 17:15:00  # Executing scheduled event 'Off/stairs'
+ 72. Info: nk.exe # 2020-10-01 19:59:48  # CRM1: Timeout waiting for response from 0x1f
+ 73. Info: nk.exe # 2020-10-01 20:00:42  # CRM1: Timeout waiting for response from 0x15
+ 74. Info: nk.exe # 2020-10-02 01:19:35  # CRM1: Timeout waiting for response from 0x21
+ 75. Info: nk.exe # 2020-10-02 01:44:15  # CRM1: Timeout waiting for response from 0x30
+ 76. Info: nk.exe # 2020-10-02 01:52:49  # CRM1: Timeout waiting for response from 0x31
+ 77. Info: nk.exe # 2020-10-02 01:56:32  # CRM1: Timeout waiting for response from 0x1d
+ 78. Info: nk.exe # 2020-10-02 01:56:44  # CRM1: Timeout waiting for response from 0x23
+ 79. Info: nk.exe # 2020-10-02 02:09:39  # CRM1: Timeout waiting for response from 0x30
+ 80. Info: nk.exe # 2020-10-02 02:10:17  # CRM1: Timeout waiting for response from 0x31
+ 81. Info: nk.exe # 2020-10-02 02:10:55  # CRM1: Timeout waiting for response from 0x11
+ 82. Info: nk.exe # 2020-10-02 02:11:49  # CRM1: Timeout waiting for response from 0x1a
+ 83. Info: nk.exe # 2020-10-02 02:12:12  # CRM1: Timeout waiting for response from 0x31
+ 84. Info: nk.exe # 2020-10-02 02:13:32  # CRM1: Timeout waiting for response from 0x25
+ 85. Info: nk.exe # 2020-10-02 02:13:41  # CRM1: Timeout waiting for response from 0x31
+ 86. Info: nk.exe # 2020-10-02 02:13:45  # CRM1: Timeout waiting for response from 0x31
+ 87. Info: nk.exe # 2020-10-02 02:13:47  # CRM1: Timeout waiting for response from 0x31
+ 88. Info: nk.exe # 2020-10-02 02:14:03  # CRM1: Timeout waiting for response from 0x31
+ 89. Info: nk.exe # 2020-10-02 02:14:06  # CRM1: Timeout waiting for response from 0x31
+ 90. Info: nk.exe # 2020-10-02 02:14:15  # CRM1: Timeout waiting for response from 0x31
+ 91. Info: nk.exe # 2020-10-02 03:12:25  # CRM1: Timeout waiting for response from 0x31
+ 92. Info: nk.exe # 2020-10-02 03:12:49  # CRM1: Timeout waiting for response from 0x31
+ 93. Info: nk.exe # 2020-10-02 03:13:10  # CRM1: Timeout waiting for response from 0x31
+ 94. Info: nk.exe # 2020-10-02 03:16:01  # CRM1: Timeout waiting for response from 0x1e
+ 95. Info: nk.exe # 2020-10-02 03:25:11  # CRM1: Timeout waiting for response from 0x1c
+ 96. Info: nk.exe # 2020-10-02 03:25:13  # CRM1: Timeout waiting for response from 0x1e
+ 97. Info: nk.exe # 2020-10-02 03:25:15  # CRM1: Timeout waiting for response from 0x31
+ 98. Info: nk.exe # 2020-10-02 03:25:16  # CRM1: Timeout waiting for response from 0x31
+ 99. Info: nk.exe # 2020-10-02 03:25:18  # CRM1: Timeout waiting for response from 0x31
+100. Info: nk.exe # 2020-10-02 03:25:27  # CRM1: Timeout waiting for response from 0x1a
+101. Info: nk.exe # 2020-10-02 03:28:42  # CRM1: Timeout waiting for response from 0x31
+102. Info: nk.exe # 2020-10-02 03:28:48  # CRM1: Timeout waiting for response from 0x1b
+103. Info: nk.exe # 2020-10-02 03:34:26  # CRM1: Timeout waiting for response from 0x31
+104. Info: nk.exe # 2020-10-02 03:34:39  # CRM1: Timeout waiting for response from 0x31
+105. Info: nk.exe # 2020-10-02 03:49:21  # CRM1: Timeout waiting for response from 0x31
+106. Error: LogicEngine.exe [App 1] # 2020-10-02 03:49:26  # Unknown packet type 0x0B (11) encountered from Slot-01.ID-31.  Packet:  [31][02][0B][20]).
+107. Info: nk.exe # 2020-10-02 03:59:16  # CRM1: Timeout waiting for response from 0x31
+108. Info: nk.exe # 2020-10-02 03:59:33  # CRM1: Timeout waiting for response from 0x11
+109. Info: nk.exe # 2020-10-02 04:00:08  # CRM1: Timeout waiting for response from 0x1d
+110. Info: nk.exe # 2020-10-02 04:04:11  # CRM1: Timeout waiting for response from 0x31
+111. Info: nk.exe # 2020-10-02 04:05:00  # CRM1: Timeout waiting for response from 0x31
+112. Info: nk.exe # 2020-10-02 04:05:02  # CRM1: Timeout waiting for response from 0x31
+113. Info: nk.exe # 2020-10-02 04:05:03  # CRM1: Timeout waiting for response from 0x1e
+114. Info: nk.exe # 2020-10-02 04:05:40  # CRM1: Timeout waiting for response from 0x31
+115. Info: nk.exe # 2020-10-02 04:06:20  # CRM1: Timeout waiting for response from 0x24
+116. Info: nk.exe # 2020-10-02 04:08:09  # CRM1: Timeout waiting for response from 0x1e
+117. Info: nk.exe # 2020-10-02 04:08:10  # CRM1: Timeout waiting for response from 0x31
+118. Info: nk.exe # 2020-10-02 04:08:18  # CRM1: Timeout waiting for response from 0x31
+119. Info: nk.exe # 2020-10-02 04:09:12  # CRM1: Timeout waiting for response from 0x31
+120. Info: nk.exe # 2020-10-02 04:09:18  # CRM1: Timeout waiting for response from 0x21
+121. Info: nk.exe # 2020-10-02 04:09:58  # CRM1: Timeout waiting for response from 0x31
+122. Info: nk.exe # 2020-10-02 04:10:52  # CRM1: Timeout waiting for response from 0x31
+123. Info: nk.exe # 2020-10-02 04:10:58  # CRM1: Timeout waiting for response from 0x31
+124. Info: nk.exe # 2020-10-02 04:12:50  # CRM1: Timeout waiting for response from 0x31
+125. Info: nk.exe # 2020-10-02 04:13:17  # CRM1: Timeout waiting for response from 0x31
+126. Info: nk.exe # 2020-10-02 04:13:36  # CRM1: Timeout waiting for response from 0x1d
+127. Info: nk.exe # 2020-10-02 04:14:05  # CRM1: Timeout waiting for response from 0x23
+128. Info: nk.exe # 2020-10-02 04:15:23  # CRM1: Timeout waiting for response from 0x31
+129. Info: nk.exe # 2020-10-02 04:15:53  # CRM1: Timeout waiting for response from 0x31
+130. Info: nk.exe # 2020-10-02 04:19:52  # CRM1: Timeout waiting for response from 0x31
+131. Info: nk.exe # 2020-10-02 04:20:55  # CRM1: Timeout waiting for response from 0x31
+132. Info: nk.exe # 2020-10-02 04:20:57  # CRM1: Timeout waiting for response from 0x31
+133. Info: nk.exe # 2020-10-02 04:21:18  # CRM1: Timeout waiting for response from 0x31
+134. Info: nk.exe # 2020-10-02 04:23:20  # CRM1: Timeout waiting for response from 0x1a
+135. Info: nk.exe # 2020-10-02 04:23:24  # CRM1: Timeout waiting for response from 0x1a
+136. Info: nk.exe # 2020-10-02 04:23:25  # CRM1: Timeout waiting for response from 0x31
+137. Info: nk.exe # 2020-10-02 04:23:36  # CRM1: Timeout waiting for response from 0x25
+138. Info: nk.exe # 2020-10-02 04:23:39  # CRM1: Timeout waiting for response from 0x31
+139. Info: nk.exe # 2020-10-02 04:23:42  # CRM1: Timeout waiting for response from 0x31
+140. Info: nk.exe # 2020-10-02 04:24:48  # CRM1: Timeout waiting for response from 0x20
+141. Info: nk.exe # 2020-10-02 04:25:42  # CRM1: Timeout waiting for response from 0x31
+142. Info: nk.exe # 2020-10-02 04:25:43  # CRM1: Timeout waiting for response from 0x31
+143. Info: nk.exe # 2020-10-02 04:26:17  # CRM1: Timeout waiting for response from 0x1f
+144. Info: nk.exe # 2020-10-02 04:26:42  # CRM1: Timeout waiting for response from 0x1d
+145. Info: nk.exe # 2020-10-02 04:27:20  # CRM1: Timeout waiting for response from 0x1b
+146. Info: nk.exe # 2020-10-02 04:29:40  # CRM1: Timeout waiting for response from 0x31
+147. Info: nk.exe # 2020-10-02 04:29:41  # CRM1: Timeout waiting for response from 0x31
+148. Info: nk.exe # 2020-10-02 04:29:48  # CRM1: Timeout waiting for response from 0x31
+149. Info: nk.exe # 2020-10-02 04:30:46  # CRM1: Timeout waiting for response from 0x31
+150. Info: nk.exe # 2020-10-02 04:30:51  # CRM1: Timeout waiting for response from 0x31
+151. Info: nk.exe # 2020-10-02 04:31:11  # CRM1: Timeout waiting for response from 0x31
+152. Info: nk.exe # 2020-10-02 04:31:36  # CRM1: Timeout waiting for response from 0x31
+153. Info: nk.exe # 2020-10-02 04:31:58  # CRM1: Timeout waiting for response from 0x31
+154. Info: nk.exe # 2020-10-02 04:32:18  # CRM1: Timeout waiting for response from 0x31
+155. Info: nk.exe # 2020-10-02 04:42:53  # CRM1: Timeout waiting for response from 0x31
+156. Info: nk.exe # 2020-10-02 04:43:06  # CRM1: Timeout waiting for response from 0x23
+157. Info: nk.exe # 2020-10-02 04:44:17  # CRM1: Timeout waiting for response from 0x31
+158. Info: nk.exe # 2020-10-02 04:47:18  # CRM1: Timeout waiting for response from 0x31
+159. Info: nk.exe # 2020-10-02 04:47:24  # CRM1: Timeout waiting for response from 0x15
+160. Info: nk.exe # 2020-10-02 04:47:26  # CRM1: Timeout waiting for response from 0x31
+161. Info: nk.exe # 2020-10-02 04:47:39  # CRM1: Timeout waiting for response from 0x31
+162. Info: nk.exe # 2020-10-02 04:47:40  # CRM1: Timeout waiting for response from 0x31
+163. Info: nk.exe # 2020-10-02 04:48:02  # CRM1: Timeout waiting for response from 0x31
+164. Info: nk.exe # 2020-10-02 04:48:11  # CRM1: Timeout waiting for response from 0x27
+165. Info: nk.exe # 2020-10-02 04:48:18  # CRM1: Timeout waiting for response from 0x31
+166. Info: nk.exe # 2020-10-02 04:48:21  # CRM1: Timeout waiting for response from 0x31
+167. Info: nk.exe # 2020-10-02 04:55:45  # CRM1: Timeout waiting for response from 0x31
+168. Info: nk.exe # 2020-10-02 04:57:33  # CRM1: Timeout waiting for response from 0x1e
+169. Info: nk.exe # 2020-10-02 04:57:39  # CRM1: Timeout waiting for response from 0x31
+170. Info: nk.exe # 2020-10-02 04:57:54  # CRM1: Timeout waiting for response from 0x31
+171. Info: nk.exe # 2020-10-02 04:58:09  # CRM1: Timeout waiting for response from 0x22
+172. Info: nk.exe # 2020-10-02 04:58:15  # CRM1: Timeout waiting for response from 0x1a
+173. Info: nk.exe # 2020-10-02 04:59:22  # CRM1: Timeout waiting for response from 0x31
+174. Info: nk.exe # 2020-10-02 04:59:24  # CRM1: Timeout waiting for response from 0x31
+175. Info: nk.exe # 2020-10-02 04:59:30  # CRM1: Timeout waiting for response from 0x31
+176. Info: nk.exe # 2020-10-02 04:59:45  # CRM1: Timeout waiting for response from 0x31
+177. Info: nk.exe # 2020-10-02 04:59:51  # CRM1: Timeout waiting for response from 0x31
+178. Info: nk.exe # 2020-10-02 05:01:16  # CRM1: Timeout waiting for response from 0x21
+179. Info: nk.exe # 2020-10-02 05:02:47  # CRM1: Timeout waiting for response from 0x31
+180. Error: LogicEngine.exe [App 1] # 2020-10-02 05:03:10  # Unknown packet type 0x94 (148) encountered from Slot-01.ID-31.  Packet:  [31][05][94][20][08][20][40]).
+181. Info: nk.exe # 2020-10-02 05:03:22  # CRM1: Timeout waiting for response from 0x31
+182. Info: nk.exe # 2020-10-02 05:03:24  # CRM1: Timeout waiting for response from 0x31
+183. Info: nk.exe # 2020-10-02 05:03:43  # CRM1: Timeout waiting for response from 0x31
+184. Info: nk.exe # 2020-10-02 05:03:46  # CRM1: Timeout waiting for response from 0x31
+185. Info: nk.exe # 2020-10-02 05:04:29  # CRM1: Timeout waiting for response from 0x31
+186. Info: nk.exe # 2020-10-02 05:04:40  # CRM1: Timeout waiting for response from 0x31
+187. Info: nk.exe # 2020-10-02 05:04:43  # CRM1: Timeout waiting for response from 0x31
+188. Info: nk.exe # 2020-10-02 05:07:39  # CRM1: Timeout waiting for response from 0x22
+189. Info: nk.exe # 2020-10-02 05:07:58  # CRM1: Timeout waiting for response from 0x31
+190. Info: nk.exe # 2020-10-02 05:08:06  # CRM1: Timeout waiting for response from 0x20
+191. Info: nk.exe # 2020-10-02 05:09:02  # CRM1: Timeout waiting for response from 0x31
+192. Info: nk.exe # 2020-10-02 05:09:05  # CRM1: Timeout waiting for response from 0x31
+193. Info: nk.exe # 2020-10-02 05:09:15  # CRM1: Timeout waiting for response from 0x31
+194. Info: nk.exe # 2020-10-02 05:09:22  # CRM1: Timeout waiting for response from 0x19
+195. Info: nk.exe # 2020-10-02 05:09:44  # CRM1: Timeout waiting for response from 0x31
+196. Info: nk.exe # 2020-10-02 05:09:52  # CRM1: Timeout waiting for response from 0x1b
+197. Info: nk.exe # 2020-10-02 05:09:56  # CRM1: Timeout waiting for response from 0x31
+198. Info: nk.exe # 2020-10-02 05:11:14  # CRM1: Timeout waiting for response from 0x31
+199. Info: nk.exe # 2020-10-02 05:11:38  # CRM1: Timeout waiting for response from 0x25
+200. Info: nk.exe # 2020-10-02 05:26:12  # CRM1: Timeout waiting for response from 0x1c
+201. Info: nk.exe # 2020-10-02 05:26:42  # CRM1: Timeout waiting for response from 0x31
+202. Info: nk.exe # 2020-10-02 05:26:46  # CRM1: Timeout waiting for response from 0x25
+203. Info: nk.exe # 2020-10-02 05:26:48  # CRM1: Timeout waiting for response from 0x31
+204. Info: nk.exe # 2020-10-02 05:31:13  # CRM1: Timeout waiting for response from 0x31
+205. Info: nk.exe # 2020-10-02 05:32:13  # CRM1: Timeout waiting for response from 0x1e
+206. Info: nk.exe # 2020-10-02 05:34:26  # CRM1: Timeout waiting for response from 0x1b
+207. Info: nk.exe # 2020-10-02 06:33:00  # CRM1: Timeout waiting for response from 0x1c
+208. Info: nk.exe # 2020-10-02 06:33:45  # CRM1: Timeout waiting for response from 0x21
+209. Info: nk.exe # 2020-10-02 06:47:06  # CRM1: Timeout waiting for response from 0x30
+210. Info: nk.exe # 2020-10-02 07:02:00  # CRM1: Timeout waiting for response from 0x27
+211. Info: nk.exe # 2020-10-02 07:02:17  # CRM1: Timeout waiting for response from 0x19
+212. Info: nk.exe # 2020-10-02 07:02:28  # CRM1: Timeout waiting for response from 0x31
+213. Info: nk.exe # 2020-10-02 07:02:43  # CRM1: Timeout waiting for response from 0x30
+214. Info: nk.exe # 2020-10-02 07:06:36  # CRM1: Timeout waiting for response from 0x20
+215. Info: nk.exe # 2020-10-02 07:09:56  # CRM1: Timeout waiting for response from 0x1f
+216. Info: nk.exe # 2020-10-02 07:10:10  # CRM1: Timeout waiting for response from 0x31
+217. Info: nk.exe # 2020-10-02 07:12:49  # CRM1: Timeout waiting for response from 0x24
+218. Info: nk.exe # 2020-10-02 07:13:25  # CRM1: Timeout waiting for response from 0x19
+219. Info: nk.exe # 2020-10-02 07:14:45  # CRM1: Timeout waiting for response from 0x19
+220. Info: nk.exe # 2020-10-02 07:14:59  # CRM1: Timeout waiting for response from 0x30
+221. Info: nk.exe # 2020-10-02 07:15:49  # CRM1: Timeout waiting for response from 0x30
+222. Info: nk.exe # 2020-10-02 07:20:27  # CRM1: Timeout waiting for response from 0x20
+223. Info: nk.exe # 2020-10-02 07:21:41  # CRM1: Timeout waiting for response from 0x19
+224. Info: nk.exe # 2020-10-02 07:21:51  # CRM1: Timeout waiting for response from 0x20
+225. Info: nk.exe # 2020-10-02 07:21:53  # CRM1: Timeout waiting for response from 0x1c
+226. Info: nk.exe # 2020-10-02 07:24:57  # CRM1: Timeout waiting for response from 0x30
+227. Info: nk.exe # 2020-10-02 07:26:34  # CRM1: Timeout waiting for response from 0x30
+228. Info: nk.exe # 2020-10-02 07:26:37  # CRM1: Timeout waiting for response from 0x31
+229. Info: nk.exe # 2020-10-02 07:26:38  # CRM1: Timeout waiting for response from 0x31
+230. Info: nk.exe # 2020-10-02 07:26:53  # CRM1: Timeout waiting for response from 0x1a
+231. Info: nk.exe # 2020-10-02 07:29:37  # CRM1: Timeout waiting for response from 0x1c
+232. Info: nk.exe # 2020-10-02 07:30:10  # CRM1: Timeout waiting for response from 0x1e
+233. Info: nk.exe # 2020-10-02 07:31:09  # CRM1: Timeout waiting for response from 0x30
+234. Info: nk.exe # 2020-10-02 07:32:13  # CRM1: Timeout waiting for response from 0x31
+235. Info: nk.exe # 2020-10-02 07:32:22  # CRM1: Timeout waiting for response from 0x31
+236. Info: nk.exe # 2020-10-02 07:32:49  # CRM1: Timeout waiting for response from 0x31
+237. Info: nk.exe # 2020-10-02 07:33:00  # CRM1: Timeout waiting for response from 0x31
+238. Info: nk.exe # 2020-10-02 07:33:09  # CRM1: Timeout waiting for response from 0x31
+239. Info: nk.exe # 2020-10-02 07:35:30  # CRM1: Timeout waiting for response from 0x31
+240. Info: nk.exe # 2020-10-02 07:35:45  # CRM1: Timeout waiting for response from 0x31
+241. Info: nk.exe # 2020-10-02 07:35:46  # CRM1: Timeout waiting for response from 0x31
+242. Info: nk.exe # 2020-10-02 07:36:03  # CRM1: Timeout waiting for response from 0x27
+243. Info: nk.exe # 2020-10-02 07:36:08  # CRM1: Timeout waiting for response from 0x31
+244. Info: nk.exe # 2020-10-02 07:36:26  # CRM1: Timeout waiting for response from 0x31
+245. Info: nk.exe # 2020-10-02 13:45:48  # CRM1: Timeout waiting for response from 0x19
+246. Info: nk.exe # 2020-10-02 13:45:49  # CRM1: Timeout waiting for response from 0x30
+247. Info: nk.exe # 2020-10-02 13:45:58  # CRM1: Timeout waiting for response from 0x1e
+248. Info: nk.exe # 2020-10-02 14:00:57  # CRM1: Timeout waiting for response from 0x14
+249. Info: nk.exe # 2020-10-02 14:13:11  # CRM1: Timeout waiting for response from 0x22
+250. Info: nk.exe # 2020-10-02 14:14:14  # CRM1: Timeout waiting for response from 0x31
+251. Info: nk.exe # 2020-10-02 14:16:53  # CRM1: Timeout waiting for response from 0x31
+252. Info: nk.exe # 2020-10-02 14:21:18  # CRM1: Timeout waiting for response from 0x31
+253. Info: nk.exe # 2020-10-02 14:21:37  # CRM1: Timeout waiting for response from 0x31
+254. Info: nk.exe # 2020-10-02 14:52:12  # CRM1: Timeout waiting for response from 0x22
+255. Info: nk.exe # 2020-10-02 14:52:16  # CRM1: Timeout waiting for response from 0x22
+256. Info: nk.exe # 2020-10-02 14:52:19  # CRM1: Timeout waiting for response from 0x1f
+257. Info: nk.exe # 2020-10-02 14:52:21  # CRM1: Timeout waiting for response from 0x14
+258. Info: nk.exe # 2020-10-02 14:52:23  # CRM1: Timeout waiting for response from 0x1b
+259. Info: nk.exe # 2020-10-02 14:52:24  # CRM1: Timeout waiting for response from 0x14
+260. Info: nk.exe # 2020-10-02 14:52:26  # CRM1: Timeout waiting for response from 0x26
+261. Info: nk.exe # 2020-10-02 14:52:29  # CRM1: Timeout waiting for response from 0x20
+262. Info: nk.exe # 2020-10-02 14:52:50  # CRM1: Timeout waiting for response from 0x31
+263. Info: nk.exe # 2020-10-02 14:53:02  # CRM1: Timeout waiting for response from 0x24
+264. Info: nk.exe # 2020-10-02 14:53:06  # CRM1: Timeout waiting for response from 0x23
+265. Info: nk.exe # 2020-10-02 14:53:11  # CRM1: Timeout waiting for response from 0x31
+266. Info: nk.exe # 2020-10-02 14:53:13  # CRM1: Timeout waiting for response from 0x23
+267. Info: nk.exe # 2020-10-02 14:53:14  # CRM1: Timeout waiting for response from 0x26
+268. Info: nk.exe # 2020-10-02 14:53:15  # CRM1: Timeout waiting for response from 0x31
+269. Info: nk.exe # 2020-10-02 14:53:29  # CRM1: Timeout waiting for response from 0x13
+270. Info: nk.exe # 2020-10-02 14:53:42  # CRM1: Timeout waiting for response from 0x31
+271. Info: nk.exe # 2020-10-02 14:53:43  # CRM1: Timeout waiting for response from 0x15
+272. Info: nk.exe # 2020-10-02 14:53:45  # CRM1: Timeout waiting for response from 0x1c
+273. Info: nk.exe # 2020-10-02 14:53:57  # CRM1: Timeout waiting for response from 0x1d
+274. Info: nk.exe # 2020-10-02 14:53:58  # CRM1: Timeout waiting for response from 0x31
+275. Info: nk.exe # 2020-10-02 14:54:16  # CRM1: Timeout waiting for response from 0x31
+276. Info: nk.exe # 2020-10-02 14:54:20  # CRM1: Timeout waiting for response from 0x31
+277. Info: nk.exe # 2020-10-02 14:54:22  # CRM1: Timeout waiting for response from 0x1a
+278. Info: nk.exe # 2020-10-02 14:54:26  # CRM1: Timeout waiting for response from 0x1e
+279. Info: nk.exe # 2020-10-02 14:54:27  # CRM1: Timeout waiting for response from 0x31
+280. Info: nk.exe # 2020-10-02 14:54:35  # CRM1: Timeout waiting for response from 0x1f
+281. Info: nk.exe # 2020-10-02 14:54:37  # CRM1: Timeout waiting for response from 0x31
+282. Info: nk.exe # 2020-10-02 14:54:42  # CRM1: Timeout waiting for response from 0x30
+283. Info: nk.exe # 2020-10-02 14:54:45  # CRM1: Timeout waiting for response from 0x1b
+284. Info: nk.exe # 2020-10-02 14:54:46  # CRM1: Timeout waiting for response from 0x1d
+285. Info: nk.exe # 2020-10-02 14:55:20  # CRM1: Timeout waiting for response from 0x30
+286. Info: nk.exe # 2020-10-02 14:55:28  # CRM1: Timeout waiting for response from 0x23
+287. Info: nk.exe # 2020-10-02 14:55:42  # CRM1: Timeout waiting for response from 0x31
+288. Info: nk.exe # 2020-10-02 14:55:47  # CRM1: Timeout waiting for response from 0x17
+289. Info: nk.exe # 2020-10-02 14:56:09  # CRM1: Timeout waiting for response from 0x23
+290. Info: nk.exe # 2020-10-02 14:56:13  # CRM1: Timeout waiting for response from 0x1e
+291. Info: nk.exe # 2020-10-02 14:56:15  # CRM1: Timeout waiting for response from 0x20
+292. Info: nk.exe # 2020-10-02 14:56:17  # CRM1: Timeout waiting for response from 0x13
+293. Info: nk.exe # 2020-10-02 14:56:18  # CRM1: Timeout waiting for response from 0x31
+294. Info: nk.exe # 2020-10-02 14:56:19  # CRM1: Timeout waiting for response from 0x26
+295. Info: nk.exe # 2020-10-02 14:56:21  # CRM1: Timeout waiting for response from 0x1a
+296. Info: nk.exe # 2020-10-02 14:56:23  # CRM1: Timeout waiting for response from 0x21
+297. Info: nk.exe # 2020-10-02 14:56:25  # CRM1: Timeout waiting for response from 0x1b
+298. Notice: splusmanagerapp.exe [App 1] # 2020-10-02 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+299. Notice: splusmanagerapp.exe [App 1] # 2020-10-02 17:15:00  # Executing scheduled event 'Off/stairs'
+300. Notice: splusmanagerapp.exe [App 1] # 2020-10-03 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+301. Notice: splusmanagerapp.exe [App 1] # 2020-10-03 17:15:00  # Executing scheduled event 'Off/stairs'
+302. Notice: splusmanagerapp.exe [App 1] # 2020-10-04 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+303. Notice: splusmanagerapp.exe [App 1] # 2020-10-04 17:15:00  # Executing scheduled event 'Off/stairs'
+304. Notice: splusmanagerapp.exe [App 1] # 2020-10-05 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+305. Notice: splusmanagerapp.exe [App 1] # 2020-10-05 17:15:00  # Executing scheduled event 'Off/stairs'
+306. Notice: splusmanagerapp.exe [App 1] # 2020-10-06 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+307. Notice: splusmanagerapp.exe [App 1] # 2020-10-06 08:00:00  # Executing scheduled event 'Daytime'
+308. Notice: splusmanagerapp.exe [App 1] # 2020-10-06 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+309. Notice: splusmanagerapp.exe [App 1] # 2020-10-06 15:00:00  # Executing scheduled event 'Late Day'
+310. Notice: splusmanagerapp.exe [App 1] # 2020-10-06 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+311. Notice: splusmanagerapp.exe [App 1] # 2020-10-06 17:15:00  # Executing scheduled event 'Off/stairs'
+312. Notice: splusmanagerapp.exe [App 1] # 2020-10-07 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+313. Notice: splusmanagerapp.exe [App 1] # 2020-10-07 08:00:00  # Executing scheduled event 'Daytime'
+314. Notice: splusmanagerapp.exe [App 1] # 2020-10-07 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+315. Notice: splusmanagerapp.exe [App 1] # 2020-10-07 15:00:00  # Executing scheduled event 'Late Day'
+316. Notice: splusmanagerapp.exe [App 1] # 2020-10-07 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+317. Notice: splusmanagerapp.exe [App 1] # 2020-10-07 17:15:00  # Executing scheduled event 'Off/stairs'
+318. entering function mode
+319. Notice: ConsoleServiceCE.exe # 2020-10-08 12:19:10  # USB Connection has been made.
+ Total Msgs Logged = 319
+ END OF SYSTEM LOG
+

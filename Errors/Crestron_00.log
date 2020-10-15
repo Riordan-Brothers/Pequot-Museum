@@ -1,0 +1,88 @@
+SDCardDetect: System SD card
+CSDSlot::SlotStateChange : DeviceInserted
+CM3: input file [\windows\firmware.bin] is 9932 bytes long
+CM3: firmware file read ok!
+PrcmCM3ResetAndHandshake: isM3IntReceived: 0
+PrcmDomainResetRelease DMN 0; mask 8
+Cm3ISR: M3 int recvd
+HwDogDriverInit: SystemID: 0x1
+Notice: nk.exe # 2020-09-30 16:13:26  # Power On
+detect_processor_board_id: ProcessorBoardID [0x00000003] 
+Notice: nk.exe # 2020-09-30 16:13:26  # System startup: DIN-AP3 [v1.600.0092 (May 10 2019) #8C7209FE]
+setIP: Registry static IP setting = 192.168.1.50
+Info: nk.exe # 2020-09-30 16:13:26  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2020-09-30 16:13:26  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2020-09-30 16:13:27  # Updating DHCP options on boot
+FPGA   Activated
+Cpsw3g_InitializeAdapter: mode=1, port=1, txCh=0, rxChMask=0x01, ActiveCpgmac=1
+OEMIoControl: Unsupported Code 0x1012010 - device 0x0101 func 2052
+SDHC: CPU revision 0xffffffff
++OALSetMemoryAttributes()
+-OALSetMemoryAttributes
+CSDSlot::SlotStateChange : DeviceEjected
+_cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100  DUPLEX:FD
+Info: CrestronMonitor.exe # 2020-09-30 16:13:32  # Crestron applications already installed
+ProcessPostInstall: No \windows\postinstall.bat file
+ProcessPostInstall: No \windows\shipwithinstall.bat file
+Info: nk.exe # 2020-09-30 16:13:36  # SDMemWriteCounterUpdate: InitialCounter is:2363586, MaxHourCounter is:106372
+Info: TLDM.exe # 2020-09-30 16:13:46  #  THAL loading now  .. 
+Notice: TLDM.exe # 2020-09-30 16:13:50  # CresStore: Connections OK to redis
+ 
+Notice: TLDM.exe # 2020-09-30 16:13:50  # CresStore: async context connect, status=0
+ 
+Info: TLDM.exe # 2020-09-30 16:13:51  #  CTLDMWatchdogServer: Arm Watchdog is disabled 
+Notice: CIPCommandProcessor.exe # 2020-09-30 16:13:53  # CresStore: Connections OK to redis
+ 
+Info: CloudClient.exe # 2020-09-30 16:13:55  # CloudUrl: https://api.my.crestron.com/api/Registration
+Ok: AutoUpdateInterface.exe # 2020-09-30 16:13:59  # AutoUpdate Interface Starting
+Notice: CPHProcessor.exe # 2020-09-30 16:14:00  # CresStore: Connections OK to redis
+ 
+Notice: CPHProcessor.exe # 2020-09-30 16:14:01  # CresStore: async context connect, status=0
+ 
+Info: AutoUpdateInterface.exe # 2020-09-30 16:14:03  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+Notice: HydrogenManager.exe # 2020-09-30 16:14:04  # CresStore: Connections OK to redis
+ 
+Notice: HydrogenManager.exe # 2020-09-30 16:14:04  # CresStore: async context connect, status=0
+ 
+Ok: SimplSharpPro.exe # 2020-09-30 16:14:17  # SimplSharpPro Version: 2.10.076
+Notice: SimplSharpPro.exe # 2020-09-30 16:14:21  # CresStore: Connections OK to redis
+ 
+Info: SimplSharpPro.exe # 2020-09-30 16:14:21  # Successfully registered the application with the TLDM 
+Notice: SimplSharpPro.exe # 2020-09-30 16:14:25  # Starting Programs...!
+Notice: SimplSharpPro.exe # 2020-09-30 16:14:25  # Flash Policy Server - Starting Server.
+Notice: SimplSharpPro.exe # 2020-09-30 16:14:25  # Flash Policy Server - Server Started.
+Info: LogicEngine.exe [App 1] # 2020-09-30 16:14:31  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2020-09-30 16:14:31  # Loading Program \simpl\app01\Pequot Museum Gathering Space v1e.bin.
+Notice: LogicEngine.exe # 2020-09-30 16:14:47  # CresStore: Connections OK to redis
+ 
+Notice: LogicEngine.exe [App 1] # 2020-09-30 16:14:47  # Control System: CresNextSerializerInit done! 
+Notice: LogicEngine.exe # 2020-09-30 16:14:47  # CresStore: async context connect, status=0
+ 
+Info: CIPCommandProcessor.exe # 2020-09-30 16:14:47  #  Reading in IPTable now for App 1
+Notice: LogicEngine.exe # 2020-09-30 16:14:53  # **Program 1 Started**
+Info: LogicEngine.exe [App 1] # 2020-09-30 16:14:53  #  Going to steady state now 
+Notice: LogicEngine.exe [App 1] # 2020-09-30 16:14:53  # CControlSystem::ProgramDetailsUpdate(), status: 0
+Notice: LogicEngine.exe [App 1] # 2020-09-30 16:14:53  # CControlSystem::ProgramDetailsUpdate(), saved in cresstore.
+Info: CRESLOG.exe # 2020-09-30 16:14:54  # PersistentLog: Logging is started!
+Notice: TLDM.exe # 2020-09-30 16:14:54  #  Event rcvd is 8 
+Notice: HydrogenManager.exe # 2020-09-30 16:14:59  # [..\source\XioSdk\XioConnectedExternalInterface.cpp:113] XioConnected_Init: init completed, version[1.00.00.00]
+ 
+Notice: HydrogenManager.exe # 2020-09-30 16:14:59  # [..\source\XioSdk\XioSdkStatusMgr.cpp:297] XioSdkStatusMgr: currentDeviceInfoStr[] is not a valid json.
+ 
+Error: CloudClient.exe # 2020-09-30 16:14:59  #  CloudClient Frame Response status : Cannot resolve host
+ 
+Error: HydrogenManager.exe # 2020-09-30 16:15:01  # [..\source\Wince\HTTPProxy_sub.cpp:93] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:15:41  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:15:41  # Scheduled Event 'Late Day' for '10/1/2020 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:15:41  # Scheduled Event 'Daytime' for '10/1/2020 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:15:41  # Scheduled Event 'Off/stairs' for '9/30/2020 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:14  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:18  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:21  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:23  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:25  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:30  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2020-09-30 16:19:39  # Executing scheduled event 'Off/stairs'
+Error: HydrogenManager.exe # 2020-09-30 16:20:02  # [..\source\Wince\HTTPProxy_sub.cpp:93] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
