@@ -11,8 +11,8 @@ namespace RBI_Password_Helper_v2;
         // class events
 
         // class functions
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -32,8 +32,8 @@ namespace RBI_Password_Helper_v2;
         SIGNED_INTEGER_FUNCTION InitToken ( STRING userName , STRING pass );
         FUNCTION Initialize ( INTEGER save );
         STRING_FUNCTION ReturnUser ( INTEGER num );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -59,8 +59,8 @@ namespace RBI_Password_Helper_v2;
         // class events
 
         // class functions
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -80,8 +80,8 @@ namespace password_helper;
 
         // class functions
         SIGNED_INTEGER_FUNCTION login ( STRING username , STRING password , STRING device );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;

@@ -33,8 +33,8 @@ namespace ClcScheduler;
         static FUNCTION LoadConfig ();
         static FUNCTION SaveConfig ();
         static FUNCTION SetStorageBaseDirectory ( STRING Directory );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         static GlobalActionHelper GlobalActionHelper;
@@ -57,8 +57,8 @@ namespace ClcScheduler;
         EventHandler OnEventsListChange ( Config sender, EventArgs e );
 
         // class functions
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -76,8 +76,8 @@ namespace ClcScheduler;
         // class events
 
         // class functions
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -96,8 +96,8 @@ namespace ClcScheduler;
 
         // class functions
         FUNCTION RaiseEvent ( GlobalActionEventArgs Args );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -124,8 +124,8 @@ namespace ClcScheduler;
         INTEGER_FUNCTION IsCurrentEvent ( ScheduledEvent Evt );
         FUNCTION SelectSpace ( INTEGER SpaceIndex );
         FUNCTION GetSpaceForCurrentSpaceActions ( BYREF Space RtnSpace );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -164,8 +164,8 @@ namespace ClcScheduler;
         FUNCTION RemoveSpaceAction ( STRING SpaceId );
         INTEGER_FUNCTION IsGlobalActionSet ( INTEGER ActionIndex );
         FUNCTION ToggleGlobalAction ( INTEGER ActionIndex );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         static SIGNED_LONG_INTEGER Sunday;
@@ -207,8 +207,8 @@ namespace ClcScheduler;
         STRING_FUNCTION GetSceneNameOrEmpty ( INTEGER SceneId );
         STRING_FUNCTION GetActionName ( INTEGER ActionId );
         INTEGER_FUNCTION GetActionCount ();
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -226,8 +226,8 @@ namespace ClcScheduler;
         // class events
 
         // class functions
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -250,8 +250,8 @@ namespace ClcScheduler;
         FUNCTION SetSceneToRecall ( SIGNED_INTEGER SceneId );
         FUNCTION ToggleLocalAction ( INTEGER ActionIndex );
         INTEGER_FUNCTION IsLocalActionActive ( INTEGER ActionIndex );
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
@@ -273,8 +273,8 @@ namespace ClcScheduler;
         // class events
 
         // class functions
-        STRING_FUNCTION ToString ();
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
 
         // class variables
         INTEGER __class_id__;
