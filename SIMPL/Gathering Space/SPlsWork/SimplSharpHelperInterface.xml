@@ -45306,6 +45306,14 @@
             </summary>
             <param name="asyncResult"></param>
         </member>
+        <member name="M:Crestron.SimplSharp.CrestronSockets.TCPServer.WaitForConnectionsAlways(Crestron.SimplSharp.CrestronSockets.TCPServerClientConnectCallback)">
+            <summary>
+            Function that accepts all incoming connections and triggers the given callback per connection that is accepted.
+            This will stop running once the Max socket number is reached.
+            </summary>
+            <param name="clientConnectedCallbackHandler">Customer callback function</param>
+            <returns></returns>
+        </member>
         <member name="M:Crestron.SimplSharp.CrestronSockets.TCPServer.WaitForConnectionAsync(System.String,Crestron.SimplSharp.CrestronSockets.TCPServerClientConnectCallback)">
             <summary>
             Function to accept an incoming connection on the server from the specified address. This is a non blocking call. The call will 
@@ -46209,6 +46217,14 @@
             Callback for the wait For connect function
             </summary>
             <param name="asyncResult"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronSockets.SecureTCPServer.WaitForConnectionsAlways(Crestron.SimplSharp.CrestronSockets.SecureTCPServerClientConnectCallback)">
+            <summary>
+            Function that accepts all incoming connections and triggers the given callback per connection that is accepted.
+            This will stop running once the Max socket number is reached.
+            </summary>
+            <param name="clientConnectedCallbackHandler">Customer callback function</param>
+            <returns></returns>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronSockets.SecureTCPServer.WaitForConnectionAsync(System.String,Crestron.SimplSharp.CrestronSockets.SecureTCPServerClientConnectCallback)">
             <summary>

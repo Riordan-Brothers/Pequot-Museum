@@ -1,717 +1,716 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<zone zoneID="gathering_space_z01">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Outer Ring GS Rec</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z02">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Gift Shop Perimeter</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z03">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Soffit Fluorescents</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z04">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Outer Ring Ramp Rec</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z05">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Overhead Black Cans</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z06">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Exit A</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z07">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Exit B</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z08">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Gift Shop Rec Balcony</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z09">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Middle Gift Shop Rec</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z10">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Wooden Wall Rec</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z11">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Restaurant Blue Glass</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z12">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Restaurant Rec</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z13">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Stairwell</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z14">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Stairwell</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z15">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 01</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z16">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 02</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z17">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 03</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z18">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 04</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z19">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 05</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z20">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 06</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z21">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 07</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z22">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 08</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z23">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 09</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z24">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 10</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z25">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 11</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z26">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 12</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z27">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 13</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z28">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 14</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z29">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 15</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z30">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 16</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z31">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 17</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z32">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 18</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z33">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 19</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z34">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 20</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z35">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 21</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z36">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 22</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z37">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 23</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z38">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 24</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z39">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 25</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z40">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 26</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z41">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 27</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
-	<zone zoneID="gathering_space_z42">
-		<dali>0</dali>
-		<dimmable>1</dimmable>
-		<inUse>1</inUse>
-		<slew_rate>2</slew_rate>
-		<ramp_time>6</ramp_time>
-		<lower_bound>0</lower_bound>
-		<upper_bound>65535</upper_bound>
-		<friendly_name>Catwalk 28</friendly_name>
-		<on_level>65535</on_level>
-		<off_level>0</off_level>
-		<raise_from_off>0</raise_from_off>
-		<RGB>0</RGB>
-		<harvested>0</harvested>
-		<wattage>60</wattage>
-		<harvest_enable>0</harvest_enable>
-	</zone>
+  <zone zoneID="gathering_space_z01">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Gift Shop Outer Ring</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z02">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Gift Shop Blue Glass</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z03">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Soffit Fluorescents</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z04">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Outer Ring Ramp</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z05">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Overhead Black Cans</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z06">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Exit A</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z07">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Exit B</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z08">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Gift Shop Balcony</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z09">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Gift Shop Middle</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z10">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Restaurant Wall</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z11">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Restaurant Blue Glass</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z12">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Restaurant Overheads</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z13">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Restaurant Stairs</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z14">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Elevator Lobbies</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z15">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 01</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z16">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 02</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z17">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 03</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z18">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 04</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z19">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 05</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z20">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 06</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z21">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 07</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z22">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 08</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z23">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 09</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z24">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 10</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z25">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 11</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z26">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 12</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z27">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 13</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z28">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 14</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z29">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 15</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z30">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 16</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z31">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 17</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z32">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 18</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z33">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 19</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z34">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 20</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z35">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 21</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z36">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 22</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z37">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 23</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z38">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 24</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z39">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 25</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z40">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 26</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z41">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 27</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
+  <zone zoneID="gathering_space_z42">
+    <dali>0</dali>
+    <dimmable>1</dimmable>
+    <inUse>1</inUse>
+    <slew_rate>2</slew_rate>
+    <ramp_time>6</ramp_time>
+    <lower_bound>0</lower_bound>
+    <upper_bound>65535</upper_bound>
+    <friendly_name>Catwalk 28</friendly_name>
+    <on_level>65535</on_level>
+    <off_level>0</off_level>
+    <raise_from_off>0</raise_from_off>
+    <RGB>0</RGB>
+    <harvested>0</harvested>
+    <wattage>60</wattage>
+    <harvest_enable>0</harvest_enable>
+  </zone>
 </file>
