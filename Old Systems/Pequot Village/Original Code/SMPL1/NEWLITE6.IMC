@@ -1,0 +1,233 @@
+\ 
+;BAR-OUT,MASTER-AN,ZONE-1-OUT,ZONE-2-OUT,ZONE-3-OUT,ZONE-4-OUT,ZONE-5-OUT,
+ ZONE-6-OUT,ZONE-7-OUT,ZONE-8-OUT,ZONE-9-OUT,ZONE-10-OUT,PRESET-1-FB,
+ PRESET-2-FB,PRESET-3-FB,PRESET-4-FB,PRESET-5-FB,PRESET-6-FB,PRESET-7-FB,
+ PRESET-8-FB,PRESET-9-FB,PRESET-10-FB,PRESET-11-FB,PRESET-12-FB,
+ PRESET-13-FB,PRESET-14-FB,PRESET-15-FB,PRESET-16-FB,PRESET-17-FB,
+ PRESET-18-FB,PRESET-19-FB,PRESET-20-FB,BUSY;
+ FADE-TIME-SAVE,FADE-TIME-PRE,SAVE,MASTER-UP-B,ZONE-1-UP-B,ZONE-2-UP-B,
+ ZONE-3-UP-B,ZONE-4-UP-B,ZONE-5-UP-B,ZONE-6-UP-B,ZONE-7-UP-B,ZONE-8-UP-B,
+ ZONE-9-UP-B,ZONE-10-UP-B,MASTER-DN-B,ZONE-1-DN-B,ZONE-2-DN-B,ZONE-3-DN-B,
+ ZONE-4-DN-B,ZONE-5-DN-B,ZONE-6-DN-B,ZONE-7-DN-B,ZONE-8-DN-B,ZONE-9-DN-B,
+ ZONE-10-DN-B,PRESET-1,PRESET-2,PRESET-3,PRESET-4,PRESET-5,PRESET-6,
+ PRESET-7,PRESET-8,PRESET-9,PRESET-10,PRESET-11,PRESET-12,PRESET-13,
+ PRESET-14,PRESET-15,PRESET-16,PRESET-17,PRESET-18,PRESET-19,PRESET-20,
+ ZONE-1-TIME,ZONE-2-TIME,ZONE-3-TIME,ZONE-4-TIME,ZONE-5-TIME,ZONE-6-TIME,
+ ZONE-7-TIME,ZONE-8-TIME,ZONE-9-TIME,ZONE-10-TIME;
+
+\ S-3M: 
+OR            .~RECALL;.~<26,.~<27,.~<28,.~<29,.~<30,.~<31,.~<32,.~<33,
+    .~<34,.~<35,.~<36,.~<37,.~<38,.~<39,.~<40,.~<41,.~<42,.~<43,.~<44,
+    .~<45;
+
+\ S-5M: 
+RAM          
+    .~<1,.~ZONE-1-AN,.~ZONE-2-AN,.~ZONE-3-AN,.~ZONE-4-AN,.~ZONE-5-AN,
+    .~ZONE-6-AN,.~ZONE-7-AN,.~ZONE-8-AN,.~ZONE-9-AN,.~ZONE-10-AN,.~ZONE-11-AN,
+    .~ZONE-12-AN,.~ZONE-13-AN,.~ZONE-14-AN,.~ZONE-15-AN,.~ZONE-16-AN,.~ZONE-17-AN,
+    .~ZONE-18-AN,.~ZONE-19-AN,.~ZONE-20-AN,.~>2;
+    .~<1,.~ZONE-1-AN,.~ZONE-2-AN,.~ZONE-3-AN,.~ZONE-4-AN,.~ZONE-5-AN,
+    .~ZONE-6-AN,.~ZONE-7-AN,.~ZONE-8-AN,.~ZONE-9-AN,.~ZONE-10-AN,.~ZONE-11-AN,
+    .~ZONE-12-AN,.~ZONE-13-AN,.~ZONE-14-AN,.~ZONE-15-AN,.~ZONE-16-AN,.~ZONE-17-AN,
+    .~ZONE-18-AN,.~ZONE-19-AN,.~ZONE-20-AN,.~>2:
+    .~<3,.~RECALL,
+    .~PRESET-1-I,.~PRESET-2-I,.~PRESET-3-I,.~PRESET-4-I,.~PRESET-5-I,.~PRESET-6-I,
+    .~PRESET-7-I,.~PRESET-8-I,.~PRESET-9-I,.~PRESET-10-I,.~PRESET-11-I,.~PRESET-12-I,
+    .~PRESET-13-I,.~PRESET-14-I,.~PRESET-15-I,.~PRESET-16-I,.~PRESET-17-I,
+    .~PRESET-18-I,.~PRESET-19-I,.~PRESET-20-I;
+
+\ S-7M: 
+DELAY         0S;.~ZONE-1-UP;.~ZONE-1-UP-IN;
+
+\ S-8M: 
+DELAY         0S;.~ZONE-1-DN;.~ZONE-1-DN-IN;
+
+\ S-9M: 
+RAMP          .~<46;.~ZONE-1-AN;.~ZONE-1-UP,.~ZONE-1-DN;
+
+\ S-10M: 
+DELAY         0S;.~ZONE-2-UP;.~ZONE-2-UP-IN;
+
+\ S-11M: 
+DELAY         0S;.~ZONE-2-DN;.~ZONE-2-DN-IN;
+
+\ S-12M: 
+RAMP          .~<47;.~ZONE-2-AN;.~ZONE-2-UP,.~ZONE-2-DN;
+
+\ S-13M: 
+DELAY         0S;.~ZONE-3-UP;.~ZONE-3-UP-IN;
+
+\ S-14M: 
+DELAY         0S;.~ZONE-3-DN;.~ZONE-3-DN-IN;
+
+\ S-15M: 
+RAMP          .~<48;.~ZONE-3-AN;.~ZONE-3-UP,.~ZONE-3-DN;
+
+\ S-16M: 
+DELAY         0S;.~ZONE-4-UP;.~ZONE-4-UP-IN;
+
+\ S-17M: 
+DELAY         0S;.~ZONE-4-DN;.~ZONE-4-DN-IN;
+
+\ S-18M: 
+RAMP          .~<49;.~ZONE-4-AN;.~ZONE-4-UP,.~ZONE-4-DN;
+
+\ S-19M: 
+DELAY         0S;.~ZONE-5-UP;.~ZONE-5-UP-IN;
+
+\ S-20M: 
+DELAY         0S;.~ZONE-5-DN;.~ZONE-5-DN-IN;
+
+\ S-21M: 
+RAMP          .~<50;.~ZONE-5-AN;.~ZONE-5-UP,.~ZONE-5-DN;
+
+\ S-22M: 
+DELAY         0S;.~ZONE-6-UP;.~ZONE-6-UP-IN;
+
+\ S-23M: 
+DELAY         0S;.~ZONE-6-DN;.~ZONE-6-DN-IN;
+
+\ S-24M: 
+RAMP          .~<51;.~ZONE-6-AN;.~ZONE-6-UP,.~ZONE-6-DN;
+
+\ S-25M: 
+DELAY         0S;.~ZONE-7-UP;.~ZONE-7-UP-IN;
+
+\ S-26M: 
+DELAY         0S;.~ZONE-7-DN;.~ZONE-7-DN-IN;
+
+\ S-27M: 
+RAMP          .~<52;.~ZONE-7-AN;.~ZONE-7-UP,.~ZONE-7-DN;
+
+\ S-28M: 
+DELAY         0S;.~ZONE-8-UP;.~ZONE-8-UP-IN;
+
+\ S-29M: 
+DELAY         0S;.~ZONE-8-DN;.~ZONE-8-DN-IN;
+
+\ S-30M: 
+RAMP          .~<53;.~ZONE-8-AN;.~ZONE-8-UP,.~ZONE-8-DN;
+
+\ S-31M: 
+DELAY         0S;.~ZONE-9-UP;.~ZONE-9-UP-IN;
+
+\ S-32M: 
+DELAY         0S;.~ZONE-9-DN;.~ZONE-9-DN-IN;
+
+\ S-33M: 
+RAMP          .~<54;.~ZONE-9-AN;.~ZONE-9-UP,.~ZONE-9-DN;
+
+\ S-34M: 
+DELAY         0S;.~ZONE-10-UP;.~ZONE-10-UP-IN;
+
+\ S-35M: 
+DELAY         0S;.~ZONE-10-DN;.~ZONE-10-DN-IN;
+
+\ S-36M: 
+RAMP          .~<55;.~ZONE-10-AN;.~ZONE-10-UP,.~ZONE-10-DN;
+
+\ S-38M: 
+PRESETV      
+    .~>33,
+    .~>3,.~>4,.~>5,.~>6,.~>7,.~>8,
+    .~>9,.~>10,.~>11,.~>12;
+    .~<2,
+    .~ZONE-1-A,.~ZONE-2-A,.~ZONE-3-A,.~ZONE-4-A,.~ZONE-5-A,.~ZONE-6-A,.~ZONE-7-A,
+    .~ZONE-8-A,.~ZONE-9-A,.~ZONE-10-A:.~<26,.~<27,.~<28,.~<29,
+    .~<30,.~<31,.~<32,.~<33,.~<34,.~<35,.~<36,
+    .~<37,.~<38,.~<39,.~<40,.~<41,.~<42,.~<43,
+    .~<44,.~<45;
+
+\ S-39M: 
+NAND          .~BUSY*;.~>33;
+
+\ S-40M: 
+BUFFER        .~ZONE-1-UP-IN,.~ZONE-2-UP-IN,.~ZONE-3-UP-IN,.~ZONE-4-UP-IN,
+    .~ZONE-5-UP-IN,.~ZONE-6-UP-IN,.~ZONE-7-UP-IN,.~ZONE-8-UP-IN,
+    .~ZONE-9-UP-IN,.~ZONE-10-UP-IN,.~ZONE-1-DN-IN,.~ZONE-2-DN-IN,
+    .~ZONE-3-DN-IN,.~ZONE-4-DN-IN,.~ZONE-5-DN-IN,.~ZONE-6-DN-IN,
+    .~ZONE-7-DN-IN,.~ZONE-8-DN-IN,.~ZONE-9-DN-IN,.~ZONE-10-DN-IN,
+    .~MASTER-UP-IN,.~MASTER-DN-IN;
+    .~BUSY*,
+    .~<5,.~<6,.~<7,.~<8,.~<9,.~<10,.~<11,.~<12,.~<13,.~<14,.~<16,
+    .~<17,.~<18,.~<19,.~<20,.~<21,.~<22,.~<23,.~<24,.~<25,.~<4,.~<15;
+
+\ S-41M: 
+INTERLOCK     .~PRESET-1-I,.~PRESET-2-I,.~PRESET-3-I,.~PRESET-4-I,
+    .~PRESET-5-I,.~PRESET-6-I,.~PRESET-7-I,.~PRESET-8-I,.~PRESET-9-I,
+    .~PRESET-10-I,.~PRESET-11-I,.~PRESET-12-I,.~PRESET-13-I,.~PRESET-14-I,
+    .~PRESET-15-I,.~PRESET-16-I,.~PRESET-17-I,.~PRESET-18-I,.~PRESET-19-I,
+    .~PRESET-20-I;
+    .~<26,.~<27,.~<28,.~<29,.~<30,.~<31,.~<32,.~<33,.~<34,.~<35,.~<36,
+    .~<37,.~<38,.~<39,.~<40,.~<41,.~<42,.~<43,.~<44,.~<45;
+
+\ S-42M: 
+DELAY         0S;.~MASTER-UP;.~MASTER-UP-IN;
+
+\ S-43M: 
+DELAY         0S;.~MASTER-DN;.~MASTER-DN-IN;
+
+\ S-44M: 
+RAMP          5S;.~>2;.~MASTER-UP,.~MASTER-DN;
+
+\ S-45M: 
+MBUFFER       .~ZONE-1-A,.~ZONE-2-A,.~ZONE-3-A,.~ZONE-4-A,.~ZONE-5-A,
+    .~ZONE-6-A,.~ZONE-7-A,.~ZONE-8-A,.~ZONE-9-A,.~ZONE-10-A;
+    .~>2,
+    .~ZONE-1-AN,.~ZONE-2-AN,.~ZONE-3-AN,.~ZONE-4-AN,.~ZONE-5-AN,.~ZONE-6-AN,
+    .~ZONE-7-AN,.~ZONE-8-AN,.~ZONE-9-AN,.~ZONE-10-AN;
+
+\ S-46M: 
+ABUFFER       .~>1,.~>1,.~>1,.~>1,.~>1,.~>1,.~>1,.~>1,.~>1,.~>1;
+    .~PROG-EN,
+    .~ZONE-1-AN,.~ZONE-2-AN,.~ZONE-3-AN,.~ZONE-4-AN,.~ZONE-5-AN,.~ZONE-6-AN,
+    .~ZONE-7-AN,.~ZONE-8-AN,.~ZONE-9-AN,.~ZONE-10-AN;
+
+\ S-47M: 
+ABUFFER       .~>1;.~NORMAL,
+    .~>2;
+
+\ S-48M: 
+OR            .~PROG;.~ZONE-1-UP,.~ZONE-2-UP,.~ZONE-3-UP,.~ZONE-4-UP,
+    .~ZONE-5-UP,.~ZONE-6-UP,.~ZONE-7-UP,.~ZONE-8-UP,.~ZONE-9-UP,.~ZONE-10-UP,
+    .~ZONE-1-DN,.~ZONE-2-DN,.~ZONE-3-DN,.~ZONE-4-DN,.~ZONE-5-DN,.~ZONE-6-DN,
+    .~ZONE-7-DN,.~ZONE-8-DN,.~ZONE-9-DN,.~ZONE-10-DN;
+
+\ S-49M: 
+HMV           2S;.~PROG-EN;.~PROG;
+
+\ S-50M: 
+OR            .~BUTTONS;.~ZONE-1-UP-IN,.~ZONE-2-UP-IN,.~ZONE-3-UP-IN,
+    .~ZONE-4-UP-IN,.~ZONE-5-UP-IN,.~ZONE-6-UP-IN,.~ZONE-7-UP-IN,
+    .~ZONE-8-UP-IN,.~ZONE-9-UP-IN,.~ZONE-10-UP-IN,.~MASTER-UP-IN,
+    .~ZONE-1-DN-IN,.~ZONE-2-DN-IN,.~ZONE-3-DN-IN,.~ZONE-4-DN-IN,
+    .~ZONE-5-DN-IN,.~ZONE-6-DN-IN,.~ZONE-7-DN-IN,.~ZONE-8-DN-IN,
+    .~ZONE-9-DN-IN,.~ZONE-10-DN-IN,.~MASTER-DN-IN;
+
+\ S-51M: 
+HMV           0.25S;.~BUTTONS-HMV;.~BUTTONS;
+
+\ S-52M: 
+ABUFFER       .~>3,.~>4,.~>5,.~>6,.~>7,.~>8,.~>9,.~>10,.~>11,.~>12;
+    .~BUTTONS-HMV,
+    .~ZONE-1-A,.~ZONE-2-A,.~ZONE-3-A,.~ZONE-4-A,.~ZONE-5-A,.~ZONE-6-A,
+    .~ZONE-7-A,.~ZONE-8-A,.~ZONE-9-A,.~ZONE-10-A;
+
+\ S-53M: 
+NAND          .~NORMAL;.~PROG-EN;
+
+\ S-54M: 
+OSC           .25s,.25s;.~BUSY-OSC;.~>33;
+
+\ S-55M: 
+NAND          .~BUSY-OSC*;.~BUSY-OSC;
+
+\ S-56M: 
+BUFFER        .~>13,.~>14,.~>15,.~>16,.~>17,.~>18,.~>19,.~>20,.~>21,
+    .~>22,.~>23,.~>24,.~>25,.~>26,.~>27,.~>28,.~>29,.~>30,.~>31,
+    .~>32;
+    .~BUSY-OSC*,
+    .~PRESET-1-I,.~PRESET-2-I,.~PRESET-3-I,.~PRESET-4-I,.~PRESET-5-I,
+    .~PRESET-6-I,.~PRESET-7-I,.~PRESET-8-I,.~PRESET-9-I,.~PRESET-10-I,
+    .~PRESET-11-I,.~PRESET-12-I,.~PRESET-13-I,.~PRESET-14-I,.~PRESET-15-I,
+    .~PRESET-16-I,.~PRESET-17-I,.~PRESET-18-I,.~PRESET-19-I,.~PRESET-20-I;

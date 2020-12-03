@@ -1,0 +1,12 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 2718
+     Digital Signals: 879
+      Analog Signals: 374
+          NVRAM Used: 6956
+     Bytes used/left: 11110 / 38042
+Sig. table used/left: 15334 / 41954
+ Ext. Sig. used/left: 4861 / 60672

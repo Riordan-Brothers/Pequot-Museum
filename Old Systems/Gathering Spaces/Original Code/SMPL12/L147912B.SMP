@@ -1,0 +1,1523 @@
+REM "System name: Mashantucket Pequot Museum\n"
+\ Dealer: Ferguson Electric
+\ Designer: LP
+\ SIMPL-I filename: L147912B.CN2
+\ System Number: L1479
+\ Creation Date: 01/19/1998
+\ Date last modified: 10/05/1999
+\ Compiler Date: 01-13-98
+\ OS Version: 3.17.31-l 11/18/
+\ System GSA/GSB
+
+SLOT 4: CNIN-16
+
+    A1 = Cnesr-High1
+    A3 = Photosensor-High
+
+SLOT 8: CNCOMH-2
+
+NET.ID 04: CNWP          \CNWM-10 (GSA)
+
+    i1 = Area-GS-On/Off
+    i2 = Area-GS-Pre-1
+    i4 = Area-GS-Pre-2
+    i5 = Area-GS-Master-U
+    i6 = Area-GS-Pre-3
+    i7 = Area-GS-Master-D
+    i8 = Area-GS-Pre-4
+
+    o1 = Area-GS-On/Offfb
+    o2 = Area-GS-Pre-1fb
+    o4 = Area-GS-Pre-2fb
+    o5 = Area-GS-Master-U
+    o6 = Area-GS-Pre-3fb
+    o7 = Area-GS-Master-D
+    o8 = Area-GS-Pre-4fb
+
+NET.ID 05: CNWP          \CNWM-10 (GSA)
+
+    i1 = Area-GS-On/Off
+    i2 = Area-GS-Pre-1
+    i4 = Area-GS-Pre-2
+    i5 = Area-GS-Master-U
+    i6 = Area-GS-Pre-3
+    i7 = Area-GS-Master-D
+    i8 = Area-GS-Pre-4
+
+    o1 = Area-GS-On/Offfb
+    o2 = Area-GS-Pre-1fb
+    o4 = Area-GS-Pre-2fb
+    o5 = Area-GS-Master-U
+    o6 = Area-GS-Pre-3fb
+    o7 = Area-GS-Master-D
+    o8 = Area-GS-Pre-4fb
+
+NET.ID 11: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z17-Out,INCANDESCENT  
+    a2=Area-GS-Z1-Out,INCANDESCENT  
+    a3=Area-GS-Z17-Out,INCANDESCENT  
+
+NET.ID 12: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z1-Out,INCANDESCENT  
+    a2=Area-GS-Z1-Out,INCANDESCENT  
+    a4=Area-GS-Z1-Out,INCANDESCENT  
+    a5=Area-GS-Z17-Out,INCANDESCENT  
+    a6=Area-GS-Z3-Out,INCANDESCENT  
+
+NET.ID 13: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z1-Out,INCANDESCENT  
+    a2=Area-GS-Z17-Out,INCANDESCENT  
+    a3=Area-GS-Z17-Out,INCANDESCENT  
+    a4=Area-GS-Z42-Out,INCANDESCENT  
+
+NET.ID 14: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z2-Out,INCANDESCENT  
+    a2=Area-GS-Z2-Out,INCANDESCENT  
+    a3=Area-GS-Z41-Out,INCANDESCENT  
+    a4=Area-GS-Z29-Out,INCANDESCENT  
+
+NET.ID 15: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z17-Out,INCANDESCENT  
+    a2=Area-GS-Z17-Out,INCANDESCENT  
+    a3=Area-GS-Z17-Out,INCANDESCENT  
+
+NET.ID 16: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z4-Out,FLUORESCENT   
+    a2=Area-GS-Z4-Out,FLUORESCENT   
+    a3=Area-GS-Z4-Out,FLUORESCENT   
+
+NET.ID 17: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z9-Outb,INCANDESCENT  
+    a2=Area-GS-Z9-Outb,INCANDESCENT  
+    a3=Area-GS-Z10-Outb,INCANDESCENT  
+    a4=Area-GS-Z1-Outb,INCANDESCENT  
+
+NET.ID 18: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z10-Outb,INCANDESCENT  
+    a2=Area-GS-Z20-Outb,INCANDESCENT  
+    a3=Area-GS-Z20-Outb,INCANDESCENT  
+    a4=Area-GS-Z5-Outb,INCANDESCENT  
+
+NET.ID 19: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z17-Outb,INCANDESCENT  
+    a2=Area-GS-Z41-Outb,INCANDESCENT  
+    a3=Area-GS-Z2-Outb,INCANDESCENT  
+    a4=Area-GS-Z11-Outb,INCANDESCENT  
+
+NET.ID 1A: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z29-Outb,INCANDESCENT  
+    a2=Area-GS-Z11-Outb,INCANDESCENT  
+    a3=Area-GS-Z29-Outb,INCANDESCENT  
+
+NET.ID 1B: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z7-Out,INCANDESCENT  
+    a2=Area-GS-Z27-Out,INCANDESCENT  
+    a3=Area-GS-Z28-Out,INCANDESCENT  
+    a4=Area-GS-Z24-Out,INCANDESCENT  
+    a5=Area-GS-Z11-Out,INCANDESCENT  
+    a6=Area-GS-Z41-Out,INCANDESCENT  
+
+NET.ID 1C: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z26-Out,INCANDESCENT  
+    a2=Area-GS-Z9-Out,INCANDESCENT  
+    a3=Area-GS-Z9-Out,INCANDESCENT  
+    a4=Area-GS-Z8-Out,INCANDESCENT  
+    a5=Area-GS-Z11-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 1D: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z9-Out,INCANDESCENT  
+    a2=Area-GS-Z9-Out,INCANDESCENT  
+    a3=Area-GS-Z9-Out,INCANDESCENT  
+    a4=Area-GS-Z9-Out,INCANDESCENT  
+    a5=Area-GS-Z12-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 1E: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z16-Out,INCANDESCENT  
+    a2=Area-GS-Z32-Out,INCANDESCENT  
+    a3=Area-GS-Z33-Out,INCANDESCENT  
+    a4=Area-GS-Z40-Out,INCANDESCENT  
+    a5=Area-GS-Z30-Out,INCANDESCENT  
+    a6=Area-GS-Z6-Out,INCANDESCENT  
+
+NET.ID 1F: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z9-Out,INCANDESCENT  
+    a2=Area-GS-Z10-Out,INCANDESCENT  
+    a3=Area-GS-Z10-Out,INCANDESCENT  
+    a4=Area-GS-Z18-Out,INCANDESCENT  
+    a5=Area-GS-Z14-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 20: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z10-Out,INCANDESCENT  
+    a2=Area-GS-Z10-Out,INCANDESCENT  
+    a3=Area-GS-Z20-Out,INCANDESCENT  
+    a4=Area-GS-Z20-Out,INCANDESCENT  
+    a5=Area-GS-Z15-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 21: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z22-Out,INCANDESCENT  
+    a2=Area-GS-Z31-Out,INCANDESCENT  
+    a3=Area-GS-Z36-Out,INCANDESCENT  
+    a4=Area-GS-Z37-Out,INCANDESCENT  
+    a5=Area-GS-Z34-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 22: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z10-Out,INCANDESCENT  
+    a2=Area-GS-Z20-Out,INCANDESCENT  
+    a3=Area-GS-Z23-Out,INCANDESCENT  
+    a4=Area-GS-Z19-Out,INCANDESCENT  
+    a5=Area-GS-Z25-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 23: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z20-Out,INCANDESCENT  
+    a2=Area-GS-Z13-Out,INCANDESCENT  
+    a3=Area-GS-Z21-Out,INCANDESCENT  
+    a4=Area-GS-Z24-Out,INCANDESCENT  
+    a5=Area-GS-Z11-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 24: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z11-Out,INCANDESCENT  
+    a2=Area-GS-Z38-Out,INCANDESCENT  
+    a3=Area-GS-Z39-Out,INCANDESCENT  
+    a4=Area-GS-Z35-Out,INCANDESCENT  
+    a5=Area-GS-Z11-Out,INCANDESCENT  
+    a6=Area-GS-Z11-Out,INCANDESCENT  
+
+NET.ID 25: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z9-Out,INCANDESCENT  
+    a2=Area-GS-Z13-Out,INCANDESCENT  
+    a3=Area-GS-Z13-Out,INCANDESCENT  
+    a4=Area-GS-Z13-Out,INCANDESCENT  
+
+NET.ID 26: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z13-Out,INCANDESCENT  
+    a2=Area-GS-Z13-Out,INCANDESCENT  
+    a3=Area-GS-Z13-Out,INCANDESCENT  
+    a4=Area-GS-Z13-Out,INCANDESCENT  
+
+NET.ID 27: CLDL          \Creslite Lighting Module        
+
+    a1=Area-GS-Z13-Out,INCANDESCENT  
+    a2=Area-GS-Z13-Out,INCANDESCENT  
+
+NET.ID 2D: CTP-3000    \BriteTouch Grayscale 9.6" Panel
+
+    i8 = Goto-Main-Menu
+    i9 = Goto-Newcode-Pgb
+    i10 = Passcode-0
+    i11 = Passcode-1
+    i12 = Passcode-2
+    i13 = Passcode-3
+    i14 = Passcode-4
+    i15 = Passcode-5
+    i16 = Passcode-6
+    i17 = Passcode-7
+    i18 = Passcode-8
+    i19 = Passcode-9
+    i20 = Passcode-Clear
+    i21 = Passcode-Enter
+    i25 = Newcode-Pg?
+    i30 = Newcode-0
+    i31 = Newcode-1
+    i32 = Newcode-2
+    i33 = Newcode-3
+    i34 = Newcode-4
+    i35 = Newcode-5
+    i36 = Newcode-6
+    i37 = Newcode-7
+    i38 = Newcode-8
+    i39 = Newcode-9
+    i40 = Newcode-Clear
+    i41 = Newcode-Save
+    i43 = Area-Sel-GS-a
+    i44 = Area-Sel-GS-b
+    i45 = Area-Sel-GS-c
+    i46 = Area-Sel-GS-d
+    i50 = Lts-All-On
+    i51 = Lts-All-Off
+    i60 = Area-GS-Z1-Up
+    i61 = Area-GS-Z2-Up
+    i62 = Area-GS-Z3-Up
+    i63 = Area-GS-Z4-Up
+    i64 = Area-GS-Z5-Up
+    i65 = Area-GS-Z6-Up
+    i66 = Area-GS-Z7-Up
+    i67 = Area-GS-Z8-Up
+    i68 = Area-GS-Z9-Up
+    i69 = Area-GS-Z10-Up
+    i70 = Area-GS-Z11-Up
+    i71 = Area-GS-Z12-Up
+    i72 = Area-GS-Z13-Up
+    i73 = Area-GS-Z14-Up
+    i74 = Area-GS-Z15-Up
+    i75 = Area-GS-Z16-Up
+    i76 = Area-GS-Z17-Up
+    i77 = Area-GS-Z18-Up
+    i78 = Area-GS-Z19-Up
+    i79 = Area-GS-Z20-Up
+    i80 = Area-GS-Z21-Up
+    i81 = Area-GS-Z22-Up
+    i82 = Area-GS-Z23-Up
+    i83 = Area-GS-Z24-Up
+    i84 = Area-GS-Z25-Up
+    i85 = Area-GS-Z26-Up
+    i86 = Area-GS-Z27-Up
+    i87 = Area-GS-Z28-Up
+    i88 = Area-GS-Z29-Up
+    i89 = Area-GS-Z30-Up
+    i90 = Area-GS-Z31-Up
+    i91 = Area-GS-Z32-Up
+    i92 = Area-GS-Z33-Up
+    i93 = Area-GS-Z34-Up
+    i94 = Area-GS-Z35-Up
+    i95 = Area-GS-Z36-Up
+    i96 = Area-GS-Z37-Up
+    i97 = Area-GS-Z38-Up
+    i98 = Area-GS-Z39-Up
+    i99 = Area-GS-Z40-Up
+    i100 = Area-GS-Z41-Up
+    i101 = Area-GS-Z42-Up
+    i102 = Area-GS-Master-U
+    i106 = Area-GS-Z1-Dn
+    i107 = Area-GS-Z2-Dn
+    i108 = Area-GS-Z3-Dn
+    i109 = Area-GS-Z4-Dn
+    i110 = Area-GS-Z5-Dn
+    i111 = Area-GS-Z6-Dn
+    i112 = Area-GS-Z7-Dn
+    i113 = Area-GS-Z8-Dn
+    i114 = Area-GS-Z9-Dn
+    i115 = Area-GS-Z10-Dn
+    i116 = Area-GS-Z11-Dn
+    i117 = Area-GS-Z12-Dn
+    i118 = Area-GS-Z13-Dn
+    i119 = Area-GS-Z14-Dn
+    i120 = Area-GS-Z15-Dn
+    i121 = Area-GS-Z16-Dn
+    i122 = Area-GS-Z17-Dn
+    i123 = Area-GS-Z18-Dn
+    i124 = Area-GS-Z19-Dn
+    i125 = Area-GS-Z20-Dn
+    i126 = Area-GS-Z21-Dn
+    i127 = Area-GS-Z22-Dn
+    i128 = Area-GS-Z23-Dn
+    i129 = Area-GS-Z24-Dn
+    i130 = Area-GS-Z25-Dn
+    i131 = Area-GS-Z26-Dn
+    i132 = Area-GS-Z27-Dn
+    i133 = Area-GS-Z28-Dn
+    i134 = Area-GS-Z29-Dn
+    i135 = Area-GS-Z30-Dn
+    i136 = Area-GS-Z31-Dn
+    i137 = Area-GS-Z32-Dn
+    i138 = Area-GS-Z33-Dn
+    i139 = Area-GS-Z34-Dn
+    i140 = Area-GS-Z35-Dn
+    i141 = Area-GS-Z36-Dn
+    i142 = Area-GS-Z37-Dn
+    i143 = Area-GS-Z38-Dn
+    i144 = Area-GS-Z39-Dn
+    i145 = Area-GS-Z40-Dn
+    i146 = Area-GS-Z41-Dn
+    i147 = Area-GS-Z42-Dn
+    i148 = Area-GS-Master-D
+    i152 = Area-GS-Fade-Up
+    i153 = Area-GS-Fade-Dn
+    i155 = Area-GS-On/Off
+    i156 = Area-GS-Pre-1
+    i157 = Area-GS-Pre-2
+    i158 = Area-GS-Pre-3
+    i159 = Area-GS-Pre-4
+    i160 = Area-GS-Pre-Save
+    i184 = Area-GS-PS-En?
+    i185 = Area-GS-PS-Dis?
+    i220 = Scheduler-On
+    i221 = Scheduler-Off
+    i223 = Scheduler-On-S
+    i224 = Scheduler-Off-S
+    i225 = Area-GS-Pre-5-S
+    i226 = Area-GS-Pre-6-S
+
+    o3 = Area-Sel-GS-aint
+    o4 = Area-Sel-GS-bint
+    o5 = Area-Sel-GS-cint
+    o6 = Area-Sel-GS-dint
+    o8 = Goto-Main-Menu
+    o9 = Goto-Newcode-Pgb
+    o20 = Passcode-Clear
+    o21 = Passcode-Enter
+    o30 = Newcode-0
+    o31 = Newcode-1
+    o32 = Newcode-2
+    o33 = Newcode-3
+    o34 = Newcode-4
+    o35 = Newcode-5
+    o36 = Newcode-6
+    o37 = Newcode-7
+    o38 = Newcode-8
+    o39 = Newcode-9
+    o40 = Newcode-Clear
+    o41 = Newcode-Save
+    o43 = Area-Sel-GS-aint
+    o44 = Area-Sel-GS-bint
+    o45 = Area-Sel-GS-cint
+    o46 = Area-Sel-GS-dint
+    o50 = Lts-All-On
+    o51 = Lts-All-Off
+    o60 = Area-GS-Z1-Up
+    o61 = Area-GS-Z2-Up
+    o62 = Area-GS-Z3-Up
+    o63 = Area-GS-Z4-Up
+    o64 = Area-GS-Z5-Up
+    o65 = Area-GS-Z6-Up
+    o66 = Area-GS-Z7-Up
+    o67 = Area-GS-Z8-Up
+    o68 = Area-GS-Z9-Up
+    o69 = Area-GS-Z10-Up
+    o70 = Area-GS-Z11-Up
+    o71 = Area-GS-Z12-Up
+    o72 = Area-GS-Z13-Up
+    o73 = Area-GS-Z14-Up
+    o74 = Area-GS-Z15-Up
+    o75 = Area-GS-Z16-Up
+    o76 = Area-GS-Z17-Up
+    o77 = Area-GS-Z18-Up
+    o78 = Area-GS-Z19-Up
+    o79 = Area-GS-Z20-Up
+    o80 = Area-GS-Z21-Up
+    o81 = Area-GS-Z22-Up
+    o82 = Area-GS-Z23-Up
+    o83 = Area-GS-Z24-Up
+    o84 = Area-GS-Z25-Up
+    o85 = Area-GS-Z26-Up
+    o86 = Area-GS-Z27-Up
+    o87 = Area-GS-Z28-Up
+    o88 = Area-GS-Z29-Up
+    o89 = Area-GS-Z30-Up
+    o90 = Area-GS-Z31-Up
+    o91 = Area-GS-Z32-Up
+    o92 = Area-GS-Z33-Up
+    o93 = Area-GS-Z34-Up
+    o94 = Area-GS-Z35-Up
+    o95 = Area-GS-Z36-Up
+    o96 = Area-GS-Z37-Up
+    o97 = Area-GS-Z38-Up
+    o98 = Area-GS-Z39-Up
+    o99 = Area-GS-Z40-Up
+    o100 = Area-GS-Z41-Up
+    o101 = Area-GS-Z42-Up
+    o102 = Area-GS-Master-U
+    o106 = Area-GS-Z1-Dn
+    o107 = Area-GS-Z2-Dn
+    o108 = Area-GS-Z3-Dn
+    o109 = Area-GS-Z4-Dn
+    o110 = Area-GS-Z5-Dn
+    o111 = Area-GS-Z6-Dn
+    o112 = Area-GS-Z7-Dn
+    o113 = Area-GS-Z8-Dn
+    o114 = Area-GS-Z9-Dn
+    o115 = Area-GS-Z10-Dn
+    o116 = Area-GS-Z11-Dn
+    o117 = Area-GS-Z12-Dn
+    o118 = Area-GS-Z13-Dn
+    o119 = Area-GS-Z14-Dn
+    o120 = Area-GS-Z15-Dn
+    o121 = Area-GS-Z16-Dn
+    o122 = Area-GS-Z17-Dn
+    o123 = Area-GS-Z18-Dn
+    o124 = Area-GS-Z19-Dn
+    o125 = Area-GS-Z20-Dn
+    o126 = Area-GS-Z21-Dn
+    o127 = Area-GS-Z22-Dn
+    o128 = Area-GS-Z23-Dn
+    o129 = Area-GS-Z24-Dn
+    o130 = Area-GS-Z25-Dn
+    o131 = Area-GS-Z26-Dn
+    o132 = Area-GS-Z27-Dn
+    o133 = Area-GS-Z28-Dn
+    o134 = Area-GS-Z29-Dn
+    o135 = Area-GS-Z30-Dn
+    o136 = Area-GS-Z31-Dn
+    o137 = Area-GS-Z32-Dn
+    o138 = Area-GS-Z33-Dn
+    o139 = Area-GS-Z34-Dn
+    o140 = Area-GS-Z35-Dn
+    o141 = Area-GS-Z36-Dn
+    o142 = Area-GS-Z37-Dn
+    o143 = Area-GS-Z38-Dn
+    o144 = Area-GS-Z39-Dn
+    o145 = Area-GS-Z40-Dn
+    o146 = Area-GS-Z41-Dn
+    o147 = Area-GS-Z42-Dn
+    o148 = Area-GS-Master-D
+    o152 = Area-GS-Fade-Up
+    o153 = Area-GS-Fade-Dn
+    o155 = Area-GS-On/Offfb
+    o156 = Area-GS-Pre-1fb
+    o157 = Area-GS-Pre-2fb
+    o158 = Area-GS-Pre-3fb
+    o159 = Area-GS-Pre-4fb
+    o160 = Area-GS-Pre-Save
+    o184 = Area-GS-PS-En
+    o185 = Area-GS-PS-Dis
+    o220 = Scheduler-Onsr
+    o221 = Scheduler-Offsr
+    o223 = Scheduler-On-S
+    o224 = Scheduler-Off-S
+    o225 = Area-GS-Pre-5-S
+    o226 = Area-GS-Pre-6-S
+
+    AI1 = AI1
+
+    AN1 = AI1
+    AN11 = Area-GS-Z1-Out
+    AN12 = Area-GS-Z2-Out
+    AN13 = Area-GS-Z3-Out
+    AN14 = Area-GS-Z4-Out
+    AN15 = Area-GS-Z5-Out
+    AN16 = Area-GS-Z6-Out
+    AN17 = Area-GS-Z7-Out
+    AN18 = Area-GS-Z8-Out
+    AN19 = Area-GS-Z9-Out
+    AN20 = Area-GS-Z10-Out
+    AN21 = Area-GS-Z11-Out
+    AN22 = Area-GS-Z12-Out
+    AN23 = Area-GS-Z13-Out
+    AN24 = Area-GS-Z14-Out
+    AN25 = Area-GS-Z15-Out
+    AN26 = Area-GS-Z16-Out
+    AN27 = Area-GS-Z17-Out
+    AN28 = Area-GS-Z18-Out
+    AN29 = Area-GS-Z19-Out
+    AN30 = Area-GS-Z20-Out
+    AN31 = Area-GS-Z21-Out
+    AN32 = Area-GS-Z22-Out
+    AN33 = Area-GS-Z23-Out
+    AN34 = Area-GS-Z24-Out
+    AN35 = Area-GS-Z25-Out
+    AN36 = Area-GS-Z26-Out
+    AN37 = Area-GS-Z27-Out
+    AN38 = Area-GS-Z28-Out
+    AN39 = Area-GS-Z29-Out
+    AN40 = Area-GS-Z30-Out
+    AN41 = Area-GS-Z31-Out
+    AN42 = Area-GS-Z32-Out
+    AN43 = Area-GS-Z33-Out
+    AN44 = Area-GS-Z34-Out
+    AN45 = Area-GS-Z35-Out
+    AN46 = Area-GS-Z36-Out
+    AN47 = Area-GS-Z37-Out
+    AN48 = Area-GS-Z38-Out
+    AN49 = Area-GS-Z39-Out
+    AN50 = Area-GS-Z40-Out
+    AN51 = Area-GS-Z41-Out
+    AN52 = Area-GS-Z42-Out
+    AN70 = Area-GS-Mast-Out
+
+\*** END EQUIPMENT DEFINITION ***
+
+\*** BEGIN SYMBOL STATEMENTS ***
+
+
+
+\ S-1: Delayed Start Signal
+DELAY         5s;Start-Delay;1;
+
+\ S-2: Start Pulse
+MV            .2s;Start-Pulse;Start-Delay;
+
+\ S-3: Start Pulse --> Lts-All-On
+BUFFER        Lts-All-On;1,
+    Start-Pulse;
+
+\ S-6: Display Subpages
+INTERLOCK     Area-Sel-GS-aint,Area-Sel-GS-bint,Area-Sel-GS-cint,
+    Area-Sel-GS-dint;
+    Area-Sel-GS-a,Area-Sel-GS-b,Area-Sel-GS-c,Area-Sel-GS-d;
+
+\ S-7: All Lights On
+BUFFER        Area-GS-On;Lts-All-On,
+    1;
+
+\ S-8: All Lights Off
+BUFFER        Area-GS-Off;Lts-All-Off,
+    1;
+
+\ S-10: Scheduler On/Off
+SR           
+    Scheduler-Onsr,Scheduler-Offsr;Scheduler-Off,Scheduler-On;
+
+\ S-11: Enabled Scheduler On/Off Signal
+BUFFER        Scheduler-On,Scheduler-Off;1,
+    Scheduler-On-S,Scheduler-Off-S;
+
+\ S-12: Enabled Scheduler Functions
+BUFFER        Area-GS-Pre-5,Area-GS-Pre-6;Scheduler-Onsr,
+    Area-GS-Pre-5-S,Area-GS-Pre-6-S;
+
+\ S-13: TOD$
+DEVICE SYSTEM
+
+   "DST"=1
+   "TOD$"=TOD$
+
+\ S-14: CALENDAR
+CALENDAR
+    100,10,7401,-121;AI1;AI1,TOD$;
+
+\ S-16: Photosensor High/Low
+NOR           Photosensor-Low;Photosensor-High;
+
+\ S-17: Photo Pulse
+OSC           .2s,1199.8s;Photo-Pulse?;1;
+
+\ S-19: Enable GS Photosensor
+SR           
+    Area-GS-PS-En,Area-GS-PS-Dis;Area-GS-PS-Dis?,Area-GS-PS-En?;
+
+\ S-20: Enabled GS PS Pulse
+AND           Area-GS-PS-Pulse;Area-GS-PS-En,Photo-Pulse?;
+
+\ S-21: GS Pre 1,2 per PS Pulses
+BUFFER        Area-GS-Pre-1,Area-GS-Pre-2;Area-GS-PS-Pulse,
+    Photosensor-Low,Photosensor-High;
+
+\ S-25: \**************Passcode Functions***************
+\*********
+    \comment;
+
+\ S-27: Goto Newcode Page 3s
+DEBOUNCE      3s;Goto-Newcode-Pg;Newcode-Pg?;
+
+\ S-28: Goto Newcode Page -SIGNAL
+BUFFER        Goto-Newcode-Pgb;1,
+    Goto-Newcode-Pgm;
+
+\ S-29: 
+MMV           .2s;Goto-Newcode-Pgm;Goto-Newcode-Pg;
+
+\ S-31: MACRO expansion for PASSME.IMC
+\ 
+
+\ S-4M: 
+#PAD       10000;NC1;.~B0b0031,.~B1b0031,.~B2b0031,.~B3b0031,.~B4b0031,
+    .~B5b0031,.~B6b0031,.~B7b0031,.~B8b0031,
+    .~B9b0031,Passcode-Clear,0,0,0;
+
+\ S-5M: 
+OR         .~BUT-OR0031;.~B0b0031,.~B1b0031,.~B2b0031,.~B3b0031,.~B4b0031,
+    .~B5b0031,.~B6b0031,.~B7b0031,.~B8b0031,
+    .~B9b0031;
+
+\ S-6M: 
+#PAD       5;.~NUM-DIG0031;0,0,0,0,0,0,0,0,0,0,Passcode-Clear,.~BUT-OR0031,
+    0;
+
+\ S-7M: 
+SDAC       4;PASSME-Asterisks;Passcode-Clear,1,0,0,0,0,0,0,0,0,0,0,.~BUT-OR0031,
+    0;
+
+\ S-9M: 
+#PAD       10000;Newcode-#;.~M0b0031,.~M1b0031,.~M2b0031,.~M3b0031,
+    .~M4b0031,.~M5b0031,.~M6b0031,.~M7b0031,.~M8b0031,
+    .~M9b0031,Newcode-Clear,0,0;
+
+\ S-10M: 
+OR         .~MBUT-OR0031;.~M0b0031,.~M1b0031,.~M2b0031,.~M3b0031,
+    .~M4b0031,.~M5b0031,.~M6b0031,.~M7b0031,.~M8b0031,
+    .~M9b0031;
+
+\ S-11M: 
+#PAD       5;.~MNUM-DIG0031;0,0,0,0,0,0,0,0,0,0,Newcode-Clear,.~MBUT-OR0031,
+    0;
+
+\ S-13M: 
+RAM       
+    .~master-number-OK0031,.~MNUM-DIG-OK0031;
+    Newcode-#,.~MNUM-DIG0031:
+    Newcode-Save,.~RECALL0031,
+    1;
+
+\ S-14M: 
+MV         .1s;.~STARTUP0031;1;
+
+\ S-15M: 
+MV         .1s;.~SAVE-NE0031;0,Newcode-Save;
+
+\ S-16M: 
+OR         .~RECALL0031;.~STARTUP0031,.~SAVE-NE0031;
+
+\ S-17M: 
+EQU        4;.~no-more-butt0031;.~NUM-DIG0031,1;
+
+\ S-18M: 
+EQU        4;.~mno-more-butt0031;.~MNUM-DIG0031,1;
+
+\ S-19M: 
+NOR        .~no-more-butt*0031;.~no-more-butt0031;
+
+\ S-20M: 
+NOR        .~mno-more-butt*0031;.~mno-more-butt0031;
+
+\ S-21M: 
+NOR        .~INPUT-ENTER*0031;Passcode-Enter;
+
+\ S-22M: 
+ABUFFER    .~NUMBER-OK0031,.~NUM-DIG-ok0031;.~INPUT-enter-ne-d0031,
+    
+    .~ZERO0031,.~ZERO0031;
+
+\ S-23M: 
+MV         .2s;.~INPUT-enter-ne0031;0,Passcode-Enter;
+
+\ S-24M: 
+DELAY      .2s;.~INPUT-enter-ne-d0031;.~INPUT-enter-ne0031;
+
+\ S-25M: 
+ABUFFER    .~NUMBER-OK0031,.~NUM-DIG-ok0031;Passcode-Enter,
+    NC1,.~NUM-DIG0031;
+
+\ S-26M: 
+INIT       0;.~ZERO0031;1;
+
+\ S-27M: 
+COMPARE    .~OK10031;.~master-number-OK0031,.~NUMBER-OK0031;
+
+\ S-28M: 
+COMPARE    .~OK20031;.~NUMBER-OK0031,.~master-number-OK0031;
+
+\ S-29M: 
+AND        .~OK0031;.~OK10031,.~OK20031,.~OK30031,.~OK40031;
+
+\ S-30M: 
+MMV        .2s;.~PASSWORD0031;.~OK0031;
+
+\ S-31M: 
+MV         .1s;.~CLEAR-IT0031;0,Goto-Main-Menu;
+
+\ S-32M: 
+BUFFER     Passcode-Clear,Goto-Main-Menu;.~startup-dly0031,
+    .~CLEAR-IT0031,.~PASSWORD0031;
+
+\ S-33M: 
+DELAY      1s;.~startup-dly0031;1;
+
+\ S-34M: 
+COMPARE    .~OK30031;.~MNUM-DIG-OK0031,.~NUM-DIG-ok0031;
+
+\ S-35M: 
+COMPARE    .~OK40031;.~NUM-DIG-ok0031,.~MNUM-DIG-OK0031;
+
+\ S-36M: 
+BUFFER     .~B0b0031,.~B1b0031,.~B2b0031,.~B3b0031,.~B4b0031,.~B5b0031,
+    .~B6b0031,.~B7b0031,.~B8b0031,.~B9b0031;
+    .~no-more-butt*0031,
+    Passcode-0,Passcode-1,Passcode-2,Passcode-3,Passcode-4,Passcode-5,
+    Passcode-6,Passcode-7,Passcode-8,Passcode-9;
+
+\ S-37M: 
+BUFFER     .~M0b0031,.~M1b0031,.~M2b0031,.~M3b0031,.~M4b0031,.~M5b0031,
+    .~M6b0031,.~M7b0031,.~M8b0031,.~M9b0031;
+    .~mno-more-butt*0031,
+    Newcode-0,Newcode-1,Newcode-2,Newcode-3,Newcode-4,Newcode-5,Newcode-6,
+    Newcode-7,Newcode-8,Newcode-9;
+
+\ end MACRO expansion
+
+\ S-32: Asterisks --> TP
+SDPM          FF,A;PASSME-Asterisks;
+
+\ S-33: Newcode-# --> TP
+DPM           FF,B,04;
+    Newcode-#;
+
+\ S-37: \*****************Area GSA/B (42)***************
+\*********
+    \comment;
+
+\ S-39: Fade-Time Ramp
+RAMP          5s;Fade-Time-Save-G;Area-GS-Fade-Dn,Area-GS-Fade-Up;
+
+\ S-40: MACRO expansion for TIMEFADE.IMC
+\ 
+
+\ S-3M: 
+COMPARE    .~OUT1A0040;Fade-Time-Save-G,.~A10040;
+
+\ S-4M: 
+COMPARE    .~OUT1B0040;.~A20040,Fade-Time-Save-G;
+
+\ S-5M: 
+AND        .~OUT10040;.~OUT1A0040,.~OUT1B0040;
+
+\ S-6M: 
+COMPARE    .~OUT2A0040;Fade-Time-Save-G,.~A20040;
+
+\ S-7M: 
+COMPARE    .~OUT2B0040;.~A30040,Fade-Time-Save-G;
+
+\ S-8M: 
+AND        .~OUT20040;.~OUT2A0040,.~OUT2B0040;
+
+\ S-9M: 
+COMPARE    .~OUT3A0040;Fade-Time-Save-G,.~A30040;
+
+\ S-10M: 
+COMPARE    .~OUT3B0040;.~A40040,Fade-Time-Save-G;
+
+\ S-11M: 
+AND        .~OUT30040;.~OUT3A0040,.~OUT3B0040;
+
+\ S-12M: 
+COMPARE    .~OUT4A0040;Fade-Time-Save-G,.~A40040;
+
+\ S-13M: 
+COMPARE    .~OUT4B0040;.~A50040,Fade-Time-Save-G;
+
+\ S-14M: 
+AND        .~OUT40040;.~OUT4A0040,.~OUT4B0040;
+
+\ S-15M: 
+COMPARE    .~OUT5A0040;Fade-Time-Save-G,.~A50040;
+
+\ S-16M: 
+COMPARE    .~OUT5B0040;.~A60040,Fade-Time-Save-G;
+
+\ S-17M: 
+AND        .~OUT50040;.~OUT5A0040,.~OUT5B0040;
+
+\ S-18M: 
+COMPARE    .~OUT6A0040;Fade-Time-Save-G,.~A60040;
+
+\ S-19M: 
+COMPARE    .~OUT6B0040;.~A70040,Fade-Time-Save-G;
+
+\ S-20M: 
+AND        .~OUT60040;.~OUT6A0040,.~OUT6B0040;
+
+\ S-21M: 
+COMPARE    .~OUT7A0040;Fade-Time-Save-G,.~A70040;
+
+\ S-22M: 
+COMPARE    .~OUT7B0040;.~A80040,Fade-Time-Save-G;
+
+\ S-23M: 
+AND        .~OUT70040;.~OUT7A0040,.~OUT7B0040;
+
+\ S-24M: 
+COMPARE    .~OUT8A0040;Fade-Time-Save-G,.~A80040;
+
+\ S-25M: 
+COMPARE    .~OUT8B0040;.~A90040,Fade-Time-Save-G;
+
+\ S-26M: 
+AND        .~OUT80040;.~OUT8A0040,.~OUT8B0040;
+
+\ S-27M: 
+COMPARE    .~OUT9A0040;Fade-Time-Save-G,.~A90040;
+
+\ S-28M: 
+COMPARE    .~OUT9B0040;.~A100040,Fade-Time-Save-G;
+
+\ S-29M: 
+AND        .~OUT90040;.~OUT9A0040,.~OUT9B0040;
+
+\ S-30M: 
+COMPARE    .~OUT10A0040;Fade-Time-Save-G,.~A100040;
+
+\ S-31M: 
+COMPARE    .~OUT10B0040;.~A110040,Fade-Time-Save-G;
+
+\ S-32M: 
+AND        .~OUT100040;.~OUT10A0040,.~OUT10B0040;
+
+\ S-33M: 
+INIT       0%,10%,20%,30%,40%,50%,60%,70%,80%,90%,100%;
+    .~A10040,.~A20040,.~A30040,.~A40040,.~A50040,.~A60040,.~A70040,
+    .~A80040,.~A90040,.~A100040,.~A110040;
+    1;
+
+\ S-34M: 
+MV         .1s;.~startup0040;1;
+
+\ S-35M: 
+INIT       15%,15%,25%,35%,45%,55%,65%,75%,85%,90%,100%;
+    Fade-Time-GS-Bar;.~startup0040,.~OUT10040,.~OUT20040,.~OUT30040,
+    .~OUT40040,.~OUT50040,.~OUT60040,.~OUT70040,.~OUT80040,
+    .~OUT90040,.~OUT100040;
+
+\ S-36M: 
+INIT       .5s,.5s,1s,2s,4s,8s,12s,16s,24s,32s,48s;
+    Fade-Time-Pre-GS;.~startup0040,.~OUT10040,.~OUT20040,.~OUT30040,
+    .~OUT40040,.~OUT50040,.~OUT60040,.~OUT70040,.~OUT80040,
+    .~OUT90040,.~OUT100040;
+
+\ S-37M: send
+send
+    ".5s";Fade-GS-$;.~OUT10040;
+
+\ S-38M: send
+send
+    ".5s";Fade-GS-$;.~startup0040;
+
+\ S-39M: send
+send
+    "1s";Fade-GS-$;.~OUT20040;
+
+\ S-40M: send
+send
+    "2s";Fade-GS-$;.~OUT30040;
+
+\ S-41M: send
+send
+    "4s";Fade-GS-$;.~OUT40040;
+
+\ S-42M: send
+send
+    "8s";Fade-GS-$;.~OUT50040;
+
+\ S-43M: send
+send
+    "12s";Fade-GS-$;.~OUT60040;
+
+\ S-44M: send
+send
+    "16s";Fade-GS-$;.~OUT70040;
+
+\ S-45M: send
+send
+    "24s";Fade-GS-$;.~OUT80040;
+
+\ S-46M: send
+send
+    "32s";Fade-GS-$;.~OUT90040;
+
+\ S-47M: send
+send
+    "48s";Fade-GS-$;.~OUT100040;
+
+\ end MACRO expansion
+
+\ S-41: Fade Time GSA/GSB-->@D
+SDPM          FF,D;Fade-GS-$;
+
+\ S-43: Lts-Presets 1thru4 Selected
+OR            Lts-Pre-GS-1thr4;Area-GS-Pre-1,Area-GS-Pre-2,Area-GS-Pre-3,
+    Area-GS-Pre-4;
+
+\ S-44: Joins On/Off Feedback
+OR            Area-GS-On/Offfb;Area-GS-Pre-5fb,Area-GS-Pre-6fb;
+
+\ S-45: MACRO expansion for OOSB.IMC
+\ 
+
+\ S-2M: 
+OR         .~OFF-OR0045;Area-GS-Off,0,.~T-OFF0045;
+
+\ S-3M: 
+OR         .~ON-OR0045;Area-GS-On,Lts-Pre-GS-1thr4,.~T-ON0045;
+
+\ S-4M: 
+TOGGLE    
+    .~FOC-P-T0045,.~FOC-M-T0045;.~FOCUS*0045,.~ON-OR0045,.~OFF-OR0045;
+
+
+\ S-5M: 
+AND        .~FOC+-AND0045;.~FOC-P-T0045,.~FOCUS0045;
+
+\ S-6M: 
+AND        .~FOC--AND0045;.~FOCUS0045,.~FOC-M-T0045;
+
+\ S-7M: 
+NOR        .~FOCUS*0045;.~FOCUS0045;
+
+\ S-8M: 
+OR         .~FOC-B0045;.~FOC--AND0045,Area-GS-Off;
+
+\ S-9M: 
+OR         .~FOC+B0045;.~FOC+-AND0045,Area-GS-On;
+
+\ S-10M: 
+BUFFER     Area-GS-Pre-6,Area-GS-Pre-5;1,
+    .~FOC-B0045,.~FOC+B0045;
+
+\ S-12M: 
+HMV        .35s;.~BUSY-HMV0045;Area-GS-Busy;
+
+\ S-13M: 
+NOR        .~BUSY*0045;.~BUSY-HMV0045;
+
+\ S-14M: 
+MMV        .25s;.~ON/OFF0045;Area-GS-On/Off;
+
+\ S-15M: 
+AND        .~FOCUS0045;.~BUSY*0045,.~ON/OFF0045;
+
+\ S-16M: 
+AND        .~REDO0045;Area-GS-Busy,.~ON/OFF0045;
+
+\ S-17M: 
+SR        
+    .~FOC--I0045,.~FOC+-I0045;.~TURN-ON-OR0045,.~TURN-OFF-OR0045;
+
+
+\ S-18M: 
+BUFFER     Area-GS-Pre-6,Area-GS-Pre-5,.~T-OFF0045,.~T-ON0045;
+    .~REDO0045,
+    .~FOC--I0045,.~FOC+-I0045,.~FOC--I0045,.~FOC+-I0045;
+
+\ S-20M: 
+OR         .~TURN-OFF-OR0045;Area-GS-Pre-6,Lts-Pre-GS-1thr4;
+
+\ S-21M: 
+OR         .~TURN-ON-OR0045;Area-GS-Pre-5,0;
+
+\ end MACRO expansion
+
+\ S-47: MACRO expansion for MLT45-10.IMC
+\ 
+
+
+\ S-3M: 
+RAMP          5s;.~ZONE1-ANALOGx0047;.~ZONE1-UP-IN0047,.~ZONE1-DN-IN0047;
+
+
+\ S-4M: 
+RAMP          5s;.~ZONE2-ANALOGx0047;.~ZONE2-UP-IN0047,.~ZONE2-DN-IN0047;
+
+
+\ S-5M: 
+RAMP          5s;.~ZONE3-ANALOGx0047;.~ZONE3-UP-IN0047,.~ZONE3-DN-IN0047;
+
+
+\ S-6M: 
+RAMP          5s;.~ZONE4-ANALOGx0047;.~ZONE4-UP-IN0047,.~ZONE4-DN-IN0047;
+
+
+\ S-7M: 
+RAMP          5s;.~ZONE5-ANALOGx0047;.~ZONE5-UP-IN0047,.~ZONE5-DN-IN0047;
+
+
+\ S-8M: 
+RAMP          5s;.~ZONE6-ANALOGx0047;.~ZONE6-UP-IN0047,.~ZONE6-DN-IN0047;
+
+
+\ S-9M: 
+RAMP          5s;.~ZONE7-ANALOGx0047;.~ZONE7-UP-IN0047,.~ZONE7-DN-IN0047;
+
+
+\ S-10M: 
+RAMP          5s;.~ZONE8-ANALOGx0047;.~ZONE8-UP-IN0047,.~ZONE8-DN-IN0047;
+
+
+\ S-11M: 
+RAMP          5s;.~ZONE9-ANALOGx0047;.~ZONE9-UP-IN0047,.~ZONE9-DN-IN0047;
+
+
+\ S-12M: 
+RAMP          5s;.~ZONE11-ANALOGx0047;.~ZONE11-UP-IN0047,.~ZONE11-DN-IN0047;
+
+
+\ S-13M: 
+RAMP          5s;.~ZONE10-ANALOGx0047;.~ZONE10-UP-IN0047,.~ZONE10-DN-IN0047;
+
+
+\ S-14M: 
+RAMP          5s;.~ZONE12-ANALOGx0047;.~ZONE12-UP-IN0047,.~ZONE12-DN-IN0047;
+
+
+\ S-15M: 
+RAMP          5s;.~ZONE13-ANALOGx0047;.~ZONE13-UP-IN0047,.~ZONE13-DN-IN0047;
+
+
+\ S-16M: 
+RAMP          5s;.~ZONE14-ANALOGx0047;.~ZONE14-UP-IN0047,.~ZONE14-DN-IN0047;
+
+
+\ S-17M: 
+RAMP          5s;.~ZONE15-ANALOGx0047;.~ZONE15-UP-IN0047,.~ZONE15-DN-IN0047;
+
+
+\ S-18M: 
+RAMP          5s;.~ZONE16-ANALOGx0047;.~ZONE16-UP-IN0047,.~ZONE16-DN-IN0047;
+
+
+\ S-19M: 
+RAMP          5s;.~ZONE17-ANALOGx0047;.~ZONE17-UP-IN0047,.~ZONE17-DN-IN0047;
+
+
+\ S-20M: 
+RAMP          5s;.~ZONE18-ANALOGx0047;.~ZONE18-UP-IN0047,.~ZONE18-DN-IN0047;
+
+
+\ S-21M: 
+RAMP          5s;.~ZONE19-ANALOGx0047;.~ZONE19-UP-IN0047,.~ZONE19-DN-IN0047;
+
+
+\ S-22M: 
+RAMP          5s;.~ZONE20-ANALOGx0047;.~ZONE20-UP-IN0047,.~ZONE20-DN-IN0047;
+
+
+\ S-23M: 
+RAMP          5s;Area-GS-Mast-Out;.~MASTER-UP-IN0047,.~MASTER-DN-IN0047;
+
+
+\ S-25M: 
+NOR           .~BUSY*0047;Area-GS-Busy;
+
+\ S-26M: 
+BUFFER        .~ZONE1-UP-IN0047,.~ZONE2-UP-IN0047,.~ZONE3-UP-IN0047,
+    .~ZONE4-UP-IN0047,
+    .~ZONE5-UP-IN0047,.~ZONE6-UP-IN0047,.~ZONE7-UP-IN0047,.~ZONE8-UP-IN0047,
+    .~ZONE9-UP-IN0047,
+    .~ZONE10-UP-IN0047,.~ZONE11-UP-IN0047,.~ZONE12-UP-IN0047,.~ZONE13-UP-IN0047,
+    
+    .~ZONE14-UP-IN0047,.~ZONE15-UP-IN0047,.~ZONE16-UP-IN0047,.~ZONE17-UP-IN0047,
+    
+    .~ZONE18-UP-IN0047,.~ZONE19-UP-IN0047,.~ZONE20-UP-IN0047,.~ZONE21-UP-IN0047,
+    
+    .~ZONE22-UP-IN0047,.~ZONE23-UP-IN0047,.~ZONE24-UP-IN0047,.~ZONE25-UP-IN0047,
+    
+    .~ZONE26-UP-IN0047,.~ZONE27-UP-IN0047,.~ZONE28-UP-IN0047,.~ZONE29-UP-IN0047,
+    
+    .~ZONE30-UP-IN0047,.~ZONE31-UP-IN0047,.~ZONE32-UP-IN0047,.~ZONE33-UP-IN0047,
+    
+    .~ZONE34-UP-IN0047,.~ZONE35-UP-IN0047,.~ZONE36-UP-IN0047,.~ZONE37-UP-IN0047,
+    
+    .~ZONE38-UP-IN0047,.~ZONE39-UP-IN0047,.~ZONE40-UP-IN0047,.~ZONE41-UP-IN0047,
+    
+    .~ZONE42-UP-IN0047,.~ZONE43-UP-IN0047,.~ZONE44-UP-IN0047,.~ZONE45-UP-IN0047,
+    
+    .~MASTER-UP-IN0047,.~ZONE1-DN-IN0047,.~ZONE2-DN-IN0047,.~ZONE3-DN-IN0047,
+    .~ZONE4-DN-IN0047,
+    .~ZONE5-DN-IN0047,.~ZONE6-DN-IN0047,.~ZONE7-DN-IN0047,.~ZONE8-DN-IN0047,
+    .~ZONE9-DN-IN0047,
+    .~ZONE10-DN-IN0047,.~ZONE11-DN-IN0047,.~ZONE12-DN-IN0047,.~ZONE13-DN-IN0047,
+    
+    .~ZONE14-DN-IN0047,.~ZONE15-DN-IN0047,.~ZONE16-DN-IN0047,.~ZONE17-DN-IN0047,
+    
+    .~ZONE18-DN-IN0047,.~ZONE19-DN-IN0047,.~ZONE20-DN-IN0047,.~ZONE21-DN-IN0047,
+    
+    .~ZONE22-DN-IN0047,.~ZONE23-DN-IN0047,.~ZONE24-DN-IN0047,.~ZONE25-DN-IN0047,
+    
+    .~ZONE26-DN-IN0047,.~ZONE27-DN-IN0047,.~ZONE28-DN-IN0047,.~ZONE29-DN-IN0047,
+    
+    .~ZONE30-DN-IN0047,.~ZONE31-DN-IN0047,.~ZONE32-DN-IN0047,.~ZONE33-DN-IN0047,
+    
+    .~ZONE34-DN-IN0047,.~ZONE35-DN-IN0047,.~ZONE36-DN-IN0047,.~ZONE37-DN-IN0047,
+    
+    .~ZONE38-DN-IN0047,.~ZONE39-DN-IN0047,.~ZONE40-DN-IN0047,.~ZONE41-DN-IN0047,
+    
+    .~ZONE42-DN-IN0047,.~ZONE43-DN-IN0047,.~ZONE44-DN-IN0047,.~ZONE45-DN-IN0047,
+    
+    .~MASTER-DN-IN0047;
+    .~BUSY*0047,
+    Area-GS-Z1-Up,Area-GS-Z2-Up,Area-GS-Z3-Up,Area-GS-Z4-Up,Area-GS-Z5-Up,
+    Area-GS-Z6-Up,Area-GS-Z7-Up,Area-GS-Z8-Up,Area-GS-Z9-Up,Area-GS-Z10-Up,
+    Area-GS-Z11-Up,Area-GS-Z12-Up,
+    Area-GS-Z13-Up,Area-GS-Z14-Up,Area-GS-Z15-Up,Area-GS-Z16-Up,Area-GS-Z17-Up,
+    Area-GS-Z18-Up,Area-GS-Z19-Up,Area-GS-Z20-Up,Area-GS-Z21-Up,Area-GS-Z22-Up,
+    Area-GS-Z23-Up,
+    Area-GS-Z24-Up,Area-GS-Z25-Up,Area-GS-Z26-Up,Area-GS-Z27-Up,Area-GS-Z28-Up,
+    Area-GS-Z29-Up,Area-GS-Z30-Up,Area-GS-Z31-Up,Area-GS-Z32-Up,Area-GS-Z33-Up,
+    Area-GS-Z34-Up,
+    Area-GS-Z35-Up,Area-GS-Z36-Up,Area-GS-Z37-Up,Area-GS-Z38-Up,Area-GS-Z39-Up,
+    Area-GS-Z40-Up,Area-GS-Z41-Up,Area-GS-Z42-Up,0,0,0,
+    Area-GS-Master-U,Area-GS-Z1-Dn,Area-GS-Z2-Dn,Area-GS-Z3-Dn,Area-GS-Z4-Dn,
+    Area-GS-Z5-Dn,Area-GS-Z6-Dn,Area-GS-Z7-Dn,Area-GS-Z8-Dn,Area-GS-Z9-Dn,
+    Area-GS-Z10-Dn,
+    Area-GS-Z11-Dn,Area-GS-Z12-Dn,Area-GS-Z13-Dn,Area-GS-Z14-Dn,Area-GS-Z15-Dn,
+    Area-GS-Z16-Dn,Area-GS-Z17-Dn,Area-GS-Z18-Dn,Area-GS-Z19-Dn,Area-GS-Z20-Dn,
+    Area-GS-Z21-Dn,
+    Area-GS-Z22-Dn,Area-GS-Z23-Dn,Area-GS-Z24-Dn,Area-GS-Z25-Dn,Area-GS-Z26-Dn,
+    Area-GS-Z27-Dn,Area-GS-Z28-Dn,Area-GS-Z29-Dn,Area-GS-Z30-Dn,Area-GS-Z31-Dn,
+    Area-GS-Z32-Dn,
+    Area-GS-Z33-Dn,Area-GS-Z34-Dn,Area-GS-Z35-Dn,Area-GS-Z36-Dn,Area-GS-Z37-Dn,
+    Area-GS-Z38-Dn,Area-GS-Z39-Dn,Area-GS-Z40-Dn,Area-GS-Z41-Dn,Area-GS-Z42-Dn,
+    0,
+    0,0,Area-GS-Master-D;
+
+\ S-27M: 
+OR            .~RECALL0047;Area-GS-Pre-1,Area-GS-Pre-2,Area-GS-Pre-3,
+    Area-GS-Pre-4,Area-GS-Pre-5,Area-GS-Pre-6,0,0,
+    0,0;
+
+\ S-28M: 
+RAM          
+    Fade-Time-Save-G,.~ZONE1-ANALOGx0047,.~ZONE2-ANALOGx0047,.~ZONE3-ANALOGx0047,
+    .~ZONE4-ANALOGx0047,
+    .~ZONE5-ANALOGx0047,.~ZONE6-ANALOGx0047,.~ZONE7-ANALOGx0047,.~ZONE8-ANALOGx0047,
+    .~ZONE9-ANALOGx0047,
+    .~ZONE10-ANALOGx0047,.~ZONE11-ANALOGx0047,.~ZONE12-ANALOGx0047,
+    .~ZONE13-ANALOGx0047,
+    .~ZONE14-ANALOGx0047,.~ZONE15-ANALOGx0047,.~ZONE16-ANALOGx0047,
+    .~ZONE17-ANALOGx0047,
+    .~ZONE18-ANALOGx0047,.~ZONE19-ANALOGx0047,.~ZONE20-ANALOGx0047,
+    .~ZONE21-ANALOGx0047,
+    .~ZONE22-ANALOGx0047,.~ZONE23-ANALOGx0047,.~ZONE24-ANALOGx0047,
+    .~ZONE25-ANALOGx0047,
+    .~ZONE26-ANALOGx0047,.~ZONE27-ANALOGx0047,.~ZONE28-ANALOGx0047,
+    .~ZONE29-ANALOGx0047,
+    .~ZONE30-ANALOGx0047,.~ZONE31-ANALOGx0047,.~ZONE32-ANALOGx0047,
+    .~ZONE33-ANALOGx0047,
+    .~ZONE34-ANALOGx0047,.~ZONE35-ANALOGx0047,.~ZONE36-ANALOGx0047,
+    .~ZONE37-ANALOGx0047,
+    .~ZONE38-ANALOGx0047,.~ZONE39-ANALOGx0047,.~ZONE40-ANALOGx0047,
+    .~ZONE41-ANALOGx0047,
+    .~ZONE42-ANALOGx0047,.~ZONE43-ANALOGx0047,.~ZONE44-ANALOGx0047,
+    .~ZONE45-ANALOGx0047,
+    Area-GS-Mast-Out;
+    Fade-Time-Save-G,.~ZONE1-ANALOGx0047,.~ZONE2-ANALOGx0047,.~ZONE3-ANALOGx0047,
+    .~ZONE4-ANALOGx0047,
+    .~ZONE5-ANALOGx0047,.~ZONE6-ANALOGx0047,.~ZONE7-ANALOGx0047,.~ZONE8-ANALOGx0047,
+    .~ZONE9-ANALOGx0047,
+    .~ZONE10-ANALOGx0047,.~ZONE11-ANALOGx0047,.~ZONE12-ANALOGx0047,
+    .~ZONE13-ANALOGx0047,
+    .~ZONE14-ANALOGx0047,.~ZONE15-ANALOGx0047,.~ZONE16-ANALOGx0047,
+    .~ZONE17-ANALOGx0047,
+    .~ZONE18-ANALOGx0047,.~ZONE19-ANALOGx0047,.~ZONE20-ANALOGx0047,
+    .~ZONE21-ANALOGx0047,
+    .~ZONE22-ANALOGx0047,.~ZONE23-ANALOGx0047,.~ZONE24-ANALOGx0047,
+    .~ZONE25-ANALOGx0047,
+    .~ZONE26-ANALOGx0047,.~ZONE27-ANALOGx0047,.~ZONE28-ANALOGx0047,
+    .~ZONE29-ANALOGx0047,
+    .~ZONE30-ANALOGx0047,.~ZONE31-ANALOGx0047,.~ZONE32-ANALOGx0047,
+    .~ZONE33-ANALOGx0047,
+    .~ZONE34-ANALOGx0047,.~ZONE35-ANALOGx0047,.~ZONE36-ANALOGx0047,
+    .~ZONE37-ANALOGx0047,
+    .~ZONE38-ANALOGx0047,.~ZONE39-ANALOGx0047,.~ZONE40-ANALOGx0047,
+    .~ZONE41-ANALOGx0047,
+    .~ZONE42-ANALOGx0047,.~ZONE43-ANALOGx0047,.~ZONE44-ANALOGx0047,
+    .~ZONE45-ANALOGx0047,
+    Area-GS-Mast-Out:
+    Area-GS-Pre-Save,.~RECALL0047,
+    .~SCENE1-FB0047,.~SCENE2-FB0047,.~SCENE3-FB0047,.~SCENE4-FB0047,
+    .~SCENE5-FB0047,.~SCENE6-FB0047,.~SCENE7-FB0047,
+    .~SCENE8-FB0047,.~SCENE9-FB0047,.~SCENE10-FB0047;
+
+\ S-29M: 
+MBUFFER       .~ZONE1-A0047,.~ZONE2-A0047,.~ZONE3-A0047,.~ZONE4-A0047,
+    .~ZONE5-A0047,.~ZONE6-A0047,
+    .~ZONE7-A0047,.~ZONE8-A0047,.~ZONE9-A0047,.~ZONE10-A0047,.~ZONE11-A0047,
+    .~ZONE12-A0047,.~ZONE13-A0047,
+    .~ZONE14-A0047,.~ZONE15-A0047,.~ZONE16-A0047,.~ZONE17-A0047,.~ZONE18-A0047,
+    .~ZONE19-A0047,
+    .~ZONE20-A0047,.~ZONE21-A0047,.~ZONE22-A0047,.~ZONE23-A0047,.~ZONE24-A0047,
+    .~ZONE25-A0047,
+    .~ZONE26-A0047,.~ZONE27-A0047,.~ZONE28-A0047,.~ZONE29-A0047,.~ZONE30-A0047,
+    .~ZONE31-A0047,
+    .~ZONE32-A0047,.~ZONE33-A0047,.~ZONE34-A0047,.~ZONE35-A0047,.~ZONE36-A0047,
+    .~ZONE37-A0047,
+    .~ZONE38-A0047,.~ZONE39-A0047,.~ZONE40-A0047,.~ZONE41-A0047,.~ZONE42-A0047,
+    .~ZONE43-A0047,
+    .~ZONE44-A0047,.~ZONE45-A0047;
+    Area-GS-Mast-Out,
+    .~ZONE1-ANALOGx0047,.~ZONE2-ANALOGx0047,.~ZONE3-ANALOGx0047,.~ZONE4-ANALOGx0047,
+    
+    .~ZONE5-ANALOGx0047,.~ZONE6-ANALOGx0047,.~ZONE7-ANALOGx0047,.~ZONE8-ANALOGx0047,
+    
+    .~ZONE9-ANALOGx0047,.~ZONE10-ANALOGx0047,.~ZONE11-ANALOGx0047,
+    .~ZONE12-ANALOGx0047,
+    .~ZONE13-ANALOGx0047,.~ZONE14-ANALOGx0047,.~ZONE15-ANALOGx0047,
+    .~ZONE16-ANALOGx0047,
+    .~ZONE17-ANALOGx0047,.~ZONE18-ANALOGx0047,.~ZONE19-ANALOGx0047,
+    .~ZONE20-ANALOGx0047,
+    .~ZONE21-ANALOGx0047,.~ZONE22-ANALOGx0047,.~ZONE23-ANALOGx0047,
+    .~ZONE24-ANALOGx0047,
+    .~ZONE25-ANALOGx0047,.~ZONE26-ANALOGx0047,.~ZONE27-ANALOGx0047,
+    .~ZONE28-ANALOGx0047,
+    .~ZONE29-ANALOGx0047,.~ZONE30-ANALOGx0047,.~ZONE31-ANALOGx0047,
+    .~ZONE32-ANALOGx0047,
+    .~ZONE33-ANALOGx0047,.~ZONE34-ANALOGx0047,.~ZONE35-ANALOGx0047,
+    .~ZONE36-ANALOGx0047,
+    .~ZONE37-ANALOGx0047,.~ZONE38-ANALOGx0047,.~ZONE39-ANALOGx0047,
+    .~ZONE40-ANALOGx0047,
+    .~ZONE41-ANALOGx0047,.~ZONE42-ANALOGx0047,.~ZONE43-ANALOGx0047,
+    .~ZONE44-ANALOGx0047,
+    .~ZONE45-ANALOGx0047;
+
+\ S-30M: 
+ABUFFER       Area-GS-Z1-Out,Area-GS-Z2-Out,Area-GS-Z3-Out,Area-GS-Z4-Out,
+    Area-GS-Z5-Out,Area-GS-Z6-Out,Area-GS-Z7-Out,Area-GS-Z8-Out,Area-GS-Z9-Out,
+    Area-GS-Z10-Out,
+    Area-GS-Z11-Out,Area-GS-Z12-Out,Area-GS-Z13-Out,Area-GS-Z14-Out,
+    Area-GS-Z15-Out,Area-GS-Z16-Out,Area-GS-Z17-Out,Area-GS-Z18-Out,Area-GS-Z19-Out,
+    Area-GS-Z20-Out,
+    Area-GS-Z21-Out,Area-GS-Z22-Out,Area-GS-Z23-Out,Area-GS-Z24-Out,
+    Area-GS-Z25-Out,Area-GS-Z26-Out,Area-GS-Z27-Out,Area-GS-Z28-Out,Area-GS-Z29-Out,
+    Area-GS-Z30-Out,
+    Area-GS-Z31-Out,Area-GS-Z32-Out,Area-GS-Z33-Out,Area-GS-Z34-Out,
+    Area-GS-Z35-Out,Area-GS-Z36-Out,Area-GS-Z37-Out,Area-GS-Z38-Out,Area-GS-Z39-Out,
+    Area-GS-Z40-Out,
+    Area-GS-Z41-Out,Area-GS-Z42-Out,NC,NC,NC;
+    .~BUSY*0047,
+    .~ZONE1-A0047,.~ZONE2-A0047,.~ZONE3-A0047,.~ZONE4-A0047,.~ZONE5-A0047,
+    .~ZONE6-A0047,.~ZONE7-A0047,
+    .~ZONE8-A0047,.~ZONE9-A0047,.~ZONE10-A0047,.~ZONE11-A0047,.~ZONE12-A0047,
+    .~ZONE13-A0047,
+    .~ZONE14-A0047,.~ZONE15-A0047,.~ZONE16-A0047,.~ZONE17-A0047,.~ZONE18-A0047,
+    .~ZONE19-A0047,
+    .~ZONE20-A0047,.~ZONE21-A0047,.~ZONE22-A0047,.~ZONE23-A0047,.~ZONE24-A0047,
+    .~ZONE25-A0047,
+    .~ZONE26-A0047,.~ZONE27-A0047,.~ZONE28-A0047,.~ZONE29-A0047,.~ZONE30-A0047,
+    .~ZONE31-A0047,
+    .~ZONE32-A0047,.~ZONE33-A0047,.~ZONE34-A0047,.~ZONE35-A0047,.~ZONE36-A0047,
+    .~ZONE37-A0047,
+    .~ZONE38-A0047,.~ZONE39-A0047,.~ZONE40-A0047,.~ZONE41-A0047,.~ZONE42-A0047,
+    .~ZONE43-A0047,
+    .~ZONE44-A0047,.~ZONE45-A0047;
+
+\ S-31M: 
+PRESETV      
+    Area-GS-Busy,
+    Area-GS-Z1-Out,Area-GS-Z2-Out,Area-GS-Z3-Out,Area-GS-Z4-Out,Area-GS-Z5-Out,
+    
+    Area-GS-Z6-Out,Area-GS-Z7-Out,Area-GS-Z8-Out,Area-GS-Z9-Out,Area-GS-Z10-Out,
+    
+    Area-GS-Z11-Out,Area-GS-Z12-Out,Area-GS-Z13-Out,Area-GS-Z14-Out,
+    Area-GS-Z15-Out,
+    Area-GS-Z16-Out,Area-GS-Z17-Out,Area-GS-Z18-Out,Area-GS-Z19-Out,
+    Area-GS-Z20-Out,
+    Area-GS-Z21-Out,Area-GS-Z22-Out,Area-GS-Z23-Out,Area-GS-Z24-Out,
+    Area-GS-Z25-Out,
+    Area-GS-Z26-Out,Area-GS-Z27-Out,Area-GS-Z28-Out,Area-GS-Z29-Out,
+    Area-GS-Z30-Out,
+    Area-GS-Z31-Out,Area-GS-Z32-Out,Area-GS-Z33-Out,Area-GS-Z34-Out,
+    Area-GS-Z35-Out,
+    Area-GS-Z36-Out,Area-GS-Z37-Out,Area-GS-Z38-Out,Area-GS-Z39-Out,
+    Area-GS-Z40-Out,
+    Area-GS-Z41-Out,Area-GS-Z42-Out,NC,NC,NC;
+    Fade-Time-Pre-GS,
+    .~ZONE1-A0047,.~ZONE2-A0047,.~ZONE3-A0047,.~ZONE4-A0047,.~ZONE5-A0047,
+    .~ZONE6-A0047,.~ZONE7-A0047,.~ZONE8-A0047,
+    .~ZONE9-A0047,.~ZONE10-A0047,.~ZONE11-A0047,.~ZONE12-A0047,.~ZONE13-A0047,
+    .~ZONE14-A0047,.~ZONE15-A0047,.~ZONE16-A0047,
+    .~ZONE17-A0047,.~ZONE18-A0047,.~ZONE19-A0047,.~ZONE20-A0047,.~ZONE21-A0047,
+    .~ZONE22-A0047,.~ZONE23-A0047,
+    .~ZONE24-A0047,.~ZONE25-A0047,.~ZONE26-A0047,.~ZONE27-A0047,.~ZONE28-A0047,
+    .~ZONE29-A0047,.~ZONE30-A0047,
+    .~ZONE31-A0047,.~ZONE32-A0047,.~ZONE33-A0047,.~ZONE34-A0047,.~ZONE35-A0047,
+    .~ZONE36-A0047,.~ZONE37-A0047,
+    .~ZONE38-A0047,.~ZONE39-A0047,.~ZONE40-A0047,.~ZONE41-A0047,.~ZONE42-A0047,
+    .~ZONE43-A0047,.~ZONE44-A0047,
+    .~ZONE45-A0047:Area-GS-Pre-1,Area-GS-Pre-2,Area-GS-Pre-3,Area-GS-Pre-4,
+    Area-GS-Pre-5,Area-GS-Pre-6,0,0,
+    0,0;
+
+\ S-32M: 
+INTERLOCK     .~SCENE1-FB0047,.~SCENE2-FB0047,.~SCENE3-FB0047,.~SCENE4-FB0047,
+    .~SCENE5-FB0047,
+    .~SCENE6-FB0047,.~SCENE7-FB0047,.~SCENE8-FB0047,.~SCENE9-FB0047,
+    .~SCENE10-FB0047;
+    Area-GS-Pre-1,Area-GS-Pre-2,Area-GS-Pre-3,Area-GS-Pre-4,Area-GS-Pre-5,
+    Area-GS-Pre-6,0,0,0,0;
+
+\ S-34M: 
+RAMP          5s;.~ZONE21-ANALOGx0047;.~ZONE21-UP-IN0047,.~ZONE21-DN-IN0047;
+
+
+\ S-35M: 
+RAMP          5s;.~ZONE22-ANALOGx0047;.~ZONE22-UP-IN0047,.~ZONE22-DN-IN0047;
+
+
+\ S-36M: 
+RAMP          5s;.~ZONE23-ANALOGx0047;.~ZONE23-UP-IN0047,.~ZONE23-DN-IN0047;
+
+
+\ S-37M: 
+RAMP          5s;.~ZONE24-ANALOGx0047;.~ZONE24-UP-IN0047,.~ZONE24-DN-IN0047;
+
+
+\ S-38M: 
+RAMP          5s;.~ZONE25-ANALOGx0047;.~ZONE25-UP-IN0047,.~ZONE25-DN-IN0047;
+
+
+\ S-39M: 
+RAMP          5s;.~ZONE26-ANALOGx0047;.~ZONE26-UP-IN0047,.~ZONE26-DN-IN0047;
+
+
+\ S-40M: 
+RAMP          5s;.~ZONE27-ANALOGx0047;.~ZONE27-UP-IN0047,.~ZONE27-DN-IN0047;
+
+
+\ S-41M: 
+RAMP          5s;.~ZONE28-ANALOGx0047;.~ZONE28-UP-IN0047,.~ZONE28-DN-IN0047;
+
+
+\ S-42M: 
+RAMP          5s;.~ZONE29-ANALOGx0047;.~ZONE29-UP-IN0047,.~ZONE29-DN-IN0047;
+
+
+\ S-43M: 
+RAMP          5s;.~ZONE30-ANALOGx0047;.~ZONE30-UP-IN0047,.~ZONE30-DN-IN0047;
+
+
+\ S-44M: 
+RAMP          5s;.~ZONE31-ANALOGx0047;.~ZONE31-UP-IN0047,.~ZONE31-DN-IN0047;
+
+
+\ S-45M: 
+RAMP          5s;.~ZONE32-ANALOGx0047;.~ZONE32-UP-IN0047,.~ZONE32-DN-IN0047;
+
+
+\ S-46M: 
+RAMP          5s;.~ZONE33-ANALOGx0047;.~ZONE33-UP-IN0047,.~ZONE33-DN-IN0047;
+
+
+\ S-47M: 
+RAMP          5s;.~ZONE34-ANALOGx0047;.~ZONE34-UP-IN0047,.~ZONE34-DN-IN0047;
+
+
+\ S-48M: 
+RAMP          5s;.~ZONE35-ANALOGx0047;.~ZONE35-UP-IN0047,.~ZONE35-DN-IN0047;
+
+
+\ S-49M: 
+RAMP          5s;.~ZONE36-ANALOGx0047;.~ZONE36-UP-IN0047,.~ZONE36-DN-IN0047;
+
+
+\ S-50M: 
+RAMP          5s;.~ZONE37-ANALOGx0047;.~ZONE37-UP-IN0047,.~ZONE37-DN-IN0047;
+
+
+\ S-51M: 
+RAMP          5s;.~ZONE38-ANALOGx0047;.~ZONE38-UP-IN0047,.~ZONE38-DN-IN0047;
+
+
+\ S-52M: 
+RAMP          5s;.~ZONE39-ANALOGx0047;.~ZONE39-UP-IN0047,.~ZONE39-DN-IN0047;
+
+
+\ S-53M: 
+RAMP          5s;.~ZONE40-ANALOGx0047;.~ZONE40-UP-IN0047,.~ZONE40-DN-IN0047;
+
+
+\ S-54M: 
+RAMP          5s;.~ZONE41-ANALOGx0047;.~ZONE41-UP-IN0047,.~ZONE41-DN-IN0047;
+
+
+\ S-55M: 
+RAMP          5s;.~ZONE42-ANALOGx0047;.~ZONE42-UP-IN0047,.~ZONE42-DN-IN0047;
+
+
+\ S-56M: 
+RAMP          0;.~ZONE43-ANALOGx0047;.~ZONE43-UP-IN0047,.~ZONE43-DN-IN0047;
+
+
+\ S-57M: 
+RAMP          0;.~ZONE44-ANALOGx0047;.~ZONE44-UP-IN0047,.~ZONE44-DN-IN0047;
+
+
+\ S-58M: 
+RAMP          0;.~ZONE45-ANALOGx0047;.~ZONE45-UP-IN0047,.~ZONE45-DN-IN0047;
+
+
+\ S-60M: 
+OSC           .25s,.25s;.~Feedback-Dis0047;Area-GS-Busy;
+
+\ S-61M: 
+NOR           .~Feedback-En0047;.~Feedback-Dis0047;
+
+\ S-62M: 
+BUFFER        Area-GS-Pre-1fb,Area-GS-Pre-2fb,Area-GS-Pre-3fb,Area-GS-Pre-4fb,
+    Area-GS-Pre-5fb,Area-GS-Pre-6fb,NC35,NC36,NC37,
+    NC38;
+    .~Feedback-En0047,
+    .~SCENE1-FB0047,.~SCENE2-FB0047,.~SCENE3-FB0047,.~SCENE4-FB0047,
+    .~SCENE5-FB0047,.~SCENE6-FB0047,
+    .~SCENE7-FB0047,.~SCENE8-FB0047,.~SCENE9-FB0047,.~SCENE10-FB0047;
+
+
+\ end MACRO expansion
+
+\ S-49: 
+TEST2         Area-GS-Mast-Out;
+
+\ S-51: \**************** EM Circuits ******************
+\*********
+    \comment;
+
+\ S-52: MACRO expansion for CNESR.IMC
+\ 
+
+\ S-2M: 
+SR           
+    .~DUMMY0052,.~STARTUP0052;0,.~AFTER-STARTUP0052;
+
+\ S-3M: 
+DELAY         1S;.~AFTER-STARTUP0052;1;
+
+\ S-4M: 
+DEBOUNCE      0.75S;.~CNESR-IN-D0052,.~FIRE-IN-D0052;Cnesr-High1,
+    0;
+
+\ S-5M: 
+NAND          .~CNESR-IN-B0052;.~CNESR-IN-D0052;
+
+\ S-6M: 
+BUFFER        .~EM-D0052;.~AFTER-STARTUP0052,
+    .~CNESR-IN-B0052;
+
+\ S-7M: 
+MMV           0.25S;EM-Trigger,NC216;.~EM-D0052,.~FIRE-IN-D0052;
+
+\ S-8M: 
+TABLE         Norm-Buffer-en,NC214;.~CNESR-IN-D0052,.~FIRE-IN-D0052,
+    .~AFTER-STARTUP0052;
+
+    H, L;   X, X, L; 
+    L, H;   L, X, H; 
+    L, H;   X, H, H; 
+    H, L;   H, L, H; 
+    ENDTABLE
+
+\ end MACRO expansion
+
+\ S-53: Normal Buffer
+ABUFFER       Area-GS-Z9-Outb,Area-GS-Z10-Outb,Area-GS-Z1-Outb,
+    Area-GS-Z20-Outb,Area-GS-Z5-Outb,Area-GS-Z17-Outb,Area-GS-Z41-Outb,
+    Area-GS-Z2-Outb,Area-GS-Z11-Outb,Area-GS-Z29-Outb;
+    Norm-Buffer-en,
+    Area-GS-Z9-Out,Area-GS-Z10-Out,Area-GS-Z1-Out,Area-GS-Z20-Out,
+    Area-GS-Z5-Out,Area-GS-Z17-Out,Area-GS-Z41-Out,Area-GS-Z2-Out,
+    Area-GS-Z11-Out,Area-GS-Z29-Out;
+
+\ S-54: Emergency Presets
+PRESET        2s,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%;
+    Area-GS-Z9-Outb,Area-GS-Z10-Outb,Area-GS-Z1-Outb,Area-GS-Z20-Outb,
+    Area-GS-Z5-Outb,Area-GS-Z17-Outb,Area-GS-Z41-Outb,Area-GS-Z2-Outb,
+    Area-GS-Z11-Outb,Area-GS-Z29-Outb;
+    EM-Trigger;
+
+\*** END SYMBOL STATEMENTS ***
+
+\ *** END SIMPL-C DESCRIPTION ***
+

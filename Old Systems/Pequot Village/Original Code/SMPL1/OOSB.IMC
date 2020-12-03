@@ -1,0 +1,62 @@
+\ 
+;TURN-ON,TURN-OFF;
+ ON-NEXT,ON,ON/OFF-TOGGLE,OFF-NEXT,OFF,BUSY;
+
+\ S-2M: 
+OR         .~OFF-OR;.~<5,.~<1,.~T-OFF;
+
+\ S-3M: 
+OR         .~ON-OR;.~<2,.~<4,.~T-ON;
+
+\ S-4M: 
+TOGGLE    
+    .~FOC-P-T,.~FOC-M-T;.~FOCUS*,.~ON-OR,.~OFF-OR;
+
+\ S-5M: 
+AND        .~FOC+-AND;.~FOC-P-T,.~FOCUS;
+
+\ S-6M: 
+AND        .~FOC--AND;.~FOCUS,.~FOC-M-T;
+
+\ S-7M: 
+NOR        .~FOCUS*;.~FOCUS;
+
+\ S-8M: 
+OR         .~FOC-B;.~FOC--AND,.~<5;
+
+\ S-9M: 
+OR         .~FOC+B;.~FOC+-AND,.~<2;
+
+\ S-10M: 
+BUFFER     .~>2,.~>1;1,
+    .~FOC-B,.~FOC+B;
+
+\ S-12M: 
+HMV        .35s;.~BUSY-HMV;.~<6;
+
+\ S-13M: 
+NOR        .~BUSY*;.~BUSY-HMV;
+
+\ S-14M: 
+MMV        .25s;.~ON/OFF;.~<3;
+
+\ S-15M: 
+AND        .~FOCUS;.~BUSY*,.~ON/OFF;
+
+\ S-16M: 
+AND        .~REDO;.~<6,.~ON/OFF;
+
+\ S-17M: 
+SR        
+    .~FOC--I,.~FOC+-I;.~TURN-ON-OR,.~TURN-OFF-OR;
+
+\ S-18M: 
+BUFFER     .~>2,.~>1,.~T-OFF,.~T-ON;
+    .~REDO,
+    .~FOC--I,.~FOC+-I,.~FOC--I,.~FOC+-I;
+
+\ S-20M: 
+OR         .~TURN-OFF-OR;.~>2,.~<4;
+
+\ S-21M: 
+OR         .~TURN-ON-OR;.~>1,.~<1;

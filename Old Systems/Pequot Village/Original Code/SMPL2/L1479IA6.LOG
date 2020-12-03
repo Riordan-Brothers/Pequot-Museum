@@ -1,0 +1,88 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0011 4  Z114-OUT            
+0000 0063 4  Z16-OUTS            
+0000 0065 4  Z19-OUTS            
+0000 0066 4  Z20-OUTS            
+0000 0067 4  Z21-OUTS            
+0000 0068 4  Z22-OUTS            
+0000 0069 4  Z23-OUTS            
+0000 0070 4  Z24-OUTS            
+0000 0071 4  Z25-OUTS            
+0000 0072 4  Z26-OUTS            
+0000 0073 4  Z27-OUTS            
+0000 0074 4  Z28-OUTS            
+0000 0075 4  Z29-OUTS            
+0000 0076 4  Z30-OUTS            
+0000 0077 4  Z31-OUTS            
+0000 0078 4  Z32-OUTS            
+0000 0079 4  Z33-OUTS            
+0000 0080 4  Z34-OUTS            
+0000 0081 4  Z35-OUTS            
+0000 0082 4  Z36-OUTS            
+0000 0083 4  Z37-OUTS            
+0000 0084 4  Z38-OUTS            
+0000 0085 4  Z39-OUTS            
+0000 0086 4  Z40-OUTS            
+0000 0087 4  Z41-OUTS            
+0000 0088 4  Z42-OUTS            
+0000 0090 4  Z44-OUTS            
+0000 0091 4  Z45-OUTS            
+0000 0092 4  Z46-OUTS            
+0000 0093 4  Z47-OUTS            
+0000 0094 4  Z48-OUTS            
+0000 0095 4  Z49-OUTS            
+0000 0096 4  Z50-OUTS            
+0000 0097 4  Z51-OUTS            
+0000 0098 4  Z52-OUTS            
+0000 0099 4  Z53-OUTS            
+0000 0101 4  Z55-OUTS            
+0000 0102 4  Z56-OUTS            
+0000 0104 4  Z58-OUTS            
+0000 0105 4  Z59-OUTS            
+0000 0106 4  Z60-OUTS            
+0000 0109 4  Z63-OUTS            
+0000 0111 4  Z65-OUTS            
+0000 0112 4  Z66-OUTS            
+0000 0113 4  Z67-OUTS            
+0000 0122 4  Z77-OUTS            
+0000 0124 4  Z79-OUTS            
+0000 0131 4  Z88-OUTS            
+0000 0132 4  Z89-OUTS            
+0000 0155 4  Z126-OUTS           
+0000 0156 4  Z127-OUTS           
+0000 0157 4  Z128-OUTS           
+0000 0164 4  Z138-OUTS           
+0000 0165 4  Z139-OUTS           
+0000 0166 4  Z140-OUTS           
+0000 0172 4  Z156-OUTS           
+0000 0173 4  Z157-OUTS           
+0000 0174 4  Z162-OUTS           
+0000 0185 4  Z1-OUTS             
+0000 0186 4  Z2-OUTS             
+0000 0187 4  Z3-OUTS             
+0000 0188 4  Z13-OUTS            
+0000 0189 4  Z101-OUTS           
+0000 0190 4  Z103-OUTS           
+0000 0191 4  Z105-OUTS           
+0000 0192 4  Z107-OUTS           
+0000 0193 4  Z109-OUTS           
+0000 0194 4  Z111-OUTS           
+0000 0195 4  Z123-OUTS           
+0000 0196 4  Z129-OUTS           
+0000 0219 4  FADE-TIMERAMPS      
+0000 0220 4  MASTER-OUTS         
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 2549
+     Digital Signals: 875
+      Analog Signals: 484
+          NVRAM Used: 6863
+     Bytes used/left: 10445 / 38707
+Sig. table used/left: 16897 / 40391
+ Ext. Sig. used/left: 4861 / 60672

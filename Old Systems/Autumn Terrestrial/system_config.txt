@@ -1,0 +1,35 @@
+/********** PROGRAM INFORMATION **********/
+Source File:  C:\Crestron\MPTN Museum\Autumn Terrestrial\autumn_terrestrial-v3.smw
+Program File: autumn_terrestrial-v3.smw
+System Name:  Mashantucket Pequot Museum
+Compiled On:  12/12/2005 1:35 PM
+Compiler Rev: 2.00.34
+SYMLIB Rev:   360
+IOLIB Rev:    360
+IOPCFG Rev:   15.15.21
+CrestronDB:   17.4.4
+Source Env:   SIMPL Windows v2.06.20
+Minimum OPS:  3.18.12L
+Target Rack:  CNLCOMP-232
+
+
+/********** NETWORK DEVICES **********/
+24:	CNWM-10
+23:	CNWM-10
+22:	CNWM-10
+21:	CNWM-10
+17:	CNLDM-4
+16:	CNLFDB-4
+15:	CNLDM-4
+14:	CNLDM-4
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+
+
+/********** OPERATING SYSTEM **********/
+Version 3.18.12-l   12/29/98
+
+
+/********** PLUG-IN CONTROL CARDS **********/
+None Reported

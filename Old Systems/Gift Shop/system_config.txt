@@ -1,0 +1,41 @@
+/********** PROGRAM INFORMATION **********/
+Source File:  C:\Crestron\MPTN Museum\Gift Shop\gift_shop-v2.smw
+Program File: gift_shop-v2.smw
+System Name:  Mashantucket Pequot Museum
+Compiled On:  12/12/2005 2:22 PM
+Compiler Rev: 2.00.34
+SYMLIB Rev:   360
+IOLIB Rev:    360
+IOPCFG Rev:   15.15.21
+CrestronDB:   17.4.4
+Source Env:   SIMPL Windows v2.06.20
+Minimum OPS:  3.18.12L
+Target Rack:  CNLCOMP-232
+
+
+/********** NETWORK DEVICES **********/
+2B:	CNWM-10
+2A:	CNWM-10
+29:	LC1500B Touch Panel
+1E:	CNLDM-4
+1D:	CNLDM-4
+1C:	CNLDM-4
+1B:	CNLDM-4
+1A:	CNLDM-6
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+
+
+/********** OPERATING SYSTEM **********/
+Version 3.18.12-l   12/29/98
+
+
+/********** PLUG-IN CONTROL CARDS **********/
+None Reported

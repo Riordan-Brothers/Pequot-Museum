@@ -1,0 +1,50 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0097 4  Z92-OUT             
+0000 0173 4  Z168-OUT            
+0000 0174 4  Z169-OUT            
+0000 0175 4  Z170-OUT            
+0000 0176 4  Z171-OUT            
+0000 0177 4  Z172-OUT            
+0000 0178 4  Z173-OUT            
+0000 0179 4  Z174-OUT            
+0000 0180 4  Z175-OUT            
+0000 0181 4  Z176-OUT            
+0000 0182 4  Z177-OUT            
+0000 0183 4  Z178-OUT            
+0000 0184 4  Z179-OUT            
+0000 0185 4  Z180-OUT            
+0000 0186 4  Z181-OUT            
+0000 0187 4  Z182-OUT            
+0000 0188 4  Z183-OUT            
+0000 0189 4  Z184-OUT            
+0000 0190 4  Z185-OUT            
+0000 0191 4  Z186-OUT            
+0000 0192 4  Z187-OUT            
+0000 0193 4  Z188-OUT            
+0000 0194 4  Z189-OUT            
+0000 0195 4  Z190-OUT            
+0000 0196 4  Z191-OUT            
+0000 0197 4  Z192-OUT            
+0000 0198 4  Z193-OUT            
+0000 0199 4  Z194-OUT            
+0000 0200 4  Z195-OUT            
+0000 0201 4  Z196-OUT            
+0000 0202 4  Z197-OUT            
+0000 0203 4  Z198-OUT            
+0000 0204 4  Z199-OUT            
+0000 0205 4  Z200-OUT            
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 2225
+     Digital Signals: 754
+      Analog Signals: 550
+          NVRAM Used: 2884
+     Bytes used/left: 9693 / 39459
+Sig. table used/left: 15924 / 41364
+ Ext. Sig. used/left: 4821 / 60712

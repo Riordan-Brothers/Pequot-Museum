@@ -1,0 +1,42 @@
+/********** PROGRAM INFORMATION **********/
+Source File:  C:\CURRENT\L1479\SMPL1\L1479I-1.SMP
+Compiler Rev: 3.18.04
+Compiled on:  08/07/98  09:31
+System name: Mashantucket Pequot Museum
+
+
+/********** NETWORK DEVICES **********/
+2A:	LC3000B Touch Panel EM
+28:	CNLFDB-4
+23:	CNLDM-4
+22:	CNLDM-4
+21:	CNLDM-4
+20:	CNLDM-4
+1F:	CNLDM-6
+1E:	CNLDM-6
+1D:	CNLDM-6
+1C:	CNLDM-6
+1B:	CNLFDB-4
+1A:	CNLDM-6
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+07:	CNWMBG2-34
+
+
+/********** OPERATING SYSTEM **********/
+Version 3.18.12-m   12/29/98
+
+
+/********** PLUG-IN CONTROL CARDS **********/
+01: 13 CNRY-16   16 Function Relay Board
+02: 21 CNDIO-8   8 Function Digital I/O
+03: 44 CNIR-6    6 Channel IR output
+04: 23 CNCOMH-2  Dual 232/422 serial port
+05: 23 CNCOMH-2  Dual 232/422 serial port

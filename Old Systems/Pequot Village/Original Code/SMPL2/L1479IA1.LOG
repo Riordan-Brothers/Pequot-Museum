@@ -1,0 +1,17 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0555 0  START-PULSE         
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 2275
+     Digital Signals: 774
+      Analog Signals: 503
+          NVRAM Used: 2484
+     Bytes used/left: 9773 / 39379
+Sig. table used/left: 15784 / 41504
+ Ext. Sig. used/left: 4541 / 60992

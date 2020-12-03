@@ -1,0 +1,155 @@
+\ 
+;TIME-ANAL-PRESET,TIME-ANALOG-BAR,FADE$;
+ TIME-ANALOG-IN;
+
+\ S-3M: 
+COMPARE    .~OUT1A;.~<1,.~A1;
+
+\ S-4M: 
+COMPARE    .~OUT1B;.~A2,.~<1;
+
+\ S-5M: 
+AND        .~OUT1;.~OUT1A,.~OUT1B;
+
+\ S-6M: 
+COMPARE    .~OUT2A;.~<1,.~A2;
+
+\ S-7M: 
+COMPARE    .~OUT2B;.~A3,.~<1;
+
+\ S-8M: 
+AND        .~OUT2;.~OUT2A,.~OUT2B;
+
+\ S-9M: 
+COMPARE    .~OUT3A;.~<1,.~A3;
+
+\ S-10M: 
+COMPARE    .~OUT3B;.~A4,.~<1;
+
+\ S-11M: 
+AND        .~OUT3;.~OUT3A,.~OUT3B;
+
+\ S-12M: 
+COMPARE    .~OUT4A;.~<1,.~A4;
+
+\ S-13M: 
+COMPARE    .~OUT4B;.~A5,.~<1;
+
+\ S-14M: 
+AND        .~OUT4;.~OUT4A,.~OUT4B;
+
+\ S-15M: 
+COMPARE    .~OUT5A;.~<1,.~A5;
+
+\ S-16M: 
+COMPARE    .~OUT5B;.~A6,.~<1;
+
+\ S-17M: 
+AND        .~OUT5;.~OUT5A,.~OUT5B;
+
+\ S-18M: 
+COMPARE    .~OUT6A;.~<1,.~A6;
+
+\ S-19M: 
+COMPARE    .~OUT6B;.~A7,.~<1;
+
+\ S-20M: 
+AND        .~OUT6;.~OUT6A,.~OUT6B;
+
+\ S-21M: 
+COMPARE    .~OUT7A;.~<1,.~A7;
+
+\ S-22M: 
+COMPARE    .~OUT7B;.~A8,.~<1;
+
+\ S-23M: 
+AND        .~OUT7;.~OUT7A,.~OUT7B;
+
+\ S-24M: 
+COMPARE    .~OUT8A;.~<1,.~A8;
+
+\ S-25M: 
+COMPARE    .~OUT8B;.~A9,.~<1;
+
+\ S-26M: 
+AND        .~OUT8;.~OUT8A,.~OUT8B;
+
+\ S-27M: 
+COMPARE    .~OUT9A;.~<1,.~A9;
+
+\ S-28M: 
+COMPARE    .~OUT9B;.~A10,.~<1;
+
+\ S-29M: 
+AND        .~OUT9;.~OUT9A,.~OUT9B;
+
+\ S-30M: 
+COMPARE    .~OUT10A;.~<1,.~A10;
+
+\ S-31M: 
+COMPARE    .~OUT10B;.~A11,.~<1;
+
+\ S-32M: 
+AND        .~OUT10;.~OUT10A,.~OUT10B;
+
+\ S-33M: 
+INIT       0%,10%,20%,30%,40%,50%,60%,70%,80%,90%,100%;
+    .~A1,.~A2,.~A3,.~A4,.~A5,.~A6,.~A7,.~A8,.~A9,.~A10,.~A11;
+    1;
+
+\ S-34M: 
+MV         .1s;.~startup;1;
+
+\ S-35M: 
+INIT       15%,15%,25%,35%,45%,55%,65%,75%,85%,90%,100%;
+    .~>2;.~startup,.~OUT1,.~OUT2,.~OUT3,.~OUT4,.~OUT5,.~OUT6,.~OUT7,.~OUT8,
+    .~OUT9,.~OUT10;
+
+\ S-36M: 
+INIT       .5s,.5s,1s,2s,4s,8s,12s,16s,24s,32s,48s;
+    .~>1;.~startup,.~OUT1,.~OUT2,.~OUT3,.~OUT4,.~OUT5,.~OUT6,.~OUT7,.~OUT8,
+    .~OUT9,.~OUT10;
+
+\ S-37M: send
+send
+    ".5s";.~>3;.~OUT1;
+
+\ S-38M: send
+send
+    ".5s";.~>3;.~startup;
+
+\ S-39M: send
+send
+    "1s";.~>3;.~OUT2;
+
+\ S-40M: send
+send
+    "2s";.~>3;.~OUT3;
+
+\ S-41M: send
+send
+    "4s";.~>3;.~OUT4;
+
+\ S-42M: send
+send
+    "8s";.~>3;.~OUT5;
+
+\ S-43M: send
+send
+    "12s";.~>3;.~OUT6;
+
+\ S-44M: send
+send
+    "16s";.~>3;.~OUT7;
+
+\ S-45M: send
+send
+    "24s";.~>3;.~OUT8;
+
+\ S-46M: send
+send
+    "32s";.~>3;.~OUT9;
+
+\ S-47M: send
+send
+    "48s";.~>3;.~OUT10;

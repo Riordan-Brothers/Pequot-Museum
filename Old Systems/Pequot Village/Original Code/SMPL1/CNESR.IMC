@@ -1,0 +1,32 @@
+\ 
+;NORM-BUFFER-EN,EM-BUFFER-EN,EM-TRIG-MV,FIRE-TRIG-MV;
+ CNESR-IN,FIRE-IN;
+
+\ S-2M: 
+SR           
+    .~DUMMY,.~STARTUP;0,.~AFTER-STARTUP;
+
+\ S-3M: 
+DELAY         1S;.~AFTER-STARTUP;1;
+
+\ S-4M: 
+DEBOUNCE      0.75S;.~CNESR-IN-D,.~FIRE-IN-D;.~<1,.~<2;
+
+\ S-5M: 
+NAND          .~CNESR-IN-B;.~CNESR-IN-D;
+
+\ S-6M: 
+BUFFER        .~EM-D;.~AFTER-STARTUP,
+    .~CNESR-IN-B;
+
+\ S-7M: 
+MMV           0.25S;.~>3,.~>4;.~EM-D,.~FIRE-IN-D;
+
+\ S-8M: 
+TABLE         .~>1,.~>2;.~CNESR-IN-D,.~FIRE-IN-D,.~AFTER-STARTUP;
+
+    H, L;   X, X, L; 
+    L, H;   L, X, H; 
+    L, H;   X, H, H; 
+    H, L;   H, L, H; 
+    ENDTABLE

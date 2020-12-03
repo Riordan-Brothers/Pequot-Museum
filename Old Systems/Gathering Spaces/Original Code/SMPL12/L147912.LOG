@@ -1,0 +1,18 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0511 0  AREA-GS-MASTER*     
+0000 0512 0  AREA-GS-MASTER**    
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 2092
+     Digital Signals: 536
+      Analog Signals: 192
+          NVRAM Used: 6765
+     Bytes used/left: 9249 / 39903
+Sig. table used/left: 8566 / 48722
+ Ext. Sig. used/left: 6884 / 58649

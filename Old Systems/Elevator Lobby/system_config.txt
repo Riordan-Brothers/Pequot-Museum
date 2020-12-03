@@ -1,0 +1,29 @@
+/********** PROGRAM INFORMATION **********/
+Source File:  C:\Crestron\MPTN Museum\Elevator Lobby\elevator_lobby-v2.smw
+Program File: elevator_lobby-v2.smw
+System Name:  Mashantucket Pequot Museum
+Compiled On:  12/12/2005 3:10 PM
+Compiler Rev: 2.00.34
+SYMLIB Rev:   360
+IOLIB Rev:    360
+IOPCFG Rev:   15.15.21
+CrestronDB:   17.4.4
+Source Env:   SIMPL Windows v2.06.20
+Minimum OPS:  3.18.12L
+Target Rack:  CNLCOMP-232
+
+
+/********** NETWORK DEVICES **********/
+2A:	CNWMBG2-34
+14:	CNLDM-4
+13:	CNLDM-4
+12:	CNLDM-4
+11:	CNLDM-4
+
+
+/********** OPERATING SYSTEM **********/
+Version 3.18.12-l   12/29/98
+
+
+/********** PLUG-IN CONTROL CARDS **********/
+None Reported

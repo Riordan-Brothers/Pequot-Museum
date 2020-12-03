@@ -1,0 +1,7 @@
+913:OscSAMPLE
+:B\:8:XSIG-3-4-TX$
+:B\:9:XSIG-3-4-RX$
+:B\:399:Z150-UP
+:B\:599:Z150-DN
+:B\:670:Master-Up
+:B\:671:Master-Dn

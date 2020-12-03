@@ -1,0 +1,20 @@
+\ 
+;FOC+,FOC-;
+ FOCUS;
+
+\ S-2M: 
+TOGGLE    
+    .~FOC-P-T,.~FOC-M-T;.~FOCUS*;
+
+\ S-3M: 
+AND        .~FOC+B;.~FOC-P-T,.~<1;
+
+\ S-4M: 
+AND        .~FOC-B;.~<1,.~FOC-M-T;
+
+\ S-5M: 
+NOR        .~FOCUS*;.~<1;
+
+\ S-6M: 
+BUFFER     .~>1,.~>2;1,
+    .~FOC+B,.~FOC-B;

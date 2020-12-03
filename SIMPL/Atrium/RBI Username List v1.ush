@@ -119,3 +119,7 @@
   Val2=1d
   Lbl2=yes
 [END]
+[BEGIN]
+ObjTp=Status
+HeaderCompatible=False
+[END]

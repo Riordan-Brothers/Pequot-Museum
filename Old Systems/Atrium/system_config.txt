@@ -1,0 +1,47 @@
+/********** PROGRAM INFORMATION **********/
+Source File:  C:\Crestron\MPTN Museum\Atrium\atrium-rev3.smw
+Program File: atrium-rev3.smw
+System Name:  Mashantucket Pequot Museum
+Compiled On:  12/12/2005 2:54 PM
+Compiler Rev: 2.00.34
+SYMLIB Rev:   360
+IOLIB Rev:    360
+IOPCFG Rev:   15.15.21
+CrestronDB:   17.4.4
+Source Env:   SIMPL Windows v2.06.20
+Minimum OPS:  3.18.12L
+Target Rack:  CNLCOMP-232
+
+
+/********** NETWORK DEVICES **********/
+2D:	LC3000B Touch Panel EM
+2C:	CNWMBG2-34
+2B:	CNWMBG2-34
+2A:	CNWMBG2-34
+23:	CNLDM-4
+22:	CNLDM-4
+21:	CNLDM-4
+20:	CNLDM-4
+1F:	CNLDM-6, ver 1.2
+1E:	CNLDM-6
+1D:	CNLDM-6
+1C:	CNLDM-6
+1B:	CNLDM-6
+1A:	CNLDM-6
+19:	CNLDM-4
+18:	CNLDM-4
+17:	CNLDM-4
+16:	CNLDM-4
+15:	CNLDM-4
+14:	CNLDM-4
+13:	CNLDM-4
+12:	CNLDM-6
+11:	CNLDM-6
+
+
+/********** OPERATING SYSTEM **********/
+Version 3.18.12-l   12/29/98
+
+
+/********** PLUG-IN CONTROL CARDS **********/
+None Reported

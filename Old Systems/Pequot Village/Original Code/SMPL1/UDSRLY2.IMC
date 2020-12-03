@@ -1,0 +1,118 @@
+\ control of 2-relays:up,dwn,stop, w/1sec.delay in change of dir.
+;up-fb,down-fb,stop-fb,up-relay,down-relay,up-mom,dn-mom,stp-mom;
+ up,down,stop,time,dsus;
+
+\ S-1M: 
+INTERLOCK  .~ui1,.~di1,.~si1;
+    .~upi,.~downi,.~stop-or;
+
+\ S-2M: 
+INTERLOCK  .~>1,.~>2,.~>3;
+    .~ui1,.~di1,.~si1;
+
+\ S-3M: 
+RMV        1s;.~s3-nc,.~de;0,.~ui1;
+
+\ S-4M: 
+RMV        1s;.~s4-nc,.~ue;0,.~di1;
+
+\ S-6M: 
+OR         .~rmvt;.~uumv1,.~ddmv1,.~dsusmv1,.~stopi1;
+
+\ S-7M: 
+RMV        .~<4;.~rmvq,.~rmvqn;.~rmvt;
+
+\ S-9M: 
+OR         .~stop-or;.~sa,.~stopi,.~dsus-stp;
+
+\ S-10M: 
+AND        .~ua;.~>1,.~rmvq;
+
+\ S-11M: 
+AND        .~da;.~>2,.~rmvq;
+
+\ S-12M: 
+BUFFER     .~>4;.~ue,
+    .~ua;
+
+\ S-13M: 
+BUFFER     .~>5;.~de,
+    .~da;
+
+\ S-14M: 
+OR         .~uds-mom-or;.~upi,.~downi,.~stop-or;
+
+\ S-15M: 
+RMV        .3s;.~uds-rmv;.~uds-mom-or;
+
+\ S-17M: 
+MMV        .1s;.~uumv1,.~ddmv1,.~dsusmv1,.~stopi1,.~sa;
+    .~<1,.~<2,.~<5,.~<3,.~rmvqn;
+
+\ S-20M: 
+OR         .~stp-fb-or;.~>3;
+
+\ S-21M: 
+OR         .~ud-fb-or;.~>1,.~>2;
+
+\ S-22M: 
+BUFFER     .~dsus-io;.~stp-fb-ord,
+    .~dsusmv;
+
+\ S-23M: 
+BUFFER     .~dsus-stp;.~ud-fb-ord,
+    .~dsusmv;
+
+\ S-24M: MACRO expansion for STBF.IMC
+\ 
+
+\ S-2M: 
+TOGGLE    
+    .~FOC-P-T024,.~FOC-M-T024;.~FOCUS*024,.~uumv,.~ddmv;
+
+\ S-3M: 
+AND        .~FOC+-AND024;.~FOC-P-T024,.~dsus-io;
+
+\ S-4M: 
+AND        .~FOC--AND024;.~dsus-io,.~FOC-M-T024;
+
+\ S-5M: 
+NOR        .~FOCUS*024;.~dsus-io;
+
+\ S-6M: 
+OR         .~downi;.~FOC--AND024,.~ddmv;
+
+\ S-7M: 
+OR         .~upi;.~FOC+-AND024,.~uumv;
+
+\ end MACRO expansion
+
+\ S-25M: 
+BUFFER     .~>6;.~ui1,
+    .~uds-rmv;
+
+\ S-26M: 
+BUFFER     .~>7;.~di1,
+    .~uds-rmv;
+
+\ S-27M: 
+BUFFER     .~>8;.~si1,
+    .~uds-rmv;
+
+\ S-28M: 
+DELAY      .1s;.~stp-fb-ord;.~stp-fb-or;
+
+\ S-29M: 
+DELAY      .1s;.~ud-fb-ord;.~ud-fb-or;
+
+\ S-32M: 
+DELAY      .1s;.~uumv;.~uumv1;
+
+\ S-33M: 
+DELAY      .1s;.~ddmv;.~ddmv1;
+
+\ S-34M: 
+DELAY      .1s;.~dsusmv;.~dsusmv1;
+
+\ S-35M: 
+DELAY      .1s;.~stopi;.~stopi1;

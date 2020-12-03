@@ -1,0 +1,17 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0174 4  Z114-OUT            
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 2507
+     Digital Signals: 841
+      Analog Signals: 512
+          NVRAM Used: 6863
+     Bytes used/left: 10621 / 38531
+Sig. table used/left: 16779 / 40509
+ Ext. Sig. used/left: 4861 / 60672

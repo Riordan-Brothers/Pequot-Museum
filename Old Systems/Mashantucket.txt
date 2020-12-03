@@ -1,0 +1,233 @@
+Gathering space
+Source File:  C:\CURRENT\L1479\SMPL12\L147912B.SMP
+Compiler Rev: 3.18.04
+Compiled on:  10/05/99  10:49
+System name: Mashantucket Pequot Museum
+27:	CNLDM-4
+26:	CNLDM-6
+25:	CNLDM-6
+24:	CNLDM-6
+23:	CNLDM-6
+22:	CNLDM-6
+21:	CNLDM-6
+20:	CNLDM-6
+1F:	CNLDM-6
+1E:	CNLDM-6
+1D:	CNLDM-6
+1C:	CNLDM-6
+1B:	CNLDM-6
+1A:	CNLDM-4
+19:	CNLDM-4
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLFDB-4, ver 4.1
+15:	CNLDM-4
+
+VIlliage Nets 3
+Source File:  C:\CURRENT\L1479\SMPL3\L1479I-3.SMP
+Compiler Rev: 3.18.04
+Compiled on:  08/06/98  21:59
+System name: Mashantucket Pequot Museum
+28:	CNLFDB-4
+27:	CNLDM-4
+26:	CNLDM-4
+25:	CNLDM-4
+24:	CNLDM-6
+23:	CNLDM-6
+22:	CNLDM-6
+21:	CNLDM-6
+20:	CNLDM-6
+1F:	CNLDM-6
+1E:	CNLDM-6
+1D:	CNLDM-6
+1C:	CNLDM-6
+1B:	CNLDM-6
+1A:	CNLDM-6
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+
+Villiage Nests 2
+Source File:  C:\CURRENT\L1479\SMPL2\L1479I-2.SMP
+Compiler Rev: 3.18.04
+Compiled on:  08/06/98  21:58
+System name: Mashantucket Pequot Museum
+1C:	CNLDM-4
+1B:	CNLDM-6
+1A:	CNLDM-4
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+0F:	CNNETX
+
+Villiage Nets 1
+Source File:  C:\CURRENT\L1479\SMPL1\L1479I-1.SMP
+Compiler Rev: 3.18.04
+Compiled on:  08/07/98  09:31
+System name: Mashantucket Pequot Museum
+23:	CNLDM-4
+22:	CNLDM-4
+21:	CNLDM-4
+20:	CNLDM-4
+1F:	CNLDM-6
+1E:	CNLDM-6
+1D:	CNLDM-6
+1C:	CNLDM-6
+1B:	CNLFDB-4
+1A:	CNLDM-6
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+07:	CNWMBG2-34
+14:	CNLDM-4
+13:	CNLDM-4
+12:	CNLDM-6
+11:	CNLDM-6
+05:	CNWM-10
+04:	CNWM-10
+
+
+Theaters araival area world of ice
+24:	CNWM-10
+23:	CNWM-10
+22:	CNWM-10
+21:	CNWM-10
+17:	CNLDM-4
+16:	CNLFDB-4
+15:	CNLDM-4
+14:	CNLDM-4
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+
+Version 3.16.08-l   01/08/97
+
+Lobby Glarisur 
+Source File:  C:\CURRENT\L1479\SMPL5\L1479-5B.SMP
+Compiler Rev: 3.18.04
+Compiled on:  05/21/98  06:47
+System name: Mashantucket Pequot Museum
+24:	CNWMBG2-34
+23:	CNWMBG2-34
+22:	CNWMBG2-34
+1D:	CNLDM-4
+1C:	CNLDM-4
+1B:	CNLDM-4
+1A:	CNLFDB-4
+19:	CNLDM-4
+18:	CNLDM-6, ver 1.2
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+
+Version 3.18.06-l   6/19/98
+
+war comming to the res mini theaters
+Source File:  C:\CURRENT\L1479\SMPL4\L1479-4F.SMP
+Compiler Rev: 3.18.04
+Compiled on:  10/08/98  08:37
+System name: Mashentucket Pequot Museum
+29:	CNWMBG2-34
+28:	CNWMBG2-34
+26:	CNWM-10
+25:	CNWM-10
+24:	CNWM-10
+23:	CNWM-10
+22:	CNWM-10
+1F:	CNLDM-4
+1E:	CNLDM-4
+1D:	CNLDM-6
+1C:	CNLDM-4
+1B:	CNLFDB-4
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6
+10:	CNLIO-8
+
+Version 3.17.31-l   11/18/97
+
+atrrium temp gallery
+Source File:  C:\CURRENT\L1479\SMPL6\L1479-6C.SMP
+Compiler Rev: 3.18.04
+Compiled on:  10/09/98  13:27
+System name: Mashantucket Pequot Museum
+2C:	CNWMBG2-34
+2B:	CNWMBG2-34
+
+Group Entry
+Source File:  C:\CURRENT\L1479\SMPL10\L147910B.SMP
+Compiler Rev: 3.18.04
+Compiled on:  10/05/99  12:18
+System name: Mashantucket Pequot Museum
+2A:	CNWMBG2-34
+14:	CNLDM-4
+13:	CNLDM-4
+12:	CNLDM-4
+11:	CNLDM-4
+
+Version 3.18.12-l   12/29/98
+
+Front enterance
+Source File:  C:\CURRENT\L1479\SMPL9\L1479-9A.SMP
+Compiler Rev: 3.18.04
+Compiled on:  07/21/98  16:49
+System name: Mashantucket Pequot Museum
+
+Version 3.17.31-l   11/18/97
+2A:	CNWMBG2-34
+14:	CNLDM-4
+13:	CNLDM-4
+12:	CNLDM-4
+11:	CNLDM-4
+
+Retail Store
+Source File:  C:\CURRENT\L1479\SMPL11\L147911B.SMP
+Compiler Rev: 3.18.04
+Compiled on:  08/07/98  16:54
+System name: Mashantucket Pequot Museum
+
+Version 3.17.31-l   11/18/97
+2B:	CNWM-10
+2A:	CNWM-10
+1E:	CNLDM-4
+1D:	CNLDM-4
+1C:	CNLDM-4
+1B:	CNLDM-4
+1A:	CNLDM-6
+19:	CNLDM-6
+18:	CNLDM-6
+17:	CNLDM-6
+16:	CNLDM-6
+15:	CNLDM-6
+14:	CNLDM-6
+13:	CNLDM-6
+12:	CNLDM-6
+11:	CNLDM-6

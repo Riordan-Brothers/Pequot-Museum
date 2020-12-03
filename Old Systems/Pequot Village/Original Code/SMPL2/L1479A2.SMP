@@ -1,0 +1,2734 @@
+REM "System name: \n"
+\ Dealer: 
+\ Designer: 
+\ SIMPL-I filename: L1479A2.CN2
+\ System Number: 
+\ Creation Date: 01/19/1998
+\ Date last modified: 02/13/1998
+\ Compiler Date: 
+\ OS Version: 
+\ 
+\ Packaged System: CNMS    
+
+SLOT 1: CNRY-16
+
+
+SLOT 2: CNDIO
+
+    i1 = Cnesr-High
+
+SLOT 3: CNIR-6
+
+SLOT 4: CNCOMH-2
+
+NET.ID 03: CTP-3000    \BriteTouch Grayscale 9.6" Panel
+
+    i8 = Goto-Main-Menu
+    i9 = Goto-Newcode-Pgb
+    i10 = Passcode-0
+    i11 = Passcode-1
+    i12 = Passcode-2
+    i13 = Passcode-3
+    i14 = Passcode-4
+    i15 = Passcode-5
+    i16 = Passcode-6
+    i17 = Passcode-7
+    i18 = Passcode-8
+    i19 = Passcode-9
+    i20 = Passcode-Clear
+    i21 = Passcode-Enter
+    i25 = Newcode-Pg?
+    i30 = Newcode-0
+    i31 = Newcode-1
+    i32 = Newcode-2
+    i33 = Newcode-3
+    i34 = Newcode-4
+    i35 = Newcode-5
+    i36 = Newcode-6
+    i37 = Newcode-7
+    i38 = Newcode-8
+    i39 = Newcode-9
+    i40 = Newcode-Clear
+    i41 = Newcode-Save
+    i50 = Z1-UP
+    i51 = Z2-UP
+    i52 = Z3-UP
+    i53 = Z4-UP
+    i54 = Z5-UP
+    i55 = Z6-UP
+    i56 = Z7-UP
+    i57 = Z8-UP
+    i58 = Z9-UP
+    i59 = Z10-UP
+    i60 = Z11-UP
+    i61 = Z12-UP
+    i62 = Z13-UP
+    i63 = Z14-UP
+    i64 = Z15-UP
+    i65 = Z16-UP
+    i66 = Z17-UP
+    i67 = Z18-UP
+    i68 = Z19-UP
+    i69 = Z20-UP
+    i70 = Z21-UP
+    i71 = Z22-UP
+    i72 = Z23-UP
+    i73 = Z24-UP
+    i74 = Z25-UP
+    i75 = Z26-UP
+    i76 = Z27-UP
+    i77 = Z28-UP
+    i78 = Z29-UP
+    i79 = Z30-UP
+    i80 = Z31-UP
+    i81 = Z32-UP
+    i82 = Z33-UP
+    i83 = Z34-UP
+    i84 = Z35-UP
+    i85 = Z36-UP
+    i86 = Z37-UP
+    i87 = Z38-UP
+    i88 = Z39-UP
+    i89 = Z40-UP
+    i90 = Z41-UP
+    i91 = Z42-UP
+    i92 = Z43-UP
+    i93 = Z44-UP
+    i94 = Z45-UP
+    i95 = Z46-UP
+    i96 = Z47-UP
+    i97 = Z48-UP
+    i98 = Z49-UP
+    i99 = Z50-UP
+    i100 = Z51-UP
+    i101 = Z52-UP
+    i102 = Z53-UP
+    i103 = Z54-UP
+    i104 = Z55-UP
+    i105 = Z56-UP
+    i106 = Z57-UP
+    i107 = Z58-UP
+    i108 = Z59-UP
+    i109 = Z60-UP
+    i110 = Z61-UP
+    i111 = Z62-UP
+    i112 = Z63-UP
+    i113 = Z64-UP
+    i114 = Z65-UP
+    i115 = Z66-UP
+    i116 = Z67-UP
+    i117 = Z68-UP
+    i118 = Z69-UP
+    i119 = Z70-UP
+    i120 = Z71-UP
+    i121 = Z72-UP
+    i122 = Z73-UP
+    i123 = Z74-UP
+    i124 = Z75-UP
+    i125 = Z76-UP
+    i126 = Z77-UP
+    i127 = Z78-UP
+    i128 = Z79-UP
+    i129 = Z80-UP
+    i130 = Z81-UP
+    i131 = Z82-UP
+    i132 = Z83-UP
+    i133 = Z84-UP
+    i134 = Z85-UP
+    i135 = Z86-UP
+    i136 = Z87-UP
+    i137 = Z88-UP
+    i138 = Z89-UP
+    i139 = Z90-UP
+    i140 = Z91-UP
+    i141 = Z92-UP
+    i142 = Z93-UP
+    i143 = Z94-UP
+    i144 = Z95-UP
+    i145 = Z96-UP
+    i146 = Z97-UP
+    i147 = Z98-UP
+    i148 = Z99-UP
+    i149 = Z100-UP
+    i150 = Z101-UP
+    i151 = Z102-UP
+    i152 = Z103-UP
+    i153 = Z104-UP
+    i154 = Z105-UP
+    i155 = Z106-UP
+    i156 = Z107-UP
+    i157 = Z108-UP
+    i158 = Z109-UP
+    i159 = Z110-UP
+    i160 = Z111-UP
+    i161 = Z112-UP
+    i162 = Z113-UP
+    i163 = Z114-UP
+    i164 = Z115-UP
+    i165 = Z116-UP
+    i166 = Z117-UP
+    i167 = Z118-UP
+    i168 = Z119-UP
+    i169 = Z120-UP
+    i170 = Z121-UP
+    i171 = Z122-UP
+    i172 = Z123-UP
+    i173 = Z124-UP
+    i174 = Z125-UP
+    i175 = Z126-UP
+    i176 = Z127-UP
+    i177 = Z128-UP
+    i178 = Z129-UP
+    i179 = Z130-UP
+    i180 = Z131-UP
+    i181 = Z132-UP
+    i182 = Z133-UP
+    i183 = Z134-UP
+    i184 = Z135-UP
+    i185 = Z136-UP
+    i186 = Z137-UP
+    i187 = Z138-UP
+    i188 = Z139-UP
+    i189 = Z140-UP
+    i190 = Z141-UP
+    i191 = Z142-UP
+    i192 = Z143-UP
+    i193 = Z144-UP
+    i194 = Z145-UP
+    i195 = Z146-UP
+    i196 = Z147-UP
+    i197 = Z148-UP
+    i198 = Z149-UP
+    i199 = Z150-UP
+    i200 = Z151-UP
+    i201 = Z152-UP
+    i202 = Z153-UP
+    i203 = Z154-UP
+    i204 = Z155-UP
+    i205 = Z156-UP
+    i206 = Z157-UP
+    i207 = Z158-UP
+    i208 = Z159-UP
+    i209 = Z160-UP
+    i210 = Z161-UP
+    i211 = Z162-UP
+    i212 = Z163-UP
+    i213 = Z164-UP
+    i214 = Z165-UP
+    i215 = Z166-UP
+    i216 = Z167-UP
+    i217 = Z168-UP
+    i218 = Z169-UP
+    i219 = Z170-UP
+    i220 = Z171-UP
+    i221 = Z172-UP
+    i222 = Z173-UP
+    i223 = Z174-UP
+    i224 = Z175-UP
+    i225 = Z176-UP
+    i226 = Z177-UP
+    i227 = Z178-UP
+    i228 = Z179-UP
+    i229 = Z180-UP
+    i230 = Z181-UP
+    i231 = Z182-UP
+    i232 = Z183-UP
+    i233 = Z184-UP
+    i234 = Z185-UP
+    i235 = Z186-UP
+    i236 = Z187-UP
+    i237 = Z188-UP
+    i238 = Z189-UP
+    i239 = Z190-UP
+    i240 = Z191-UP
+    i241 = Z192-UP
+    i242 = Z193-UP
+    i243 = Z194-UP
+    i244 = Z195-UP
+    i245 = Z196-UP
+    i246 = Z197-UP
+    i247 = Z198-UP
+    i248 = Z199-UP
+    i249 = Z200-UP
+    i250 = Z1-DN
+    i251 = Z2-DN
+    i252 = Z3-DN
+    i253 = Z4-DN
+    i254 = Z5-DN
+    i255 = Z6-DN
+    i256 = Z7-DN
+    i257 = Z8-DN
+    i258 = Z9-DN
+    i259 = Z10-DN
+    i260 = Z11-DN
+    i261 = Z12-DN
+    i262 = Z13-DN
+    i263 = Z14-DN
+    i264 = Z15-DN
+    i265 = Z16-DN
+    i266 = Z17-DN
+    i267 = Z18-DN
+    i268 = Z19-DN
+    i269 = Z20-DN
+    i270 = Z21-DN
+    i271 = Z22-DN
+    i272 = Z23-DN
+    i273 = Z24-DN
+    i274 = Z25-DN
+    i275 = Z26-DN
+    i276 = Z27-DN
+    i277 = Z28-DN
+    i278 = Z29-DN
+    i279 = Z30-DN
+    i280 = Z31-DN
+    i281 = Z32-DN
+    i282 = Z33-DN
+    i283 = Z34-DN
+    i284 = Z35-DN
+    i285 = Z36-DN
+    i286 = Z37-DN
+    i287 = Z38-DN
+    i288 = Z39-DN
+    i289 = Z40-DN
+    i290 = Z41-DN
+    i291 = Z42-DN
+    i292 = Z43-DN
+    i293 = Z44-DN
+    i294 = Z45-DN
+    i295 = Z46-DN
+    i296 = Z47-DN
+    i297 = Z48-DN
+    i298 = Z49-DN
+    i299 = Z50-DN
+    i300 = Z51-DN
+    i301 = Z52-DN
+    i302 = Z53-DN
+    i303 = Z54-DN
+    i304 = Z55-DN
+    i305 = Z56-DN
+    i306 = Z57-DN
+    i307 = Z58-DN
+    i308 = Z59-DN
+    i309 = Z60-DN
+    i310 = Z61-DN
+    i311 = Z62-DN
+    i312 = Z63-DN
+    i313 = Z64-DN
+    i314 = Z65-DN
+    i315 = Z66-DN
+    i316 = Z67-DN
+    i317 = Z68-DN
+    i318 = Z69-DN
+    i319 = Z70-DN
+    i320 = Z71-DN
+    i321 = Z72-DN
+    i322 = Z73-DN
+    i323 = Z74-DN
+    i324 = Z75-DN
+    i325 = Z76-DN
+    i326 = Z77-DN
+    i327 = Z78-DN
+    i328 = Z79-DN
+    i329 = Z80-DN
+    i330 = Z81-DN
+    i331 = Z82-DN
+    i332 = Z83-DN
+    i333 = Z84-DN
+    i334 = Z85-DN
+    i335 = Z86-DN
+    i336 = Z87-DN
+    i337 = Z88-DN
+    i338 = Z89-DN
+    i339 = Z90-DN
+    i340 = Z91-DN
+    i341 = Z92-DN
+    i342 = Z93-DN
+    i343 = Z94-DN
+    i344 = Z95-DN
+    i345 = Z96-DN
+    i346 = Z97-DN
+    i347 = Z98-DN
+    i348 = Z99-DN
+    i349 = Z100-DN
+    i350 = Z101-DN
+    i351 = Z102-DN
+    i352 = Z103-DN
+    i353 = Z104-DN
+    i354 = Z105-DN
+    i355 = Z106-DN
+    i356 = Z107-DN
+    i357 = Z108-DN
+    i358 = Z109-DN
+    i359 = Z110-DN
+    i360 = Z111-DN
+    i361 = Z112-DN
+    i362 = Z113-DN
+    i363 = Z114-DN
+    i364 = Z115-DN
+    i365 = Z116-DN
+    i366 = Z117-DN
+    i367 = Z118-DN
+    i368 = Z119-DN
+    i369 = Z120-DN
+    i370 = Z121-DN
+    i371 = Z122-DN
+    i372 = Z123-DN
+    i373 = Z124-DN
+    i374 = Z125-DN
+    i375 = Z126-DN
+    i376 = Z127-DN
+    i377 = Z128-DN
+    i378 = Z129-DN
+    i379 = Z130-DN
+    i380 = Z131-DN
+    i381 = Z132-DN
+    i382 = Z133-DN
+    i383 = Z134-DN
+    i384 = Z135-DN
+    i385 = Z136-DN
+    i386 = Z137-DN
+    i387 = Z138-DN
+    i388 = Z139-DN
+    i389 = Z140-DN
+    i390 = Z141-DN
+    i391 = Z142-DN
+    i392 = Z143-DN
+    i393 = Z144-DN
+    i394 = Z145-DN
+    i395 = Z146-DN
+    i396 = Z147-DN
+    i397 = Z148-DN
+    i398 = Z149-DN
+    i399 = Z150-DN
+    i400 = Z151-DN
+    i401 = Z152-DN
+    i402 = Z153-DN
+    i403 = Z154-DN
+    i404 = Z155-DN
+    i405 = Z156-DN
+    i406 = Z157-DN
+    i407 = Z158-DN
+    i408 = Z159-DN
+    i409 = Z160-DN
+    i410 = Z161-DN
+    i411 = Z162-DN
+    i412 = Z163-DN
+    i413 = Z164-DN
+    i414 = Z165-DN
+    i415 = Z166-DN
+    i416 = Z167-DN
+    i417 = Z168-DN
+    i418 = Z169-DN
+    i419 = Z170-DN
+    i420 = Z171-DN
+    i421 = Z172-DN
+    i422 = Z173-DN
+    i423 = Z174-DN
+    i424 = Z175-DN
+    i425 = Z176-DN
+    i426 = Z177-DN
+    i427 = Z178-DN
+    i428 = Z179-DN
+    i429 = Z180-DN
+    i430 = Z181-DN
+    i431 = Z182-DN
+    i432 = Z183-DN
+    i433 = Z184-DN
+    i434 = Z185-DN
+    i435 = Z186-DN
+    i436 = Z187-DN
+    i437 = Z188-DN
+    i438 = Z189-DN
+    i439 = Z190-DN
+    i440 = Z191-DN
+    i441 = Z192-DN
+    i442 = Z193-DN
+    i443 = Z194-DN
+    i444 = Z195-DN
+    i445 = Z196-DN
+    i446 = Z197-DN
+    i447 = Z198-DN
+    i448 = Z199-DN
+    i449 = Z200-DN
+    i454 = Preset1
+    i455 = Preset2
+    i456 = Preset3
+    i457 = Preset4
+    i458 = Preset5
+    i459 = Preset6
+    i460 = Preset7
+    i461 = Preset8
+    i462 = Preset9
+    i463 = Preset10
+    i464 = Preset11
+    i465 = Preset12
+    i466 = Preset13
+    i467 = Preset14
+    i468 = Preset15
+    i469 = Preset16
+    i470 = Master-Up
+    i471 = Master-Dn
+
+    o8 = Goto-Main-Menu
+    o9 = Goto-Newcode-Pgb
+    o20 = Passcode-Clear
+    o21 = Passcode-Enter
+    o30 = Newcode-0
+    o31 = Newcode-1
+    o32 = Newcode-2
+    o33 = Newcode-3
+    o34 = Newcode-4
+    o35 = Newcode-5
+    o36 = Newcode-6
+    o37 = Newcode-7
+    o38 = Newcode-8
+    o39 = Newcode-9
+    o40 = Newcode-Clear
+    o41 = Newcode-Save
+    o50 = Z1-UP
+    o51 = Z2-UP
+    o52 = Z3-UP
+    o53 = Z4-UP
+    o54 = Z5-UP
+    o55 = Z6-UP
+    o56 = Z7-UP
+    o57 = Z8-UP
+    o58 = Z9-UP
+    o59 = Z10-UP
+    o60 = Z11-UP
+    o61 = Z12-UP
+    o62 = Z13-UP
+    o63 = Z14-UP
+    o64 = Z15-UP
+    o65 = Z16-UP
+    o66 = Z17-UP
+    o67 = Z18-UP
+    o68 = Z19-UP
+    o69 = Z20-UP
+    o70 = Z21-UP
+    o71 = Z22-UP
+    o72 = Z23-UP
+    o73 = Z24-UP
+    o74 = Z25-UP
+    o75 = Z26-UP
+    o76 = Z27-UP
+    o77 = Z28-UP
+    o78 = Z29-UP
+    o79 = Z30-UP
+    o80 = Z31-UP
+    o81 = Z32-UP
+    o82 = Z33-UP
+    o83 = Z34-UP
+    o84 = Z35-UP
+    o85 = Z36-UP
+    o86 = Z37-UP
+    o87 = Z38-UP
+    o88 = Z39-UP
+    o89 = Z40-UP
+    o90 = Z41-UP
+    o91 = Z42-UP
+    o92 = Z43-UP
+    o93 = Z44-UP
+    o94 = Z45-UP
+    o95 = Z46-UP
+    o96 = Z47-UP
+    o97 = Z48-UP
+    o98 = Z49-UP
+    o99 = Z50-UP
+    o100 = Z51-UP
+    o101 = Z52-UP
+    o102 = Z53-UP
+    o103 = Z54-UP
+    o104 = Z55-UP
+    o105 = Z56-UP
+    o106 = Z57-UP
+    o107 = Z58-UP
+    o108 = Z59-UP
+    o109 = Z60-UP
+    o110 = Z61-UP
+    o111 = Z62-UP
+    o112 = Z63-UP
+    o113 = Z64-UP
+    o114 = Z65-UP
+    o115 = Z66-UP
+    o116 = Z67-UP
+    o117 = Z68-UP
+    o118 = Z69-UP
+    o119 = Z70-UP
+    o120 = Z71-UP
+    o121 = Z72-UP
+    o122 = Z73-UP
+    o123 = Z74-UP
+    o124 = Z75-UP
+    o125 = Z76-UP
+    o126 = Z77-UP
+    o127 = Z78-UP
+    o128 = Z79-UP
+    o129 = Z80-UP
+    o130 = Z81-UP
+    o131 = Z82-UP
+    o132 = Z83-UP
+    o133 = Z84-UP
+    o134 = Z85-UP
+    o135 = Z86-UP
+    o136 = Z87-UP
+    o137 = Z88-UP
+    o138 = Z89-UP
+    o139 = Z90-UP
+    o140 = Z91-UP
+    o141 = Z92-UP
+    o142 = Z93-UP
+    o143 = Z94-UP
+    o144 = Z95-UP
+    o145 = Z96-UP
+    o146 = Z97-UP
+    o147 = Z98-UP
+    o148 = Z99-UP
+    o149 = Z100-UP
+    o150 = Z101-UP
+    o151 = Z102-UP
+    o152 = Z103-UP
+    o153 = Z104-UP
+    o154 = Z105-UP
+    o155 = Z106-UP
+    o156 = Z107-UP
+    o157 = Z108-UP
+    o158 = Z109-UP
+    o159 = Z110-UP
+    o160 = Z111-UP
+    o161 = Z112-UP
+    o162 = Z113-UP
+    o163 = Z114-UP
+    o164 = Z115-UP
+    o165 = Z116-UP
+    o166 = Z117-UP
+    o167 = Z118-UP
+    o168 = Z119-UP
+    o169 = Z120-UP
+    o170 = Z121-UP
+    o171 = Z122-UP
+    o172 = Z123-UP
+    o173 = Z124-UP
+    o174 = Z125-UP
+    o175 = Z126-UP
+    o176 = Z127-UP
+    o177 = Z128-UP
+    o178 = Z129-UP
+    o179 = Z130-UP
+    o180 = Z131-UP
+    o181 = Z132-UP
+    o182 = Z133-UP
+    o183 = Z134-UP
+    o184 = Z135-UP
+    o185 = Z136-UP
+    o186 = Z137-UP
+    o187 = Z138-UP
+    o188 = Z139-UP
+    o189 = Z140-UP
+    o190 = Z141-UP
+    o191 = Z142-UP
+    o192 = Z143-UP
+    o193 = Z144-UP
+    o194 = Z145-UP
+    o195 = Z146-UP
+    o196 = Z147-UP
+    o197 = Z148-UP
+    o198 = Z149-UP
+    o199 = Z150-UP
+    o200 = Z151-UP
+    o201 = Z152-UP
+    o202 = Z153-UP
+    o203 = Z154-UP
+    o204 = Z155-UP
+    o205 = Z156-UP
+    o206 = Z157-UP
+    o207 = Z158-UP
+    o208 = Z159-UP
+    o209 = Z160-UP
+    o210 = Z161-UP
+    o211 = Z162-UP
+    o212 = Z163-UP
+    o213 = Z164-UP
+    o214 = Z165-UP
+    o215 = Z166-UP
+    o216 = Z167-UP
+    o217 = Z168-UP
+    o218 = Z169-UP
+    o219 = Z170-UP
+    o220 = Z171-UP
+    o221 = Z172-UP
+    o222 = Z173-UP
+    o223 = Z174-UP
+    o224 = Z175-UP
+    o225 = Z176-UP
+    o226 = Z177-UP
+    o227 = Z178-UP
+    o228 = Z179-UP
+    o229 = Z180-UP
+    o230 = Z181-UP
+    o231 = Z182-UP
+    o232 = Z183-UP
+    o233 = Z184-UP
+    o234 = Z185-UP
+    o235 = Z186-UP
+    o236 = Z187-UP
+    o237 = Z188-UP
+    o238 = Z189-UP
+    o239 = Z190-UP
+    o240 = Z191-UP
+    o241 = Z192-UP
+    o242 = Z193-UP
+    o243 = Z194-UP
+    o244 = Z195-UP
+    o245 = Z196-UP
+    o246 = Z197-UP
+    o247 = Z198-UP
+    o248 = Z199-UP
+    o249 = Z200-UP
+    o250 = Z1-DN
+    o251 = Z2-DN
+    o252 = Z3-DN
+    o253 = Z4-DN
+    o254 = Z5-DN
+    o255 = Z6-DN
+    o256 = Z7-DN
+    o257 = Z8-DN
+    o258 = Z9-DN
+    o259 = Z10-DN
+    o260 = Z11-DN
+    o261 = Z12-DN
+    o262 = Z13-DN
+    o263 = Z14-DN
+    o264 = Z15-DN
+    o265 = Z16-DN
+    o266 = Z17-DN
+    o267 = Z18-DN
+    o268 = Z19-DN
+    o269 = Z20-DN
+    o270 = Z21-DN
+    o271 = Z22-DN
+    o272 = Z23-DN
+    o273 = Z24-DN
+    o274 = Z25-DN
+    o275 = Z26-DN
+    o276 = Z27-DN
+    o277 = Z28-DN
+    o278 = Z29-DN
+    o279 = Z30-DN
+    o280 = Z31-DN
+    o281 = Z32-DN
+    o282 = Z33-DN
+    o283 = Z34-DN
+    o284 = Z35-DN
+    o285 = Z36-DN
+    o286 = Z37-DN
+    o287 = Z38-DN
+    o288 = Z39-DN
+    o289 = Z40-DN
+    o290 = Z41-DN
+    o291 = Z42-DN
+    o292 = Z43-DN
+    o293 = Z44-DN
+    o294 = Z45-DN
+    o295 = Z46-DN
+    o296 = Z47-DN
+    o297 = Z48-DN
+    o298 = Z49-DN
+    o299 = Z50-DN
+    o300 = Z51-DN
+    o301 = Z52-DN
+    o302 = Z53-DN
+    o303 = Z54-DN
+    o304 = Z55-DN
+    o305 = Z56-DN
+    o306 = Z57-DN
+    o307 = Z58-DN
+    o308 = Z59-DN
+    o309 = Z60-DN
+    o310 = Z61-DN
+    o311 = Z62-DN
+    o312 = Z63-DN
+    o313 = Z64-DN
+    o314 = Z65-DN
+    o315 = Z66-DN
+    o316 = Z67-DN
+    o317 = Z68-DN
+    o318 = Z69-DN
+    o319 = Z70-DN
+    o320 = Z71-DN
+    o321 = Z72-DN
+    o322 = Z73-DN
+    o323 = Z74-DN
+    o324 = Z75-DN
+    o325 = Z76-DN
+    o326 = Z77-DN
+    o327 = Z78-DN
+    o328 = Z79-DN
+    o329 = Z80-DN
+    o330 = Z81-DN
+    o331 = Z82-DN
+    o332 = Z83-DN
+    o333 = Z84-DN
+    o334 = Z85-DN
+    o335 = Z86-DN
+    o336 = Z87-DN
+    o337 = Z88-DN
+    o338 = Z89-DN
+    o339 = Z90-DN
+    o340 = Z91-DN
+    o341 = Z92-DN
+    o342 = Z93-DN
+    o343 = Z94-DN
+    o344 = Z95-DN
+    o345 = Z96-DN
+    o346 = Z97-DN
+    o347 = Z98-DN
+    o348 = Z99-DN
+    o349 = Z100-DN
+    o350 = Z101-DN
+    o351 = Z102-DN
+    o352 = Z103-DN
+    o353 = Z104-DN
+    o354 = Z105-DN
+    o355 = Z106-DN
+    o356 = Z107-DN
+    o357 = Z108-DN
+    o358 = Z109-DN
+    o359 = Z110-DN
+    o360 = Z111-DN
+    o361 = Z112-DN
+    o362 = Z113-DN
+    o363 = Z114-DN
+    o364 = Z115-DN
+    o365 = Z116-DN
+    o366 = Z117-DN
+    o367 = Z118-DN
+    o368 = Z119-DN
+    o369 = Z120-DN
+    o370 = Z121-DN
+    o371 = Z122-DN
+    o372 = Z123-DN
+    o373 = Z124-DN
+    o374 = Z125-DN
+    o375 = Z126-DN
+    o376 = Z127-DN
+    o377 = Z128-DN
+    o378 = Z129-DN
+    o379 = Z130-DN
+    o380 = Z131-DN
+    o381 = Z132-DN
+    o382 = Z133-DN
+    o383 = Z134-DN
+    o384 = Z135-DN
+    o385 = Z136-DN
+    o386 = Z137-DN
+    o387 = Z138-DN
+    o388 = Z139-DN
+    o389 = Z140-DN
+    o390 = Z141-DN
+    o391 = Z142-DN
+    o392 = Z143-DN
+    o393 = Z144-DN
+    o394 = Z145-DN
+    o395 = Z146-DN
+    o396 = Z147-DN
+    o397 = Z148-DN
+    o398 = Z149-DN
+    o399 = Z150-DN
+    o400 = Z151-DN
+    o401 = Z152-DN
+    o402 = Z153-DN
+    o403 = Z154-DN
+    o404 = Z155-DN
+    o405 = Z156-DN
+    o406 = Z157-DN
+    o407 = Z158-DN
+    o408 = Z159-DN
+    o409 = Z160-DN
+    o410 = Z161-DN
+    o411 = Z162-DN
+    o412 = Z163-DN
+    o413 = Z164-DN
+    o414 = Z165-DN
+    o415 = Z166-DN
+    o416 = Z167-DN
+    o417 = Z168-DN
+    o418 = Z169-DN
+    o419 = Z170-DN
+    o420 = Z171-DN
+    o421 = Z172-DN
+    o422 = Z173-DN
+    o423 = Z174-DN
+    o424 = Z175-DN
+    o425 = Z176-DN
+    o426 = Z177-DN
+    o427 = Z178-DN
+    o428 = Z179-DN
+    o429 = Z180-DN
+    o430 = Z181-DN
+    o431 = Z182-DN
+    o432 = Z183-DN
+    o433 = Z184-DN
+    o434 = Z185-DN
+    o435 = Z186-DN
+    o436 = Z187-DN
+    o437 = Z188-DN
+    o438 = Z189-DN
+    o439 = Z190-DN
+    o440 = Z191-DN
+    o441 = Z192-DN
+    o442 = Z193-DN
+    o443 = Z194-DN
+    o444 = Z195-DN
+    o445 = Z196-DN
+    o446 = Z197-DN
+    o447 = Z198-DN
+    o448 = Z199-DN
+    o449 = Z200-DN
+    o454 = Preset1fb
+    o455 = Preset2fb
+    o456 = Preset3fb
+    o457 = Preset4fb
+    o458 = Preset5fb
+    o459 = Preset6fb
+    o460 = Preset7fb
+    o461 = Preset8fb
+    o462 = Preset9fb
+    o463 = Preset10fb
+    o464 = Preset11fb
+    o465 = Preset12fb
+    o466 = Preset13fb
+    o467 = Preset14fb
+    o468 = Preset15fb
+    o469 = Preset16fb
+    o470 = Master-Up
+    o471 = Master-Dn
+
+
+    AN10 = Z1-Out
+    AN11 = Z2-Out
+    AN12 = Z3-Out
+    AN13 = Z4-Out
+    AN14 = Z5-Out
+    AN15 = Z6-Out
+    AN16 = Z7-Out
+    AN17 = Z8-Out
+    AN18 = Z9-Out
+    AN19 = Z10-Out
+    AN20 = Z11-Out
+    AN21 = Z12-Out
+    AN22 = Z13-Out
+    AN23 = Z14-Out
+    AN24 = Z15-Out
+    AN25 = Z16-Out
+    AN26 = Z17-Out
+    AN27 = Z18-Out
+    AN28 = Z19-Out
+    AN29 = Z20-Out
+    AN30 = Z21-Out
+    AN31 = Z22-Out
+    AN32 = Z23-Out
+    AN33 = Z24-Out
+    AN34 = Z25-Out
+    AN35 = Z26-Out
+    AN36 = Z27-Out
+    AN37 = Z28-Out
+    AN38 = Z29-Out
+    AN39 = Z30-Out
+    AN40 = Z31-Out
+    AN41 = Z32-Out
+    AN42 = Z33-Out
+    AN43 = Z34-Out
+    AN44 = Z35-Out
+    AN45 = Z36-Out
+    AN46 = Z37-Out
+    AN47 = Z38-Out
+    AN48 = Z39-Out
+    AN49 = Z40-Out
+    AN50 = Z41-Out
+    AN51 = Z42-Out
+    AN52 = Z43-Out
+    AN53 = Z44-Out
+    AN54 = Z45-Out
+    AN55 = Z46-Out
+    AN56 = Z47-Out
+    AN57 = Z48-Out
+    AN58 = Z49-Out
+    AN59 = Z50-Out
+    AN60 = Z51-Out
+    AN61 = Z52-Out
+    AN62 = Z53-Out
+    AN63 = Z54-Out
+    AN64 = Z55-Out
+    AN65 = Z56-Out
+    AN66 = Z57-Out
+    AN67 = Z58-Out
+    AN68 = Z59-Out
+    AN69 = Z60-Out
+    AN70 = Z61-Out
+    AN71 = Z62-Out
+    AN72 = Z63-Out
+    AN73 = Z64-Out
+    AN74 = Z65-Out
+    AN75 = Z66-Out
+    AN76 = Z67-Out
+    AN77 = Z68-Out
+    AN78 = Z69-Out
+    AN79 = Z70-Out
+    AN80 = Z71-Out
+    AN81 = Z72-Out
+    AN82 = Z73-Out
+    AN83 = Z74-Out
+    AN84 = Z75-Out
+    AN85 = Z76-Out
+    AN86 = Z77-Out
+    AN87 = Z78-Out
+    AN88 = Z79-Out
+    AN89 = Z80-Out
+    AN90 = Z81-Out
+    AN91 = Z82-Out
+    AN92 = Z83-Out
+    AN93 = Z84-Out
+    AN94 = Z85-Out
+    AN95 = Z86-Out
+    AN96 = Z87-Out
+    AN97 = Z88-Out
+    AN98 = Z89-Out
+    AN99 = Z90-Out
+    AN100 = Z91-Out
+    AN101 = Z92-Out
+    AN102 = Z93-Out
+    AN103 = Z94-Out
+    AN104 = Z95-Out
+    AN105 = Z96-Out
+    AN106 = Z97-Out
+    AN107 = Z98-Out
+    AN108 = Z99-Out
+    AN109 = Z100-Out
+    AN110 = Z101-Out
+    AN111 = Z102-Out
+    AN112 = Z103-Out
+    AN113 = Z104-Out
+    AN114 = Z105-Out
+    AN115 = Z106-Out
+    AN116 = Z107-Out
+    AN117 = Z108-Out
+    AN118 = Z109-Out
+    AN119 = Z110-Out
+    AN120 = Z111-Out
+    AN121 = Z112-Out
+    AN122 = Z113-Out
+    AN123 = Z114-Out
+    AN124 = Z115-Out
+    AN125 = Z116-Out
+    AN126 = Z117-Out
+    AN127 = Z118-Out
+    AN128 = Z119-Out
+    AN129 = Z120-Out
+    AN130 = Z121-Out
+    AN131 = Z122-Out
+    AN132 = Z123-Out
+    AN133 = Z124-Out
+    AN134 = Z125-Out
+    AN135 = Z126-Out
+    AN136 = Z127-Out
+    AN137 = Z128-Out
+    AN138 = Z129-Out
+    AN139 = Z130-Out
+    AN140 = Z131-Out
+    AN141 = Z132-Out
+    AN142 = Z133-Out
+    AN143 = Z134-Out
+    AN144 = Z135-Out
+    AN145 = Z136-Out
+    AN146 = Z137-Out
+    AN147 = Z138-Out
+    AN148 = Z139-Out
+    AN149 = Z140-Out
+    AN150 = Z141-Out
+    AN151 = Z142-Out
+    AN152 = Z143-Out
+    AN153 = Z144-Out
+    AN154 = Z145-Out
+    AN155 = Z146-Out
+    AN156 = Z147-Out
+    AN157 = Z148-Out
+    AN158 = Z149-Out
+    AN159 = Z150-Out
+    AN160 = Z151-Out
+    AN161 = Z152-Out
+    AN162 = Z153-Out
+    AN163 = Z154-Out
+    AN164 = Z155-Out
+    AN165 = Z156-Out
+    AN166 = Z157-Out
+    AN167 = Z158-Out
+    AN168 = Z159-Out
+    AN169 = Z160-Out
+    AN170 = Z161-Out
+    AN171 = Z162-Out
+    AN172 = Z163-Out
+    AN173 = Z164-Out
+    AN174 = Z165-Out
+    AN175 = Z166-Out
+    AN176 = Z167-Out
+    AN177 = Z168-Out
+    AN178 = Z169-Out
+    AN179 = Z170-Out
+    AN180 = Z171-Out
+    AN181 = Z172-Out
+    AN182 = Z173-Out
+    AN183 = Z174-Out
+    AN184 = Z175-Out
+    AN185 = Z176-Out
+    AN186 = Z177-Out
+    AN187 = Z178-Out
+    AN188 = Z179-Out
+    AN189 = Z180-Out
+    AN190 = Z181-Out
+    AN191 = Z182-Out
+    AN192 = Z183-Out
+    AN193 = Z184-Out
+    AN194 = Z185-Out
+    AN195 = Z186-Out
+    AN196 = Z187-Out
+    AN197 = Z188-Out
+    AN198 = Z189-Out
+    AN199 = Z190-Out
+    AN200 = Z191-Out
+    AN201 = Z192-Out
+    AN202 = Z193-Out
+    AN203 = Z194-Out
+    AN204 = Z195-Out
+    AN205 = Z196-Out
+    AN206 = Z197-Out
+    AN207 = Z198-Out
+    AN208 = Z199-Out
+    AN209 = Z200-Out
+
+\*** END EQUIPMENT DEFINITION ***
+
+\*** BEGIN SYMBOL STATEMENTS ***
+
+
+
+\ S-1: \**************Passcode Functions***************
+\*********
+    \comment;
+
+\ S-3: Goto Newcode Page 3s
+DEBOUNCE      3s;Goto-Newcode-Pg;Newcode-Pg?;
+
+\ S-4: Goto Newcode Page Pulse
+MMV           .2s;Goto-Newcode-Pgm;Goto-Newcode-Pg;
+
+\ S-5: Goto Newcode Page Signal
+BUFFER        Goto-Newcode-Pgb;1,
+    Goto-Newcode-Pgm;
+
+\ S-7: MACRO expansion for PASSME.IMC
+\ 
+
+\ S-4M: 
+#PAD       10000;NC1;.~B0b0007,.~B1b0007,.~B2b0007,.~B3b0007,.~B4b0007,
+    .~B5b0007,.~B6b0007,.~B7b0007,.~B8b0007,
+    .~B9b0007,Passcode-Clear,0,0,0;
+
+\ S-5M: 
+OR         .~BUT-OR0007;.~B0b0007,.~B1b0007,.~B2b0007,.~B3b0007,.~B4b0007,
+    .~B5b0007,.~B6b0007,.~B7b0007,.~B8b0007,
+    .~B9b0007;
+
+\ S-6M: 
+#PAD       5;.~NUM-DIG0007;0,0,0,0,0,0,0,0,0,0,Passcode-Clear,.~BUT-OR0007,
+    0;
+
+\ S-7M: 
+SDAC       4;PASSME-Asterisks;Passcode-Clear,1,0,0,0,0,0,0,0,0,0,0,.~BUT-OR0007,
+    0;
+
+\ S-9M: 
+#PAD       10000;Newcode-#;.~M0b0007,.~M1b0007,.~M2b0007,.~M3b0007,
+    .~M4b0007,.~M5b0007,.~M6b0007,.~M7b0007,.~M8b0007,
+    .~M9b0007,Newcode-Clear,0,0;
+
+\ S-10M: 
+OR         .~MBUT-OR0007;.~M0b0007,.~M1b0007,.~M2b0007,.~M3b0007,
+    .~M4b0007,.~M5b0007,.~M6b0007,.~M7b0007,.~M8b0007,
+    .~M9b0007;
+
+\ S-11M: 
+#PAD       5;.~MNUM-DIG0007;0,0,0,0,0,0,0,0,0,0,Newcode-Clear,.~MBUT-OR0007,
+    0;
+
+\ S-13M: 
+RAM       
+    .~master-number-OK0007,.~MNUM-DIG-OK0007;
+    Newcode-#,.~MNUM-DIG0007:
+    Newcode-Save,.~RECALL0007,
+    1;
+
+\ S-14M: 
+MV         .1s;.~STARTUP0007;1;
+
+\ S-15M: 
+MV         .1s;.~SAVE-NE0007;0,Newcode-Save;
+
+\ S-16M: 
+OR         .~RECALL0007;.~STARTUP0007,.~SAVE-NE0007;
+
+\ S-17M: 
+EQU        4;.~no-more-butt0007;.~NUM-DIG0007,1;
+
+\ S-18M: 
+EQU        4;.~mno-more-butt0007;.~MNUM-DIG0007,1;
+
+\ S-19M: 
+NOR        .~no-more-butt*0007;.~no-more-butt0007;
+
+\ S-20M: 
+NOR        .~mno-more-butt*0007;.~mno-more-butt0007;
+
+\ S-21M: 
+NOR        .~INPUT-ENTER*0007;Passcode-Enter;
+
+\ S-22M: 
+ABUFFER    .~NUMBER-OK0007,.~NUM-DIG-ok0007;.~INPUT-enter-ne-d0007,
+    
+    .~ZERO0007,.~ZERO0007;
+
+\ S-23M: 
+MV         .2s;.~INPUT-enter-ne0007;0,Passcode-Enter;
+
+\ S-24M: 
+DELAY      .2s;.~INPUT-enter-ne-d0007;.~INPUT-enter-ne0007;
+
+\ S-25M: 
+ABUFFER    .~NUMBER-OK0007,.~NUM-DIG-ok0007;Passcode-Enter,
+    NC1,.~NUM-DIG0007;
+
+\ S-26M: 
+INIT       0;.~ZERO0007;1;
+
+\ S-27M: 
+COMPARE    .~OK10007;.~master-number-OK0007,.~NUMBER-OK0007;
+
+\ S-28M: 
+COMPARE    .~OK20007;.~NUMBER-OK0007,.~master-number-OK0007;
+
+\ S-29M: 
+AND        .~OK0007;.~OK10007,.~OK20007,.~OK30007,.~OK40007;
+
+\ S-30M: 
+MMV        .2s;.~PASSWORD0007;.~OK0007;
+
+\ S-31M: 
+MV         .1s;.~CLEAR-IT0007;0,Goto-Main-Menu;
+
+\ S-32M: 
+BUFFER     Passcode-Clear,Goto-Main-Menu;.~startup-dly0007,
+    .~CLEAR-IT0007,.~PASSWORD0007;
+
+\ S-33M: 
+DELAY      1s;.~startup-dly0007;1;
+
+\ S-34M: 
+COMPARE    .~OK30007;.~MNUM-DIG-OK0007,.~NUM-DIG-ok0007;
+
+\ S-35M: 
+COMPARE    .~OK40007;.~NUM-DIG-ok0007,.~MNUM-DIG-OK0007;
+
+\ S-36M: 
+BUFFER     .~B0b0007,.~B1b0007,.~B2b0007,.~B3b0007,.~B4b0007,.~B5b0007,
+    .~B6b0007,.~B7b0007,.~B8b0007,.~B9b0007;
+    .~no-more-butt*0007,
+    Passcode-0,Passcode-1,Passcode-2,Passcode-3,Passcode-4,Passcode-5,
+    Passcode-6,Passcode-7,Passcode-8,Passcode-9;
+
+\ S-37M: 
+BUFFER     .~M0b0007,.~M1b0007,.~M2b0007,.~M3b0007,.~M4b0007,.~M5b0007,
+    .~M6b0007,.~M7b0007,.~M8b0007,.~M9b0007;
+    .~mno-more-butt*0007,
+    Newcode-0,Newcode-1,Newcode-2,Newcode-3,Newcode-4,Newcode-5,Newcode-6,
+    Newcode-7,Newcode-8,Newcode-9;
+
+\ end MACRO expansion
+
+\ S-8: Asterisks --> TP
+SDPM          03,A;PASSME-Asterisks;
+
+\ S-9: Newcode-# --> TP
+DPM           03,B,04;
+    Newcode-#;
+
+\ S-11: XSIG
+XSIG
+    XSIG-3-4-TX$;XSIG-3-4-RX$,Z1-OutS,Z2-OutS,Z3-OutS,Z12-OutS,Z15-OutS,
+    Z101-OutS,Z103-OutS,Z105-OutS,Z107-OutS,Z109-OutS,Z111-OutS,
+    Z123-OutS,Z129-OutS,Z130-OutS,Z131-OutS,Z148-OutS,Z149-OutS,
+    Z154-OutS:Z4-UP,Z17-UP,Z43-UP,Z54-UP,Z55-UP,Z57-UP,Z61-UP,Z62-UP,
+    Z64-UP,Z69-UP,Z70-UP,Z71-UP,Z72-UP,Z73-UP,Z74-UP,Z75-UP,Z76-UP,
+    Z78-UP,Z81-UP,Z82-UP,Z83-UP,Z84-UP,Z85-UP,Z87-UP,Z90-UP,Z91-UP,
+    Z93-UP,Z94-UP,Z95-UP,Z96-UP,Z97-UP,Z98-UP,Z99-UP,Z100-UP,Z102-UP,
+    Z104-UP,Z106-UP,Z108-UP,Z110-UP,Z113-UP,Z114-UP,Z115-UP,Z116-UP,
+    Z117-UP,Z119-UP,Z121-UP,Z132-UP,Z133-UP,Z134-UP,Z135-UP,Z136-UP,
+    Z137-UP,Z141-UP,Z142-UP,Z143-UP,Z150-UP,Z152-UP,Z4-DN,Z17-DN,Z43-DN,
+    Z54-DN,Z55-DN,Z57-DN,Z61-DN,Z62-DN,Z64-DN,Z69-DN,Z70-DN,Z71-DN,
+    Z72-DN,Z73-DN,Z74-DN,Z75-DN,Z76-DN,Z78-DN,Z81-DN,Z82-DN,Z83-DN,
+    Z84-DN,Z85-DN,Z87-DN,Z90-DN,Z91-DN,Z93-DN,Z94-DN,Z95-DN,Z96-DN,
+    Z97-DN,Z98-DN,Z99-DN,Z100-DN,Z102-DN,Z104-DN,Z106-DN,Z108-DN,
+    Z110-DN,Z113-DN,Z114-DN,Z115-DN,Z116-DN,Z117-DN,Z119-DN,Z121-DN,
+    Z132-DN,Z133-DN,Z134-DN,Z135-DN,Z136-DN,Z137-DN,Z141-DN,Z142-DN,
+    Z143-DN,Z150-DN,Z152-DN,Fade-Time-Up,Fade-Time-Dn,Preset1,Preset2,
+    Preset3,Preset4,Preset5,Preset6,Preset-Save;
+
+\ S-13: Fade Time
+RAMP          5s;Fade-Timeramp;Fade-Time-Up,Fade-Time-Dn;
+
+\ S-14: MACRO expansion for TIMEFADE.IMC
+\ 
+
+\ S-3M: 
+COMPARE    .~OUT1A0014;Fade-Timeramp,.~A10014;
+
+\ S-4M: 
+COMPARE    .~OUT1B0014;.~A20014,Fade-Timeramp;
+
+\ S-5M: 
+AND        .~OUT10014;.~OUT1A0014,.~OUT1B0014;
+
+\ S-6M: 
+COMPARE    .~OUT2A0014;Fade-Timeramp,.~A20014;
+
+\ S-7M: 
+COMPARE    .~OUT2B0014;.~A30014,Fade-Timeramp;
+
+\ S-8M: 
+AND        .~OUT20014;.~OUT2A0014,.~OUT2B0014;
+
+\ S-9M: 
+COMPARE    .~OUT3A0014;Fade-Timeramp,.~A30014;
+
+\ S-10M: 
+COMPARE    .~OUT3B0014;.~A40014,Fade-Timeramp;
+
+\ S-11M: 
+AND        .~OUT30014;.~OUT3A0014,.~OUT3B0014;
+
+\ S-12M: 
+COMPARE    .~OUT4A0014;Fade-Timeramp,.~A40014;
+
+\ S-13M: 
+COMPARE    .~OUT4B0014;.~A50014,Fade-Timeramp;
+
+\ S-14M: 
+AND        .~OUT40014;.~OUT4A0014,.~OUT4B0014;
+
+\ S-15M: 
+COMPARE    .~OUT5A0014;Fade-Timeramp,.~A50014;
+
+\ S-16M: 
+COMPARE    .~OUT5B0014;.~A60014,Fade-Timeramp;
+
+\ S-17M: 
+AND        .~OUT50014;.~OUT5A0014,.~OUT5B0014;
+
+\ S-18M: 
+COMPARE    .~OUT6A0014;Fade-Timeramp,.~A60014;
+
+\ S-19M: 
+COMPARE    .~OUT6B0014;.~A70014,Fade-Timeramp;
+
+\ S-20M: 
+AND        .~OUT60014;.~OUT6A0014,.~OUT6B0014;
+
+\ S-21M: 
+COMPARE    .~OUT7A0014;Fade-Timeramp,.~A70014;
+
+\ S-22M: 
+COMPARE    .~OUT7B0014;.~A80014,Fade-Timeramp;
+
+\ S-23M: 
+AND        .~OUT70014;.~OUT7A0014,.~OUT7B0014;
+
+\ S-24M: 
+COMPARE    .~OUT8A0014;Fade-Timeramp,.~A80014;
+
+\ S-25M: 
+COMPARE    .~OUT8B0014;.~A90014,Fade-Timeramp;
+
+\ S-26M: 
+AND        .~OUT80014;.~OUT8A0014,.~OUT8B0014;
+
+\ S-27M: 
+COMPARE    .~OUT9A0014;Fade-Timeramp,.~A90014;
+
+\ S-28M: 
+COMPARE    .~OUT9B0014;.~A100014,Fade-Timeramp;
+
+\ S-29M: 
+AND        .~OUT90014;.~OUT9A0014,.~OUT9B0014;
+
+\ S-30M: 
+COMPARE    .~OUT10A0014;Fade-Timeramp,.~A100014;
+
+\ S-31M: 
+COMPARE    .~OUT10B0014;.~A110014,Fade-Timeramp;
+
+\ S-32M: 
+AND        .~OUT100014;.~OUT10A0014,.~OUT10B0014;
+
+\ S-33M: 
+INIT       0%,10%,20%,30%,40%,50%,60%,70%,80%,90%,100%;
+    .~A10014,.~A20014,.~A30014,.~A40014,.~A50014,.~A60014,.~A70014,
+    .~A80014,.~A90014,.~A100014,.~A110014;
+    1;
+
+\ S-34M: 
+MV         .1s;.~startup0014;1;
+
+\ S-35M: 
+INIT       15%,15%,25%,35%,45%,55%,65%,75%,85%,90%,100%;
+    Fade-Time-Bar;.~startup0014,.~OUT10014,.~OUT20014,.~OUT30014,
+    .~OUT40014,.~OUT50014,.~OUT60014,.~OUT70014,.~OUT80014,
+    .~OUT90014,.~OUT100014;
+
+\ S-36M: 
+INIT       .5s,.5s,1s,2s,4s,8s,12s,16s,24s,32s,48s;
+    Fade-Time-Pre;.~startup0014,.~OUT10014,.~OUT20014,.~OUT30014,
+    .~OUT40014,.~OUT50014,.~OUT60014,.~OUT70014,.~OUT80014,
+    .~OUT90014,.~OUT100014;
+
+\ S-37M: send
+send
+    ".5s";Fade-Time$;.~OUT10014;
+
+\ S-38M: send
+send
+    ".5s";Fade-Time$;.~startup0014;
+
+\ S-39M: send
+send
+    "1s";Fade-Time$;.~OUT20014;
+
+\ S-40M: send
+send
+    "2s";Fade-Time$;.~OUT30014;
+
+\ S-41M: send
+send
+    "4s";Fade-Time$;.~OUT40014;
+
+\ S-42M: send
+send
+    "8s";Fade-Time$;.~OUT50014;
+
+\ S-43M: send
+send
+    "12s";Fade-Time$;.~OUT60014;
+
+\ S-44M: send
+send
+    "16s";Fade-Time$;.~OUT70014;
+
+\ S-45M: send
+send
+    "24s";Fade-Time$;.~OUT80014;
+
+\ S-46M: send
+send
+    "32s";Fade-Time$;.~OUT90014;
+
+\ S-47M: send
+send
+    "48s";Fade-Time$;.~OUT100014;
+
+\ end MACRO expansion
+
+\ S-15: MACRO expansion for NEWLITE3.IMC
+\ 
+
+\ S-3M: 
+OR         .~RECALL0015;Preset1,Preset2,Preset3,Preset4,Preset5,Preset6,
+    Preset7,Preset8,
+    Preset9,Preset10,Preset11,Preset12,Preset13,Preset14,Preset15,
+    Preset16,0,0,0,
+    0;
+
+\ S-5M: 
+RAM       
+    Fade-Timeramp,.~ZONE-1-AN0015,.~ZONE-2-AN0015,.~ZONE-3-AN0015,
+    .~ZONE-4-AN0015,.~ZONE-5-AN0015,
+    .~ZONE-6-AN0015,.~ZONE-7-AN0015,.~ZONE-8-AN0015,.~ZONE-9-AN0015,
+    .~ZONE-10-AN0015,.~ZONE-11-AN0015,
+    .~ZONE-12-AN0015,.~ZONE-13-AN0015,.~ZONE-14-AN0015,.~ZONE-15-AN0015,
+    .~ZONE-16-AN0015,.~ZONE-17-AN0015,
+    .~ZONE-18-AN0015,.~ZONE-19-AN0015,.~ZONE-20-AN0015,Master-Out;
+
+    Fade-Timeramp,.~ZONE-1-AN0015,.~ZONE-2-AN0015,.~ZONE-3-AN0015,
+    .~ZONE-4-AN0015,.~ZONE-5-AN0015,
+    .~ZONE-6-AN0015,.~ZONE-7-AN0015,.~ZONE-8-AN0015,.~ZONE-9-AN0015,
+    .~ZONE-10-AN0015,.~ZONE-11-AN0015,
+    .~ZONE-12-AN0015,.~ZONE-13-AN0015,.~ZONE-14-AN0015,.~ZONE-15-AN0015,
+    .~ZONE-16-AN0015,.~ZONE-17-AN0015,
+    .~ZONE-18-AN0015,.~ZONE-19-AN0015,.~ZONE-20-AN0015,Master-Out:
+    
+    Preset-Save,.~RECALL0015,
+    .~PRESET-1-I0015,.~PRESET-2-I0015,.~PRESET-3-I0015,.~PRESET-4-I0015,
+    .~PRESET-5-I0015,.~PRESET-6-I0015,
+    .~PRESET-7-I0015,.~PRESET-8-I0015,.~PRESET-9-I0015,.~PRESET-10-I0015,
+    .~PRESET-11-I0015,.~PRESET-12-I0015,
+    .~PRESET-13-I0015,.~PRESET-14-I0015,.~PRESET-15-I0015,.~PRESET-16-I0015,
+    .~PRESET-17-I0015,
+    .~PRESET-18-I0015,.~PRESET-19-I0015,.~PRESET-20-I0015;
+
+\ S-7M: 
+DELAY      0S;.~ZONE-1-UP0015;.~ZONE-1-UP-IN0015;
+
+\ S-8M: 
+DELAY      0S;.~ZONE-1-DN0015;.~ZONE-1-DN-IN0015;
+
+\ S-9M: 
+RAMP       5s;.~ZONE-1-AN0015;.~ZONE-1-UP0015,.~ZONE-1-DN0015;
+
+\ S-10M: 
+DELAY      0S;.~ZONE-2-UP0015;.~ZONE-2-UP-IN0015;
+
+\ S-11M: 
+DELAY      0S;.~ZONE-2-DN0015;.~ZONE-2-DN-IN0015;
+
+\ S-12M: 
+RAMP       5s;.~ZONE-2-AN0015;.~ZONE-2-UP0015,.~ZONE-2-DN0015;
+
+\ S-13M: 
+DELAY      0S;.~ZONE-3-UP0015;.~ZONE-3-UP-IN0015;
+
+\ S-14M: 
+DELAY      0S;.~ZONE-3-DN0015;.~ZONE-3-DN-IN0015;
+
+\ S-15M: 
+RAMP       5s;.~ZONE-3-AN0015;.~ZONE-3-UP0015,.~ZONE-3-DN0015;
+
+\ S-16M: 
+DELAY      0S;.~ZONE-4-UP0015;.~ZONE-4-UP-IN0015;
+
+\ S-17M: 
+DELAY      0S;.~ZONE-4-DN0015;.~ZONE-4-DN-IN0015;
+
+\ S-18M: 
+RAMP       5s;.~ZONE-4-AN0015;.~ZONE-4-UP0015,.~ZONE-4-DN0015;
+
+\ S-19M: 
+DELAY      0S;.~ZONE-5-UP0015;.~ZONE-5-UP-IN0015;
+
+\ S-20M: 
+DELAY      0S;.~ZONE-5-DN0015;.~ZONE-5-DN-IN0015;
+
+\ S-21M: 
+RAMP       5s;.~ZONE-5-AN0015;.~ZONE-5-UP0015,.~ZONE-5-DN0015;
+
+\ S-22M: 
+DELAY      0S;.~ZONE-6-UP0015;.~ZONE-6-UP-IN0015;
+
+\ S-23M: 
+DELAY      0S;.~ZONE-6-DN0015;.~ZONE-6-DN-IN0015;
+
+\ S-24M: 
+RAMP       5s;.~ZONE-6-AN0015;.~ZONE-6-UP0015,.~ZONE-6-DN0015;
+
+\ S-25M: 
+DELAY      0S;.~ZONE-7-UP0015;.~ZONE-7-UP-IN0015;
+
+\ S-26M: 
+DELAY      0S;.~ZONE-7-DN0015;.~ZONE-7-DN-IN0015;
+
+\ S-27M: 
+RAMP       5s;.~ZONE-7-AN0015;.~ZONE-7-UP0015,.~ZONE-7-DN0015;
+
+\ S-28M: 
+DELAY      0S;.~ZONE-8-UP0015;.~ZONE-8-UP-IN0015;
+
+\ S-29M: 
+DELAY      0S;.~ZONE-8-DN0015;.~ZONE-8-DN-IN0015;
+
+\ S-30M: 
+RAMP       5s;.~ZONE-8-AN0015;.~ZONE-8-UP0015,.~ZONE-8-DN0015;
+
+\ S-31M: 
+DELAY      0S;.~ZONE-9-UP0015;.~ZONE-9-UP-IN0015;
+
+\ S-32M: 
+DELAY      0S;.~ZONE-9-DN0015;.~ZONE-9-DN-IN0015;
+
+\ S-33M: 
+RAMP       5s;.~ZONE-9-AN0015;.~ZONE-9-UP0015,.~ZONE-9-DN0015;
+
+\ S-34M: 
+DELAY      0S;.~ZONE-10-UP0015;.~ZONE-10-UP-IN0015;
+
+\ S-35M: 
+DELAY      0S;.~ZONE-10-DN0015;.~ZONE-10-DN-IN0015;
+
+\ S-36M: 
+RAMP       5s;.~ZONE-10-AN0015;.~ZONE-10-UP0015,.~ZONE-10-DN0015;
+
+
+\ S-37M: 
+DELAY      0S;.~ZONE-11-UP0015;.~ZONE-11-UP-IN0015;
+
+\ S-38M: 
+DELAY      0S;.~ZONE-11-DN0015;.~ZONE-11-DN-IN0015;
+
+\ S-39M: 
+RAMP       5s;.~ZONE-11-AN0015;.~ZONE-11-UP0015,.~ZONE-11-DN0015;
+
+
+\ S-40M: 
+DELAY      0S;.~ZONE-12-UP0015;.~ZONE-12-UP-IN0015;
+
+\ S-41M: 
+DELAY      0S;.~ZONE-12-DN0015;.~ZONE-12-DN-IN0015;
+
+\ S-42M: 
+RAMP       5s;.~ZONE-12-AN0015;.~ZONE-12-UP0015,.~ZONE-12-DN0015;
+
+
+\ S-43M: 
+DELAY      0S;.~ZONE-13-UP0015;.~ZONE-13-UP-IN0015;
+
+\ S-44M: 
+DELAY      0S;.~ZONE-13-DN0015;.~ZONE-13-DN-IN0015;
+
+\ S-45M: 
+RAMP       5s;.~ZONE-13-AN0015;.~ZONE-13-UP0015,.~ZONE-13-DN0015;
+
+
+\ S-46M: 
+DELAY      0S;.~ZONE-14-UP0015;.~ZONE-14-UP-IN0015;
+
+\ S-47M: 
+DELAY      0S;.~ZONE-14-DN0015;.~ZONE-14-DN-IN0015;
+
+\ S-48M: 
+RAMP       5s;.~ZONE-14-AN0015;.~ZONE-14-UP0015,.~ZONE-14-DN0015;
+
+
+\ S-49M: 
+DELAY      0S;.~ZONE-15-UP0015;.~ZONE-15-UP-IN0015;
+
+\ S-50M: 
+DELAY      0S;.~ZONE-15-DN0015;.~ZONE-15-DN-IN0015;
+
+\ S-51M: 
+RAMP       5s;.~ZONE-15-AN0015;.~ZONE-15-UP0015,.~ZONE-15-DN0015;
+
+
+\ S-52M: 
+DELAY      0S;.~ZONE-16-UP0015;.~ZONE-16-UP-IN0015;
+
+\ S-53M: 
+DELAY      0S;.~ZONE-16-DN0015;.~ZONE-16-DN-IN0015;
+
+\ S-54M: 
+RAMP       5s;.~ZONE-16-AN0015;.~ZONE-16-UP0015,.~ZONE-16-DN0015;
+
+
+\ S-55M: 
+DELAY      0S;.~ZONE-17-UP0015;.~ZONE-17-UP-IN0015;
+
+\ S-56M: 
+DELAY      0S;.~ZONE-17-DN0015;.~ZONE-17-DN-IN0015;
+
+\ S-57M: 
+RAMP       5s;.~ZONE-17-AN0015;.~ZONE-17-UP0015,.~ZONE-17-DN0015;
+
+
+\ S-58M: 
+DELAY      0S;.~ZONE-18-UP0015;.~ZONE-18-UP-IN0015;
+
+\ S-59M: 
+DELAY      0S;.~ZONE-18-DN0015;.~ZONE-18-DN-IN0015;
+
+\ S-60M: 
+RAMP       5s;.~ZONE-18-AN0015;.~ZONE-18-UP0015,.~ZONE-18-DN0015;
+
+
+\ S-61M: 
+DELAY      0S;.~ZONE-19-UP0015;.~ZONE-19-UP-IN0015;
+
+\ S-62M: 
+DELAY      0S;.~ZONE-19-DN0015;.~ZONE-19-DN-IN0015;
+
+\ S-63M: 
+RAMP       5s;.~ZONE-19-AN0015;.~ZONE-19-UP0015,.~ZONE-19-DN0015;
+
+
+\ S-64M: 
+DELAY      0S;.~ZONE-20-UP0015;.~ZONE-20-UP-IN0015;
+
+\ S-65M: 
+DELAY      0S;.~ZONE-20-DN0015;.~ZONE-20-DN-IN0015;
+
+\ S-66M: 
+RAMP       5s;.~ZONE-20-AN0015;.~ZONE-20-UP0015,.~ZONE-20-DN0015;
+
+
+\ S-68M: 
+PRESETV   
+    Busy,
+    Z1-Out,Z2-Out,Z3-Out,Z5-Out,Z6-Out,Z7-Out,
+    Z8-Out,Z9-Out,Z10-Out,Z11-Out,Z12-Out,Z13-Out,
+    Z14-Out,Z15-Out,Z18-Out,Z68-Out,Z80-Out,
+    Z86-Out,Z101-Out,Z103-Out;
+    Fade-Time-Pre,
+    .~ZONE-1-A0015,.~ZONE-2-A0015,.~ZONE-3-A0015,.~ZONE-4-A0015,.~ZONE-5-A0015,
+    .~ZONE-6-A0015,.~ZONE-7-A0015,
+    .~ZONE-8-A0015,.~ZONE-9-A0015,.~ZONE-10-A0015,.~ZONE-11-A0015,
+    .~ZONE-12-A0015,.~ZONE-13-A0015,.~ZONE-14-A0015,
+    .~ZONE-15-A0015,.~ZONE-16-A0015,.~ZONE-17-A0015,.~ZONE-18-A0015,
+    .~ZONE-19-A0015,.~ZONE-20-A0015:Preset1,
+    Preset2,Preset3,Preset4,Preset5,Preset6,Preset7,Preset8,
+    Preset9,Preset10,Preset11,Preset12,Preset13,Preset14,Preset15,
+    
+    Preset16,0,0,0,0;
+
+\ S-69M: 
+NAND       .~BUSY*0015;Busy;
+
+\ S-70M: 
+BUFFER     .~ZONE-1-UP-IN0015,.~ZONE-2-UP-IN0015,.~ZONE-3-UP-IN0015,
+    .~ZONE-4-UP-IN0015,
+    .~ZONE-5-UP-IN0015,.~ZONE-6-UP-IN0015,.~ZONE-7-UP-IN0015,.~ZONE-8-UP-IN0015,
+    
+    .~ZONE-9-UP-IN0015,.~ZONE-10-UP-IN0015,.~ZONE-11-UP-IN0015,.~ZONE-12-UP-IN0015,
+    
+    .~ZONE-13-UP-IN0015,.~ZONE-14-UP-IN0015,.~ZONE-15-UP-IN0015,.~ZONE-16-UP-IN0015,
+    
+    .~ZONE-17-UP-IN0015,.~ZONE-18-UP-IN0015,.~ZONE-19-UP-IN0015,.~ZONE-20-UP-IN0015,
+    
+    .~ZONE-1-DN-IN0015,.~ZONE-2-DN-IN0015,.~ZONE-3-DN-IN0015,.~ZONE-4-DN-IN0015,
+    
+    .~ZONE-5-DN-IN0015,.~ZONE-6-DN-IN0015,.~ZONE-7-DN-IN0015,.~ZONE-8-DN-IN0015,
+    
+    .~ZONE-9-DN-IN0015,.~ZONE-10-DN-IN0015,.~ZONE-11-DN-IN0015,.~ZONE-12-DN-IN0015,
+    
+    .~ZONE-13-DN-IN0015,.~ZONE-14-DN-IN0015,.~ZONE-15-DN-IN0015,.~ZONE-16-DN-IN0015,
+    
+    .~ZONE-17-DN-IN0015,.~ZONE-18-DN-IN0015,.~ZONE-19-DN-IN0015,.~ZONE-20-DN-IN0015,
+    
+    .~MASTER-UP-IN0015,.~MASTER-DN-IN0015;
+    .~BUSY*0015,
+    Z1-UP,Z2-UP,Z3-UP,Z5-UP,Z6-UP,Z7-UP,Z8-UP,Z9-UP,Z10-UP,Z11-UP,
+    Z12-UP,
+    Z13-UP,Z14-UP,Z15-UP,Z18-UP,Z68-UP,Z80-UP,Z86-UP,Z101-UP,Z103-UP,
+    Z1-DN,Z2-DN,
+    Z3-DN,Z5-DN,Z6-DN,Z7-DN,Z8-DN,Z9-DN,Z10-DN,Z11-DN,Z12-DN,Z13-DN,
+    
+    Z14-DN,Z15-DN,Z18-DN,Z68-DN,Z80-DN,Z86-DN,Z101-DN,Z103-DN,Master-Up,
+    Master-Dn;
+
+\ S-71M: 
+INTERLOCK  .~PRESET-1-I0015,.~PRESET-2-I0015,.~PRESET-3-I0015,.~PRESET-4-I0015,
+    .~PRESET-5-I0015,
+    .~PRESET-6-I0015,.~PRESET-7-I0015,.~PRESET-8-I0015,.~PRESET-9-I0015,
+    .~PRESET-10-I0015,
+    .~PRESET-11-I0015,.~PRESET-12-I0015,.~PRESET-13-I0015,.~PRESET-14-I0015,
+    .~PRESET-15-I0015,
+    .~PRESET-16-I0015,.~PRESET-17-I0015,.~PRESET-18-I0015,.~PRESET-19-I0015,
+    .~PRESET-20-I0015;
+    Preset1,Preset2,Preset3,Preset4,Preset5,Preset6,Preset7,Preset8,
+    Preset9,Preset10,Preset11,
+    Preset12,Preset13,Preset14,Preset15,Preset16,0,0,0,0;
+
+\ S-72M: 
+DELAY      0S;.~MASTER-UP0015;.~MASTER-UP-IN0015;
+
+\ S-73M: 
+DELAY      0S;.~MASTER-DN0015;.~MASTER-DN-IN0015;
+
+\ S-74M: 
+RAMP       5S;Master-Out;.~MASTER-UP0015,.~MASTER-DN0015;
+
+\ S-75M: 
+MBUFFER    .~ZONE-1-A0015,.~ZONE-2-A0015,.~ZONE-3-A0015,.~ZONE-4-A0015,
+    .~ZONE-5-A0015,.~ZONE-6-A0015,
+    .~ZONE-7-A0015,.~ZONE-8-A0015,.~ZONE-9-A0015,.~ZONE-10-A0015,
+    .~ZONE-11-A0015,.~ZONE-12-A0015,
+    .~ZONE-13-A0015,.~ZONE-14-A0015,.~ZONE-15-A0015,.~ZONE-16-A0015,
+    .~ZONE-17-A0015,.~ZONE-18-A0015,
+    .~ZONE-19-A0015,.~ZONE-20-A0015;
+    Master-Out,
+    .~ZONE-1-AN0015,.~ZONE-2-AN0015,.~ZONE-3-AN0015,.~ZONE-4-AN0015,
+    .~ZONE-5-AN0015,.~ZONE-6-AN0015,
+    .~ZONE-7-AN0015,.~ZONE-8-AN0015,.~ZONE-9-AN0015,.~ZONE-10-AN0015,
+    .~ZONE-11-AN0015,
+    .~ZONE-12-AN0015,.~ZONE-13-AN0015,.~ZONE-14-AN0015,.~ZONE-15-AN0015,
+    .~ZONE-16-AN0015,
+    .~ZONE-17-AN0015,.~ZONE-18-AN0015,.~ZONE-19-AN0015,.~ZONE-20-AN0015;
+
+
+\ S-76M: 
+ABUFFER    Master-Bar,Master-Bar,Master-Bar,Master-Bar,Master-Bar,
+    Master-Bar,Master-Bar,Master-Bar,Master-Bar,Master-Bar,Master-Bar,
+    Master-Bar,
+    Master-Bar,Master-Bar,Master-Bar,Master-Bar,Master-Bar,Master-Bar,
+    Master-Bar,Master-Bar;
+    .~PROG-EN0015,
+    .~ZONE-1-AN0015,.~ZONE-2-AN0015,.~ZONE-3-AN0015,.~ZONE-4-AN0015,
+    .~ZONE-5-AN0015,.~ZONE-6-AN0015,
+    .~ZONE-7-AN0015,.~ZONE-8-AN0015,.~ZONE-9-AN0015,.~ZONE-10-AN0015,
+    .~ZONE-11-AN0015,
+    .~ZONE-12-AN0015,.~ZONE-13-AN0015,.~ZONE-14-AN0015,.~ZONE-15-AN0015,
+    .~ZONE-16-AN0015,
+    .~ZONE-17-AN0015,.~ZONE-18-AN0015,.~ZONE-19-AN0015,.~ZONE-20-AN0015;
+
+
+\ S-77M: 
+ABUFFER    Master-Bar;.~NORMAL0015,
+    Master-Out;
+
+\ S-78M: 
+OR         .~PROG0015;.~ZONE-1-UP0015,.~ZONE-2-UP0015,.~ZONE-3-UP0015,
+    .~ZONE-4-UP0015,.~ZONE-5-UP0015,
+    .~ZONE-6-UP0015,.~ZONE-7-UP0015,.~ZONE-8-UP0015,.~ZONE-9-UP0015,
+    .~ZONE-10-UP0015,.~ZONE-11-UP0015,
+    .~ZONE-12-UP0015,.~ZONE-13-UP0015,.~ZONE-14-UP0015,.~ZONE-15-UP0015,
+    .~ZONE-16-UP0015,
+    .~ZONE-17-UP0015,.~ZONE-18-UP0015,.~ZONE-19-UP0015,.~ZONE-20-UP0015,
+    .~ZONE-1-DN0015,
+    .~ZONE-2-DN0015,.~ZONE-3-DN0015,.~ZONE-4-DN0015,.~ZONE-5-DN0015,
+    .~ZONE-6-DN0015,.~ZONE-7-DN0015,
+    .~ZONE-8-DN0015,.~ZONE-9-DN0015,.~ZONE-10-DN0015,.~ZONE-11-DN0015,
+    .~ZONE-12-DN0015,
+    .~ZONE-13-DN0015,.~ZONE-14-DN0015,.~ZONE-15-DN0015,.~ZONE-16-DN0015,
+    .~ZONE-17-DN0015,
+    .~ZONE-18-DN0015,.~ZONE-19-DN0015,.~ZONE-20-DN0015;
+
+\ S-79M: 
+HMV        2S;.~PROG-EN0015;.~PROG0015;
+
+\ S-80M: 
+OR         .~BUTTONS0015;.~ZONE-1-UP-IN0015,.~ZONE-2-UP-IN0015,.~ZONE-3-UP-IN0015,
+    
+    .~ZONE-4-UP-IN0015,.~ZONE-5-UP-IN0015,.~ZONE-6-UP-IN0015,.~ZONE-7-UP-IN0015,
+    
+    .~ZONE-8-UP-IN0015,.~ZONE-9-UP-IN0015,.~ZONE-10-UP-IN0015,.~ZONE-11-UP-IN0015,
+    
+    .~ZONE-12-UP-IN0015,.~ZONE-13-UP-IN0015,.~ZONE-14-UP-IN0015,.~ZONE-15-UP-IN0015,
+    
+    .~ZONE-16-UP-IN0015,.~ZONE-17-UP-IN0015,.~ZONE-18-UP-IN0015,.~ZONE-19-UP-IN0015,
+    
+    .~ZONE-20-UP-IN0015,.~MASTER-UP-IN0015,.~ZONE-1-DN-IN0015,.~ZONE-2-DN-IN0015,
+    
+    .~ZONE-3-DN-IN0015,.~ZONE-4-DN-IN0015,.~ZONE-5-DN-IN0015,.~ZONE-6-DN-IN0015,
+    
+    .~ZONE-7-DN-IN0015,.~ZONE-8-DN-IN0015,.~ZONE-9-DN-IN0015,.~ZONE-10-DN-IN0015,
+    
+    .~ZONE-11-DN-IN0015,.~ZONE-12-DN-IN0015,.~ZONE-13-DN-IN0015,.~ZONE-14-DN-IN0015,
+    
+    .~ZONE-15-DN-IN0015,.~ZONE-16-DN-IN0015,.~ZONE-17-DN-IN0015,.~ZONE-18-DN-IN0015,
+    
+    .~ZONE-19-DN-IN0015,.~ZONE-20-DN-IN0015,.~MASTER-DN-IN0015;
+
+\ S-81M: 
+HMV        0.25S;.~BUTTONS-HMV0015;.~BUTTONS0015;
+
+\ S-82M: 
+ABUFFER    Z1-Out,Z2-Out,Z3-Out,Z5-Out,Z6-Out,Z7-Out,Z8-Out,Z9-Out,
+    Z10-Out,Z11-Out,Z12-Out,
+    Z13-Out,Z14-Out,Z15-Out,Z18-Out,Z68-Out,Z80-Out,Z86-Out,Z101-Out,
+    Z103-Out;
+    .~BUTTONS-HMV0015,
+    .~ZONE-1-A0015,.~ZONE-2-A0015,.~ZONE-3-A0015,.~ZONE-4-A0015,.~ZONE-5-A0015,
+    .~ZONE-6-A0015,
+    .~ZONE-7-A0015,.~ZONE-8-A0015,.~ZONE-9-A0015,.~ZONE-10-A0015,
+    .~ZONE-11-A0015,.~ZONE-12-A0015,
+    .~ZONE-13-A0015,.~ZONE-14-A0015,.~ZONE-15-A0015,.~ZONE-16-A0015,
+    .~ZONE-17-A0015,.~ZONE-18-A0015,
+    .~ZONE-19-A0015,.~ZONE-20-A0015;
+
+\ S-83M: 
+NAND       .~NORMAL0015;.~PROG-EN0015;
+
+\ S-84M: 
+OSC        .25s,.25s;.~BUSY-OSC0015;Busy;
+
+\ S-85M: 
+NAND       .~BUSY-OSC*0015;.~BUSY-OSC0015;
+
+\ S-86M: 
+BUFFER     Preset1fb,Preset2fb,Preset3fb,Preset4fb,Preset5fb,Preset6fb,
+    Preset7fb,Preset8fb,Preset9fb,
+    Preset10fb,Preset11fb,Preset12fb,Preset13fb,Preset14fb,Preset15fb,
+    Preset16fb,NC2,NC3,NC4,
+    NC5;
+    .~BUSY-OSC*0015,
+    .~PRESET-1-I0015,.~PRESET-2-I0015,.~PRESET-3-I0015,.~PRESET-4-I0015,
+    .~PRESET-5-I0015,
+    .~PRESET-6-I0015,.~PRESET-7-I0015,.~PRESET-8-I0015,.~PRESET-9-I0015,
+    .~PRESET-10-I0015,
+    .~PRESET-11-I0015,.~PRESET-12-I0015,.~PRESET-13-I0015,.~PRESET-14-I0015,
+    .~PRESET-15-I0015,
+    .~PRESET-16-I0015,.~PRESET-17-I0015,.~PRESET-18-I0015,.~PRESET-19-I0015,
+    .~PRESET-20-I0015;
+
+\ end MACRO expansion
+
+\ S-16: MACRO expansion for NEWLITE3.IMC
+\ 
+
+\ S-3M: 
+OR         .~RECALL0016;Preset1,Preset2,Preset3,Preset4,Preset5,Preset6,
+    Preset7,Preset8,
+    Preset9,Preset10,Preset11,Preset12,Preset13,Preset14,Preset15,
+    Preset16,0,0,0,
+    0;
+
+\ S-5M: 
+RAM       
+    Fade-Timeramp,.~ZONE-1-AN0016,.~ZONE-2-AN0016,.~ZONE-3-AN0016,
+    .~ZONE-4-AN0016,.~ZONE-5-AN0016,
+    .~ZONE-6-AN0016,.~ZONE-7-AN0016,.~ZONE-8-AN0016,.~ZONE-9-AN0016,
+    .~ZONE-10-AN0016,.~ZONE-11-AN0016,
+    .~ZONE-12-AN0016,.~ZONE-13-AN0016,.~ZONE-14-AN0016,.~ZONE-15-AN0016,
+    .~ZONE-16-AN0016,.~ZONE-17-AN0016,
+    .~ZONE-18-AN0016,.~ZONE-19-AN0016,.~ZONE-20-AN0016,NC7;
+    Fade-Timeramp,.~ZONE-1-AN0016,.~ZONE-2-AN0016,.~ZONE-3-AN0016,
+    .~ZONE-4-AN0016,.~ZONE-5-AN0016,
+    .~ZONE-6-AN0016,.~ZONE-7-AN0016,.~ZONE-8-AN0016,.~ZONE-9-AN0016,
+    .~ZONE-10-AN0016,.~ZONE-11-AN0016,
+    .~ZONE-12-AN0016,.~ZONE-13-AN0016,.~ZONE-14-AN0016,.~ZONE-15-AN0016,
+    .~ZONE-16-AN0016,.~ZONE-17-AN0016,
+    .~ZONE-18-AN0016,.~ZONE-19-AN0016,.~ZONE-20-AN0016,NC7:
+    Preset-Save,.~RECALL0016,
+    .~PRESET-1-I0016,.~PRESET-2-I0016,.~PRESET-3-I0016,.~PRESET-4-I0016,
+    .~PRESET-5-I0016,.~PRESET-6-I0016,
+    .~PRESET-7-I0016,.~PRESET-8-I0016,.~PRESET-9-I0016,.~PRESET-10-I0016,
+    .~PRESET-11-I0016,.~PRESET-12-I0016,
+    .~PRESET-13-I0016,.~PRESET-14-I0016,.~PRESET-15-I0016,.~PRESET-16-I0016,
+    .~PRESET-17-I0016,
+    .~PRESET-18-I0016,.~PRESET-19-I0016,.~PRESET-20-I0016;
+
+\ S-7M: 
+DELAY      0S;.~ZONE-1-UP0016;.~ZONE-1-UP-IN0016;
+
+\ S-8M: 
+DELAY      0S;.~ZONE-1-DN0016;.~ZONE-1-DN-IN0016;
+
+\ S-9M: 
+RAMP       5s;.~ZONE-1-AN0016;.~ZONE-1-UP0016,.~ZONE-1-DN0016;
+
+\ S-10M: 
+DELAY      0S;.~ZONE-2-UP0016;.~ZONE-2-UP-IN0016;
+
+\ S-11M: 
+DELAY      0S;.~ZONE-2-DN0016;.~ZONE-2-DN-IN0016;
+
+\ S-12M: 
+RAMP       5s;.~ZONE-2-AN0016;.~ZONE-2-UP0016,.~ZONE-2-DN0016;
+
+\ S-13M: 
+DELAY      0S;.~ZONE-3-UP0016;.~ZONE-3-UP-IN0016;
+
+\ S-14M: 
+DELAY      0S;.~ZONE-3-DN0016;.~ZONE-3-DN-IN0016;
+
+\ S-15M: 
+RAMP       5s;.~ZONE-3-AN0016;.~ZONE-3-UP0016,.~ZONE-3-DN0016;
+
+\ S-16M: 
+DELAY      0S;.~ZONE-4-UP0016;.~ZONE-4-UP-IN0016;
+
+\ S-17M: 
+DELAY      0S;.~ZONE-4-DN0016;.~ZONE-4-DN-IN0016;
+
+\ S-18M: 
+RAMP       5s;.~ZONE-4-AN0016;.~ZONE-4-UP0016,.~ZONE-4-DN0016;
+
+\ S-19M: 
+DELAY      0S;.~ZONE-5-UP0016;.~ZONE-5-UP-IN0016;
+
+\ S-20M: 
+DELAY      0S;.~ZONE-5-DN0016;.~ZONE-5-DN-IN0016;
+
+\ S-21M: 
+RAMP       5s;.~ZONE-5-AN0016;.~ZONE-5-UP0016,.~ZONE-5-DN0016;
+
+\ S-22M: 
+DELAY      0S;.~ZONE-6-UP0016;.~ZONE-6-UP-IN0016;
+
+\ S-23M: 
+DELAY      0S;.~ZONE-6-DN0016;.~ZONE-6-DN-IN0016;
+
+\ S-24M: 
+RAMP       5s;.~ZONE-6-AN0016;.~ZONE-6-UP0016,.~ZONE-6-DN0016;
+
+\ S-25M: 
+DELAY      0S;.~ZONE-7-UP0016;.~ZONE-7-UP-IN0016;
+
+\ S-26M: 
+DELAY      0S;.~ZONE-7-DN0016;.~ZONE-7-DN-IN0016;
+
+\ S-27M: 
+RAMP       5s;.~ZONE-7-AN0016;.~ZONE-7-UP0016,.~ZONE-7-DN0016;
+
+\ S-28M: 
+DELAY      0S;.~ZONE-8-UP0016;.~ZONE-8-UP-IN0016;
+
+\ S-29M: 
+DELAY      0S;.~ZONE-8-DN0016;.~ZONE-8-DN-IN0016;
+
+\ S-30M: 
+RAMP       5s;.~ZONE-8-AN0016;.~ZONE-8-UP0016,.~ZONE-8-DN0016;
+
+\ S-31M: 
+DELAY      0S;.~ZONE-9-UP0016;.~ZONE-9-UP-IN0016;
+
+\ S-32M: 
+DELAY      0S;.~ZONE-9-DN0016;.~ZONE-9-DN-IN0016;
+
+\ S-33M: 
+RAMP       5s;.~ZONE-9-AN0016;.~ZONE-9-UP0016,.~ZONE-9-DN0016;
+
+\ S-34M: 
+DELAY      0S;.~ZONE-10-UP0016;.~ZONE-10-UP-IN0016;
+
+\ S-35M: 
+DELAY      0S;.~ZONE-10-DN0016;.~ZONE-10-DN-IN0016;
+
+\ S-36M: 
+RAMP       5s;.~ZONE-10-AN0016;.~ZONE-10-UP0016,.~ZONE-10-DN0016;
+
+
+\ S-37M: 
+DELAY      0S;.~ZONE-11-UP0016;.~ZONE-11-UP-IN0016;
+
+\ S-38M: 
+DELAY      0S;.~ZONE-11-DN0016;.~ZONE-11-DN-IN0016;
+
+\ S-39M: 
+RAMP       5s;.~ZONE-11-AN0016;.~ZONE-11-UP0016,.~ZONE-11-DN0016;
+
+
+\ S-40M: 
+DELAY      0S;.~ZONE-12-UP0016;.~ZONE-12-UP-IN0016;
+
+\ S-41M: 
+DELAY      0S;.~ZONE-12-DN0016;.~ZONE-12-DN-IN0016;
+
+\ S-42M: 
+RAMP       5s;.~ZONE-12-AN0016;.~ZONE-12-UP0016,.~ZONE-12-DN0016;
+
+
+\ S-43M: 
+DELAY      0S;.~ZONE-13-UP0016;.~ZONE-13-UP-IN0016;
+
+\ S-44M: 
+DELAY      0S;.~ZONE-13-DN0016;.~ZONE-13-DN-IN0016;
+
+\ S-45M: 
+RAMP       5s;.~ZONE-13-AN0016;.~ZONE-13-UP0016,.~ZONE-13-DN0016;
+
+
+\ S-46M: 
+DELAY      0S;.~ZONE-14-UP0016;.~ZONE-14-UP-IN0016;
+
+\ S-47M: 
+DELAY      0S;.~ZONE-14-DN0016;.~ZONE-14-DN-IN0016;
+
+\ S-48M: 
+RAMP       5s;.~ZONE-14-AN0016;.~ZONE-14-UP0016,.~ZONE-14-DN0016;
+
+
+\ S-49M: 
+DELAY      0S;.~ZONE-15-UP0016;.~ZONE-15-UP-IN0016;
+
+\ S-50M: 
+DELAY      0S;.~ZONE-15-DN0016;.~ZONE-15-DN-IN0016;
+
+\ S-51M: 
+RAMP       5s;.~ZONE-15-AN0016;.~ZONE-15-UP0016,.~ZONE-15-DN0016;
+
+
+\ S-52M: 
+DELAY      0S;.~ZONE-16-UP0016;.~ZONE-16-UP-IN0016;
+
+\ S-53M: 
+DELAY      0S;.~ZONE-16-DN0016;.~ZONE-16-DN-IN0016;
+
+\ S-54M: 
+RAMP       5s;.~ZONE-16-AN0016;.~ZONE-16-UP0016,.~ZONE-16-DN0016;
+
+
+\ S-55M: 
+DELAY      0S;.~ZONE-17-UP0016;.~ZONE-17-UP-IN0016;
+
+\ S-56M: 
+DELAY      0S;.~ZONE-17-DN0016;.~ZONE-17-DN-IN0016;
+
+\ S-57M: 
+RAMP       5s;.~ZONE-17-AN0016;.~ZONE-17-UP0016,.~ZONE-17-DN0016;
+
+
+\ S-58M: 
+DELAY      0S;.~ZONE-18-UP0016;.~ZONE-18-UP-IN0016;
+
+\ S-59M: 
+DELAY      0S;.~ZONE-18-DN0016;.~ZONE-18-DN-IN0016;
+
+\ S-60M: 
+RAMP       5s;.~ZONE-18-AN0016;.~ZONE-18-UP0016,.~ZONE-18-DN0016;
+
+
+\ S-61M: 
+DELAY      0S;.~ZONE-19-UP0016;.~ZONE-19-UP-IN0016;
+
+\ S-62M: 
+DELAY      0S;.~ZONE-19-DN0016;.~ZONE-19-DN-IN0016;
+
+\ S-63M: 
+RAMP       5s;.~ZONE-19-AN0016;.~ZONE-19-UP0016,.~ZONE-19-DN0016;
+
+
+\ S-64M: 
+DELAY      0S;.~ZONE-20-UP0016;.~ZONE-20-UP-IN0016;
+
+\ S-65M: 
+DELAY      0S;.~ZONE-20-DN0016;.~ZONE-20-DN-IN0016;
+
+\ S-66M: 
+RAMP       5s;.~ZONE-20-AN0016;.~ZONE-20-UP0016,.~ZONE-20-DN0016;
+
+
+\ S-68M: 
+PRESETV   
+    NC28,
+    Z105-Out,Z107-Out,Z109-Out,Z111-Out,Z112-Out,Z116-Out,
+    Z118-Out,Z120-Out,Z122-Out,Z123-Out,Z124-Out,Z125-Out,
+    Z129-Out,Z130-Out,Z131-Out,Z144-Out,Z145-Out,
+    Z146-Out,Z147-Out,Z148-Out;
+    Fade-Time-Pre,
+    .~ZONE-1-A0016,.~ZONE-2-A0016,.~ZONE-3-A0016,.~ZONE-4-A0016,.~ZONE-5-A0016,
+    .~ZONE-6-A0016,.~ZONE-7-A0016,
+    .~ZONE-8-A0016,.~ZONE-9-A0016,.~ZONE-10-A0016,.~ZONE-11-A0016,
+    .~ZONE-12-A0016,.~ZONE-13-A0016,.~ZONE-14-A0016,
+    .~ZONE-15-A0016,.~ZONE-16-A0016,.~ZONE-17-A0016,.~ZONE-18-A0016,
+    .~ZONE-19-A0016,.~ZONE-20-A0016:Preset1,
+    Preset2,Preset3,Preset4,Preset5,Preset6,Preset7,Preset8,
+    Preset9,Preset10,Preset11,Preset12,Preset13,Preset14,Preset15,
+    
+    Preset16,0,0,0,0;
+
+\ S-69M: 
+NAND       .~BUSY*0016;NC28;
+
+\ S-70M: 
+BUFFER     .~ZONE-1-UP-IN0016,.~ZONE-2-UP-IN0016,.~ZONE-3-UP-IN0016,
+    .~ZONE-4-UP-IN0016,
+    .~ZONE-5-UP-IN0016,.~ZONE-6-UP-IN0016,.~ZONE-7-UP-IN0016,.~ZONE-8-UP-IN0016,
+    
+    .~ZONE-9-UP-IN0016,.~ZONE-10-UP-IN0016,.~ZONE-11-UP-IN0016,.~ZONE-12-UP-IN0016,
+    
+    .~ZONE-13-UP-IN0016,.~ZONE-14-UP-IN0016,.~ZONE-15-UP-IN0016,.~ZONE-16-UP-IN0016,
+    
+    .~ZONE-17-UP-IN0016,.~ZONE-18-UP-IN0016,.~ZONE-19-UP-IN0016,.~ZONE-20-UP-IN0016,
+    
+    .~ZONE-1-DN-IN0016,.~ZONE-2-DN-IN0016,.~ZONE-3-DN-IN0016,.~ZONE-4-DN-IN0016,
+    
+    .~ZONE-5-DN-IN0016,.~ZONE-6-DN-IN0016,.~ZONE-7-DN-IN0016,.~ZONE-8-DN-IN0016,
+    
+    .~ZONE-9-DN-IN0016,.~ZONE-10-DN-IN0016,.~ZONE-11-DN-IN0016,.~ZONE-12-DN-IN0016,
+    
+    .~ZONE-13-DN-IN0016,.~ZONE-14-DN-IN0016,.~ZONE-15-DN-IN0016,.~ZONE-16-DN-IN0016,
+    
+    .~ZONE-17-DN-IN0016,.~ZONE-18-DN-IN0016,.~ZONE-19-DN-IN0016,.~ZONE-20-DN-IN0016,
+    
+    .~MASTER-UP-IN0016,.~MASTER-DN-IN0016;
+    .~BUSY*0016,
+    Z105-UP,Z107-UP,Z109-UP,Z111-UP,Z112-UP,Z116-UP,Z118-UP,Z120-UP,
+    Z122-UP,Z123-UP,Z124-UP,
+    Z125-UP,Z129-UP,Z130-UP,Z131-UP,Z144-UP,Z145-UP,Z146-UP,Z147-UP,
+    Z148-UP,Z105-DN,Z107-DN,
+    Z109-DN,Z111-DN,Z112-DN,Z116-DN,Z118-DN,Z120-DN,Z122-DN,Z123-DN,
+    Z124-DN,Z125-DN,
+    Z129-DN,Z130-DN,Z131-DN,Z144-DN,Z145-DN,Z146-DN,Z147-DN,Z148-DN,
+    Master-Up,Master-Dn;
+
+\ S-71M: 
+INTERLOCK  .~PRESET-1-I0016,.~PRESET-2-I0016,.~PRESET-3-I0016,.~PRESET-4-I0016,
+    .~PRESET-5-I0016,
+    .~PRESET-6-I0016,.~PRESET-7-I0016,.~PRESET-8-I0016,.~PRESET-9-I0016,
+    .~PRESET-10-I0016,
+    .~PRESET-11-I0016,.~PRESET-12-I0016,.~PRESET-13-I0016,.~PRESET-14-I0016,
+    .~PRESET-15-I0016,
+    .~PRESET-16-I0016,.~PRESET-17-I0016,.~PRESET-18-I0016,.~PRESET-19-I0016,
+    .~PRESET-20-I0016;
+    Preset1,Preset2,Preset3,Preset4,Preset5,Preset6,Preset7,Preset8,
+    Preset9,Preset10,Preset11,
+    Preset12,Preset13,Preset14,Preset15,Preset16,0,0,0,0;
+
+\ S-72M: 
+DELAY      0S;.~MASTER-UP0016;.~MASTER-UP-IN0016;
+
+\ S-73M: 
+DELAY      0S;.~MASTER-DN0016;.~MASTER-DN-IN0016;
+
+\ S-74M: 
+RAMP       5S;NC7;.~MASTER-UP0016,.~MASTER-DN0016;
+
+\ S-75M: 
+MBUFFER    .~ZONE-1-A0016,.~ZONE-2-A0016,.~ZONE-3-A0016,.~ZONE-4-A0016,
+    .~ZONE-5-A0016,.~ZONE-6-A0016,
+    .~ZONE-7-A0016,.~ZONE-8-A0016,.~ZONE-9-A0016,.~ZONE-10-A0016,
+    .~ZONE-11-A0016,.~ZONE-12-A0016,
+    .~ZONE-13-A0016,.~ZONE-14-A0016,.~ZONE-15-A0016,.~ZONE-16-A0016,
+    .~ZONE-17-A0016,.~ZONE-18-A0016,
+    .~ZONE-19-A0016,.~ZONE-20-A0016;
+    NC7,
+    .~ZONE-1-AN0016,.~ZONE-2-AN0016,.~ZONE-3-AN0016,.~ZONE-4-AN0016,
+    .~ZONE-5-AN0016,.~ZONE-6-AN0016,
+    .~ZONE-7-AN0016,.~ZONE-8-AN0016,.~ZONE-9-AN0016,.~ZONE-10-AN0016,
+    .~ZONE-11-AN0016,
+    .~ZONE-12-AN0016,.~ZONE-13-AN0016,.~ZONE-14-AN0016,.~ZONE-15-AN0016,
+    .~ZONE-16-AN0016,
+    .~ZONE-17-AN0016,.~ZONE-18-AN0016,.~ZONE-19-AN0016,.~ZONE-20-AN0016;
+
+
+\ S-76M: 
+ABUFFER    NC6,NC6,NC6,NC6,NC6,NC6,NC6,NC6,NC6,NC6,NC6,NC6,
+    NC6,NC6,NC6,NC6,NC6,NC6,NC6,NC6;
+    .~PROG-EN0016,
+    .~ZONE-1-AN0016,.~ZONE-2-AN0016,.~ZONE-3-AN0016,.~ZONE-4-AN0016,
+    .~ZONE-5-AN0016,.~ZONE-6-AN0016,
+    .~ZONE-7-AN0016,.~ZONE-8-AN0016,.~ZONE-9-AN0016,.~ZONE-10-AN0016,
+    .~ZONE-11-AN0016,
+    .~ZONE-12-AN0016,.~ZONE-13-AN0016,.~ZONE-14-AN0016,.~ZONE-15-AN0016,
+    .~ZONE-16-AN0016,
+    .~ZONE-17-AN0016,.~ZONE-18-AN0016,.~ZONE-19-AN0016,.~ZONE-20-AN0016;
+
+
+\ S-77M: 
+ABUFFER    NC6;.~NORMAL0016,
+    NC7;
+
+\ S-78M: 
+OR         .~PROG0016;.~ZONE-1-UP0016,.~ZONE-2-UP0016,.~ZONE-3-UP0016,
+    .~ZONE-4-UP0016,.~ZONE-5-UP0016,
+    .~ZONE-6-UP0016,.~ZONE-7-UP0016,.~ZONE-8-UP0016,.~ZONE-9-UP0016,
+    .~ZONE-10-UP0016,.~ZONE-11-UP0016,
+    .~ZONE-12-UP0016,.~ZONE-13-UP0016,.~ZONE-14-UP0016,.~ZONE-15-UP0016,
+    .~ZONE-16-UP0016,
+    .~ZONE-17-UP0016,.~ZONE-18-UP0016,.~ZONE-19-UP0016,.~ZONE-20-UP0016,
+    .~ZONE-1-DN0016,
+    .~ZONE-2-DN0016,.~ZONE-3-DN0016,.~ZONE-4-DN0016,.~ZONE-5-DN0016,
+    .~ZONE-6-DN0016,.~ZONE-7-DN0016,
+    .~ZONE-8-DN0016,.~ZONE-9-DN0016,.~ZONE-10-DN0016,.~ZONE-11-DN0016,
+    .~ZONE-12-DN0016,
+    .~ZONE-13-DN0016,.~ZONE-14-DN0016,.~ZONE-15-DN0016,.~ZONE-16-DN0016,
+    .~ZONE-17-DN0016,
+    .~ZONE-18-DN0016,.~ZONE-19-DN0016,.~ZONE-20-DN0016;
+
+\ S-79M: 
+HMV        2S;.~PROG-EN0016;.~PROG0016;
+
+\ S-80M: 
+OR         .~BUTTONS0016;.~ZONE-1-UP-IN0016,.~ZONE-2-UP-IN0016,.~ZONE-3-UP-IN0016,
+    
+    .~ZONE-4-UP-IN0016,.~ZONE-5-UP-IN0016,.~ZONE-6-UP-IN0016,.~ZONE-7-UP-IN0016,
+    
+    .~ZONE-8-UP-IN0016,.~ZONE-9-UP-IN0016,.~ZONE-10-UP-IN0016,.~ZONE-11-UP-IN0016,
+    
+    .~ZONE-12-UP-IN0016,.~ZONE-13-UP-IN0016,.~ZONE-14-UP-IN0016,.~ZONE-15-UP-IN0016,
+    
+    .~ZONE-16-UP-IN0016,.~ZONE-17-UP-IN0016,.~ZONE-18-UP-IN0016,.~ZONE-19-UP-IN0016,
+    
+    .~ZONE-20-UP-IN0016,.~MASTER-UP-IN0016,.~ZONE-1-DN-IN0016,.~ZONE-2-DN-IN0016,
+    
+    .~ZONE-3-DN-IN0016,.~ZONE-4-DN-IN0016,.~ZONE-5-DN-IN0016,.~ZONE-6-DN-IN0016,
+    
+    .~ZONE-7-DN-IN0016,.~ZONE-8-DN-IN0016,.~ZONE-9-DN-IN0016,.~ZONE-10-DN-IN0016,
+    
+    .~ZONE-11-DN-IN0016,.~ZONE-12-DN-IN0016,.~ZONE-13-DN-IN0016,.~ZONE-14-DN-IN0016,
+    
+    .~ZONE-15-DN-IN0016,.~ZONE-16-DN-IN0016,.~ZONE-17-DN-IN0016,.~ZONE-18-DN-IN0016,
+    
+    .~ZONE-19-DN-IN0016,.~ZONE-20-DN-IN0016,.~MASTER-DN-IN0016;
+
+\ S-81M: 
+HMV        0.25S;.~BUTTONS-HMV0016;.~BUTTONS0016;
+
+\ S-82M: 
+ABUFFER    Z105-Out,Z107-Out,Z109-Out,Z111-Out,Z112-Out,Z116-Out,
+    Z118-Out,Z120-Out,Z122-Out,Z123-Out,Z124-Out,
+    Z125-Out,Z129-Out,Z130-Out,Z131-Out,Z144-Out,Z145-Out,Z146-Out,
+    Z147-Out,Z148-Out;
+    .~BUTTONS-HMV0016,
+    .~ZONE-1-A0016,.~ZONE-2-A0016,.~ZONE-3-A0016,.~ZONE-4-A0016,.~ZONE-5-A0016,
+    .~ZONE-6-A0016,
+    .~ZONE-7-A0016,.~ZONE-8-A0016,.~ZONE-9-A0016,.~ZONE-10-A0016,
+    .~ZONE-11-A0016,.~ZONE-12-A0016,
+    .~ZONE-13-A0016,.~ZONE-14-A0016,.~ZONE-15-A0016,.~ZONE-16-A0016,
+    .~ZONE-17-A0016,.~ZONE-18-A0016,
+    .~ZONE-19-A0016,.~ZONE-20-A0016;
+
+\ S-83M: 
+NAND       .~NORMAL0016;.~PROG-EN0016;
+
+\ S-84M: 
+OSC        .25s,.25s;.~BUSY-OSC0016;NC28;
+
+\ S-85M: 
+NAND       .~BUSY-OSC*0016;.~BUSY-OSC0016;
+
+\ S-86M: 
+BUFFER     NC8,NC9,NC10,NC11,NC12,NC13,NC14,NC15,NC16,
+    NC17,NC18,NC19,NC20,NC21,NC22,NC23,NC24,NC25,NC26,
+    NC27;
+    .~BUSY-OSC*0016,
+    .~PRESET-1-I0016,.~PRESET-2-I0016,.~PRESET-3-I0016,.~PRESET-4-I0016,
+    .~PRESET-5-I0016,
+    .~PRESET-6-I0016,.~PRESET-7-I0016,.~PRESET-8-I0016,.~PRESET-9-I0016,
+    .~PRESET-10-I0016,
+    .~PRESET-11-I0016,.~PRESET-12-I0016,.~PRESET-13-I0016,.~PRESET-14-I0016,
+    .~PRESET-15-I0016,
+    .~PRESET-16-I0016,.~PRESET-17-I0016,.~PRESET-18-I0016,.~PRESET-19-I0016,
+    .~PRESET-20-I0016;
+
+\ end MACRO expansion
+
+\ S-17: MACRO expansion for NEWLITE3.IMC
+\ 
+
+\ S-3M: 
+OR         .~RECALL0017;Preset1,Preset2,Preset3,Preset4,Preset5,Preset6,
+    Preset7,Preset8,
+    Preset9,Preset10,Preset11,Preset12,Preset13,Preset14,Preset15,
+    Preset16,0,0,0,
+    0;
+
+\ S-5M: 
+RAM       
+    Fade-Timeramp,.~ZONE-1-AN0017,.~ZONE-2-AN0017,.~ZONE-3-AN0017,
+    .~ZONE-4-AN0017,.~ZONE-5-AN0017,
+    .~ZONE-6-AN0017,.~ZONE-7-AN0017,.~ZONE-8-AN0017,.~ZONE-9-AN0017,
+    .~ZONE-10-AN0017,.~ZONE-11-AN0017,
+    .~ZONE-12-AN0017,.~ZONE-13-AN0017,.~ZONE-14-AN0017,.~ZONE-15-AN0017,
+    .~ZONE-16-AN0017,.~ZONE-17-AN0017,
+    .~ZONE-18-AN0017,.~ZONE-19-AN0017,.~ZONE-20-AN0017,NC30;
+    Fade-Timeramp,.~ZONE-1-AN0017,.~ZONE-2-AN0017,.~ZONE-3-AN0017,
+    .~ZONE-4-AN0017,.~ZONE-5-AN0017,
+    .~ZONE-6-AN0017,.~ZONE-7-AN0017,.~ZONE-8-AN0017,.~ZONE-9-AN0017,
+    .~ZONE-10-AN0017,.~ZONE-11-AN0017,
+    .~ZONE-12-AN0017,.~ZONE-13-AN0017,.~ZONE-14-AN0017,.~ZONE-15-AN0017,
+    .~ZONE-16-AN0017,.~ZONE-17-AN0017,
+    .~ZONE-18-AN0017,.~ZONE-19-AN0017,.~ZONE-20-AN0017,NC30:
+    Preset-Save,.~RECALL0017,
+    .~PRESET-1-I0017,.~PRESET-2-I0017,.~PRESET-3-I0017,.~PRESET-4-I0017,
+    .~PRESET-5-I0017,.~PRESET-6-I0017,
+    .~PRESET-7-I0017,.~PRESET-8-I0017,.~PRESET-9-I0017,.~PRESET-10-I0017,
+    .~PRESET-11-I0017,.~PRESET-12-I0017,
+    .~PRESET-13-I0017,.~PRESET-14-I0017,.~PRESET-15-I0017,.~PRESET-16-I0017,
+    .~PRESET-17-I0017,
+    .~PRESET-18-I0017,.~PRESET-19-I0017,.~PRESET-20-I0017;
+
+\ S-7M: 
+DELAY      0S;.~ZONE-1-UP0017;.~ZONE-1-UP-IN0017;
+
+\ S-8M: 
+DELAY      0S;.~ZONE-1-DN0017;.~ZONE-1-DN-IN0017;
+
+\ S-9M: 
+RAMP       5s;.~ZONE-1-AN0017;.~ZONE-1-UP0017,.~ZONE-1-DN0017;
+
+\ S-10M: 
+DELAY      0S;.~ZONE-2-UP0017;.~ZONE-2-UP-IN0017;
+
+\ S-11M: 
+DELAY      0S;.~ZONE-2-DN0017;.~ZONE-2-DN-IN0017;
+
+\ S-12M: 
+RAMP       5s;.~ZONE-2-AN0017;.~ZONE-2-UP0017,.~ZONE-2-DN0017;
+
+\ S-13M: 
+DELAY      0S;.~ZONE-3-UP0017;.~ZONE-3-UP-IN0017;
+
+\ S-14M: 
+DELAY      0S;.~ZONE-3-DN0017;.~ZONE-3-DN-IN0017;
+
+\ S-15M: 
+RAMP       5s;.~ZONE-3-AN0017;.~ZONE-3-UP0017,.~ZONE-3-DN0017;
+
+\ S-16M: 
+DELAY      0S;.~ZONE-4-UP0017;.~ZONE-4-UP-IN0017;
+
+\ S-17M: 
+DELAY      0S;.~ZONE-4-DN0017;.~ZONE-4-DN-IN0017;
+
+\ S-18M: 
+RAMP       5s;.~ZONE-4-AN0017;.~ZONE-4-UP0017,.~ZONE-4-DN0017;
+
+\ S-19M: 
+DELAY      0S;.~ZONE-5-UP0017;.~ZONE-5-UP-IN0017;
+
+\ S-20M: 
+DELAY      0S;.~ZONE-5-DN0017;.~ZONE-5-DN-IN0017;
+
+\ S-21M: 
+RAMP       5s;.~ZONE-5-AN0017;.~ZONE-5-UP0017,.~ZONE-5-DN0017;
+
+\ S-22M: 
+DELAY      0S;.~ZONE-6-UP0017;.~ZONE-6-UP-IN0017;
+
+\ S-23M: 
+DELAY      0S;.~ZONE-6-DN0017;.~ZONE-6-DN-IN0017;
+
+\ S-24M: 
+RAMP       5s;.~ZONE-6-AN0017;.~ZONE-6-UP0017,.~ZONE-6-DN0017;
+
+\ S-25M: 
+DELAY      0S;.~ZONE-7-UP0017;.~ZONE-7-UP-IN0017;
+
+\ S-26M: 
+DELAY      0S;.~ZONE-7-DN0017;.~ZONE-7-DN-IN0017;
+
+\ S-27M: 
+RAMP       5s;.~ZONE-7-AN0017;.~ZONE-7-UP0017,.~ZONE-7-DN0017;
+
+\ S-28M: 
+DELAY      0S;.~ZONE-8-UP0017;.~ZONE-8-UP-IN0017;
+
+\ S-29M: 
+DELAY      0S;.~ZONE-8-DN0017;.~ZONE-8-DN-IN0017;
+
+\ S-30M: 
+RAMP       5s;.~ZONE-8-AN0017;.~ZONE-8-UP0017,.~ZONE-8-DN0017;
+
+\ S-31M: 
+DELAY      0S;.~ZONE-9-UP0017;.~ZONE-9-UP-IN0017;
+
+\ S-32M: 
+DELAY      0S;.~ZONE-9-DN0017;.~ZONE-9-DN-IN0017;
+
+\ S-33M: 
+RAMP       5s;.~ZONE-9-AN0017;.~ZONE-9-UP0017,.~ZONE-9-DN0017;
+
+\ S-34M: 
+DELAY      0S;.~ZONE-10-UP0017;.~ZONE-10-UP-IN0017;
+
+\ S-35M: 
+DELAY      0S;.~ZONE-10-DN0017;.~ZONE-10-DN-IN0017;
+
+\ S-36M: 
+RAMP       5s;.~ZONE-10-AN0017;.~ZONE-10-UP0017,.~ZONE-10-DN0017;
+
+
+\ S-37M: 
+DELAY      0S;.~ZONE-11-UP0017;.~ZONE-11-UP-IN0017;
+
+\ S-38M: 
+DELAY      0S;.~ZONE-11-DN0017;.~ZONE-11-DN-IN0017;
+
+\ S-39M: 
+RAMP       5s;.~ZONE-11-AN0017;.~ZONE-11-UP0017,.~ZONE-11-DN0017;
+
+
+\ S-40M: 
+DELAY      0S;.~ZONE-12-UP0017;.~ZONE-12-UP-IN0017;
+
+\ S-41M: 
+DELAY      0S;.~ZONE-12-DN0017;.~ZONE-12-DN-IN0017;
+
+\ S-42M: 
+RAMP       5s;.~ZONE-12-AN0017;.~ZONE-12-UP0017,.~ZONE-12-DN0017;
+
+
+\ S-43M: 
+DELAY      0S;.~ZONE-13-UP0017;.~ZONE-13-UP-IN0017;
+
+\ S-44M: 
+DELAY      0S;.~ZONE-13-DN0017;.~ZONE-13-DN-IN0017;
+
+\ S-45M: 
+RAMP       5s;.~ZONE-13-AN0017;.~ZONE-13-UP0017,.~ZONE-13-DN0017;
+
+
+\ S-46M: 
+DELAY      0S;.~ZONE-14-UP0017;.~ZONE-14-UP-IN0017;
+
+\ S-47M: 
+DELAY      0S;.~ZONE-14-DN0017;.~ZONE-14-DN-IN0017;
+
+\ S-48M: 
+RAMP       5s;.~ZONE-14-AN0017;.~ZONE-14-UP0017,.~ZONE-14-DN0017;
+
+
+\ S-49M: 
+DELAY      0S;.~ZONE-15-UP0017;.~ZONE-15-UP-IN0017;
+
+\ S-50M: 
+DELAY      0S;.~ZONE-15-DN0017;.~ZONE-15-DN-IN0017;
+
+\ S-51M: 
+RAMP       5s;.~ZONE-15-AN0017;.~ZONE-15-UP0017,.~ZONE-15-DN0017;
+
+
+\ S-52M: 
+DELAY      0S;.~ZONE-16-UP0017;.~ZONE-16-UP-IN0017;
+
+\ S-53M: 
+DELAY      0S;.~ZONE-16-DN0017;.~ZONE-16-DN-IN0017;
+
+\ S-54M: 
+RAMP       5s;.~ZONE-16-AN0017;.~ZONE-16-UP0017,.~ZONE-16-DN0017;
+
+
+\ S-55M: 
+DELAY      0S;.~ZONE-17-UP0017;.~ZONE-17-UP-IN0017;
+
+\ S-56M: 
+DELAY      0S;.~ZONE-17-DN0017;.~ZONE-17-DN-IN0017;
+
+\ S-57M: 
+RAMP       5s;.~ZONE-17-AN0017;.~ZONE-17-UP0017,.~ZONE-17-DN0017;
+
+
+\ S-58M: 
+DELAY      0S;.~ZONE-18-UP0017;.~ZONE-18-UP-IN0017;
+
+\ S-59M: 
+DELAY      0S;.~ZONE-18-DN0017;.~ZONE-18-DN-IN0017;
+
+\ S-60M: 
+RAMP       5s;.~ZONE-18-AN0017;.~ZONE-18-UP0017,.~ZONE-18-DN0017;
+
+
+\ S-61M: 
+DELAY      0S;.~ZONE-19-UP0017;.~ZONE-19-UP-IN0017;
+
+\ S-62M: 
+DELAY      0S;.~ZONE-19-DN0017;.~ZONE-19-DN-IN0017;
+
+\ S-63M: 
+RAMP       5s;.~ZONE-19-AN0017;.~ZONE-19-UP0017,.~ZONE-19-DN0017;
+
+
+\ S-64M: 
+DELAY      0S;.~ZONE-20-UP0017;.~ZONE-20-UP-IN0017;
+
+\ S-65M: 
+DELAY      0S;.~ZONE-20-DN0017;.~ZONE-20-DN-IN0017;
+
+\ S-66M: 
+RAMP       5s;.~ZONE-20-AN0017;.~ZONE-20-UP0017,.~ZONE-20-DN0017;
+
+
+\ S-68M: 
+PRESETV   
+    NC57,
+    Z149-Out,Z151-Out,Z153-Out,Z154-Out,Z155-Out,Z158-Out,
+    Z159-Out,Z160-Out,Z161-Out,Z163-Out,Z164-Out,Z165-Out,
+    Z166-Out,Z167-Out,NC31,NC32,NC33,
+    NC34,NC35,NC36;
+    Fade-Time-Pre,
+    .~ZONE-1-A0017,.~ZONE-2-A0017,.~ZONE-3-A0017,.~ZONE-4-A0017,.~ZONE-5-A0017,
+    .~ZONE-6-A0017,.~ZONE-7-A0017,
+    .~ZONE-8-A0017,.~ZONE-9-A0017,.~ZONE-10-A0017,.~ZONE-11-A0017,
+    .~ZONE-12-A0017,.~ZONE-13-A0017,.~ZONE-14-A0017,
+    .~ZONE-15-A0017,.~ZONE-16-A0017,.~ZONE-17-A0017,.~ZONE-18-A0017,
+    .~ZONE-19-A0017,.~ZONE-20-A0017:Preset1,
+    Preset2,Preset3,Preset4,Preset5,Preset6,Preset7,Preset8,
+    Preset9,Preset10,Preset11,Preset12,Preset13,Preset14,Preset15,
+    
+    Preset16,0,0,0,0;
+
+\ S-69M: 
+NAND       .~BUSY*0017;NC57;
+
+\ S-70M: 
+BUFFER     .~ZONE-1-UP-IN0017,.~ZONE-2-UP-IN0017,.~ZONE-3-UP-IN0017,
+    .~ZONE-4-UP-IN0017,
+    .~ZONE-5-UP-IN0017,.~ZONE-6-UP-IN0017,.~ZONE-7-UP-IN0017,.~ZONE-8-UP-IN0017,
+    
+    .~ZONE-9-UP-IN0017,.~ZONE-10-UP-IN0017,.~ZONE-11-UP-IN0017,.~ZONE-12-UP-IN0017,
+    
+    .~ZONE-13-UP-IN0017,.~ZONE-14-UP-IN0017,.~ZONE-15-UP-IN0017,.~ZONE-16-UP-IN0017,
+    
+    .~ZONE-17-UP-IN0017,.~ZONE-18-UP-IN0017,.~ZONE-19-UP-IN0017,.~ZONE-20-UP-IN0017,
+    
+    .~ZONE-1-DN-IN0017,.~ZONE-2-DN-IN0017,.~ZONE-3-DN-IN0017,.~ZONE-4-DN-IN0017,
+    
+    .~ZONE-5-DN-IN0017,.~ZONE-6-DN-IN0017,.~ZONE-7-DN-IN0017,.~ZONE-8-DN-IN0017,
+    
+    .~ZONE-9-DN-IN0017,.~ZONE-10-DN-IN0017,.~ZONE-11-DN-IN0017,.~ZONE-12-DN-IN0017,
+    
+    .~ZONE-13-DN-IN0017,.~ZONE-14-DN-IN0017,.~ZONE-15-DN-IN0017,.~ZONE-16-DN-IN0017,
+    
+    .~ZONE-17-DN-IN0017,.~ZONE-18-DN-IN0017,.~ZONE-19-DN-IN0017,.~ZONE-20-DN-IN0017,
+    
+    .~MASTER-UP-IN0017,.~MASTER-DN-IN0017;
+    .~BUSY*0017,
+    Z149-UP,Z151-UP,Z153-UP,Z154-UP,Z155-UP,Z158-UP,Z159-UP,Z160-UP,
+    Z161-UP,Z163-UP,Z164-UP,
+    Z165-UP,Z166-UP,Z167-UP,0,0,0,0,0,0,Z149-DN,Z151-DN,
+    Z153-DN,Z154-DN,Z155-DN,Z158-DN,Z159-DN,Z160-DN,Z161-DN,Z163-DN,
+    Z164-DN,Z165-DN,
+    Z166-DN,Z167-DN,0,0,0,0,0,0,Master-Up,Master-Dn;
+
+\ S-71M: 
+INTERLOCK  .~PRESET-1-I0017,.~PRESET-2-I0017,.~PRESET-3-I0017,.~PRESET-4-I0017,
+    .~PRESET-5-I0017,
+    .~PRESET-6-I0017,.~PRESET-7-I0017,.~PRESET-8-I0017,.~PRESET-9-I0017,
+    .~PRESET-10-I0017,
+    .~PRESET-11-I0017,.~PRESET-12-I0017,.~PRESET-13-I0017,.~PRESET-14-I0017,
+    .~PRESET-15-I0017,
+    .~PRESET-16-I0017,.~PRESET-17-I0017,.~PRESET-18-I0017,.~PRESET-19-I0017,
+    .~PRESET-20-I0017;
+    Preset1,Preset2,Preset3,Preset4,Preset5,Preset6,Preset7,Preset8,
+    Preset9,Preset10,Preset11,
+    Preset12,Preset13,Preset14,Preset15,Preset16,0,0,0,0;
+
+\ S-72M: 
+DELAY      0S;.~MASTER-UP0017;.~MASTER-UP-IN0017;
+
+\ S-73M: 
+DELAY      0S;.~MASTER-DN0017;.~MASTER-DN-IN0017;
+
+\ S-74M: 
+RAMP       5S;NC30;.~MASTER-UP0017,.~MASTER-DN0017;
+
+\ S-75M: 
+MBUFFER    .~ZONE-1-A0017,.~ZONE-2-A0017,.~ZONE-3-A0017,.~ZONE-4-A0017,
+    .~ZONE-5-A0017,.~ZONE-6-A0017,
+    .~ZONE-7-A0017,.~ZONE-8-A0017,.~ZONE-9-A0017,.~ZONE-10-A0017,
+    .~ZONE-11-A0017,.~ZONE-12-A0017,
+    .~ZONE-13-A0017,.~ZONE-14-A0017,.~ZONE-15-A0017,.~ZONE-16-A0017,
+    .~ZONE-17-A0017,.~ZONE-18-A0017,
+    .~ZONE-19-A0017,.~ZONE-20-A0017;
+    NC30,
+    .~ZONE-1-AN0017,.~ZONE-2-AN0017,.~ZONE-3-AN0017,.~ZONE-4-AN0017,
+    .~ZONE-5-AN0017,.~ZONE-6-AN0017,
+    .~ZONE-7-AN0017,.~ZONE-8-AN0017,.~ZONE-9-AN0017,.~ZONE-10-AN0017,
+    .~ZONE-11-AN0017,
+    .~ZONE-12-AN0017,.~ZONE-13-AN0017,.~ZONE-14-AN0017,.~ZONE-15-AN0017,
+    .~ZONE-16-AN0017,
+    .~ZONE-17-AN0017,.~ZONE-18-AN0017,.~ZONE-19-AN0017,.~ZONE-20-AN0017;
+
+
+\ S-76M: 
+ABUFFER    NC29,NC29,NC29,NC29,NC29,NC29,NC29,NC29,NC29,NC29,NC29,
+    NC29,
+    NC29,NC29,NC29,NC29,NC29,NC29,NC29,NC29;
+    .~PROG-EN0017,
+    .~ZONE-1-AN0017,.~ZONE-2-AN0017,.~ZONE-3-AN0017,.~ZONE-4-AN0017,
+    .~ZONE-5-AN0017,.~ZONE-6-AN0017,
+    .~ZONE-7-AN0017,.~ZONE-8-AN0017,.~ZONE-9-AN0017,.~ZONE-10-AN0017,
+    .~ZONE-11-AN0017,
+    .~ZONE-12-AN0017,.~ZONE-13-AN0017,.~ZONE-14-AN0017,.~ZONE-15-AN0017,
+    .~ZONE-16-AN0017,
+    .~ZONE-17-AN0017,.~ZONE-18-AN0017,.~ZONE-19-AN0017,.~ZONE-20-AN0017;
+
+
+\ S-77M: 
+ABUFFER    NC29;.~NORMAL0017,
+    NC30;
+
+\ S-78M: 
+OR         .~PROG0017;.~ZONE-1-UP0017,.~ZONE-2-UP0017,.~ZONE-3-UP0017,
+    .~ZONE-4-UP0017,.~ZONE-5-UP0017,
+    .~ZONE-6-UP0017,.~ZONE-7-UP0017,.~ZONE-8-UP0017,.~ZONE-9-UP0017,
+    .~ZONE-10-UP0017,.~ZONE-11-UP0017,
+    .~ZONE-12-UP0017,.~ZONE-13-UP0017,.~ZONE-14-UP0017,.~ZONE-15-UP0017,
+    .~ZONE-16-UP0017,
+    .~ZONE-17-UP0017,.~ZONE-18-UP0017,.~ZONE-19-UP0017,.~ZONE-20-UP0017,
+    .~ZONE-1-DN0017,
+    .~ZONE-2-DN0017,.~ZONE-3-DN0017,.~ZONE-4-DN0017,.~ZONE-5-DN0017,
+    .~ZONE-6-DN0017,.~ZONE-7-DN0017,
+    .~ZONE-8-DN0017,.~ZONE-9-DN0017,.~ZONE-10-DN0017,.~ZONE-11-DN0017,
+    .~ZONE-12-DN0017,
+    .~ZONE-13-DN0017,.~ZONE-14-DN0017,.~ZONE-15-DN0017,.~ZONE-16-DN0017,
+    .~ZONE-17-DN0017,
+    .~ZONE-18-DN0017,.~ZONE-19-DN0017,.~ZONE-20-DN0017;
+
+\ S-79M: 
+HMV        2S;.~PROG-EN0017;.~PROG0017;
+
+\ S-80M: 
+OR         .~BUTTONS0017;.~ZONE-1-UP-IN0017,.~ZONE-2-UP-IN0017,.~ZONE-3-UP-IN0017,
+    
+    .~ZONE-4-UP-IN0017,.~ZONE-5-UP-IN0017,.~ZONE-6-UP-IN0017,.~ZONE-7-UP-IN0017,
+    
+    .~ZONE-8-UP-IN0017,.~ZONE-9-UP-IN0017,.~ZONE-10-UP-IN0017,.~ZONE-11-UP-IN0017,
+    
+    .~ZONE-12-UP-IN0017,.~ZONE-13-UP-IN0017,.~ZONE-14-UP-IN0017,.~ZONE-15-UP-IN0017,
+    
+    .~ZONE-16-UP-IN0017,.~ZONE-17-UP-IN0017,.~ZONE-18-UP-IN0017,.~ZONE-19-UP-IN0017,
+    
+    .~ZONE-20-UP-IN0017,.~MASTER-UP-IN0017,.~ZONE-1-DN-IN0017,.~ZONE-2-DN-IN0017,
+    
+    .~ZONE-3-DN-IN0017,.~ZONE-4-DN-IN0017,.~ZONE-5-DN-IN0017,.~ZONE-6-DN-IN0017,
+    
+    .~ZONE-7-DN-IN0017,.~ZONE-8-DN-IN0017,.~ZONE-9-DN-IN0017,.~ZONE-10-DN-IN0017,
+    
+    .~ZONE-11-DN-IN0017,.~ZONE-12-DN-IN0017,.~ZONE-13-DN-IN0017,.~ZONE-14-DN-IN0017,
+    
+    .~ZONE-15-DN-IN0017,.~ZONE-16-DN-IN0017,.~ZONE-17-DN-IN0017,.~ZONE-18-DN-IN0017,
+    
+    .~ZONE-19-DN-IN0017,.~ZONE-20-DN-IN0017,.~MASTER-DN-IN0017;
+
+\ S-81M: 
+HMV        0.25S;.~BUTTONS-HMV0017;.~BUTTONS0017;
+
+\ S-82M: 
+ABUFFER    Z149-Out,Z151-Out,Z153-Out,Z154-Out,Z155-Out,Z158-Out,
+    Z159-Out,Z160-Out,Z161-Out,Z163-Out,Z164-Out,
+    Z165-Out,Z166-Out,Z167-Out,NC31,NC32,NC33,NC34,NC35,NC36;
+    .~BUTTONS-HMV0017,
+    .~ZONE-1-A0017,.~ZONE-2-A0017,.~ZONE-3-A0017,.~ZONE-4-A0017,.~ZONE-5-A0017,
+    .~ZONE-6-A0017,
+    .~ZONE-7-A0017,.~ZONE-8-A0017,.~ZONE-9-A0017,.~ZONE-10-A0017,
+    .~ZONE-11-A0017,.~ZONE-12-A0017,
+    .~ZONE-13-A0017,.~ZONE-14-A0017,.~ZONE-15-A0017,.~ZONE-16-A0017,
+    .~ZONE-17-A0017,.~ZONE-18-A0017,
+    .~ZONE-19-A0017,.~ZONE-20-A0017;
+
+\ S-83M: 
+NAND       .~NORMAL0017;.~PROG-EN0017;
+
+\ S-84M: 
+OSC        .25s,.25s;.~BUSY-OSC0017;NC57;
+
+\ S-85M: 
+NAND       .~BUSY-OSC*0017;.~BUSY-OSC0017;
+
+\ S-86M: 
+BUFFER     NC37,NC38,NC39,NC40,NC41,NC42,NC43,NC44,NC45,
+    NC46,NC47,NC48,NC49,NC50,NC51,NC52,NC53,NC54,NC55,
+    NC56;
+    .~BUSY-OSC*0017,
+    .~PRESET-1-I0017,.~PRESET-2-I0017,.~PRESET-3-I0017,.~PRESET-4-I0017,
+    .~PRESET-5-I0017,
+    .~PRESET-6-I0017,.~PRESET-7-I0017,.~PRESET-8-I0017,.~PRESET-9-I0017,
+    .~PRESET-10-I0017,
+    .~PRESET-11-I0017,.~PRESET-12-I0017,.~PRESET-13-I0017,.~PRESET-14-I0017,
+    .~PRESET-15-I0017,
+    .~PRESET-16-I0017,.~PRESET-17-I0017,.~PRESET-18-I0017,.~PRESET-19-I0017,
+    .~PRESET-20-I0017;
+
+\ end MACRO expansion
+
+\ S-20: Oscillator for SAMPLE
+OSC           .1s,.2s;OscSAMPLE;1;
+
+\ S-21: SAMPLE
+SAMPLE
+    Z1-OutS,Z2-OutS,Z3-OutS,Z12-OutS,Z15-OutS,Z101-OutS,Z103-OutS,
+    Z105-OutS,Z107-OutS,Z109-OutS,Z111-OutS,Z123-OutS,Z129-OutS,
+    Z130-OutS,Z131-OutS,Z148-OutS,Z149-OutS,Z154-OutS;OscSAMPLE:Z1-Out,
+    Z2-Out,Z3-Out,Z12-Out,Z15-Out,Z101-Out,Z103-Out,Z105-Out,Z107-Out,
+    Z109-Out,Z111-Out,Z123-Out,Z129-Out,Z130-Out,Z131-Out,Z148-Out,
+    Z149-Out,Z154-Out;
+
+\*** END SYMBOL STATEMENTS ***
+
+\ *** END SIMPL-C DESCRIPTION ***
+

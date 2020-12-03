@@ -1,0 +1,38 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0003 4  AREA-GS-Z42-OUT     
+0000 0005 4  AREA-GS-Z41-OUT     
+0000 0006 4  AREA-GS-Z29-OUT     
+0000 0019 4  AREA-GS-Z27-OUT     
+0000 0020 4  AREA-GS-Z28-OUT     
+0000 0021 4  AREA-GS-Z24-OUT     
+0000 0023 4  AREA-GS-Z26-OUT     
+0000 0028 4  AREA-GS-Z32-OUT     
+0000 0029 4  AREA-GS-Z33-OUT     
+0000 0030 4  AREA-GS-Z40-OUT     
+0000 0031 4  AREA-GS-Z30-OUT     
+0000 0038 4  AREA-GS-Z22-OUT     
+0000 0039 4  AREA-GS-Z31-OUT     
+0000 0040 4  AREA-GS-Z36-OUT     
+0000 0041 4  AREA-GS-Z37-OUT     
+0000 0042 4  AREA-GS-Z34-OUT     
+0000 0043 4  AREA-GS-Z23-OUT     
+0000 0045 4  AREA-GS-Z25-OUT     
+0000 0047 4  AREA-GS-Z21-OUT     
+0000 0048 4  AREA-GS-Z38-OUT     
+0000 0049 4  AREA-GS-Z39-OUT     
+0000 0050 4  AREA-GS-Z35-OUT     
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 1503
+     Digital Signals: 395
+      Analog Signals: 121
+          NVRAM Used: 5365
+     Bytes used/left: 6380 / 42772
+Sig. table used/left: 6842 / 50446
+ Ext. Sig. used/left: 3559 / 61974

@@ -1,0 +1,190 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+Bad reference name in line 645
+.~A20040,Fade-Time-Save-G;\ S-5M: AND        .~OUT10040;.~OUT1A0040,
+^^^^^^^^
+Bad reference name in line 646
+    .~OUT1B0040;\ S-6M: COMPARE    .~OUT2A0040;Fade-Time-Save-G,.~A20040;
+    ^^^^^^^^^^^
+Bad reference name in line 648
+.~OUT2A0040,.~OUT2B0040;\ S-9M: COMPARE    .~OUT3A0040;Fade-Time-Save-G,
+^^^^^^^^^^^
+Bad reference name in line 649
+    .~A30040;\ S-10M: COMPARE    .~OUT3B0040;.~A40040,Fade-Time-Save-G;
+    ^^^^^^^^
+Bad reference name in line 651
+Fade-Time-Save-G,.~A40040;\ S-13M: COMPARE    .~OUT4B0040;.~A50040,
+^^^^^^^^^^^^^^^^
+Bad reference name in line 652
+    Fade-Time-Save-G;\ S-14M: AND        .~OUT40040;.~OUT4A0040,.~OUT4B0040;
+    ^^^^^^^^^^^^^^^^
+Bad reference name in line 654
+.~A60040,Fade-Time-Save-G;\ S-17M: AND        .~OUT50040;.~OUT5A0040,
+^^^^^^^^
+Bad reference name in line 655
+    .~OUT5B0040;\ S-18M: COMPARE    .~OUT6A0040;Fade-Time-Save-G,.~A60040;
+    ^^^^^^^^^^^
+Bad reference name in line 657
+.~OUT6A0040,.~OUT6B0040;\ S-21M: COMPARE    .~OUT7A0040;Fade-Time-Save-G,
+^^^^^^^^^^^
+Bad reference name in line 658
+    .~A70040;\ S-22M: COMPARE    .~OUT7B0040;.~A80040,Fade-Time-Save-G;
+    ^^^^^^^^
+Bad reference name in line 660
+Fade-Time-Save-G,.~A80040;\ S-25M: COMPARE    .~OUT8B0040;.~A90040,
+^^^^^^^^^^^^^^^^
+Bad reference name in line 661
+    Fade-Time-Save-G;\ S-26M: AND        .~OUT80040;.~OUT8A0040,.~OUT8B0040;
+    ^^^^^^^^^^^^^^^^
+Bad reference name in line 663
+.~A100040,Fade-Time-Save-G;\ S-29M: AND        .~OUT90040;.~OUT9A0040,
+^^^^^^^^^
+Bad reference name in line 664
+    .~OUT9B0040;\ S-30M: COMPARE    .~OUT10A0040;Fade-Time-Save-G,
+    ^^^^^^^^^^^
+Bad reference name in line 665
+    .~A100040;\ S-31M: COMPARE    .~OUT10B0040;.~A110040,Fade-Time-Save-G;
+    ^^^^^^^^^
+Bad reference name in line 667
+    .~A20040,.~A30040,.~A40040,.~A50040,.~A60040,.~A70040,.~A80040,.~A90040,
+    ^^^^^^^^
+Bad reference name in line 668
+    .~A100040,.~A110040;    1;\ S-34M: MV         .1s;.~startup0040;
+    ^^^^^^^^^
+Bad reference name in line 669
+1;\ S-35M: INIT       15%,15%,25%,35%,45%,55%,65%,75%,85%,90%,100%;    Fade-Time-GS-Bar;
+^
+Bad reference name in line 670
+.~startup0040,.~OUT10040,.~OUT20040,.~OUT30040,.~OUT40040,.~OUT50040,
+^^^^^^^^^^^^^
+Bad reference name in line 671
+    .~OUT60040,.~OUT70040,.~OUT80040,    .~OUT90040,.~OUT100040;\ S-36M: INIT       .5s,.5s,1s,2s,4s,8s,12s,16s,24s,32s,48s;    Fade-Time-Pre-GS;
+    ^^^^^^^^^^
+Bad reference name in line 672
+.~startup0040,.~OUT10040,.~OUT20040,.~OUT30040,.~OUT40040,.~OUT50040,
+^^^^^^^^^^^^^
+Bad reference name in line 673
+    .~OUT60040,.~OUT70040,.~OUT80040,    .~OUT90040,.~OUT100040;\ S-37M: sendsend    ".5s";Fade-GS-$;
+    ^^^^^^^^^^
+Bad reference name in line 674
+.~OUT10040;\ S-38M: sendsend    ".5s";Fade-GS-$;.~startup0040;
+^^^^^^^^^^
+Bad reference name in line 676
+.~OUT30040;\ S-41M: sendsend    "4s";Fade-GS-$;.~OUT40040;\ S-42M: sendsend    "8s";Fade-GS-$;
+^^^^^^^^^^
+Bad reference name in line 677
+.~OUT50040;\ S-43M: sendsend    "12s";Fade-GS-$;.~OUT60040;\ S-44M: sendsend    "16s";Fade-GS-$;
+^^^^^^^^^^
+Bad reference name in line 678
+.~OUT70040;\ S-45M: sendsend    "24s";Fade-GS-$;.~OUT80040;\ S-46M: sendsend    "32s";Fade-GS-$;
+^^^^^^^^^^
+Bad reference name in line 679
+.~OUT90040;\ S-47M: sendsend    "48s";Fade-GS-$;.~OUT100040;
+^^^^^^^^^^
+Bad reference name in line 694
+Area-GS-On,Lts-Pre-GS-1thr4,.~T-ON0045;\ S-4M: TOGGLE        .~FOC-P-T0045,
+^^^^^^^^^^
+Bad reference name in line 695
+    .~FOC-M-T0045;.~FOCUS*0045,.~ON-OR0045,.~OFF-OR0045;\ S-5M: AND        .~FOC+-AND0045;
+    ^^^^^^^^^^^^^
+Bad reference name in line 696
+.~FOC-P-T0045,.~FOCUS0045;\ S-6M: AND        .~FOC--AND0045;.~FOCUS0045,
+^^^^^^^^^^^^^
+Bad reference name in line 697
+    .~FOC-M-T0045;\ S-7M: NOR        .~FOCUS*0045;.~FOCUS0045;\ S-8M: OR         .~FOC-B0045;
+    ^^^^^^^^^^^^^
+Bad reference name in line 698
+.~FOC--AND0045,Area-GS-Off;\ S-9M: OR         .~FOC+B0045;.~FOC+-AND0045,
+^^^^^^^^^^^^^^
+Bad reference name in line 699
+    Area-GS-On;\ S-10M: BUFFER     Area-GS-Pre-6,Area-GS-Pre-5;1,    .~FOC-B0045,
+    ^^^^^^^^^^
+Bad reference name in line 700
+    .~FOC+B0045;\ S-12M: HMV        .35s;.~BUSY-HMV0045;Area-GS-Busy;
+    ^^^^^^^^^^^
+Bad reference name in line 702
+Area-GS-On/Off;\ S-15M: AND        .~FOCUS0045;.~BUSY*0045,.~ON/OFF0045;
+^^^^^^^^^^^^^^
+Bad reference name in line 704
+    .~FOC+-I0045;.~TURN-ON-OR0045,.~TURN-OFF-OR0045;\ S-18M: BUFFER     Area-GS-Pre-6,
+    ^^^^^^^^^^^^
+Bad reference name in line 705
+    Area-GS-Pre-5,.~T-OFF0045,.~T-ON0045;    .~REDO0045,    .~FOC--I0045,
+    ^^^^^^^^^^^^^
+Bad reference name in line 706
+    .~FOC+-I0045,.~FOC--I0045,.~FOC+-I0045;\ S-20M: OR         .~TURN-OFF-OR0045;
+    ^^^^^^^^^^^^
+Bad reference name in line 707
+Area-GS-Pre-6,Lts-Pre-GS-1thr4;\ S-21M: OR         .~TURN-ON-OR0045;
+^^^^^^^^^^^^^
+Bad reference name in line 708
+Area-GS-Pre-5,0;
+^^^^^^^^^^^^^
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0021 0  AREA-GS-PRE-1FB     
+0000 0022 0  AREA-GS-PRE-2FB     
+0000 0023 0  AREA-GS-PRE-3FB     
+0000 0024 0  AREA-GS-PRE-4FB     
+0000 0000 4  AREA-GS-Z17-OUT     
+0000 0001 4  AREA-GS-Z1-OUT      
+0000 0002 4  AREA-GS-Z3-OUT      
+0000 0003 4  AREA-GS-Z42-OUT     
+0000 0004 4  AREA-GS-Z2-OUT      
+0000 0005 4  AREA-GS-Z41-OUT     
+0000 0006 4  AREA-GS-Z29-OUT     
+0000 0007 4  AREA-GS-Z4-OUT      
+0000 0018 4  AREA-GS-Z7-OUT      
+0000 0019 4  AREA-GS-Z27-OUT     
+0000 0020 4  AREA-GS-Z28-OUT     
+0000 0021 4  AREA-GS-Z24-OUT     
+0000 0022 4  AREA-GS-Z11-OUT     
+0000 0023 4  AREA-GS-Z26-OUT     
+0000 0024 4  AREA-GS-Z9-OUT      
+0000 0025 4  AREA-GS-Z8-OUT      
+0000 0026 4  AREA-GS-Z12-OUT     
+0000 0027 4  AREA-GS-Z16-OUT     
+0000 0028 4  AREA-GS-Z32-OUT     
+0000 0029 4  AREA-GS-Z33-OUT     
+0000 0030 4  AREA-GS-Z40-OUT     
+0000 0031 4  AREA-GS-Z30-OUT     
+0000 0032 4  AREA-GS-Z6-OUT      
+0000 0033 4  AREA-GS-Z10-OUT     
+0000 0034 4  AREA-GS-Z18-OUT     
+0000 0035 4  AREA-GS-Z14-OUT     
+0000 0036 4  AREA-GS-Z20-OUT     
+0000 0037 4  AREA-GS-Z15-OUT     
+0000 0038 4  AREA-GS-Z22-OUT     
+0000 0039 4  AREA-GS-Z31-OUT     
+0000 0040 4  AREA-GS-Z36-OUT     
+0000 0041 4  AREA-GS-Z37-OUT     
+0000 0042 4  AREA-GS-Z34-OUT     
+0000 0043 4  AREA-GS-Z23-OUT     
+0000 0044 4  AREA-GS-Z19-OUT     
+0000 0045 4  AREA-GS-Z25-OUT     
+0000 0046 4  AREA-GS-Z13-OUT     
+0000 0047 4  AREA-GS-Z21-OUT     
+0000 0048 4  AREA-GS-Z38-OUT     
+0000 0049 4  AREA-GS-Z39-OUT     
+0000 0050 4  AREA-GS-Z35-OUT     
+0000 0052 4  AREA-GS-Z5-OUT      
+0000 0053 4  AREA-GS-MAST-OUT    
+0000 0055 4  PASSME-ASTERISKS    
+0000 0056 4  NEWCODE-#           
+0000 0058 4  FADE-GS-$           
+0000 0173 0  AREA-GS-PRE-5FB     
+0000 0174 0  AREA-GS-PRE-6FB     
+0000 0175 0  NORM-BUFFER-EN      
+0000 0176 0  EM-TRIGGER          
+
+Pass one complete
+  Errors encountered: 40
+     Lines  Compiled: 741
+     Digital Signals: 166
+      Analog Signals: 59
+          NVRAM Used: 4481
+     Bytes used/left: 2485 / 46667
+Sig. table used/left: 4433 / 52855
+ Ext. Sig. used/left: 0 / 65533

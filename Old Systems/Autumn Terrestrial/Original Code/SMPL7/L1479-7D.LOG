@@ -1,0 +1,30 @@
+
+SMPL-C compiler, revision 3.18.04 * 1/13/98
+
+
+Warning: Signal(s) w/o driving sources:
+
+0000 0442 0  AREA-W-Z1-SEL       
+0000 0443 0  AREA-W-Z2-SEL       
+0000 0444 0  AREA-W-Z3-SEL       
+0000 0445 0  AREA-W-Z4-SEL       
+0000 0446 0  AREA-W-Z5-SEL       
+0000 0447 0  AREA-W-Z6-SEL       
+0000 0448 0  AREA-W-Z7-SEL       
+0000 0449 0  AREA-W-Z8-SEL       
+0000 0450 0  AREA-W-Z9-SEL       
+0000 0451 0  AREA-W-Z10-SEL      
+0000 0452 0  AREA-W-Z11-SEL      
+0000 0453 0  AREA-W-Z12-SEL      
+0000 0454 0  AREA-W-UP           
+0000 0455 0  AREA-W-DN           
+
+Pass one complete
+  Errors encountered: 0
+     Lines  Compiled: 3266
+     Digital Signals: 913
+      Analog Signals: 253
+          NVRAM Used: 7931
+     Bytes used/left: 14820 / 34332
+Sig. table used/left: 12690 / 44598
+ Ext. Sig. used/left: 10993 / 54540
