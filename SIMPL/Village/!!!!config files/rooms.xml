@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<room roomID="gathering_space">
-		<room_name>Gathering Space</room_name>
+	<room roomID="village">
+		<room_name>Village</room_name>
 		<room_num>1</room_num>
 		<equip_ID>101</equip_ID>
-		<num_zones>42</num_zones>
+		<num_zones>168</num_zones>
 		<uses_presets>1</uses_presets>
 		<num_presets>10</num_presets>
 		<has_shades>0</has_shades>
@@ -23,5 +23,4 @@
 		<occ_mode>1</occ_mode>
 		<vac_mode>9</vac_mode>
 	</room>
-	<room/>
 </file>

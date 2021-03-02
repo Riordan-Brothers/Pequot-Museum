@@ -4100,6 +4100,11 @@
             <remarks>Retrieving the content of a response from a server reads all of the data and is a mutually exclusive operation, therefore attempting to read from the ContentStream after retrieving the ContentBytes or ContentString will yield an empty response body.</remarks>
             </summary>
         </member>
+        <member name="P:Crestron.SimplSharp.Net.Https.HttpsIncomingRequestResponse.HeaderStream">
+            <summary>
+            Returns a Stream object with the HTTPs header of the received request (server) or response (client).
+            </summary>
+        </member>
         <member name="P:Crestron.SimplSharp.Net.Https.HttpsIncomingRequestResponse.ContentString">
             <summary>
             Returns the HTTPs body in form of a String object.
@@ -11531,7 +11536,8 @@
         </member>
         <member name="M:Crestron.SimplSharp.CrestronWebSocketClient.WebSocketClient.Connect">
             <summary>
-            This method establishes connection to websocket server
+            This method establishes connection to websocket server.
+            Note: If Origin, Protocol, and AddOnHeader are needed please use ConnectEx() instead.
             </summary>
             <returns> it returns WEBSOCKET_CLIENT_SUCCESS if connection was established </returns>
             <exception cref="T:System.ObjectDisposedException">Object has been disposed.</exception>
@@ -22459,6 +22465,16 @@
             <param name="response"></param>
             <returns></returns>
         </member>
+        <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.HeaderCallbackFunc(System.IntPtr,System.Int32,System.Int32,System.IntPtr)">
+            <summary>
+            CallBack Stream for incomming data (response)
+            </summary>
+            <param name="buffer">the data stream</param>
+            <param name="size">size of item</param>
+            <param name="nmemb">the number of items to deliver</param>
+            <param name="response">The response stream as user data</param>
+            <returns>The number of items delivered</returns>
+        </member>
         <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.StreamWrite(System.Byte[],System.Int32,System.Int32)">
             <summary>
             Send data to the Data Socket Connection until the specified size is reached.
@@ -23080,6 +23096,28 @@
             <exception cref="T:System.ObjectDisposedException">The FTC Client has already been closed or disposed.</exception>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.SetResponseCallBack(System.IntPtr)">
+            <summary>
+            Set the response function to use
+            </summary>
+            <param name="pFunc"></param>
+            <returns>Zero if successful.
+            -1 if underlying object has not been properly initialized.
+            1 if internal error occurred. Use GetLastClientError() to retrieve the error code.
+            87 if invalid parameter was passed.
+            </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.SetHeaderCallBack(System.IntPtr)">
+            <summary>
+            Set the response function to use
+            </summary>
+            <param name="pFunc"></param>
+            <returns>Zero if successful.
+            -1 if underlying object has not been properly initialized.
+            1 if internal error occurred. Use GetLastClientError() to retrieve the error code.
+            87 if invalid parameter was passed.
+            </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.SetHeaderCallBackData(System.IntPtr)">
             <summary>
             Set the response function to use
             </summary>
@@ -51328,6 +51366,11 @@
             <returns> String containing the serial number or 00000000 if the conversion failed.</returns>
             <exception cref="T:System.NotSupportedException">Indicates that the current firmware version does not meet the minimum required version</exception>
         </member>
+        <member name="P:Crestron.SimplSharp.CrestronEnvironment.ProgramCompatibility">
+            <summary>
+            Indicates the compatibility of programs for this control system.
+            </summary>
+        </member>
         <member name="E:Crestron.SimplSharp.CrestronEnvironment.SystemEventHandler">
             <summary>
             System Event Handler.
@@ -51479,6 +51522,14 @@
             </summary> 
             <returns>The <see cref="P:Crestron.SimplSharp.CrestronEnvironment.CrestronTimeZoneInfo.Formatted"/> string for this timezone.</returns>
         </member>
+        <member name="M:Crestron.SimplSharp.CrestronEnvironment.CrestronTimeZoneInfo.IsDaylightSavingTime(System.DateTime)">
+            <summary>
+            Returns a value indicating whether the specified date and time is within
+            a daylight saving time period.  
+            </summary>
+            <param name="time">A date and time in current time zone.</param>
+            <returns>true if time is in a daylight saving time period; otherwise, false.</returns>
+        </member>
         <member name="P:Crestron.SimplSharp.CrestronEnvironment.CrestronTimeZoneInfo.ID">
             <summary>
             Crestron timezone ID 
@@ -51496,7 +51547,13 @@
         </member>
         <member name="P:Crestron.SimplSharp.CrestronEnvironment.CrestronTimeZoneInfo.NumericOffset">
             <summary>
-            Timezone numeric offset from GMT in minute. It can be negative/positive.
+            Timezone standard numeric offset from GMT in minute. It can be negative/positive.
+            This property requires firmwares with version 1.013.0000 and higher.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronEnvironment.CrestronTimeZoneInfo.DaylightNumericOffset">
+            <summary>
+            Timezone daylight numeric offset from GMT in minute. It can be negative/positive.
             This property requires firmwares with version 1.013.0000 and higher.
             </summary>
         </member>
@@ -53094,6 +53151,26 @@
             Running on a Crestron Server platform.
             </summary>
         </member>
+        <member name="T:Crestron.SimplSharp.eCrestronSeries">
+            <summary>
+            Enumeration to define the compatibility of a program.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.eCrestronSeries.Unspecified">
+            <summary>
+            No specified system.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.eCrestronSeries.Series3">
+            <summary>
+            Programs targeting 3-Series platforms are compatible. A recompile may be needed in some cases.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.eCrestronSeries.Series4">
+            <summary>
+            Programs targeting 4-Series platforms are compatible.
+            </summary>
+        </member>
         <member name="T:Crestron.SimplSharp.Interlocked">
             <summary>
             Class for providing atomic operations for variables that are shared by multiple threads.
@@ -53713,6 +53790,25 @@
             <exception cref="T:System.NotSupportedException">This method requires minimum firmware version 1.502.0009 or higher</exception>
             <exception cref="T:System.ArgumentNullException">Arguments provided to the method are not valid</exception>
             <exception cref="T:System.NotSupportedException">The method is not currently supported</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronAuthentication.Authentication.GetGroupsForSpecifiedUser(Crestron.SimplSharp.CrestronAuthentication.Authentication.UserToken,System.String)">
+            <summary>
+            Method to return the groups that the specified user belongs to. This returns <see cref="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.UserAuthenticationLevelEnum"/> containing the groups.
+            </summary>
+            <param name="utoken">Token of an Administrator level user.</param>
+            <param name="userName">Specified user to return access level</param>
+            <returns> A list of groups.</returns>
+            <exception cref="T:System.InvalidOperationException">Authentication is not currently enabled on the controller.</exception>
+            <exception cref="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.PrivilegeException">Higher privileges are required to use this method.</exception>
+            <exception cref="T:System.NotSupportedException">This method requires minimum firmware version 1.502.0009 or higher</exception>
+            <exception cref="T:System.ArgumentNullException">Arguments provided to the method are not valid</exception>
+            <exception cref="T:System.NotSupportedException">The method is not currently supported</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronAuthentication.Authentication.GetGroupsOfUser(System.String)">
+            <summary>
+            Get all the groups a user belongs to (3-Series)
+            </summary>
+            <param name="userName"></param>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronAuthentication.Authentication.GetAuthenticationToken(System.String,System.String)">
             <summary> Get authentication token for this user.  For use for administering local groups and users or once a domain has been added.</summary>    
