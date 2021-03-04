@@ -1,11 +1,51 @@
 namespace Room_Control_Helper;
         // class declarations
+         class RoomHelper;
+         class RoomEvents;
          class RoomSettingsStruct;
          class RoomEventArgs;
          class RoomControlFileOps;
-         class RoomHelper;
-         class RoomEvents;
          class RoomListHelper;
+     class RoomHelper 
+    {
+        // class delegates
+
+        // class events
+        EventHandler OnDataChange ( RoomHelper sender, RoomEventArgs e );
+
+        // class functions
+        SIGNED_INTEGER_FUNCTION Initialize ( STRING roomID );
+        INTEGER_FUNCTION UpdateAnalog ( STRING attribute , INTEGER newSetting );
+        INTEGER_FUNCTION UpdateSerial ( STRING attribute , STRING newSetting );
+        STRING_FUNCTION GetName ( STRING attribute , INTEGER index );
+        FUNCTION MakeBlankFile ();
+        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
+
+        // class variables
+        STRING RoomId[];
+
+        // class properties
+    };
+
+     class RoomEvents 
+    {
+        // class delegates
+
+        // class events
+        EventHandler OnDataChange ( RoomEvents sender, RoomEventArgs e );
+
+        // class functions
+        FUNCTION FireDataChange ( RoomEventArgs e );
+        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
+
+        // class variables
+        INTEGER __class_id__;
+
+        // class properties
+    };
+
      class RoomSettingsStruct 
     {
         // class delegates
@@ -71,47 +111,7 @@ namespace Room_Control_Helper;
         STRING_FUNCTION ToString ();
 
         // class variables
-        INTEGER __class_id__;
-
-        // class properties
-    };
-
-     class RoomHelper 
-    {
-        // class delegates
-
-        // class events
-        EventHandler OnDataChange ( RoomHelper sender, RoomEventArgs e );
-
-        // class functions
-        SIGNED_INTEGER_FUNCTION Initialize ( STRING roomID );
-        INTEGER_FUNCTION UpdateAnalog ( STRING attribute , INTEGER newSetting );
-        INTEGER_FUNCTION UpdateSerial ( STRING attribute , STRING newSetting );
-        STRING_FUNCTION GetName ( STRING attribute , INTEGER index );
-        FUNCTION MakeBlankFile ();
-        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
-        STRING_FUNCTION ToString ();
-
-        // class variables
-        STRING RoomId[];
-
-        // class properties
-    };
-
-     class RoomEvents 
-    {
-        // class delegates
-
-        // class events
-        EventHandler OnDataChange ( RoomEvents sender, RoomEventArgs e );
-
-        // class functions
-        FUNCTION FireDataChange ( RoomEventArgs e );
-        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
-        STRING_FUNCTION ToString ();
-
-        // class variables
-        INTEGER __class_id__;
+        static RoomEvents OnRoomChange;
 
         // class properties
     };

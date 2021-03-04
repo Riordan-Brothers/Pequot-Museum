@@ -45,21 +45,6 @@ namespace UserModule_RBI_ROOM_HELPER_SPLUS_V2
         ushort I = 0;
         short STATUS = 0;
         Room_Control_Helper.RoomHelper RHELP;
-        private void INITIALIZE (  SplusExecutionContext __context__ ) 
-            { 
-            
-            __context__.SourceCodeLine = 36;
-            STATUS = (short) ( RHELP.Initialize( ROOMID  .ToString() ) ) ; 
-            __context__.SourceCodeLine = 37;
-            if ( Functions.TestForTrue  ( ( Functions.BoolToInt ( STATUS > 0 ))  ) ) 
-                { 
-                __context__.SourceCodeLine = 39;
-                ROOMINITIALIZED  .Value = (ushort) ( 1 ) ; 
-                } 
-            
-            
-            }
-            
         public void HANDLEDATACHANGE ( object __sender__ /*Room_Control_Helper.RoomHelper R */, Room_Control_Helper.RoomEventArgs ARGS ) 
             { 
             RoomHelper  R  = (RoomHelper )__sender__;
@@ -67,72 +52,72 @@ namespace UserModule_RBI_ROOM_HELPER_SPLUS_V2
             {
                 SplusExecutionContext __context__ = SplusSimplSharpDelegateThreadStartCode();
                 
-                __context__.SourceCodeLine = 47;
+                __context__.SourceCodeLine = 39;
                 ROOMINITIALIZED  .Value = (ushort) ( 1 ) ; 
-                __context__.SourceCodeLine = 49;
+                __context__.SourceCodeLine = 41;
                 USESPRESETS  .Value = (ushort) ( ARGS.roomSettings.usesPresets ) ; 
-                __context__.SourceCodeLine = 50;
+                __context__.SourceCodeLine = 42;
                 NUMZONES  .Value = (ushort) ( ARGS.roomSettings.numZones ) ; 
-                __context__.SourceCodeLine = 51;
+                __context__.SourceCodeLine = 43;
                 NUMPRESETS  .Value = (ushort) ( ARGS.roomSettings.numPresets ) ; 
-                __context__.SourceCodeLine = 52;
+                __context__.SourceCodeLine = 44;
                 HASSHADES  .Value = (ushort) ( ARGS.roomSettings.hasShades ) ; 
-                __context__.SourceCodeLine = 53;
+                __context__.SourceCodeLine = 45;
                 NUMSHADES  .Value = (ushort) ( ARGS.roomSettings.numShades ) ; 
-                __context__.SourceCodeLine = 54;
+                __context__.SourceCodeLine = 46;
                 ROOMNAME  .UpdateValue ( ARGS . roomSettings . roomName  ) ; 
-                __context__.SourceCodeLine = 55;
+                __context__.SourceCodeLine = 47;
                 ALLOFFNAME  .UpdateValue ( ARGS . roomSettings . allOffName  ) ; 
-                __context__.SourceCodeLine = 56;
+                __context__.SourceCodeLine = 48;
                 ALLONNAME  .UpdateValue ( ARGS . roomSettings . allOnName  ) ; 
-                __context__.SourceCodeLine = 58;
+                __context__.SourceCodeLine = 50;
                 TIMEOUT_OUT  .Value = (ushort) ( ARGS.roomSettings.occTimeout ) ; 
-                __context__.SourceCodeLine = 59;
+                __context__.SourceCodeLine = 51;
                 OCC_MODE  .Value = (ushort) ( ARGS.roomSettings.occMode ) ; 
-                __context__.SourceCodeLine = 60;
+                __context__.SourceCodeLine = 52;
                 VAC_MODE  .Value = (ushort) ( ARGS.roomSettings.vacMode ) ; 
-                __context__.SourceCodeLine = 62;
+                __context__.SourceCodeLine = 54;
                 ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
                 ushort __FN_FOREND_VAL__1 = (ushort)8; 
                 int __FN_FORSTEP_VAL__1 = (int)1; 
                 for ( I  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (I  >= __FN_FORSTART_VAL__1) && (I  <= __FN_FOREND_VAL__1) ) : ( (I  <= __FN_FORSTART_VAL__1) && (I  >= __FN_FOREND_VAL__1) ) ; I  += (ushort)__FN_FORSTEP_VAL__1) 
                     { 
-                    __context__.SourceCodeLine = 64;
+                    __context__.SourceCodeLine = 56;
                     PRESETNAME [ I]  .UpdateValue ( ARGS . roomSettings . presetName [ (I - 1) ]  ) ; 
-                    __context__.SourceCodeLine = 62;
+                    __context__.SourceCodeLine = 54;
                     } 
                 
-                __context__.SourceCodeLine = 67;
+                __context__.SourceCodeLine = 59;
                 ushort __FN_FORSTART_VAL__2 = (ushort) ( 1 ) ;
                 ushort __FN_FOREND_VAL__2 = (ushort)8; 
                 int __FN_FORSTEP_VAL__2 = (int)1; 
                 for ( I  = __FN_FORSTART_VAL__2; (__FN_FORSTEP_VAL__2 > 0)  ? ( (I  >= __FN_FORSTART_VAL__2) && (I  <= __FN_FOREND_VAL__2) ) : ( (I  <= __FN_FORSTART_VAL__2) && (I  >= __FN_FOREND_VAL__2) ) ; I  += (ushort)__FN_FORSTEP_VAL__2) 
                     { 
-                    __context__.SourceCodeLine = 69;
+                    __context__.SourceCodeLine = 61;
                     GENDIGITAL [ I]  .Value = (ushort) ( ARGS.roomSettings.genericDigital[ (I - 1) ] ) ; 
-                    __context__.SourceCodeLine = 67;
+                    __context__.SourceCodeLine = 59;
                     } 
                 
-                __context__.SourceCodeLine = 71;
+                __context__.SourceCodeLine = 63;
                 ushort __FN_FORSTART_VAL__3 = (ushort) ( 1 ) ;
                 ushort __FN_FOREND_VAL__3 = (ushort)8; 
                 int __FN_FORSTEP_VAL__3 = (int)1; 
                 for ( I  = __FN_FORSTART_VAL__3; (__FN_FORSTEP_VAL__3 > 0)  ? ( (I  >= __FN_FORSTART_VAL__3) && (I  <= __FN_FOREND_VAL__3) ) : ( (I  <= __FN_FORSTART_VAL__3) && (I  >= __FN_FOREND_VAL__3) ) ; I  += (ushort)__FN_FORSTEP_VAL__3) 
                     { 
-                    __context__.SourceCodeLine = 73;
+                    __context__.SourceCodeLine = 65;
                     GENANALOG [ I]  .Value = (ushort) ( ARGS.roomSettings.genericAnalog[ (I - 1) ] ) ; 
-                    __context__.SourceCodeLine = 71;
+                    __context__.SourceCodeLine = 63;
                     } 
                 
-                __context__.SourceCodeLine = 76;
+                __context__.SourceCodeLine = 68;
                 ushort __FN_FORSTART_VAL__4 = (ushort) ( 1 ) ;
                 ushort __FN_FOREND_VAL__4 = (ushort)8; 
                 int __FN_FORSTEP_VAL__4 = (int)1; 
                 for ( I  = __FN_FORSTART_VAL__4; (__FN_FORSTEP_VAL__4 > 0)  ? ( (I  >= __FN_FORSTART_VAL__4) && (I  <= __FN_FOREND_VAL__4) ) : ( (I  <= __FN_FORSTART_VAL__4) && (I  >= __FN_FOREND_VAL__4) ) ; I  += (ushort)__FN_FORSTEP_VAL__4) 
                     { 
-                    __context__.SourceCodeLine = 78;
+                    __context__.SourceCodeLine = 70;
                     GENSERIAL [ I]  .UpdateValue ( ARGS . roomSettings . genericSerial [ (I - 1) ]  ) ; 
-                    __context__.SourceCodeLine = 76;
+                    __context__.SourceCodeLine = 68;
                     } 
                 
                 
@@ -149,10 +134,10 @@ namespace UserModule_RBI_ROOM_HELPER_SPLUS_V2
             {
                 SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
                 
-                __context__.SourceCodeLine = 84;
+                __context__.SourceCodeLine = 76;
                 if ( Functions.TestForTrue  ( ( Functions.BoolToInt ( NUM_ZONES_IN  .UshortValue > 0 ))  ) ) 
                     { 
-                    __context__.SourceCodeLine = 86;
+                    __context__.SourceCodeLine = 78;
                     RHELP . UpdateAnalog ( "num_zones", (ushort)( NUM_ZONES_IN  .UshortValue )) ; 
                     } 
                 
@@ -173,10 +158,10 @@ namespace UserModule_RBI_ROOM_HELPER_SPLUS_V2
         {
             SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
             
-            __context__.SourceCodeLine = 92;
+            __context__.SourceCodeLine = 84;
             if ( Functions.TestForTrue  ( ( Functions.BoolToInt ( NUM_PRESETS_IN  .UshortValue > 0 ))  ) ) 
                 { 
-                __context__.SourceCodeLine = 94;
+                __context__.SourceCodeLine = 86;
                 RHELP . UpdateAnalog ( "num_presets", (ushort)( NUM_PRESETS_IN  .UshortValue )) ; 
                 } 
             
@@ -197,10 +182,10 @@ object NUM_SHADES_IN_OnChange_2 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 100;
+        __context__.SourceCodeLine = 92;
         if ( Functions.TestForTrue  ( ( Functions.BoolToInt ( NUM_SHADES_IN  .UshortValue > 0 ))  ) ) 
             { 
-            __context__.SourceCodeLine = 102;
+            __context__.SourceCodeLine = 94;
             RHELP . UpdateAnalog ( "num_shades", (ushort)( NUM_SHADES_IN  .UshortValue )) ; 
             } 
         
@@ -221,10 +206,10 @@ object TIMEOUT_IN_OnChange_3 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 109;
+        __context__.SourceCodeLine = 101;
         if ( Functions.TestForTrue  ( ( Functions.BoolToInt ( TIMEOUT_IN  .UshortValue > 0 ))  ) ) 
             { 
-            __context__.SourceCodeLine = 111;
+            __context__.SourceCodeLine = 103;
             RHELP . UpdateAnalog ( "occ_timeout", (ushort)( TIMEOUT_IN  .UshortValue )) ; 
             } 
         
@@ -245,10 +230,10 @@ object ROOMNAMEUPDATE_OnChange_4 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 117;
+        __context__.SourceCodeLine = 109;
         if ( Functions.TestForTrue  ( ( Functions.BoolToInt (ROOMNAMEUPDATE != RHELP.GetName( "room_name" , (ushort)( 0 ) )))  ) ) 
             { 
-            __context__.SourceCodeLine = 119;
+            __context__.SourceCodeLine = 111;
             RHELP . UpdateSerial ( "room_name", ROOMNAMEUPDATE .ToString()) ; 
             } 
         
@@ -269,10 +254,10 @@ object ALLOFFNAMEUPDATE_OnChange_5 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 125;
+        __context__.SourceCodeLine = 117;
         if ( Functions.TestForTrue  ( ( Functions.BoolToInt (ALLOFFNAMEUPDATE != RHELP.GetName( "all_off_name" , (ushort)( 0 ) )))  ) ) 
             { 
-            __context__.SourceCodeLine = 127;
+            __context__.SourceCodeLine = 119;
             RHELP . UpdateSerial ( "all_off_name", ALLOFFNAMEUPDATE .ToString()) ; 
             } 
         
@@ -293,10 +278,10 @@ object ALLONNAMEUPDATE_OnChange_6 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 133;
+        __context__.SourceCodeLine = 125;
         if ( Functions.TestForTrue  ( ( Functions.BoolToInt (ALLONNAMEUPDATE != RHELP.GetName( "all_on_name" , (ushort)( 0 ) )))  ) ) 
             { 
-            __context__.SourceCodeLine = 135;
+            __context__.SourceCodeLine = 127;
             RHELP . UpdateSerial ( "all_on_name", ALLONNAMEUPDATE .ToString()) ; 
             } 
         
@@ -322,14 +307,14 @@ object PRESETNAMEUPDATE_OnChange_7 ( Object __EventInfo__ )
         ATTRIBUTE  = new CrestronString( Crestron.Logos.SplusObjects.CrestronStringEncoding.eEncodingASCII, 50, this );
         
         
-        __context__.SourceCodeLine = 144;
+        __context__.SourceCodeLine = 136;
         I = (ushort) ( Functions.GetLastModifiedArrayIndex( __SignalEventArg__ ) ) ; 
-        __context__.SourceCodeLine = 146;
+        __context__.SourceCodeLine = 138;
         if ( Functions.TestForTrue  ( ( Functions.BoolToInt (PRESETNAMEUPDATE[ I ] != RHELP.GetName( "preset" , (ushort)( (I - 1) ) )))  ) ) 
             { 
-            __context__.SourceCodeLine = 148;
+            __context__.SourceCodeLine = 140;
             MakeString ( ATTRIBUTE , "preset{0:d2}_name", (ushort)I) ; 
-            __context__.SourceCodeLine = 149;
+            __context__.SourceCodeLine = 141;
             RHELP . UpdateSerial ( ATTRIBUTE .ToString(), PRESETNAMEUPDATE[ I ] .ToString()) ; 
             } 
         
@@ -348,10 +333,10 @@ public override object FunctionMain (  object __obj__ )
     {
         SplusExecutionContext __context__ = SplusFunctionMainStartCode();
         
-        __context__.SourceCodeLine = 161;
+        __context__.SourceCodeLine = 153;
         WaitForInitializationComplete ( ) ; 
-        __context__.SourceCodeLine = 163;
-        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_16__" , 1000 , __SPLS_TMPVAR__WAITLABEL_16___Callback ) ;
+        __context__.SourceCodeLine = 155;
+        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_3__" , 1000 , __SPLS_TMPVAR__WAITLABEL_3___Callback ) ;
         
         
     }
@@ -360,7 +345,7 @@ public override object FunctionMain (  object __obj__ )
     return __obj__;
     }
     
-public void __SPLS_TMPVAR__WAITLABEL_16___CallbackFn( object stateInfo )
+public void __SPLS_TMPVAR__WAITLABEL_3___CallbackFn( object stateInfo )
 {
 
     try
@@ -370,12 +355,12 @@ public void __SPLS_TMPVAR__WAITLABEL_16___CallbackFn( object stateInfo )
         __LocalWait__.RemoveFromList();
         
             
-            __context__.SourceCodeLine = 165;
+            __context__.SourceCodeLine = 157;
             // RegisterEvent( RHELP , ONDATACHANGE , HANDLEDATACHANGE ) 
             try { g_criticalSection.Enter(); RHELP .OnDataChange  += HANDLEDATACHANGE; } finally { g_criticalSection.Leave(); }
             ; 
-            __context__.SourceCodeLine = 166;
-            INITIALIZE (  __context__  ) ; 
+            __context__.SourceCodeLine = 158;
+            RHELP . Initialize ( ROOMID  .ToString()) ; 
             
         
         
@@ -388,6 +373,8 @@ public void __SPLS_TMPVAR__WAITLABEL_16___CallbackFn( object stateInfo )
 
 public override void LogosSplusInitialize()
 {
+    SocketInfo __socketinfo__ = new SocketInfo( 1, this );
+    InitialParametersClass.ResolveHostName = __socketinfo__.ResolveHostName;
     _SplusNVRAM = new SplusNVRAM( this );
     
     USESPRESETS = new Crestron.Logos.SplusObjects.DigitalOutput( USESPRESETS__DigitalOutput__, this );
@@ -485,7 +472,7 @@ public override void LogosSplusInitialize()
     ROOMID = new StringParameter( ROOMID__Parameter__, this );
     m_ParameterList.Add( ROOMID__Parameter__, ROOMID );
     
-    __SPLS_TMPVAR__WAITLABEL_16___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_16___CallbackFn );
+    __SPLS_TMPVAR__WAITLABEL_3___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_3___CallbackFn );
     
     NUM_ZONES_IN.OnAnalogChange.Add( new InputChangeHandlerWrapper( NUM_ZONES_IN_OnChange_0, false ) );
     NUM_PRESETS_IN.OnAnalogChange.Add( new InputChangeHandlerWrapper( NUM_PRESETS_IN_OnChange_1, false ) );
@@ -514,7 +501,7 @@ public override void LogosSimplSharpInitialize()
 public UserModuleClass_RBI_ROOM_HELPER_SPLUS_V2 ( string InstanceName, string ReferenceID, Crestron.Logos.SplusObjects.CrestronStringEncoding nEncodingType ) : base( InstanceName, ReferenceID, nEncodingType ) {}
 
 
-private WaitFunction __SPLS_TMPVAR__WAITLABEL_16___Callback;
+private WaitFunction __SPLS_TMPVAR__WAITLABEL_3___Callback;
 
 
 const uint NUM_ZONES_IN__AnalogSerialInput__ = 0;

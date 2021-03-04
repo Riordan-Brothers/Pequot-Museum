@@ -1,12 +1,30 @@
 namespace Zone_Control_Helper;
         // class declarations
+         class ZoneEvents;
          class ZoneSettingsStruct;
          class ZoneEventArgs;
          class ZoneControlFileOps;
          class PcListHelper;
          class CustomEventArgs;
          class ZoneHelper;
-         class ZoneEvents;
+     class ZoneEvents 
+    {
+        // class delegates
+
+        // class events
+        EventHandler OnDataChange ( ZoneEvents sender, ZoneEventArgs e );
+
+        // class functions
+        FUNCTION FireDataChange ( ZoneEventArgs e );
+        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+        STRING_FUNCTION ToString ();
+
+        // class variables
+        INTEGER __class_id__;
+
+        // class properties
+    };
+
      class ZoneSettingsStruct 
     {
         // class delegates
@@ -76,7 +94,7 @@ namespace Zone_Control_Helper;
         STRING_FUNCTION ToString ();
 
         // class variables
-        INTEGER __class_id__;
+        static ZoneEvents OnZoneChange;
 
         // class properties
     };
@@ -146,24 +164,6 @@ namespace Zone_Control_Helper;
 
         // class variables
         STRING ZoneId[];
-
-        // class properties
-    };
-
-     class ZoneEvents 
-    {
-        // class delegates
-
-        // class events
-        EventHandler OnDataChange ( ZoneEvents sender, ZoneEventArgs e );
-
-        // class functions
-        FUNCTION FireDataChange ( ZoneEventArgs e );
-        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
-        STRING_FUNCTION ToString ();
-
-        // class variables
-        INTEGER __class_id__;
 
         // class properties
     };

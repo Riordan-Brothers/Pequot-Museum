@@ -155,7 +155,7 @@ Function Main()
 {
 	WaitForInitializationComplete();
 
-  	WAIT(500)
+  	WAIT(800)
 	{
 		RegisterEvent(zHelp,OnDataChange,HandleDataChange);
         zHelp.Initialize(zoneID);
