@@ -152,7 +152,7 @@ Function Main()
 {
 	WaitForInitializationComplete();
 
-	WAIT(1000)
+	WAIT(800)
 	{	
 		RegisterEvent(rHelp,OnDataChange,HandleDataChange);
 		rHelp.Initialize(roomID);		
