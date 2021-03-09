@@ -180,7 +180,3 @@
   NoS=False
   VVS=0
 [END]
-[BEGIN]
-ObjTp=Status
-HeaderCompatible=False
-[END]

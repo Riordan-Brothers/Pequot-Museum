@@ -31,6 +31,14 @@ SIGNED_INTEGER status;
 
 RoomHelper rHelp;
 
+FUNCTION Initialize()
+{
+	status = rHelp.Initialize(roomID);
+	if (status > 0)
+		{
+			roomInitialized = 1;
+		}
+}
 	
 /* Event Handlers */
 
@@ -152,9 +160,9 @@ Function Main()
 {
 	WaitForInitializationComplete();
 
-	WAIT(800)
+	WAIT(1000)
 	{	
 		RegisterEvent(rHelp,OnDataChange,HandleDataChange);
-		rHelp.Initialize(roomID);		
+		Initialize();		
     }
 }

@@ -278,10 +278,10 @@ DEFINE_INDEPENDENT_EVENTHANDLER( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, 000
     
     short __FN_FOREND_VAL__1; 
     short __FN_FORINIT_VAL__1; 
-    CREATE_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__, 9000 );
+    CREATE_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__, 4000 );
     DECLARE_LOCAL_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__ );
     
-    CREATE_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__1, 9000 );
+    CREATE_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__1, 4000 );
     DECLARE_LOCAL_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__1 );
     
     SAVE_GLOBAL_POINTERS ;
@@ -294,10 +294,10 @@ DEFINE_INDEPENDENT_EVENTHANDLER( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, 000
     SET_LOCAL_STRING_STRUCT( __SPLS_TMPVAR__LOCALSTR_0__, "" );
     
     ALLOCATE_LOCAL_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__ );
-    INITIALIZE_LOCAL_STRING_STRUCT( __FN_DST_STR__, 9000 );
+    INITIALIZE_LOCAL_STRING_STRUCT( __FN_DST_STR__, 4000 );
     
     ALLOCATE_LOCAL_STRING_STRUCT( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8, __FN_DST_STR__1 );
-    INITIALIZE_LOCAL_STRING_STRUCT( __FN_DST_STR__1, 9000 );
+    INITIALIZE_LOCAL_STRING_STRUCT( __FN_DST_STR__1, 4000 );
     
     
     /* End local function variable declarations */
@@ -614,13 +614,13 @@ FUNCTION_MAIN( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 )
     UpdateSourceCodeLine( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ), 218 );
     WaitForInitializationComplete ( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ) ) ; 
     UpdateSourceCodeLine( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ), 220 );
-    if ( (GetSeries( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ) ) == 3)) 
+    if ( (GetSeries( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ) ) > 2)) 
         { 
-        UpdateSourceCodeLine( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ), 221 );
+        UpdateSourceCodeLine( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ), 222 );
         Globals->S2_RBI_Dynamic_Presets_Helper_170_Zones_v8.__THREE_SERIES = 1; 
         } 
     
-    UpdateSourceCodeLine( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ), 224 );
+    UpdateSourceCodeLine( INSTANCE_PTR( S2_RBI_Dynamic_Presets_Helper_170_Zones_v8 ), 225 );
     S2_RBI_Dynamic_Presets_Helper_170_Zones_v8__INVOKE_PRESETS_INIT ( ) ; 
     
     S2_RBI_Dynamic_Presets_Helper_170_Zones_v8_Exit__MAIN:/* Begin Free local function variables */
