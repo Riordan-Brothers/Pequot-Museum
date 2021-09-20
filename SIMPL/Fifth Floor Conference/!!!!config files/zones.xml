@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<zone zoneID="conference_room_z01">
+		<dali>0</dali>
+		<dimmable>1</dimmable>
+		<inUse>1</inUse>
+		<slew_rate>2</slew_rate>
+		<ramp_time>6</ramp_time>
+		<lower_bound>0</lower_bound>
+		<upper_bound>65535</upper_bound>
+		<friendly_name>Zone One</friendly_name>
+		<on_level>65535</on_level>
+		<off_level>0</off_level>
+		<raise_from_off>0</raise_from_off>
+		<RGB>0</RGB>
+		<harvested>0</harvested>
+		<wattage>60</wattage>
+		<harvest_enable>0</harvest_enable>
+	</zone>
+	<zone zoneID="conference_room_z02">
+		<dali>0</dali>
+		<dimmable>1</dimmable>
+		<inUse>1</inUse>
+		<slew_rate>2</slew_rate>
+		<ramp_time>6</ramp_time>
+		<lower_bound>0</lower_bound>
+		<upper_bound>65535</upper_bound>
+		<friendly_name>Zone Two</friendly_name>
+		<on_level>65535</on_level>
+		<off_level>0</off_level>
+		<raise_from_off>0</raise_from_off>
+		<RGB>0</RGB>
+		<harvested>0</harvested>
+		<wattage>60</wattage>
+		<harvest_enable>0</harvest_enable>
+	</zone>
+	<zone zoneID="conference_room_z03">
+		<dali>0</dali>
+		<dimmable>1</dimmable>
+		<inUse>1</inUse>
+		<slew_rate>2</slew_rate>
+		<ramp_time>6</ramp_time>
+		<lower_bound>0</lower_bound>
+		<upper_bound>65535</upper_bound>
+		<friendly_name>Zone Three</friendly_name>
+		<on_level>65535</on_level>
+		<off_level>0</off_level>
+		<raise_from_off>0</raise_from_off>
+		<RGB>0</RGB>
+		<harvested>0</harvested>
+		<wattage>60</wattage>
+		<harvest_enable>0</harvest_enable>
+	</zone>
+	<zone zoneID="conference_room_z04">
+		<dali>0</dali>
+		<dimmable>0</dimmable>
+		<inUse>1</inUse>
+		<slew_rate>0</slew_rate>
+		<ramp_time>0</ramp_time>
+		<lower_bound>0</lower_bound>
+		<upper_bound>65535</upper_bound>
+		<friendly_name>Screen</friendly_name>
+		<on_level>65535</on_level>
+		<off_level>0</off_level>
+		<raise_from_off>0</raise_from_off>
+		<RGB>0</RGB>
+		<harvested>0</harvested>
+		<wattage>60</wattage>
+		<harvest_enable>0</harvest_enable>
+	</zone>
+</file>
