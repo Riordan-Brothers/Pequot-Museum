@@ -1,0 +1,22 @@
+<Device Model="DIN-AP4">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CNLDM-6" DeviceId="11"/>
+      <Device Model="CNLDM-6" DeviceId="12"/>
+      <Device Model="CNLDM-6" DeviceId="13"/>
+      <Device Model="CNLDM-6" DeviceId="14" Name="CNLDM-6 (4)"/>
+      <Device Model="CNLDM-6" DeviceId="15" Name="CNLDM-6 (4)"/>
+      <Device Model="CNLFDB-4" DeviceId="16"/>
+      <Device Model="CNLDM-6" DeviceId="17" Name="CNLDM-6 (4)"/>
+      <Device Model="C2N-CBD-P" DeviceId="26"/>
+      <Device Model="C2N-CBD-P" DeviceId="27"/>
+      <Device Model="C2N-CBD-P" DeviceId="28"/>
+      <Device Model="C2N-CBD-P" DeviceId="29"/>
+      <Device Model="C2N-CBD-P" DeviceId="2A"/>
+      <Device Model="C2N-CBD-P" DeviceId="2B"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="TSW-1070" DeviceId="03"/>
+      <Device Model="Core3 UI XPanel" DeviceId="10" Name="XPanel 2.0 Smart Graphics"/>
+      <Device Model="Crestron_App" DeviceId="11" Name="Crestron App"/>
+   </Network>
+</Device>
