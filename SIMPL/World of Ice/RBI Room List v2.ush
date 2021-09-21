@@ -35,13 +35,13 @@
   OutputList2SigType2=Serial
   ParamCue1=[Reference Name]
   MinVariableInputs=1
-  MaxVariableInputs=60
+  MaxVariableInputs=65
   MinVariableInputsList2=0
   MaxVariableInputsList2=0
   MinVariableOutputs=0
   MaxVariableOutputs=0
   MinVariableOutputsList2=2
-  MaxVariableOutputsList2=61
+  MaxVariableOutputsList2=66
   MinVariableParams=0
   MaxVariableParams=0
   Expand=expand_separately
@@ -76,8 +76,4 @@
   H=1
   Tp=1
   NoS=False
-[END]
-[BEGIN]
-ObjTp=Status
-HeaderCompatible=False
 [END]

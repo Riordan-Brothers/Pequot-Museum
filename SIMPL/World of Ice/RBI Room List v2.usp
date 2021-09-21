@@ -29,9 +29,9 @@ The Room Names are pulled from the Rooms XML file, as is the ordering of the lis
 
 #USER_SIMPLSHARP_LIBRARY "RBI_Room_Helper"
  
-DIGITAL_INPUT roomSelect[60];
+DIGITAL_INPUT roomSelect[65];
 ANALOG_OUTPUT equipment_ID;
-STRING_OUTPUT roomNames[60];
+STRING_OUTPUT roomNames[65];
 INTEGER i;
 INTEGER waitTime;
 INTEGER isRunning;
@@ -42,7 +42,7 @@ RoomListHelper rHelp;
 
 FUNCTION GetRoomNames()
 {
-     for (i=1 to 60)
+     for (i=1 to 65)
 	{ 
 		if (isSignalDefined(roomNames[i]))
 		{
