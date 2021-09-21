@@ -47,7 +47,7 @@
 		<vac_mode>9</vac_mode>
 	</room>
 		<room roomID="area_G">
-		<room_name>Conference Room</room_name>
+		<room_name>Area G</room_name>
 		<room_num>3</room_num>
 		<equip_ID>103</equip_ID>
 		<num_zones>18</num_zones>

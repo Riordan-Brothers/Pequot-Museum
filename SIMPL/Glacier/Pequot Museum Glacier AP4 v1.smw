@@ -1653,7 +1653,7 @@ C1=587
 ]
 [
 ObjTp=Dv
-Nm=C2N-CBD-P
+Nm=area E
 H=569
 PrH=42
 DvC=2407
@@ -2074,7 +2074,7 @@ RelStat=Release
 ]
 [
 ObjTp=Dv
-Nm=C2N-CBD-P
+Nm=area AL
 H=599
 PrH=43
 DvC=2407
@@ -2251,7 +2251,7 @@ RelStat=Release
 ]
 [
 ObjTp=Dv
-Nm=C2N-CBD-P
+Nm=area G
 H=612
 PrH=44
 DvC=2407
@@ -15193,15 +15193,27 @@ CF=2
 n1I=18
 n2I=6
 n1O=18
-Cmn1=C2N-CBD-P
+Cmn1=area E\\
 mC=4
 C1=129
 C2=130
 C3=131
 C4=132
 mI=24
+I1=96
+I2=98
+I3=99
+I4=100
+I5=95
 mO=24
 tO=24
+O1=893
+O2=894
+O3=895
+O4=899
+O5=892
+O6=833
+O8=817
 ]
 [
 ObjTp=Sm
@@ -15295,15 +15307,27 @@ CF=2
 n1I=18
 n2I=6
 n1O=18
-Cmn1=C2N-CBD-P
+Cmn1=area AL\\
 mC=4
 C1=134
 C2=135
 C3=136
 C4=137
 mI=24
+I1=1191
+I2=1192
+I3=1193
+I4=1194
+I5=1190
 mO=24
 tO=24
+O1=1351
+O2=1389
+O3=1417
+O4=1418
+O5=1350
+O6=2227
+O8=2226
 ]
 [
 ObjTp=Sm
@@ -15397,15 +15421,27 @@ CF=2
 n1I=18
 n2I=6
 n1O=18
-Cmn1=C2N-CBD-P
+Cmn1=area G\\
 mC=4
 C1=139
 C2=140
 C3=141
 C4=142
 mI=24
+I1=390
+I2=391
+I3=1148
+I4=1149
+I5=1533
 mO=24
 tO=24
+O1=1534
+O2=1535
+O3=1536
+O4=1537
+O5=1538
+O6=1539
+O8=1540
 ]
 [
 ObjTp=Sm
