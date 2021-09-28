@@ -7030,6 +7030,19 @@
             Method to force close the JsonDb connection for this process. 
             </summary>
         </member>
+        <member name="M:Crestron.SimplSharp.JsonDb.ReconnectSettings(System.UInt32,System.UInt32)">
+            <summary>
+            Method to set JsonDb reconnect parameters. 
+            </summary>
+            <param name="attempts"> The number of times JsonDb should attempt to reconnect.</param>
+            <param name="delay">How long JsonDb should wait between reconnect attempts.</param>
+        </member>
+        <member name="M:Crestron.SimplSharp.JsonDb.SetTimeout(System.UInt32)">
+            <summary>
+            Method to set JsonDb timeout parameter. 
+            </summary>
+            <param name="timeout"> How long JsonDB should wait to obtain mutex.</param>
+        </member>
         <member name="P:Crestron.SimplSharp.JsonDb.Supported">
             <summary>
             Returns True if JsonDb is supported on this firmware.
@@ -7143,6 +7156,12 @@
         <member name="F:Crestron.SimplSharp.JsonDb.eJsonDbResult.FailureGetProxyError">
             <summary>
             Get proxy error
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.JsonDb.eJsonDbResult.FailureSubscriptionListInUse">
+            <summary>
+            Operation on subscription list attempted while list is in use.
+            <para>Changes to the subscription list are not allowed while the list is in use, such as making a new subscription in a callback.</para>
             </summary>
         </member>
         <member name="T:Crestron.SimplSharp.JsonDb.eLoggingLevel">
@@ -30332,6 +30351,16 @@
             </summary>
             <param name="printDelegateParam"></param>
             <param name="consoleAccessDelegateParam"></param>
+        </member>
+        <member name="F:Crestron.SimplSharp.InitialParametersClass.PythonExit">
+            <summary>
+            Reference to the shutdown method from python interface.
+            </summary>
+        </member>
+        <member name="M:Crestron.SimplSharp.InitialParametersClass.ShutdownPython">
+            <summary>
+            Method to call the python interface's shutdown method.
+            </summary>
         </member>
         <member name="M:Crestron.SimplSharp.InitialParametersClass.SetInitialParametersForAutoUpdateInterface(System.UInt32,System.String)">
             <summary>
@@ -53984,7 +54013,7 @@
             <summary> Method to enable or disable user page authentication. </summary>
             <param name="paramUserToken"> User token obtained using "GetAuthenticationToken" method passed </param> 
             <param name="paramState"> 'false' for disabling and 'true' for enabling user page authentication. </param>
-            <returns> Returns 'true' if user authentication state is changed successfully to the state mentioned in <see cref="!:paramState"/>.</returns>
+            <returns> Returns 'true' if user authentication state is changed successfully to the state mentioned in "paramState".</returns>
             <exception cref="T:System.InvalidOperationException">Authentication or Forced Authentication is not currently enabled on the controller.</exception>
             <exception cref="T:System.ArgumentException">Invalid token passed to this method.</exception>
             <exception cref="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.PrivilegeException">Higher privileges are required to use this method.</exception>
