@@ -292,7 +292,7 @@ public override object FunctionMain (  object __obj__ )
         __context__.SourceCodeLine = 156;
         WaitForInitializationComplete ( ) ; 
         __context__.SourceCodeLine = 158;
-        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_7__" , 500 , __SPLS_TMPVAR__WAITLABEL_7___Callback ) ;
+        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_55__" , 500 , __SPLS_TMPVAR__WAITLABEL_55___Callback ) ;
         __context__.SourceCodeLine = 164;
         PULSETIME = (ushort) ( 25 ) ; 
         __context__.SourceCodeLine = 165;
@@ -307,7 +307,7 @@ public override object FunctionMain (  object __obj__ )
     return __obj__;
     }
     
-public void __SPLS_TMPVAR__WAITLABEL_7___CallbackFn( object stateInfo )
+public void __SPLS_TMPVAR__WAITLABEL_55___CallbackFn( object stateInfo )
 {
 
     try
@@ -417,7 +417,7 @@ public override void LogosSplusInitialize()
     ZONEID = new StringParameter( ZONEID__Parameter__, this );
     m_ParameterList.Add( ZONEID__Parameter__, ZONEID );
     
-    __SPLS_TMPVAR__WAITLABEL_7___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_7___CallbackFn );
+    __SPLS_TMPVAR__WAITLABEL_55___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_55___CallbackFn );
     
     ZONEON.OnDigitalPush.Add( new InputChangeHandlerWrapper( ZONEON_OnPush_0, false ) );
     ZONEOFF.OnDigitalPush.Add( new InputChangeHandlerWrapper( ZONEOFF_OnPush_1, false ) );
@@ -442,7 +442,7 @@ public override void LogosSimplSharpInitialize()
 public UserModuleClass_RBI_SINGLE_ZONE_CONTROL_SPLUS_V6 ( string InstanceName, string ReferenceID, Crestron.Logos.SplusObjects.CrestronStringEncoding nEncodingType ) : base( InstanceName, ReferenceID, nEncodingType ) {}
 
 
-private WaitFunction __SPLS_TMPVAR__WAITLABEL_7___Callback;
+private WaitFunction __SPLS_TMPVAR__WAITLABEL_55___Callback;
 
 
 const uint ZONEON__DigitalInput__ = 0;
