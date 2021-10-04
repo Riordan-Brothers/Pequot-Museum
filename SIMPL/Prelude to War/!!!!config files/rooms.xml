@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<room roomID="arrival">
+		<room_name>Arrival</room_name>
+		<room_num>1</room_num>
+		<equip_ID>101</equip_ID>
+		<num_zones>11</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="res_life">
+		<room_name>Life on the Reservation</room_name>
+		<room_num>2</room_num>
+		<equip_ID>102</equip_ID>
+		<num_zones>6</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="prelude_war">
+		<room_name>Prelude to War</room_name>
+		<room_num>3</room_num>
+		<equip_ID>103</equip_ID>
+		<num_zones>13</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="fed_recognition">
+		<room_name>Federal Recognition</room_name>
+		<room_num>4</room_num>
+		<equip_ID>104</equip_ID>
+		<num_zones>2</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="wampum_theater">
+		<room_name>Wamput Theater</room_name>
+		<room_num>5</room_num>
+		<equip_ID>105</equip_ID>
+		<num_zones>2</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="war_theater_01">
+		<room_name>War Theater 01</room_name>
+		<room_num>6</room_num>
+		<equip_ID>106</equip_ID>
+		<num_zones>4</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+	<room roomID="war_theater_02">
+		<room_name>War Theater 02</room_name>
+		<room_num>7</room_num>
+		<equip_ID>107</equip_ID>
+		<num_zones>4</num_zones>
+		<uses_presets>1</uses_presets>
+		<num_presets>5</num_presets>
+		<has_shades>0</has_shades>
+		<num_shades>0</num_shades>
+		<all_on_name>All On</all_on_name>
+		<all_off_name>All Off</all_off_name>
+		<preset01_name>Preset 01</preset01_name>
+		<preset02_name>Preset 02</preset02_name>
+		<preset03_name>Preset 03</preset03_name>
+		<preset04_name>Preset 04</preset04_name>
+		<preset05_name>Preset 05</preset05_name>
+		<preset06_name>Preset 06</preset06_name>
+		<preset07_name>Preset 07</preset07_name>
+		<preset08_name>Preset 08</preset08_name>
+		<occ_timeout>600</occ_timeout>
+		<occ_mode>1</occ_mode>
+		<vac_mode>9</vac_mode>
+	</room>
+</file>

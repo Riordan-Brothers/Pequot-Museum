@@ -1,0 +1,291 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.1700.03
+  IsProgram=1
+  TopLevelProgram=Pequot Museum World of Ice AP4 v1f.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Pequot Museum World of Ice AP4 v1f.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Pequot Museum World of Ice AP4 v1f.sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Pequot Museum World of Ice AP4 v1f.lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Pequot Museum World of Ice AP4 v1f.smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Pequot Museum World of Ice AP4 v1f.lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI System Helper v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI System Helper SPlus v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI_System_Helper.clz
+  Scope=1
+  Module=RBI System Helper SPlus v2
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Room Control Initialize v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI_Room_Helper.clz
+  Scope=1
+  Module=RBI Room Control Initialize v2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Single Zone Control Initialize v6.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Zone_Control_Helper.clz
+  Scope=1
+  Module=RBI Single Zone Control Initialize v6.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI GLPP Helper Initialize v6.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=GLPP_Helper.clz
+  Scope=1
+  Module=RBI GLPP Helper Initialize v6.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Mobile Pro Project Name Grabber v1.10.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Username List v1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Password Helper v2.clz
+  Scope=1
+  Module=RBI Username List v1.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Logo Helper v1a.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Riordan Touchpanel Logic v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Riordan Touchpanel Logic v2 Help File.pdf
+  Scope=1
+  Module=Riordan Touchpanel Logic v2.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Room List v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Password Control v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Password Helper SPlus v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Password Helper v2.clz
+  Scope=1
+  Module=RBI Password Helper SPlus v2
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Password Helper v2 Help File.pdf
+  Scope=1
+  Module=RBI Password Helper SPlus v2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Panel v1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Panel SPlus v1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Panel v1 Help File.pdf
+  Scope=1
+  Module=RBI Color Picker Helper Panel SPlus v1.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SimplSharp_SchedulerEditor.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=ClcScheduler.clz
+  Scope=1
+  Module=SimplSharp_SchedulerEditor.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Room Helper v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Room Helper SPlus v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI_Room_Helper.clz
+  Scope=1
+  Module=RBI Room Helper SPlus v2
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets 4 Zones v8.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets Helper 4 Zones v8.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=ClcScheduler.clz
+  Scope=1
+  Module=RBI Dynamic Presets Helper 4 Zones v8
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets v8 Help File.pdf
+  Scope=1
+  Module=RBI Dynamic Presets Helper 4 Zones v8.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Single Zone Control v6.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Single Zone Control SPlus v6.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Zone_Control_Helper.clz
+  Scope=1
+  Module=RBI Single Zone Control SPlus v6
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SimplSharp_SchedulerSpace.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets v8 Help File.pdf
+  Scope=1
+  Module=RBI Dynamic Presets 4 Zones v8.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets 16 Zones v8.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets Helper 16 Zones v8.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets v8 Help File.pdf
+  Scope=1
+  Module=RBI Dynamic Presets Helper 16 Zones v8.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Pequot Museum TSW-1070 v1c.sgd_
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Password Helper v2 Help File.pdf
+  Scope=1
+  Module=RBI Password Control v2.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Panel v1 Help File.pdf
+  Scope=1
+  Module=RBI Color Picker Helper Panel v1.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets 8 Zones v8.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets Helper 8 Zones v8.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Dynamic Presets v8 Help File.pdf
+  Scope=1
+  Module=RBI Dynamic Presets Helper 8 Zones v8.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Simpl+ Program Comments and Uptime.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SimplSharp_SchedulerMain.ush
+  Scope=1
+[END]
