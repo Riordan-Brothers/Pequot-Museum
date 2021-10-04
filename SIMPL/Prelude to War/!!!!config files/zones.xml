@@ -195,7 +195,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 01</friendly_name>
+		<friendly_name>Farmstead House to Fort</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -212,7 +212,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 02</friendly_name>
+		<friendly_name>Farmstead House Whaler Side</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -229,7 +229,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 03</friendly_name>
+		<friendly_name>Whaler to Trailer</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -246,7 +246,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 04</friendly_name>
+		<friendly_name>Trailer Corner</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -280,7 +280,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 06</friendly_name>
+		<friendly_name>Prelude Entrance</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -331,7 +331,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 03</friendly_name>
+		<friendly_name>Timeline</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -348,7 +348,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 04</friendly_name>
+		<friendly_name>Video Niches</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -399,7 +399,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 07</friendly_name>
+		<friendly_name>WW between Timeline and Entrance</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -518,7 +518,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 01</friendly_name>
+		<friendly_name>Interior</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -535,7 +535,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 02</friendly_name>
+		<friendly_name>Entrance</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -552,7 +552,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 01</friendly_name>
+		<friendly_name>Interior</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -569,7 +569,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 02</friendly_name>
+		<friendly_name>Entrance</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
