@@ -93,7 +93,7 @@
 		<vac_mode>9</vac_mode>
 	</room>
 	<room roomID="wampum_theater">
-		<room_name>Wamput Theater</room_name>
+		<room_name>Wampum Theater</room_name>
 		<room_num>5</room_num>
 		<equip_ID>105</equip_ID>
 		<num_zones>2</num_zones>
