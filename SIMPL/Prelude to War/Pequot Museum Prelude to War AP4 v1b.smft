@@ -1,0 +1,32 @@
+<Device Model="DIN-AP4">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CNLDM-6" DeviceId="11"/>
+      <Device Model="CNLDM-6" DeviceId="12"/>
+      <Device Model="CNLDM-6" DeviceId="13"/>
+      <Device Model="CNLDM-6" DeviceId="14"/>
+      <Device Model="CNLDM-6" DeviceId="15"/>
+      <Device Model="CNLDM-6" DeviceId="16"/>
+      <Device Model="CNLDM-6" DeviceId="17"/>
+      <Device Model="CNLDM-6" DeviceId="18"/>
+      <Device Model="CNLDM-6" DeviceId="19"/>
+      <Device Model="CNLDM-6" DeviceId="1A"/>
+      <Device Model="CNLFDB-4" DeviceId="1B"/>
+      <Device Model="CNLDM-6" DeviceId="1C" Name="CNLDM-6 (4)"/>
+      <Device Model="GLX-DIM6" DeviceId="1D" Name="New 1D"/>
+      <Device Model="CNLDM-6" DeviceId="1E" Name="CNLDM-6 (4)"/>
+      <Device Model="CNLDM-6" DeviceId="1F" Name="CNLDM-6 (4)"/>
+      <Device Model="C2N-CBF-P" DeviceId="25" Name="wampum_theater"/>
+      <Device Model="C2N-CBD-P" DeviceId="26" Name="fed_recognition"/>
+      <Device Model="C2N-CBD-P" DeviceId="27" Name="res_life"/>
+      <Device Model="C2N-CBF-P" DeviceId="2A" Name="arrival"/>
+      <Device Model="C2N-CBF-P" DeviceId="2B" Name="prelude_war"/>
+      <Device Model="C2N-IO" DeviceId="A5"/>
+      <Device Model="C2N-IO" DeviceId="A6"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="TSW-1070" DeviceId="03" Name="tsw01"/>
+      <Device Model="TSW-1070" DeviceId="04" Name="tsw02"/>
+      <Device Model="Core3 UI XPanel" DeviceId="10" Name="XPanel 2.0 Smart Graphics"/>
+      <Device Model="Crestron_App" DeviceId="11" Name="Crestron App"/>
+   </Network>
+</Device>

@@ -139,7 +139,7 @@
 	<zone zoneID="arrival_z09">
 		<dali>0</dali>
 		<dimmable>1</dimmable>
-		<inUse>0</inUse>
+		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
@@ -173,7 +173,7 @@
 	<zone zoneID="arrival_z11">
 		<dali>0</dali>
 		<dimmable>1</dimmable>
-		<inUse>0</inUse>
+		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
@@ -207,7 +207,7 @@
 	<zone zoneID="res_life_z02">
 		<dali>0</dali>
 		<dimmable>1</dimmable>
-		<inUse>0</inUse>
+		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
@@ -292,7 +292,7 @@
 	<zone zoneID="prelude_war_z01">
 		<dali>0</dali>
 		<dimmable>1</dimmable>
-		<inUse>0</inUse>
+		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
@@ -564,7 +564,7 @@
 	<zone zoneID="wampum_theater_z02">
 		<dali>0</dali>
 		<dimmable>1</dimmable>
-		<inUse>0</inUse>
+		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
