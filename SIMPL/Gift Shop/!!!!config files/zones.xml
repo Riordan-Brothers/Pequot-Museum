@@ -2,13 +2,13 @@
 <file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<zone zoneID="gift_shop_z01">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone One</friendly_name>
+		<friendly_name>Zone 01</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -19,13 +19,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z02">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Two</friendly_name>
+		<friendly_name>Zone 02</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -36,13 +36,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z03">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Three</friendly_name>
+		<friendly_name>Zone 03</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -53,13 +53,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z04">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Four</friendly_name>
+		<friendly_name>Zone 04</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -70,13 +70,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z05">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Five</friendly_name>
+		<friendly_name>Zone 05</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -87,13 +87,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z06">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Six</friendly_name>
+		<friendly_name>Zone 06</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -104,13 +104,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z07">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Seven</friendly_name>
+		<friendly_name>Zone 07</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -121,13 +121,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z08">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Eight</friendly_name>
+		<friendly_name>Zone 08</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -138,13 +138,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z09">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Nine</friendly_name>
+		<friendly_name>Zone 09</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -155,13 +155,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z10">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Ten</friendly_name>
+		<friendly_name>Zone 10</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -172,13 +172,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z11">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Eleven</friendly_name>
+		<friendly_name>Zone 11</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -189,13 +189,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z12">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twelve</friendly_name>
+		<friendly_name>Zone 12</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -206,13 +206,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z13">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Thirteen</friendly_name>
+		<friendly_name>Zone 13a</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -223,13 +223,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z14">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Fourteen</friendly_name>
+		<friendly_name>Zone 13b</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -240,13 +240,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z15">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Fifteen</friendly_name>
+		<friendly_name>Zone 13c</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -257,13 +257,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z16">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Sixteen</friendly_name>
+		<friendly_name>Zone 14</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -274,13 +274,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z17">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Seventeen</friendly_name>
+		<friendly_name>Zone 15</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -291,13 +291,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z18">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Eighteen</friendly_name>
+		<friendly_name>Zone 16</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -308,13 +308,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z19">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Nineteen</friendly_name>
+		<friendly_name>Zone 17</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -325,13 +325,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z20">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty</friendly_name>
+		<friendly_name>Zone 18</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -342,13 +342,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z21">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-One</friendly_name>
+		<friendly_name>Zone 19</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -359,13 +359,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z22">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Two</friendly_name>
+		<friendly_name>Zone 20</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -376,13 +376,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z23">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Three</friendly_name>
+		<friendly_name>Zone 21</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -393,13 +393,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z24">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Four</friendly_name>
+		<friendly_name>Zone 22</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -410,13 +410,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z25">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Five</friendly_name>
+		<friendly_name>Zone 23</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -427,13 +427,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z26">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Six</friendly_name>
+		<friendly_name>Zone 24</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -444,13 +444,13 @@
 	</zone>
 	<zone zoneID="gift_shop_z27">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Seven</friendly_name>
+		<friendly_name>Zone 25</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -461,13 +461,45 @@
 	</zone>
 	<zone zoneID="gift_shop_z28">
 		<dali>0</dali>
-		<dimmable>1</dimmable>
+		<dimmable>0</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone Twenty-Eight</friendly_name>
+		<friendly_name>Zone 26</friendly_name>
+		<on_level>65535</on_level>
+		<off_level>0</off_level>
+		<raise_from_off>0</raise_from_off>
+		<RGB>0</RGB>
+		<harvested>0</harvested>
+		<wattage>60</wattage>
+		<harvest_enable>0</harvest_enable>
+	</zone>
+	<zone zoneID="gift_shop_z29">
+		<dali>0</dali>
+		<dimmable>0</dimmable>
+		<slew_rate>2</slew_rate>
+		<ramp_time>6</ramp_time>
+		<lower_bound>0</lower_bound>
+		<upper_bound>65535</upper_bound>
+		<friendly_name>Zone 27</friendly_name>
+		<on_level>65535</on_level>
+		<off_level>0</off_level>
+		<raise_from_off>0</raise_from_off>
+		<RGB>0</RGB>
+		<harvested>0</harvested>
+		<wattage>60</wattage>
+		<harvest_enable>0</harvest_enable>
+	</zone>
+	<zone zoneID="gift_shop_z30">
+		<dali>0</dali>
+		<dimmable>0</dimmable>
+		<slew_rate>2</slew_rate>
+		<ramp_time>6</ramp_time>
+		<lower_bound>0</lower_bound>
+		<upper_bound>65535</upper_bound>
+		<friendly_name>Zone 28</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
