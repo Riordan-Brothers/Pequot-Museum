@@ -1,7 +1,7 @@
 <Device Model="DIN-AP4">
    <Network Type="Cresnet" Id="01">
       <Device Model="CNLDM-6" DeviceId="11" Name="CNLDM-6 (4)"/>
-      <Device Model="CNLDM-6" DeviceId="12" Name="CNLDM-6 (4)"/>
+      <Device Model="GLX-DIM6" DeviceId="12" Name="New 12"/>
       <Device Model="CNLDM-6" DeviceId="13" Name="CNLDM-6 (4)"/>
       <Device Model="CNLDM-6" DeviceId="14" Name="CNLDM-6 (4)"/>
       <Device Model="C2N-CBD-P" DeviceId="26" Name="Area EL"/>

@@ -8,7 +8,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 01</friendly_name>
+		<friendly_name>Dutch Trader</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -25,7 +25,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 02</friendly_name>
+		<friendly_name>AOE Gallery/Fort</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -42,7 +42,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 03</friendly_name>
+		<friendly_name>Village Exit WW</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -59,7 +59,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 04</friendly_name>
+		<friendly_name>Fort to Exhibit Lobby</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -76,7 +76,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 05</friendly_name>
+		<friendly_name>Disease Wall panels L1</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -93,7 +93,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 06</friendly_name>
+		<friendly_name>L1 Near Glass</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -110,7 +110,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 07</friendly_name>
+		<friendly_name>Elevator Lobby L1</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -144,7 +144,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 09</friendly_name>
+		<friendly_name>Prelude to War Entry</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -161,7 +161,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Wall Wash</friendly_name>
+		<friendly_name>Sculpture Overlook</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>
@@ -178,7 +178,7 @@
 		<ramp_time>6</ramp_time>
 		<lower_bound>0</lower_bound>
 		<upper_bound>65535</upper_bound>
-		<friendly_name>Zone 11</friendly_name>
+		<friendly_name>Village Exit DNLTS</friendly_name>
 		<on_level>65535</on_level>
 		<off_level>0</off_level>
 		<raise_from_off>0</raise_from_off>

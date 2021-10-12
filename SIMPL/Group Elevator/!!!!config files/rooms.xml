@@ -11,11 +11,11 @@
 		<num_shades>0</num_shades>
 		<all_on_name>All On</all_on_name>
 		<all_off_name>All Off</all_off_name>
-		<preset01_name>Preset 01</preset01_name>
-		<preset02_name>Preset 02</preset02_name>
-		<preset03_name>Preset 03</preset03_name>
-		<preset04_name>Preset 04</preset04_name>
-		<preset05_name>Preset 05</preset05_name>
+		<preset01_name>Daytime</preset01_name>
+		<preset02_name>Night</preset02_name>
+		<preset03_name>Event 01</preset03_name>
+		<preset04_name>Event 02</preset04_name>
+		<preset05_name>Event 03</preset05_name>
 		<preset06_name>Preset 06</preset06_name>
 		<preset07_name>Preset 07</preset07_name>
 		<preset08_name>Preset 08</preset08_name>
