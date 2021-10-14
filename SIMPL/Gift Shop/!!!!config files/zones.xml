@@ -2,7 +2,7 @@
 <file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<zone zoneID="gift_shop_z01">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -19,7 +19,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z02">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -36,7 +36,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z03">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -53,7 +53,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z04">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -70,7 +70,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z05">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -87,7 +87,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z06">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -104,7 +104,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z07">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -121,7 +121,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z08">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -138,7 +138,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z09">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -155,7 +155,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z10">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -172,7 +172,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z11">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -189,7 +189,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z12">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -206,7 +206,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z13">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -223,7 +223,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z14">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -240,7 +240,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z15">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -257,7 +257,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z16">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -274,7 +274,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z17">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -291,7 +291,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z18">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -308,7 +308,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z19">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -325,7 +325,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z20">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -342,7 +342,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z21">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -359,7 +359,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z22">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -376,7 +376,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z23">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -393,7 +393,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z24">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -410,7 +410,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z25">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -427,7 +427,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z26">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -444,7 +444,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z27">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
@@ -461,7 +461,7 @@
 	</zone>
 	<zone zoneID="gift_shop_z28">
 		<dali>0</dali>
-		<dimmable>0</dimmable>
+		<dimmable>1</dimmable>
 		<inUse>1</inUse>
 		<slew_rate>2</slew_rate>
 		<ramp_time>6</ramp_time>
