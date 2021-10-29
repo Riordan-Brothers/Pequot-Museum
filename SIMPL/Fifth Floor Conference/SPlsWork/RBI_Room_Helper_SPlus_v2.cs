@@ -351,7 +351,7 @@ public override object FunctionMain (  object __obj__ )
         __context__.SourceCodeLine = 161;
         WaitForInitializationComplete ( ) ; 
         __context__.SourceCodeLine = 163;
-        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_6__" , 1000 , __SPLS_TMPVAR__WAITLABEL_6___Callback ) ;
+        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_14__" , 1000 , __SPLS_TMPVAR__WAITLABEL_14___Callback ) ;
         
         
     }
@@ -360,7 +360,7 @@ public override object FunctionMain (  object __obj__ )
     return __obj__;
     }
     
-public void __SPLS_TMPVAR__WAITLABEL_6___CallbackFn( object stateInfo )
+public void __SPLS_TMPVAR__WAITLABEL_14___CallbackFn( object stateInfo )
 {
 
     try
@@ -485,7 +485,7 @@ public override void LogosSplusInitialize()
     ROOMID = new StringParameter( ROOMID__Parameter__, this );
     m_ParameterList.Add( ROOMID__Parameter__, ROOMID );
     
-    __SPLS_TMPVAR__WAITLABEL_6___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_6___CallbackFn );
+    __SPLS_TMPVAR__WAITLABEL_14___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_14___CallbackFn );
     
     NUM_ZONES_IN.OnAnalogChange.Add( new InputChangeHandlerWrapper( NUM_ZONES_IN_OnChange_0, false ) );
     NUM_PRESETS_IN.OnAnalogChange.Add( new InputChangeHandlerWrapper( NUM_PRESETS_IN_OnChange_1, false ) );
@@ -514,7 +514,7 @@ public override void LogosSimplSharpInitialize()
 public UserModuleClass_RBI_ROOM_HELPER_SPLUS_V2 ( string InstanceName, string ReferenceID, Crestron.Logos.SplusObjects.CrestronStringEncoding nEncodingType ) : base( InstanceName, ReferenceID, nEncodingType ) {}
 
 
-private WaitFunction __SPLS_TMPVAR__WAITLABEL_6___Callback;
+private WaitFunction __SPLS_TMPVAR__WAITLABEL_14___Callback;
 
 
 const uint NUM_ZONES_IN__AnalogSerialInput__ = 0;

@@ -1,0 +1,35 @@
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+
+	DIGITAL_INPUT errorFB[50];
+	STRING_OUTPUT errorMessage$;
+
+	STRING_PARAMETER errorIn$[50][255];
+
+	integer i;
+
+CHANGE errorFB
+{
+    
+	string error$[500];
+
+	for (i = 1 to 50)
+	{
+		if (errorFB[i] = 1)
+		{
+         	error$ = error$ + errorIn$[i] + ", ";
+		}
+	}
+
+	errorMessage$ = error$;
+}
+
+
+Function Main()
+{
+    WaitForInitializationComplete();
+}
+
+

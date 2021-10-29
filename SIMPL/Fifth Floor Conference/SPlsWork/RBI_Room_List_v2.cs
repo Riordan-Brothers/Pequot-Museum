@@ -133,7 +133,7 @@ public override object FunctionMain (  object __obj__ )
         __context__.SourceCodeLine = 95;
         _SplusNVRAM.WAITTIME = (ushort) ( 100 ) ; 
         __context__.SourceCodeLine = 97;
-        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_5__" , 200 , __SPLS_TMPVAR__WAITLABEL_5___Callback ) ;
+        CreateWait ( "__SPLS_TMPVAR__WAITLABEL_13__" , 200 , __SPLS_TMPVAR__WAITLABEL_13___Callback ) ;
         
         
     }
@@ -142,7 +142,7 @@ public override object FunctionMain (  object __obj__ )
     return __obj__;
     }
     
-public void __SPLS_TMPVAR__WAITLABEL_5___CallbackFn( object stateInfo )
+public void __SPLS_TMPVAR__WAITLABEL_13___CallbackFn( object stateInfo )
 {
 
     try
@@ -190,7 +190,7 @@ public override void LogosSplusInitialize()
     }
     
     LISTCHANGEWAIT_Callback = new WaitFunction( LISTCHANGEWAIT_CallbackFn );
-    __SPLS_TMPVAR__WAITLABEL_5___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_5___CallbackFn );
+    __SPLS_TMPVAR__WAITLABEL_13___Callback = new WaitFunction( __SPLS_TMPVAR__WAITLABEL_13___CallbackFn );
     
     for( uint i = 0; i < 60; i++ )
         ROOMSELECT[i+1].OnDigitalPush.Add( new InputChangeHandlerWrapper( ROOMSELECT_OnPush_0, false ) );
@@ -213,7 +213,7 @@ public UserModuleClass_RBI_ROOM_LIST_V2 ( string InstanceName, string ReferenceI
 
 
 private WaitFunction LISTCHANGEWAIT_Callback;
-private WaitFunction __SPLS_TMPVAR__WAITLABEL_5___Callback;
+private WaitFunction __SPLS_TMPVAR__WAITLABEL_13___Callback;
 
 
 const uint ROOMSELECT__DigitalInput__ = 0;
