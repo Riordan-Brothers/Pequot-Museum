@@ -1,0 +1,113 @@
+SYSTEM LOG:
+  1. Notice: nk.exe # 2021-11-08 10:13:40  # User Reboot
+  2. Notice: nk.exe # 2021-11-08 10:13:40  # System startup: DIN-AP3 [v1.8000.0014 (May 20 2021) #8C7209FE]
+  3. Error: nk.exe # 2021-11-08 10:13:40  # setDomainName: Setting Domain Name to (null)
+  4. Notice: ConsoleServiceCE.exe # 2021-11-08 10:13:59  # USB Connection has been made.
+  5. Notice: CIPCommandProcessor.exe # 2021-11-08 10:14:20  # Secure WebSocket server Sucessfully Created at port 49200
+  6. Notice: CPHProcessor.exe # 2021-11-08 10:14:30  # CresStore: Connections OK to redis 
+  7. Notice: HydrogenManager.exe # 2021-11-08 10:14:46  # CresStore: Connections OK to redis 
+  8. Notice: SimplSharpPro.exe # 2021-11-08 10:15:08  # Starting Programs...!
+  9. Notice: SimplSharpPro.exe # 2021-11-08 10:15:09  # Flash Policy Server - Starting Server.
+ 10. Notice: SimplSharpPro.exe # 2021-11-08 10:15:09  # Flash Policy Server - Server Started.
+ 11. Error: CloudClient.exe # 2021-11-08 10:15:24  #  CloudClient Frame Response status : Cannot resolve host
+ 
+ 12. Notice: LogicEngine.exe # 2021-11-08 10:15:37  # **Program 1 Started**
+ 13. Notice: TLDM.exe # 2021-11-08 10:15:39  #  Event rcvd is 8 
+ 14. Error: HydrogenManager.exe # 2021-11-08 10:15:47  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io' 
+ 15. Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+ 16. Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Late Day' for '11/8/2021 15:00' with state Enabled
+ 17. Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Daytime' for '11/9/2021 8:00' with state Enabled
+ 18. Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Off/stairs' for '11/8/2021 17:15' with state Enabled
+ 19. Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Early Open' for '11/9/2021 5:15' with state Enabled
+ 20. Warning: CIPCommandProcessor.exe # 2021-11-08 10:17:23  # Lost Ethernet link on LAN A
+ 21. Notice: CIPCommandProcessor.exe # 2021-11-08 10:17:28  # Link established on LAN A
+ 22. Error: HydrogenManager.exe # 2021-11-08 10:22:53  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io' 
+ 23. Notice: splusmanagerapp.exe [App 1] # 2021-11-09 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 24. Notice: splusmanagerapp.exe [App 1] # 2021-11-09 08:00:00  # Executing scheduled event 'Daytime'
+ 25. Notice: splusmanagerapp.exe [App 1] # 2021-11-09 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+ 26. Notice: splusmanagerapp.exe [App 1] # 2021-11-09 15:00:00  # Executing scheduled event 'Late Day'
+ 27. Notice: splusmanagerapp.exe [App 1] # 2021-11-10 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 28. Notice: splusmanagerapp.exe [App 1] # 2021-11-10 08:00:00  # Executing scheduled event 'Daytime'
+ 29. Notice: splusmanagerapp.exe [App 1] # 2021-11-10 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+ 30. Notice: splusmanagerapp.exe [App 1] # 2021-11-10 15:00:00  # Executing scheduled event 'Late Day'
+ 31. Notice: splusmanagerapp.exe [App 1] # 2021-11-10 17:23:17  # Executing scheduled event 'Off/stairs'
+ 32. Notice: splusmanagerapp.exe [App 1] # 2021-11-11 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 33. Notice: splusmanagerapp.exe [App 1] # 2021-11-11 08:00:00  # Executing scheduled event 'Daytime'
+ 34. Notice: splusmanagerapp.exe [App 1] # 2021-11-11 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+ 35. Notice: splusmanagerapp.exe [App 1] # 2021-11-11 15:00:00  # Executing scheduled event 'Late Day'
+ 36. Notice: splusmanagerapp.exe [App 1] # 2021-11-11 17:33:14  # Executing scheduled event 'Off/stairs'
+ 37. Notice: splusmanagerapp.exe [App 1] # 2021-11-12 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 38. Notice: splusmanagerapp.exe [App 1] # 2021-11-12 08:00:00  # Executing scheduled event 'Daytime'
+ 39. Notice: splusmanagerapp.exe [App 1] # 2021-11-12 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+ 40. Notice: splusmanagerapp.exe [App 1] # 2021-11-12 15:00:00  # Executing scheduled event 'Late Day'
+ 41. Notice: splusmanagerapp.exe [App 1] # 2021-11-12 17:20:46  # Executing scheduled event 'Off/stairs'
+ 42. Notice: splusmanagerapp.exe [App 1] # 2021-11-16 08:51:14  # Executing scheduled event 'Daytime'
+ 43. Notice: splusmanagerapp.exe [App 1] # 2021-11-16 16:14:26  # Executing scheduled event 'Late Day'
+ 44. Notice: splusmanagerapp.exe [App 1] # 2021-11-16 17:29:27  # Executing scheduled event 'Off/stairs'
+ 45. Notice: splusmanagerapp.exe [App 1] # 2021-11-17 07:48:19  # Executing scheduled event 'Daytime'
+ 46. Notice: splusmanagerapp.exe [App 1] # 2021-11-17 07:48:27  # Executing scheduled event 'Off/stairs'
+ 47. Notice: splusmanagerapp.exe [App 1] # 2021-11-17 08:11:16  # Executing scheduled event 'Daytime'
+ 48. Notice: splusmanagerapp.exe [App 1] # 2021-11-17 15:18:07  # Executing scheduled event 'Late Day'
+ 49. Notice: splusmanagerapp.exe [App 1] # 2021-11-18 08:05:07  # Executing scheduled event 'Daytime'
+ 50. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 07:57:49  # Scheduled Event 'Off/stairs' for '11/19/2021 17:15' with state Enabled
+ 51. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:03  # Scheduled Event 'Off/stairs' for '11/19/2021 17:15' with state Enabled
+ 52. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:16  # Scheduled Event 'Off/stairs' for '11/19/2021 17:15' with state Enabled
+ 53. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:25  # Executing scheduled event 'Daytime'
+ 54. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:26  # Executing scheduled event 'Daytime'
+ 55. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:30  # Executing scheduled event 'Daytime'
+ 56. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:31  # Executing scheduled event 'Daytime'
+ 57. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:34  # Scheduled Event 'Daytime' for '11/20/2021 8:00' with state Enabled
+ 58. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:35  # Executing scheduled event 'Daytime'
+ 59. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:48  # Scheduled Event 'Daytime' for '11/20/2021 8:00' with state Enabled
+ 60. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:59  # Scheduled Event 'Daytime' for '11/20/2021 8:00' with state Enabled
+ 61. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:01  # Executing scheduled event 'Daytime'
+ 62. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:04  # Executing scheduled event 'Off/stairs'
+ 63. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:06  # Executing scheduled event 'Early Open'
+ 64. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:10  # Executing scheduled event 'Off/stairs'
+ 65. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:13  # Executing scheduled event 'Off/stairs'
+ 66. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:16  # Executing scheduled event 'Daytime'
+ 67. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 15:59:27  # Executing scheduled event 'Late Day'
+ 68. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+ 69. Notice: splusmanagerapp.exe [App 1] # 2021-11-19 17:15:00  # Executing scheduled event 'Off/stairs'
+ 70. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 71. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 08:00:00  # Executing scheduled event 'Daytime'
+ 72. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:03  # Scheduled Event 'Late Day' for '11/21/2021 15:00' with state Enabled
+ 73. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:07  # Scheduled Event 'Late Day' for '11/21/2021 15:00' with state Enabled
+ 74. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:18  # Executing scheduled event 'Late Day'
+ 75. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:30  # Scheduled Event 'Off/stairs' for '11/20/2021 17:15' with state Enabled
+ 76. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:34  # Scheduled Event 'Off/stairs' for '11/20/2021 17:15' with state Enabled
+ 77. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+ 78. Notice: splusmanagerapp.exe [App 1] # 2021-11-20 17:15:00  # Executing scheduled event 'Off/stairs'
+ 79. Notice: splusmanagerapp.exe [App 1] # 2021-11-21 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 80. Notice: splusmanagerapp.exe [App 1] # 2021-11-21 08:00:00  # Executing scheduled event 'Daytime'
+ 81. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 07:45:29  # Scheduled Event 'Daytime' for '11/23/2021 8:00' with state Enabled
+ 82. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 07:45:38  # Scheduled Event 'Off/stairs' for '11/23/2021 17:15' with state Enabled
+ 83. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 07:45:46  # Scheduled Event 'Late Day' for '11/23/2021 15:00' with state Enabled
+ 84. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+ 85. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:00:00  # Executing scheduled event 'Daytime'
+ 86. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:55:53  # Executing scheduled event 'Daytime'
+ 87. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:55:56  # Executing scheduled event 'Daytime'
+ 88. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:05  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+ 89. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:08  # Executing scheduled event 'Daytime'
+ 90. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:22  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+ 91. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:23  # Executing scheduled event 'Daytime'
+ 92. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:33  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+ 93. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:36  # Executing scheduled event 'Daytime'
+ 94. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:51  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+ 95. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:52  # Executing scheduled event 'Daytime'
+ 96. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:07  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+ 97. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:09  # Executing scheduled event 'Daytime'
+ 98. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:10  # Executing scheduled event 'Daytime'
+ 99. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:11  # Executing scheduled event 'Daytime'
+100. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:11  # Executing scheduled event 'Daytime'
+101. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:13  # Executing scheduled event 'Daytime'
+102. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:13  # Executing scheduled event 'Daytime'
+103. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:13  # Executing scheduled event 'Daytime'
+104. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:16  # Executing scheduled event 'Off/stairs'
+105. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:20  # Executing scheduled event 'Daytime'
+106. Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:35  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+107. Notice: ConsoleServiceCE.exe # 2021-11-23 14:46:22  # SHELL Connection from: 10.140.5.161 
+ Total Msgs Logged = 199
+ END OF SYSTEM LOG
+
+

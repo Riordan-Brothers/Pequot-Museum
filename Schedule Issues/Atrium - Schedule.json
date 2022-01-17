@@ -1,0 +1,103 @@
+{
+	"Events": [{
+			"Active": true,
+			"Name": "Daytime Open",
+			"EventTime": "08:00:00",
+			"Recurrence": "Tuesday, Friday, Saturday",
+			"EventTimeReference": "AM",
+			"GlobalActions": [],
+			"SpaceActions": [{
+					"SpaceId": "Area_AT",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": 3,
+					"DiscreteActionsInternal": []
+				}, {
+					"SpaceId": "Area_OR",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": -1,
+					"DiscreteActionsInternal": []
+				}, {
+					"SpaceId": "Area_TG",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": -1,
+					"DiscreteActionsInternal": []
+				}
+			],
+			"Id": "ae814ada-7b78-450a-87d5-d6f7012da86a"
+		}, {
+			"Active": true,
+			"Name": "Close",
+			"EventTime": "05:15:00",
+			"Recurrence": "Tuesday, Friday, Saturday",
+			"EventTimeReference": "PM",
+			"GlobalActions": [],
+			"SpaceActions": [{
+					"SpaceId": "Area_AT",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": 1,
+					"DiscreteActionsInternal": []
+				}, {
+					"SpaceId": "Area_OR",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": 1,
+					"DiscreteActionsInternal": []
+				}, {
+					"SpaceId": "Area_TG",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": 1,
+					"DiscreteActionsInternal": []
+				}
+			],
+			"Id": "72aed3ec-bf07-4077-9c08-32be5643e066"
+		}, {
+			"Active": true,
+			"Name": "Gallery Open",
+			"EventTime": "08:30:00",
+			"Recurrence": "Tuesday, Friday, Saturday",
+			"EventTimeReference": "AM",
+			"GlobalActions": [],
+			"SpaceActions": [{
+					"SpaceId": "Area_TG",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": 2,
+					"DiscreteActionsInternal": []
+				}
+			],
+			"Id": "19844241-6dca-4e3b-b5f5-2501852d0cec"
+		}, {
+			"Active": true,
+			"Name": "Gallery Close",
+			"EventTime": "05:15:00",
+			"Recurrence": "Tuesday, Friday, Saturday",
+			"EventTimeReference": "PM",
+			"GlobalActions": [],
+			"SpaceActions": [{
+					"SpaceId": "Area_TG",
+					"KeypadAction": 0,
+					"OccupancyAction": 0,
+					"PhotocellAction": 0,
+					"RecallScene": 5,
+					"DiscreteActionsInternal": []
+				}
+			],
+			"Id": "36544ca0-bcac-47a8-a888-9090d053eee9"
+		}
+	],
+	"Enabled": true,
+	"Latitude": 44.0321,
+	"Longitude": -71.0742
+}

@@ -1,0 +1,252 @@
+  1. Notice: crestErrorLogServer # 2021-11-08 08:52:59 # Log started
+  2. Notice: a_console # 2021-11-08 08:53:28 # User Reboot
+  3. Notice: a_console # 2021-11-08 08:53:28 # System startup DIN-AP4 Cntrl Eng [v2.5001.00006 (Mar 16 2021), #8FE207BC] @E-00107ff0c60a
+  4. Notice: CIPCommandProcessor # 2021-11-08 08:53:34 # Secure WebSocket server Sucessfully Created at port 49200
+
+  5. Notice: CIPCommandProcessor # 2021-11-08 08:53:34 # Link established on LAN A
+
+  6. Notice: CIPCommandProcessor # 2021-11-08 08:53:34 # New Address 10.140.5.24 obtained from 
+
+  7. Notice: CPHProcessor # 2021-11-08 08:53:36 # [/home/builduser/Linux_am335x/src/cph/.//productfamily/base/CPHDeviceBase.cpp:1507]  Successfully Received CPH Ready Semaphore Event  
+
+  8. Notice: CIPCommandProcessor # 2021-11-08 08:53:37 # Link established on LAN A
+
+  9. Notice: CIPCommandProcessor # 2021-11-08 08:53:37 # New Address 10.140.5.24 obtained from 
+
+  10. Notice: TLDM # 2021-11-08 08:53:41 #  Got a Core apps started event.. 
+
+  11. Notice: CIPCommandProcessor # 2021-11-08 08:53:48 # Link established on LAN A
+
+  12. Notice: CIPCommandProcessor # 2021-11-08 08:53:48 # New Address 10.140.5.24 obtained from 
+
+  13. Notice: ctpd # 2021-11-08 08:53:49 # SHELL Connection 1 from: USB
+  14. Notice: LogicEngine_1 # 2021-11-08 08:53:52 # **Program 1 Started**
+
+  15. Notice: TLDM # 2021-11-08 08:53:53 #  Event rcvd is 8 
+
+  16. Notice: SimplPlus[App01] # 2021-11-08 08:54:38 # CLC Scheduler loaded config file '\USER/1/CLC_Scheduler/Schedule.json'
+
+  17. Notice: SimplPlus[App01] # 2021-11-08 08:54:38 # Scheduled Event 'Daytime Open' for '11/9/2021 8:00' with state Enabled
+
+  18. Notice: SimplPlus[App01] # 2021-11-08 08:54:38 # Scheduled Event 'Close' for '11/8/2021 17:15' with state Enabled
+
+  19. Notice: SimplPlus[App01] # 2021-11-08 08:54:38 # Scheduled Event 'Gallery Open' for '11/9/2021 8:30' with state Enabled
+
+  20. Warning: ctpd # 2021-11-08 08:57:11 # SHELL connection 1 being closed from USB.
+  21. Notice: CIPCommandProcessor # 2021-11-08 08:59:25 # Link established on LAN A
+
+  22. Notice: CIPCommandProcessor # 2021-11-08 08:59:26 # New Address 10.140.5.24 obtained from 
+
+  23. Notice: ctpd # 2021-11-08 09:00:22 # SHELL Connection 1 from: 10.140.5.244
+  24. Warning: ctpd # 2021-11-08 09:00:43 # SHELL connection 1 being closed from address 10.140.5.244.
+  25. Notice: SimplPlus[App01] # 2021-11-09 08:00:00 # Scheduled event 'Daytime Open' triggered by 'NormalExpiration'
+
+  26. Notice: SimplPlus[App01] # 2021-11-09 08:00:00 # Executing scheduled event 'Daytime Open'
+
+  27. Notice: SimplPlus[App01] # 2021-11-09 08:30:00 # Scheduled event 'Gallery Open' triggered by 'NormalExpiration'
+
+  28. Notice: SimplPlus[App01] # 2021-11-09 08:30:00 # Executing scheduled event 'Gallery Open'
+
+  29. Notice: crestErrorLogServer # 2021-11-09 08:53:01 # SD Card Write COUNTER: 25441230
+  30. Notice: SimplPlus[App01] # 2021-11-10 08:00:00 # Scheduled event 'Daytime Open' triggered by 'NormalExpiration'
+
+  31. Notice: SimplPlus[App01] # 2021-11-10 08:00:00 # Executing scheduled event 'Daytime Open'
+
+  32. Notice: SimplPlus[App01] # 2021-11-10 08:21:55 # Executing scheduled event 'Daytime Open'
+
+  33. Notice: SimplPlus[App01] # 2021-11-10 08:22:04 # Executing scheduled event 'Daytime Open'
+
+  34. Notice: SimplPlus[App01] # 2021-11-10 08:22:06 # Executing scheduled event 'Daytime Open'
+
+  35. Notice: SimplPlus[App01] # 2021-11-10 08:22:06 # Executing scheduled event 'Daytime Open'
+
+  36. Notice: SimplPlus[App01] # 2021-11-10 08:22:06 # Executing scheduled event 'Daytime Open'
+
+  37. Notice: SimplPlus[App01] # 2021-11-10 08:22:06 # Executing scheduled event 'Daytime Open'
+
+  38. Notice: SimplPlus[App01] # 2021-11-10 08:22:06 # Executing scheduled event 'Daytime Open'
+
+  39. Notice: SimplPlus[App01] # 2021-11-10 08:22:15 # Executing scheduled event 'Gallery Open'
+
+  40. Notice: SimplPlus[App01] # 2021-11-10 08:22:17 # Executing scheduled event 'Gallery Open'
+
+  41. Notice: SimplPlus[App01] # 2021-11-10 08:22:17 # Executing scheduled event 'Gallery Open'
+
+  42. Notice: SimplPlus[App01] # 2021-11-10 08:22:18 # Executing scheduled event 'Gallery Open'
+
+  43. Notice: SimplPlus[App01] # 2021-11-10 08:22:18 # Executing scheduled event 'Gallery Open'
+
+  44. Notice: SimplPlus[App01] # 2021-11-10 08:22:21 # Executing scheduled event 'Gallery Open'
+
+  45. Notice: SimplPlus[App01] # 2021-11-10 08:22:21 # Executing scheduled event 'Gallery Open'
+
+  46. Notice: SimplPlus[App01] # 2021-11-10 08:22:21 # Executing scheduled event 'Gallery Open'
+
+  47. Notice: SimplPlus[App01] # 2021-11-10 08:22:22 # Executing scheduled event 'Gallery Open'
+
+  48. Notice: SimplPlus[App01] # 2021-11-10 08:22:22 # Executing scheduled event 'Gallery Open'
+
+  49. Notice: SimplPlus[App01] # 2021-11-10 08:22:22 # Executing scheduled event 'Gallery Open'
+
+  50. Notice: SimplPlus[App01] # 2021-11-10 08:22:31 # Executing scheduled event 'Gallery Open'
+
+  51. Notice: SimplPlus[App01] # 2021-11-10 08:30:00 # Scheduled event 'Gallery Open' triggered by 'NormalExpiration'
+
+  52. Notice: SimplPlus[App01] # 2021-11-10 08:30:00 # Executing scheduled event 'Gallery Open'
+
+  53. Notice: crestErrorLogServer # 2021-11-10 08:53:04 # SD Card Write COUNTER: 25441888
+  54. Notice: SimplPlus[App01] # 2021-11-10 17:26:30 # Executing scheduled event 'Close'
+
+  55. Notice: SimplPlus[App01] # 2021-11-11 08:00:00 # Scheduled event 'Daytime Open' triggered by 'NormalExpiration'
+
+  56. Notice: SimplPlus[App01] # 2021-11-11 08:00:00 # Executing scheduled event 'Daytime Open'
+
+  57. Notice: SimplPlus[App01] # 2021-11-11 08:30:00 # Scheduled event 'Gallery Open' triggered by 'NormalExpiration'
+
+  58. Notice: SimplPlus[App01] # 2021-11-11 08:30:00 # Executing scheduled event 'Gallery Open'
+
+  59. Notice: crestErrorLogServer # 2021-11-11 08:53:07 # SD Card Write COUNTER: 25442476
+  60. Notice: SimplPlus[App01] # 2021-11-11 17:30:52 # Executing scheduled event 'Close'
+
+  61. Notice: SimplPlus[App01] # 2021-11-12 08:00:00 # Scheduled event 'Daytime Open' triggered by 'NormalExpiration'
+
+  62. Notice: SimplPlus[App01] # 2021-11-12 08:00:00 # Executing scheduled event 'Daytime Open'
+
+  63. Notice: SimplPlus[App01] # 2021-11-12 08:30:00 # Scheduled event 'Gallery Open' triggered by 'NormalExpiration'
+
+  64. Notice: SimplPlus[App01] # 2021-11-12 08:30:00 # Executing scheduled event 'Gallery Open'
+
+  65. Notice: crestErrorLogServer # 2021-11-12 08:53:10 # SD Card Write COUNTER: 25443102
+  66. Notice: SimplPlus[App01] # 2021-11-12 17:26:28 # Executing scheduled event 'Close'
+
+  67. Notice: SimplPlus[App01] # 2021-11-12 17:26:30 # Executing scheduled event 'Close'
+
+  68. Notice: SimplPlus[App01] # 2021-11-13 08:00:00 # Scheduled event 'Daytime Open' triggered by 'NormalExpiration'
+
+  69. Notice: SimplPlus[App01] # 2021-11-13 08:00:00 # Executing scheduled event 'Daytime Open'
+
+  70. Notice: SimplPlus[App01] # 2021-11-13 08:02:05 # Executing scheduled event 'Gallery Open'
+
+  71. Notice: crestErrorLogServer # 2021-11-13 08:53:12 # SD Card Write COUNTER: 25443680
+  72. Notice: SimplPlus[App01] # 2021-11-13 17:40:54 # Executing scheduled event 'Close'
+
+  73. Notice: crestErrorLogServer # 2021-11-14 08:53:16 # SD Card Write COUNTER: 25444234
+  74. Notice: crestErrorLogServer # 2021-11-15 08:53:18 # SD Card Write COUNTER: 25444750
+  75. Notice: SimplPlus[App01] # 2021-11-16 08:46:32 # Executing scheduled event 'Daytime Open'
+
+  76. Notice: SimplPlus[App01] # 2021-11-16 08:46:43 # Executing scheduled event 'Gallery Open'
+
+  77. Notice: crestErrorLogServer # 2021-11-16 08:53:21 # SD Card Write COUNTER: 25445292
+  78. Notice: SimplPlus[App01] # 2021-11-16 17:23:06 # Executing scheduled event 'Close'
+
+  79. Notice: SimplPlus[App01] # 2021-11-17 08:08:47 # Executing scheduled event 'Daytime Open'
+
+  80. Notice: crestErrorLogServer # 2021-11-17 08:53:24 # SD Card Write COUNTER: 25445870
+  81. Notice: SimplPlus[App01] # 2021-11-17 17:25:04 # Executing scheduled event 'Close'
+
+  82. Notice: SimplPlus[App01] # 2021-11-17 17:25:24 # Executing scheduled event 'Close'
+
+  83. Notice: SimplPlus[App01] # 2021-11-17 17:26:11 # Scheduled Event 'Close' for '11/18/2021 17:15' with state Enabled
+
+  84. Notice: SimplPlus[App01] # 2021-11-17 17:26:12 # Executing scheduled event 'Close'
+
+  85. Notice: SimplPlus[App01] # 2021-11-18 08:03:11 # Executing scheduled event 'Daytime Open'
+
+  86. Notice: crestErrorLogServer # 2021-11-18 08:53:26 # SD Card Write COUNTER: 25446696
+  87. Notice: SimplPlus[App01] # 2021-11-18 17:15:00 # Scheduled event 'Close' triggered by 'NormalExpiration'
+
+  88. Notice: SimplPlus[App01] # 2021-11-18 17:15:00 # Executing scheduled event 'Close'
+
+  89. Notice: SimplPlus[App01] # 2021-11-18 17:27:30 # Executing scheduled event 'Close'
+
+  90. Notice: SimplPlus[App01] # 2021-11-19 08:20:06 # Executing scheduled event 'Daytime Open'
+
+  91. Notice: crestErrorLogServer # 2021-11-19 08:53:30 # SD Card Write COUNTER: 25447322
+  92. Notice: SimplPlus[App01] # 2021-11-19 17:15:00 # Scheduled event 'Close' triggered by 'NormalExpiration'
+
+  93. Notice: SimplPlus[App01] # 2021-11-19 17:15:00 # Executing scheduled event 'Close'
+
+  94. Notice: SimplPlus[App01] # 2021-11-19 17:17:51 # Scheduled Event 'Close' for '11/20/2021 17:15' with state Enabled
+
+  95. Notice: SimplPlus[App01] # 2021-11-19 17:17:59 # Executing scheduled event 'Close'
+
+  96. Notice: SimplPlus[App01] # 2021-11-19 17:18:09 # Executing scheduled event 'Daytime Open'
+
+  97. Notice: SimplPlus[App01] # 2021-11-19 17:18:16 # Executing scheduled event 'Close'
+
+  98. Notice: SimplPlus[App01] # 2021-11-19 17:19:18 # Scheduled Event 'Galley Close' for '11/20/2021 17:15' with state Enabled
+
+  99. Notice: SimplPlus[App01] # 2021-11-19 17:19:20 # Executing scheduled event 'Galley Close'
+
+  100. Notice: SimplPlus[App01] # 2021-11-19 17:19:52 # Scheduled Event 'Galley Close' for '11/20/2021 17:15' with state Enabled
+
+  101. Notice: SimplPlus[App01] # 2021-11-19 17:20:31 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  102. Notice: SimplPlus[App01] # 2021-11-19 17:21:21 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  103. Notice: SimplPlus[App01] # 2021-11-19 17:22:20 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  104. Notice: SimplPlus[App01] # 2021-11-19 17:22:46 # Executing scheduled event 'Gallery Close'
+
+  105. Notice: SimplPlus[App01] # 2021-11-20 08:34:22 # Scheduled Event 'Daytime Open' for '11/21/2021 8:00' with state Enabled
+
+  106. Notice: SimplPlus[App01] # 2021-11-20 08:34:27 # Scheduled Event 'Daytime Open' for '11/21/2021 8:00' with state Enabled
+
+  107. Notice: SimplPlus[App01] # 2021-11-20 08:34:31 # Scheduled Event 'Close' for '11/20/2021 17:15' with state Enabled
+
+  108. Notice: SimplPlus[App01] # 2021-11-20 08:34:35 # Scheduled Event 'Close' for '11/20/2021 17:15' with state Enabled
+
+  109. Notice: SimplPlus[App01] # 2021-11-20 08:34:39 # Scheduled Event 'Gallery Open' for '11/21/2021 8:30' with state Enabled
+
+  110. Notice: SimplPlus[App01] # 2021-11-20 08:34:42 # Scheduled Event 'Gallery Open' for '11/21/2021 8:30' with state Enabled
+
+  111. Notice: SimplPlus[App01] # 2021-11-20 08:34:46 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  112. Notice: SimplPlus[App01] # 2021-11-20 08:34:50 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  113. Notice: SimplPlus[App01] # 2021-11-20 08:34:53 # Executing scheduled event 'Daytime Open'
+
+  114. Notice: SimplPlus[App01] # 2021-11-20 08:35:10 # Executing scheduled event 'Daytime Open'
+
+  115. Notice: SimplPlus[App01] # 2021-11-20 08:35:11 # Executing scheduled event 'Daytime Open'
+
+  116. Notice: SimplPlus[App01] # 2021-11-20 08:35:11 # Executing scheduled event 'Daytime Open'
+
+  117. Notice: SimplPlus[App01] # 2021-11-20 08:35:13 # Executing scheduled event 'Gallery Open'
+
+  118. Notice: crestErrorLogServer # 2021-11-20 08:53:32 # SD Card Write COUNTER: 25449598
+  119. Notice: SimplPlus[App01] # 2021-11-20 16:41:27 # Scheduled Event 'Close' for '11/20/2021 17:15' with state Enabled
+
+  120. Notice: SimplPlus[App01] # 2021-11-20 16:41:30 # Scheduled Event 'Close' for '11/20/2021 17:15' with state Enabled
+
+  121. Notice: SimplPlus[App01] # 2021-11-20 16:41:35 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  122. Notice: SimplPlus[App01] # 2021-11-20 16:41:39 # Scheduled Event 'Gallery Close' for '11/20/2021 17:15' with state Enabled
+
+  123. Notice: SimplPlus[App01] # 2021-11-20 17:15:00 # Scheduled event 'Close' triggered by 'NormalExpiration'
+
+  124. Notice: SimplPlus[App01] # 2021-11-20 17:15:00 # Executing scheduled event 'Close'
+
+  125. Notice: SimplPlus[App01] # 2021-11-20 17:15:00 # Scheduled event 'Gallery Close' triggered by 'NormalExpiration'
+
+  126. Notice: SimplPlus[App01] # 2021-11-20 17:15:00 # Executing scheduled event 'Gallery Close'
+
+  127. Notice: crestErrorLogServer # 2021-11-21 08:53:35 # SD Card Write COUNTER: 25450402
+  128. Notice: crestErrorLogServer # 2021-11-22 08:53:38 # SD Card Write COUNTER: 25450904
+  129. Notice: SimplPlus[App01] # 2021-11-23 07:46:07 # Scheduled Event 'Daytime Open' for '11/23/2021 8:00' with state Enabled
+
+  130. Notice: SimplPlus[App01] # 2021-11-23 07:46:13 # Scheduled Event 'Close' for '11/23/2021 17:15' with state Enabled
+
+  131. Notice: SimplPlus[App01] # 2021-11-23 07:46:23 # Scheduled Event 'Gallery Open' for '11/23/2021 8:30' with state Enabled
+
+  132. Notice: SimplPlus[App01] # 2021-11-23 07:46:32 # Scheduled Event 'Gallery Close' for '11/23/2021 17:15' with state Enabled
+
+  133. Notice: SimplPlus[App01] # 2021-11-23 08:00:00 # Scheduled event 'Daytime Open' triggered by 'NormalExpiration'
+
+  134. Notice: SimplPlus[App01] # 2021-11-23 08:00:00 # Executing scheduled event 'Daytime Open'
+
+  135. Notice: SimplPlus[App01] # 2021-11-23 08:30:00 # Scheduled event 'Gallery Open' triggered by 'NormalExpiration'
+
+  136. Notice: SimplPlus[App01] # 2021-11-23 08:30:00 # Executing scheduled event 'Gallery Open'
+
+  137. Notice: crestErrorLogServer # 2021-11-23 08:53:41 # SD Card Write COUNTER: 25451912
