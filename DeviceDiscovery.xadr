@@ -11,10 +11,50 @@ Version=1.0
 DefaultEntry=
 
 [ComSpecs]
-AP3-GATHERING_ip=auto 192.168.1.50
-TSW-1060-PM-ATRIUM_ip=auto 192.168.1.55
+Prelude to War AP4=auto 10.140.1.20
+Prelude to War TSW 01=auto 10.140.1.21
+Prelude to War TSW 02=auto 10.140.1.22
+World of Ice AP4=auto 10.140.12.20
+World of Ice TSW=auto 10.140.12.21
+Village CP3=auto 10.140.12.22
+Village TSW 01=auto 10.140.12.23
+Village TSW 02=auto 10.140.12.24
+Glacier AP4=auto 10.140.3.20
+Glacier TSW=auto 10.140.3.21
+Gift Shop AP4=auto 10.140.5.20
+Gift Shop TSW=auto 10.140.5.21
+Gathering AP3=auto 10.140.5.22
+Gathering TSW=auto 10.140.5.23
+Atrium AP4=auto 10.140.5.24
+Atrium TSW=auto 10.140.5.25
+Group Elevator AP4=auto 10.140.8.20
+Group Elevator TSW=auto 10.140.8.21
+Main Entrance AP4=auto 10.140.9.20
+Main Entrance TSW=auto 10.140.9.21
+5th Floor Conf AP4=auto 10.140.9.22
+5th Floor Conf TSW=auto 10.140.9.23
 
 [Notes]
-AP3-GATHERING_ip=DIN-AP3
-TSW-1060-PM-ATRIUM_ip=TSW-1060
+Prelude to War AP4=
+Prelude to War TSW 01=
+Prelude to War TSW 02=
+World of Ice AP4=
+World of Ice TSW=
+Village CP3=
+Village TSW 01=
+Village TSW 02=
+Glacier AP4=
+Glacier TSW=
+Gift Shop AP4=
+Gift Shop TSW=
+Gathering AP3=DIN-AP3
+Gathering TSW=
+Atrium AP4=
+Atrium TSW=TSW-1060
+Group Elevator AP4=
+Group Elevator TSW=
+Main Entrance AP4=
+Main Entrance TSW=
+5th Floor Conf AP4=
+5th Floor Conf TSW=
 

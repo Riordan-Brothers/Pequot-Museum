@@ -1,0 +1,2059 @@
+Crestron Information Tool v3.6.5.930 Results
+Started at 1/18/2022 4:56:21 PM Eastern Standard Time
+Using Built-In Command List: Commands_3-Series_Processor.txt
+
+Discovered Device Info:
+      ModelName : DIN-AP3
+       Hostname : AP3-GATHERING
+      IpAddress : 10.140.5.22
+       Firmware : 1.8000.4522.26360
+      BuildDate : May 20 2021
+           TSID : 8C7209FE
+   SerialNumber : 1943JBH02558
+     MacAddress : 00107FD5AB20
+
+DIN-AP3 Console
+
+DIN-AP3>========== time ==========
+
+
+DIN-AP3>time
+Current Time/Date: 16:58:07 01-18-2022
+
+DIN-AP3>========== timezone ==========
+timezone
+Eastern Standard Time  (GMT-05:00)
+DST Entry: 2nd Sunday in March at 2:00:00.000
+DST Exit:  1st Sunday in November at 2:00:00.000
+System is not currently in Daylight Saving Time mode.
+
+DIN-AP3>========== hostname ==========
+hostname
+Host Name: AP3-GATHERING 
+
+DIN-AP3>========== mycrestron ==========
+mycrestron
+
+MyCrestron Status: Not Registered
+System Last Successfully Registered: N/A
+Domain: Not Set, Password: Not Set
+
+DIN-AP3>========== showhw ==========
+showhw
+Current Hardware Configuration
+	Processor Type:    DIN-AP3
+	Num YBus Slots:    0
+	Num ZBus Slots:    1
+	   1: C2I-DIN-AP3CNET-1 Cresnet 
+	   2: C2I-DIN-AP3ENET-1 Ethernet 
+	   4: C2I-DIN-AP3-COM2-232 2 Port Internal COM 
+	   5: C2I-DIN-AP3-IO8 8 Port Internal IO 
+	   6: C2I-DIN-AP3-RY4 4 Port Internal Relay 
+	   7: C2I-DIN-AP3-IR4 4 Port Internal IR OUT 
+	   8: C2I-DIN-AP3-SYSMON System Monitor Slot 
+	   9: C2I-DIN-AP3-SNMP Slot 
+	  10: C2I-DIN-AP3-BACNET Slot 
+
+
+DIN-AP3>========== showlicense ==========
+showlicense
+Vendor id | Module id | Expiration | Name           | Info
+-------------------------------------------------
+
+
+DIN-AP3>========== enablefeature ==========
+enablefeature
+TableStart:[Features] 
+FeatureName                    | Current State   | State After Reboot 
+-------------------------------------------------------------- 
+CRESTHKBRIDGE                  | Disabled        | Disabled        
+CLOUDCLIENT                    | Enabled         | Enabled         
+SNMPCOMMANDPROCESSOR           | Disabled        | Disabled        
+HYDROGENMANAGER                | Enabled         | Enabled         
+
+
+DIN-AP3>========== osd ==========
+osd
+Bad or Incomplete Command (osd)
+
+DIN-AP3>========== ver -v ==========
+ver -v
+DIN-AP3 Cntrl Eng [v1.8000.4522.26360 (May 20 2021), #8C7209FE] @E-00107fd5ab20
+Build: 14:38:40  May 20 2021 (4522.26360)
+Cab: 1.8000.0014
+Applications:  1.0.7809.23767
+Updater: 1.4.28
+Bootloader: 1.23.00
+IOPVersion: FPGA [v09] slot:7 
+DIN-AP3-SetupProgram: 1.003.0024 
+PUF: 1.8000.0014
+FORCED_AUTH_MODE: False 
+
+DIN-AP3>========== ver -all ==========
+ver -all
+DIN-AP3 Cntrl Eng [v1.8000.4522.26360 (May 20 2021), #8C7209FE] @E-00107fd5ab20
+Build: 14:38:40  May 20 2021 (4522.26360)
+Cab: 1.8000.0014
+Applications:  1.0.7809.23767
+Updater: 1.4.28
+Bootloader: 1.23.00
+IOPVersion: FPGA [v09] slot:7 
+DIN-AP3-SetupProgram: 1.003.0024 
+PUF: 1.8000.0014
+FORCED_AUTH_MODE: False 
+CIPCommandProcessor.exe: 1.0.7810.21844
+ConsoleServiceCE.EXE: 1.0.7810.20031
+PUFHandler.exe: 1.0.0.6
+SystemCommandProcessor.exe: 1.0.7810.21791
+TLDM.exe: 1.0.7809.23661
+creslog.exe: 1.0.7809.22965
+AutoUpdateEngine.exe: 1.0.0.0
+AutoUpdateInterface.exe: 1.0.0.0
+CustomAppManager.exe: 1.0.7810.21704
+LogicEngine.exe: 1.0.7809.23703
+BACnet.exe: 1.0.7809.23453
+RfGateway.exe: 1.0.7809.23649
+DisplayManager.exe: 1.0.7809.23587
+CrestronMonitor.exe: 1.0.7809.23659
+AUFramework.DLL: 1.0.0.1
+CIP_PROTO_UTIL.DLL: 1.0.7810.20064
+CedbDataStoreCommandFunctions.DLL: 1.0.7810.20461
+ConsoleServiceBase.DLL: 1.0.7810.20028
+CwsIISExt.dll: 1.0.0.6
+CrestronFTCNet.DLL: 1.0.0.0
+EthCmdUtility.dll: 1.0.7809.21958
+EthernetTransport.dll: 1.0.7810.21795
+PROTO_ENGINE.DLL: 1.0.7810.20070
+PROTO_IPTABLE.DLL: 1.0.7810.20087
+PROTO_TCP.DLL: 1.0.7810.20337
+PROTO_TLDM.DLL: 1.0.7810.21194
+PROTO_UDP.DLL: 1.0.7810.20131
+PackageUpdate.dll: 1.0.0.20
+SimplSharpCustomAttributesInterface.DLL: 1.0.0.0
+TLDMInterfaceDLL.dll: 1.0.7809.22204
+USBTransport.dll: 1.0.7810.21793
+Utilities.dll: 1.0.7809.21724
+CrestronMIB.dll: 1.0.7809.23511
+iss_certdb.dll: 4, 8, 1, 0
+WebSocketClient.dll: 1, 0, 0, 1
+SimplSharpCWSHelperInterface.dll: 2.0.0.0
+GAC_Newtonsoft.Json.Compact_v3_5_0_0_cneutral_1.dll: 3.5.0.0
+GAC_Newtonsoft.Json.Compact_v4_0_8_0_cneutral_1.dll: 4.0.8.0
+GAC_CedbDataStoreInterface_v1_0_0_0_cneutral_1.dll: 1.0.0.0
+GAC_ConsoleServiceCE_v1_0_7810_20031_cneutral_1.dll: 1.0.7810.20031
+GAC_CrestronWebScriptingAPI_v2_0_0_0_cneutral_1.dll: 2.0.0.0
+GAC_ManagedUtilities_v1_0_7810_19979_cneutral_1.dll: 1.0.7810.19979
+GAC_ManagedUtilitiesCE_v1_0_7810_20025_cneutral_1.dll: 1.0.7810.20025
+GAC_SmartThreadPoolCE_v1_0_7810_20042_cneutral_1.dll: 1.0.7810.20042
+GAC_System.Data.SQLite_v1_0_93_0_cneutral_1.dll: 1.0.93.0
+
+DIN-AP3>========== puf -log ==========
+puf -log
+Info: FW PUF Tool version: 1.0.0.20
+Info: Path to the PUF file: \ROMDISK\USER\SYSTEM\din-ap3_1.8000.0014.puf
+Info: Update options: 
+Info: Update Date/Time: 8/24/2021 12:22:18 PM
+Info: FW PUF version: 1.8000.0014
+Info: Package Description: DIN-AP3 Firmware Update
+The components to be updated:
+---Name----+---Slot---+-FW File Version----+-Device FW Version--+---Description---
+EBOOT      |          | v1.23.00           | v1.22.00           | Update DIN-AP3 EBoot 
+OS         |          | v1.8000.4522.26360 | v1.600.3781.39134  | Update DIN-AP3 OS 
+-----------+----------+--------------------+--------------------+-----------------
+Status: Updating "EBOOT"... 
+
+===Device:DIN-AP3 DynamicTransport===Context:EBOOT===
+updating from DIN-AP3Eboot_1.23.00.cos
+
+Checking CRC...
+CRC Check Passed...
+
+Saving update file...
+
+Image upgraded successfully, please reboot...
+Reboot to take effect...
+
+DIN-AP3:
+Status: Updating "OS"... 
+The components being updated:
+---Name----+---Slot---+-FW File Version----+-Device FW Version--+-Update Status-+---Description---
+EBOOT      |          | v1.23.00           | v1.22.00           | Success       | Update DIN-AP3 EBoot 
+OS         |          | v1.8000.4522.26360 | v1.600.3781.39134  | Updating      | Update DIN-AP3 OS 
+-----------+----------+--------------------+--------------------+---------------+-----------------
+Info: FW PUF version: 1.8000.0014
+The PUF update result by components:
+---Name----+---Slot---+-FW File Version----+-Device FW Version--+---Results---+-Signature-+---Description---
+EBOOT      |          | v1.23.00           | v1.23.00           |    Pass     |    Pass   | Update DIN-AP3 EBoot 
+OS         |          | v1.8000.4522.26360 | v1.8000.4522.26360 |    Pass     |    Pass   | Update DIN-AP3 OS 
+UPDATER    |          | v1.4.28            | v1.4.28            |    N/A      |    N/A    | Update DIN-AP3 Updater 
+-----------+----------+--------------------+--------------------+-------------+-----------+-----------------
+Note: Clear puf restart information. [OK]
+Note: Set puf DoNotStart flag to 1. [OK]
+Status: Success!
+
+DIN-AP3>========== cpuload ==========
+cpuload
+CPU:LOAD 100%
+
+DIN-AP3>========== cpuload ==========
+cpuload
+CPU:LOAD 14%
+
+DIN-AP3>========== cpuload ==========
+cpuload
+CPU:LOAD 13%
+
+DIN-AP3>========== ramfree ==========
+ramfree
+78 percent of memory in use
+169934848 total bytes of physical memory
+131346432 bytes actually used
+38588416 bytes free
+0 bytes reclaimable
+
+DIN-AP3>========== uptime ==========
+uptime
+The system has been running for 71 days 06:46:45.532
+The system last started on: Monday, November 08, 2021 at 10:11:54
+
+DIN-AP3>========== sntp ==========
+sntp
+time synchronization: disabled
+server = tock.usno.navy.mil
+period = 10080 minutes
+
+
+DIN-AP3>========== appstat ==========
+appstat
+ 
+ ***** Next Application Info ******* 
+ App Name: LogicEngine1 
+ Friendly Name: Lighting 
+ App Id: 0x1, App Index: 3 
+ Suspend Count: 0 
+ Logic App 
+ Application is registered 
+ 
+ Logic Engine Process Id: 0x0B4127AE 
+ SplusManagerApp Process Id: 0x0BD623AA 
+
+ Application has Cresnet Devices Registered 
+ Device At Id 0x11 Registered by App 
+ Device At Id 0x12 Registered by App 
+ Device At Id 0x13 Registered by App 
+ Device At Id 0x14 Registered by App 
+ Device At Id 0x15 Registered by App 
+ Device At Id 0x16 Registered by App 
+ Device At Id 0x17 Registered by App 
+ Device At Id 0x18 Registered by App 
+ Device At Id 0x19 Registered by App 
+ Device At Id 0x1a Registered by App 
+ Device At Id 0x1b Registered by App 
+ Device At Id 0x1c Registered by App 
+ Device At Id 0x1d Registered by App 
+ Device At Id 0x1e Registered by App 
+ Device At Id 0x1f Registered by App 
+ Device At Id 0x20 Registered by App 
+ Device At Id 0x21 Registered by App 
+ Device At Id 0x22 Registered by App 
+ Device At Id 0x23 Registered by App 
+ Device At Id 0x24 Registered by App 
+ Device At Id 0x25 Registered by App 
+ Device At Id 0x26 Registered by App 
+ Device At Id 0x27 Registered by App 
+ Device At Id 0x30 Registered by App 
+ Device At Id 0x31 Registered by App 
+ Device At Id 0x93 Registered by App 
+ 
+ Application has Ethernet Devices Registered 
+ Ethernet Device At Id 0x3 Registered by App 
+ Ethernet Device At Id 0x10 Registered by App 
+ Ethernet Device At Id 0x11 Registered by App 
+ Ethernet Device At Id 0xf0 Registered by App 
+ 
+ Application has Versiport Devices Registered 
+ Device At Id 0x1 Registered by App 
+ 
+ Application has IR Output Devices Registered 
+ 
+ Application Registered for the  System Monitor Slot 
+ App Manager - App State is ONLINE 
+ System Suspended count = 0 
+ ******** 
+ 
+ ***** Next Application Info ******* 
+ App Name: RBI-Fusion-Base 
+ Friendly Name: RBI-Fusion-Base 
+ Custom Logic App 
+ App Id: 0x2, App Index: 4 
+ Suspend Count: 0 
+ Logic App 
+ Application is registered 
+ 
+ Custom App Process Id: 0x0B2323CE
+
+ Application Registered for the  System Monitor Slot 
+ Application Registered for the SNMP Slot
+ App Manager - App State is ONLINE 
+ System Suspended count = 0 
+ ******** 
+ 
+
+DIN-AP3>========== progregister ==========
+progregister
+ Program 1 is registered: Lighting 
+ Program 2 is registered (#): RBI-Fusion-Base 
+ 
+
+DIN-AP3>========== ipconfig /all ==========
+ipconfig /all
+Ethernet Adapter CPSW3G1 Connection:
+	 Link Status ....... : OK 
+	 DHCP .............. : OFF 
+	 MAC Address(es).... : 00.10.7f.d5.ab.20 
+	 IP Address ........ : 10.140.5.22 
+	 Subnet Mask ....... : 255.255.255.0 
+	 IPv6 Address....... : fe80::d55f:7a36:e0ae:5c9d%2 
+	 Default Gateway ... : 10.140.5.1 
+	 Adapter Name ...... : CPSW3G1 
+	 Description ....... : CPSW3G1 
+	 Adapter Index ..... : 2 
+	 Address ........... : 00 10 7f d5 ab 20 
+
+	 Hostname .......... : AP3-GATHERING 
+	 Domain Name ....... :  
+
+
+
+DIN-AP3>========== ethwdog ==========
+ethwdog
+ETHWDOG: On
+
+
+DIN-AP3>========== esatldmqtimeoutms ==========
+esatldmqtimeoutms
+ INFINITE timeout 
+ 
+
+DIN-AP3>========== esatldmlogicqsize ==========
+esatldmlogicqsize
+ Queuesize between Logic<->TLDM<->ESA is  500 
+ 
+
+DIN-AP3>========== igmpproxy ==========
+igmpproxy
+Bad or Incomplete Command (igmpproxy)
+
+DIN-AP3>========== who ==========
+who
+ 
+TableStart:[ Transport Connections ] 
+Name                |Index |Current|Interface|User                |Uptime         |Address
+------------------------------------------------------------------------------------
+SHELL Connection    |1     |*      |LAN      |riordan             |00:00:34.6300000|192.168.250.10:0                                  
+Dynamic Connection  |1     |       |Dynamic  |Console Symbol      |71.06:44:11.2580000|DynTrans_CPHProcessor.exe                         
+Dynamic Connection  |2     |       |Dynamic  |Console Symbol      |71.06:43:36.4020000|DynTrans_SimplSharpPro.exe                        
+Dynamic Connection  |3     |       |Dynamic  |Console Symbol      |71.06:43:18.6620000|DynTrans_splusmanagerapp.exe                      
+Dynamic Connection  |4     |       |Dynamic  |Console Symbol      |00:22:29.4930000|DynTrans_LogicEngine.exe                          
+Dynamic Connection  |5     |       |Dynamic  |Console Symbol      |00:22:21.9560000|DynTrans_splusmanagerapp.exe                      
+Dynamic Connection  |6     |       |Dynamic  |Console Symbol      |00:09:17.3850000|DynTrans_SimplSharpPro.exe                        
+ 
+TableStart:[ Logic Connections ] 
+AppID |Type          |ID  |Interface|Uptime         |Address                                            
+----------------------------------------------------------------------
+1     |Gateway       |3   |LAN      |00:22:57.5700000|10.140.5.23                                       
+ 
+TableStart:[ SPLUS Connections ] 
+AppID |Module         |Instance  |Type      |Interface|Uptime         |Address              
+-----------------------------------------------------------------------------
+ 
+
+DIN-AP3>========== fitcstatus ==========
+fitcstatus
+FITC Info message Received: False
+FITC Servers:
+
+FITC/GwRdy Devices:
+ 
+
+DIN-AP3>========== csfitcstatus ==========
+csfitcstatus
+Bad or Incomplete Command (csfitcstatus)
+
+DIN-AP3>========== cloudstatus ==========
+cloudstatus
+CloudStatus :
+The current Url is: https://api.my.crestron.com/api/Registration
+This unit is not registered
+Client send error: URL unresolved
+SubscriptionMask: 0
+Timer Interval (sec): 300 
+
+
+DIN-AP3>========== cloudenable ==========
+cloudenable
+CloudEnable: ON
+
+
+DIN-AP3>========== taskstat ==========
+taskstat
+App Name                                  Proc ID      Threads  Heap Total/Used      
+NK.EXE                                    0x00400002   105         9409904/8192528   
+udevice.exe                               0x02360002   23           356352/306576    
+GweUser.exe                               0x04150006   7              8192/4560      
+servicesd.exe                             0x04440022   18           786368/617616    
+udevice.exe                               0x048B0032   3             53248/34240     
+CrestronDllLoader.exe                     0x046D0066   1              4096/3056      
+ConsoleServiceCE.exe                      0x054C007E   65          2494940/2382908   
+SystemCommandProcessor.exe                0x053801BA   3           1487156/1402692   
+CRESLOG.exe                               0x072C000A   5            151552/145280    
+SSHD.exe                                  0x062E0016   5            385136/261424    
+RedisServer.exe                           0x07D9001A   4            102400/91232     
+TLDM.exe                                  0x06860026   22          1220188/893420    
+CIPCommandProcessor.exe                   0x07020052   21          7908388/7786676   
+CloudClient.exe                           0x075D009A   10          2916812/2651756   
+CrestronTimerEventEngine.exe              0x077300C2   15            77880/70632     
+AutoUpdateInterface.exe                   0x074400DA   31          1683796/1609988   
+CPHProcessor.exe                          0x072A011A   12         23264336/23166176  
+jwtprocessor.exe                          0x086A0002   2             24576/19232     
+webSocketToken.exe                        0x08D4000E   4           1319140/1253380   
+CSprojectManager.exe                      0x08C0001A   5            548864/513472    
+HydrogenManager.exe                       0x08420026   8            180224/122800    
+CustomAppManager.exe                      0x08D2003E   6           1700116/1621796   
+SimplSharpPro.exe                         0x08C1005A   22          3441372/3339692   
+LogicEngine.exe                           0x0B4127AE   18          5730628/5618100   
+splusmanagerapp.exe                       0x0BD623AA   95          3900140/3770444   
+CustomAppManager.exe                      0x0A4E2F62   6           1708308/1631940   
+SimplSharpPro.exe                         0x0B2323CE   16          4195108/4094900   
+
+
+DIN-AP3>========== reportcresnet ==========
+reportcresnet
+11: CNLDM-6, ver 4.1
+12: GLX-DIM6 6-channel Dimmer [v1.002.0042,#88328182]
+13: CNLDM-4, ver 4.1
+14: CNLDM-4, ver 4.1
+15: CNLDM-4, ver 4.1
+16: CNLFDB-4, ver 4.2.0
+17: CNLDM-6, ver 4.1
+18: CNLDM-6, ver 4.1
+19: CNLDM-4, ver 4.1
+1A: CNLDM-4, ver 4.1
+1B: CNLDM-6, ver 4.1
+1C: CNLDM-6, ver 4.1
+1D: CNLDM-6, ver 4.1
+1E: CNLDM-6, ver 4.1
+1F: CNLDM-6, ver 4.1
+20: CNLDM-6, ver 4.1
+21: CNLDM-6, ver 4.1
+22: CNLDM-6, ver 4.1
+23: CNLDM-6, ver 4.1
+24: CNLDM-6, ver 4.1
+25: CNLDM-6, ver 4.1
+26: CNLDM-6, ver 4.1
+27: CNLDM-4, ver 4.1
+30: C2N-CBD-P Cameo Keypad [v1.003.0045, #8C821DCC]
+31: C2N-CBD-P Cameo Keypad [v1.003.0045, #8C821E5C]
+93: GLS-SIM Sensor Interface [v1.003.0004,#00C51A0E] Dial:00
+
+ 
+DIN-AP3>========== iptable -P:all -T ==========
+iptable -P:all -T
+
+TableStart:[ IP Table for program 1 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+     3  |Gway    |ONLINE    |        |41794  |127.000.000.001  | TSW-1060  | tsw  | Not Specified
+    10  |Gway    |OFFLINE   |        |41794  |127.000.000.001  | XPanel 2.0 Smart Graphics  | xpanel  | Not Specified
+    11  |Gway    |OFFLINE   |        |41794  |127.000.000.001  | Crestron App  | ipad  | Not Specified
+    F0  |CIP     |OFFLINE   |        |41794  |127.000.000.002  | 3 Series TCP/IP Ethernet Intersystem Communicati  | Fusion EISC - gathering_space *42 zones  | Not Specified
+
+TableStart:[ IP Table for program 2 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 3 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 4 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 5 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 6 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 7 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 8 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 9 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 10 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+
+DIN-AP3>========== netstat ==========
+netstat
+Proto  Local Address          Foreign Address        State
+UDP    0.0.0.0:137            *:*
+UDP    0.0.0.0:138            *:*
+UDP    0.0.0.0:500            *:*
+UDP    0.0.0.0:4500           *:*
+UDP    0.0.0.0:41794          *:*
+UDP    0.0.0.0:49152          *:*
+UDP    10.140.5.22:5353       *:*
+TCP    0.0.0.0:22             0.0.0.0:0              LISTENING
+TCP    0.0.0.0:80             0.0.0.0:0              LISTENING
+TCP    0.0.0.0:443            0.0.0.0:0              LISTENING
+TCP    0.0.0.0:843            0.0.0.0:0              LISTENING
+TCP    0.0.0.0:41794          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:41795          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:41796          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:41797          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49200          0.0.0.0:0              LISTENING
+TCP    10.140.5.22:22         192.168.250.10:54711   ESTABLISHED
+TCP    10.140.5.22:22         192.168.250.10:58384   ESTABLISHED
+TCP    10.140.5.22:22         192.168.250.10:64237   TIME_WAIT
+TCP    10.140.5.22:41794      10.140.5.23:56526      ESTABLISHED
+TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING
+TCP    127.0.0.1:6379         0.0.0.0:0              LISTENING
+TCP    127.0.0.1:6379         127.0.0.1:49156        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49157        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49162        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49163        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49168        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49169        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49174        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49175        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49180        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49181        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49186        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49187        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49192        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49193        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49223        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49224        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49235        ESTABLISHED
+TCP    127.0.0.1:6379         127.0.0.1:49236        ESTABLISHED
+TCP    127.0.0.1:49152        127.0.0.1:49153        ESTABLISHED
+TCP    127.0.0.1:49153        127.0.0.1:49152        ESTABLISHED
+TCP    127.0.0.1:49154        127.0.0.1:49155        ESTABLISHED
+TCP    127.0.0.1:49155        127.0.0.1:49154        ESTABLISHED
+TCP    127.0.0.1:49156        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49157        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49158        127.0.0.1:49159        ESTABLISHED
+TCP    127.0.0.1:49159        127.0.0.1:49158        ESTABLISHED
+TCP    127.0.0.1:49160        127.0.0.1:49161        ESTABLISHED
+TCP    127.0.0.1:49161        127.0.0.1:49160        ESTABLISHED
+TCP    127.0.0.1:49162        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49163        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49164        127.0.0.1:49165        ESTABLISHED
+TCP    127.0.0.1:49165        127.0.0.1:49164        ESTABLISHED
+TCP    127.0.0.1:49166        127.0.0.1:49167        ESTABLISHED
+TCP    127.0.0.1:49167        127.0.0.1:49166        ESTABLISHED
+TCP    127.0.0.1:49168        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49169        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49170        127.0.0.1:49171        ESTABLISHED
+TCP    127.0.0.1:49171        127.0.0.1:49170        ESTABLISHED
+TCP    127.0.0.1:49172        127.0.0.1:49173        ESTABLISHED
+TCP    127.0.0.1:49173        127.0.0.1:49172        ESTABLISHED
+TCP    127.0.0.1:49174        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49175        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49176        127.0.0.1:49177        ESTABLISHED
+TCP    127.0.0.1:49177        127.0.0.1:49176        ESTABLISHED
+TCP    127.0.0.1:49178        127.0.0.1:49179        ESTABLISHED
+TCP    127.0.0.1:49179        127.0.0.1:49178        ESTABLISHED
+TCP    127.0.0.1:49180        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49181        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49182        127.0.0.1:49183        ESTABLISHED
+TCP    127.0.0.1:49183        127.0.0.1:49182        ESTABLISHED
+TCP    127.0.0.1:49184        127.0.0.1:49185        ESTABLISHED
+TCP    127.0.0.1:49185        127.0.0.1:49184        ESTABLISHED
+TCP    127.0.0.1:49186        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49187        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49188        127.0.0.1:49189        ESTABLISHED
+TCP    127.0.0.1:49189        127.0.0.1:49188        ESTABLISHED
+TCP    127.0.0.1:49190        127.0.0.1:49191        ESTABLISHED
+TCP    127.0.0.1:49191        127.0.0.1:49190        ESTABLISHED
+TCP    127.0.0.1:49192        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49193        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49219        127.0.0.1:49220        ESTABLISHED
+TCP    127.0.0.1:49220        127.0.0.1:49219        ESTABLISHED
+TCP    127.0.0.1:49221        127.0.0.1:49222        ESTABLISHED
+TCP    127.0.0.1:49222        127.0.0.1:49221        ESTABLISHED
+TCP    127.0.0.1:49223        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49224        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49231        127.0.0.1:49232        ESTABLISHED
+TCP    127.0.0.1:49232        127.0.0.1:49231        ESTABLISHED
+TCP    127.0.0.1:49233        127.0.0.1:49234        ESTABLISHED
+TCP    127.0.0.1:49234        127.0.0.1:49233        ESTABLISHED
+TCP    127.0.0.1:49235        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49236        127.0.0.1:6379         ESTABLISHED
+TCP    127.0.0.1:49237        127.0.0.1:49238        ESTABLISHED
+TCP    127.0.0.1:49238        127.0.0.1:49237        ESTABLISHED
+
+
+DIN-AP3>========== listblocked ==========
+listblocked
+No IP Addresses Blocked
+
+DIN-AP3>========== iproute ==========
+iproute
+  Network Address          Netmask      Gateway Address     Interface  Metric
+    0.  0.  0.  0      0.  0.  0.  0     10.140.  5.  1        2        11
+   10.140.  5.  0    255.255.255.  0     10.140.  5. 22        2       266
+   10.140.  5. 22    255.255.255.255     10.140.  5. 22        2       266
+   10.140.  5.255    255.255.255.255     10.140.  5. 22        2       266
+  127.  0.  0.  0    255.  0.  0.  0    127.  0.  0.  1        1       306
+  127.  0.  0.  1    255.255.255.255    127.  0.  0.  1        1       306
+  127.255.255.255    255.255.255.255    127.  0.  0.  1        1       306
+  224.  0.  0.  0    240.  0.  0.  0     10.140.  5. 22        2       266
+  224.  0.  0.  0    240.  0.  0.  0    127.  0.  0.  1        1       306
+  255.255.255.255    255.255.255.255     10.140.  5. 22        2       266
+  255.255.255.255    255.255.255.255    127.  0.  0.  1        1       306
+
+
+DIN-AP3>========== showarptable ==========
+showarptable
+Interface Index 1    Type:  static
+Internet Address       Physical Address
+224.  0.  0. 22        00:00:00:00:00:00
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5.  1        00:00:0c:07:ac:03
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5.  2        00:b6:70:36:26:59
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5.  3        00:b6:70:36:2f:d9
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5. 20        00:10:7f:f1:96:95
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5. 23        00:10:7f:d5:b1:9a
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5. 24        00:10:7f:f0:c6:0a
+Interface Index 2    Type:  invalid
+Internet Address       Physical Address
+ 10.140.  5.161        c8:d9:d2:7c:3f:62
+Interface Index 2    Type:  dynamic
+Internet Address       Physical Address
+ 10.140.  5.244        3c:18:a0:44:5a:46
+Interface Index 2    Type:  static
+Internet Address       Physical Address
+ 10.140.  5.255        ff:ff:ff:ff:ff:ff
+Interface Index 2    Type:  static
+Internet Address       Physical Address
+224.  0.  0. 22        01:00:5e:00:00:16
+Interface Index 2    Type:  static
+Internet Address       Physical Address
+255.255.255.255        ff:ff:ff:ff:ff:ff
+
+
+DIN-AP3>========== telnetport ==========
+telnetport
+ERROR: This feature is not available when authentication is enabled. 
+
+DIN-AP3>========== webserver ==========
+webserver
+Web Server: ON
+
+DIN-AP3>========== webport ==========
+webport
+Webserver port =  80 
+
+
+DIN-AP3>========== core3xpanelweb ==========
+core3xpanelweb
+Core3 XPanel Web: ON, Domain: *, Port(s): 41794, SECURE_OFF
+
+DIN-AP3>========== sshport ==========
+sshport
+SSH: ENABLED 
+Current SSH port =  22 
+
+
+DIN-AP3>========== ssl ==========
+ssl
+SSL: On, Self Signed
+Only TLS1.2 is Supported.
+
+
+DIN-AP3>========== auth ==========
+auth
+AUTHENTICATION: ON.
+
+DIN-AP3>========== basicauth ==========
+basicauth
+Bad or Incomplete Command (basicauth)
+
+DIN-AP3>========== userpageauth ==========
+userpageauth
+ERROR: Feature Not Supported.
+
+DIN-AP3>========== setcsauthentication ==========
+setcsauthentication
+Domain Name: Not Set 
+User Name: Not Set 
+Password: Not Set 
+
+
+DIN-AP3>========== progcomments:1 ==========
+progcomments:1
+
+Program Boot Directory: \simpl\app01
+Source File:  C:\github\Pequot-Museum\SIMPL\Gathering Space\Pequot Museum Gathering Space v3
+Program File: Pequot Museum Gathering Space v3.smw
+System Name:  Pequot
+Programmer:   Hope Roth
+Compiled On:  1/18/2022 4:32 PM
+Compiler Rev: 3.03
+CrestronDB:   209.05.001.00
+DeviceDB:     200.140.001.00
+SYMLIB Rev:   1156
+IOLIB Rev:    1156
+IOPCFG Rev:   4.1.75
+Source Env:   SIMPL Windows v4.1700.03
+Target Rack:  DIN-AP3
+Config Rev:   22
+Include4.dat: 2.18.015
+Friendly Name:Lighting
+
+
+DIN-AP3>========== progcomments:2 ==========
+progcomments:2
+
+Program Boot Directory: \SIMPL\app02 
+Friendly Name             : RBI-Fusion-Base 
+Application Name          : RBI-Fusion-Base 
+Program File              : RBI-Fusion-Base.dll 
+Min Firmware Version      : 1.009.0029 
+Program Tool              : SIMPL# Plugin 
+Design Tool ID            : 5 
+Program Tool ID           : 5 
+Archive Name              :  
+Programmer Name           : Hope Roth 
+Compiled On               : 12/10/2021 9:45:15 AM 
+Compiler Revision         : 1.0.0.17555 
+PlugInVersion             : 2.0.58.0 
+Include4.dat              : 2.14.182 
+Target Rack               : DIN-AP3 
+
+
+DIN-AP3>========== progcomments:3 ==========
+progcomments:3
+Bad or Incomplete Command (progcomments:3)
+
+DIN-AP3>========== progcomments:4 ==========
+progcomments:4
+Bad or Incomplete Command (progcomments:4)
+
+DIN-AP3>========== progcomments:5 ==========
+progcomments:5
+Bad or Incomplete Command (progcomments:5)
+
+DIN-AP3>========== progcomments:6 ==========
+progcomments:6
+Bad or Incomplete Command (progcomments:6)
+
+DIN-AP3>========== progcomments:7 ==========
+progcomments:7
+Bad or Incomplete Command (progcomments:7)
+
+DIN-AP3>========== progcomments:8 ==========
+progcomments:8
+Bad or Incomplete Command (progcomments:8)
+
+DIN-AP3>========== progcomments:9 ==========
+progcomments:9
+Bad or Incomplete Command (progcomments:9)
+
+DIN-AP3>========== progcomments:10 ==========
+progcomments:10
+Bad or Incomplete Command (progcomments:10)
+
+DIN-AP3>========== proguptime:1 ==========
+proguptime:1
+The program has been running for 0 days 00:22:12.03
+The program last started on: Tue Jan 18, 2022 at 16:36:35
+
+DIN-AP3>========== proguptime:2 ==========
+proguptime:2
+The program has been running for 0 days 00:09:14.752 
+The program last started on: Tuesday, January 18, 2022 at 16:49:32
+
+
+DIN-AP3>========== proguptime:3 ==========
+proguptime:3
+Bad or Incomplete Command (proguptime:3)
+
+DIN-AP3>========== proguptime:4 ==========
+proguptime:4
+Bad or Incomplete Command (proguptime:4)
+
+DIN-AP3>========== proguptime:5 ==========
+proguptime:5
+Bad or Incomplete Command (proguptime:5)
+
+DIN-AP3>========== proguptime:6 ==========
+proguptime:6
+Bad or Incomplete Command (proguptime:6)
+
+DIN-AP3>========== proguptime:7 ==========
+proguptime:7
+Bad or Incomplete Command (proguptime:7)
+
+DIN-AP3>========== proguptime:8 ==========
+proguptime:8
+Bad or Incomplete Command (proguptime:8)
+
+DIN-AP3>========== proguptime:9 ==========
+proguptime:9
+Bad or Incomplete Command (proguptime:9)
+
+DIN-AP3>========== proguptime:10 ==========
+proguptime:10
+Bad or Incomplete Command (proguptime:10)
+
+DIN-AP3>========== splustasks:1 ==========
+splustasks:1
+Module Name                    ThreadId     Priority  RunTime(ms)  CodeLine Information 
+
+
+DIN-AP3>========== splustasks:2 ==========
+splustasks:2
+Bad or Incomplete Command (splustasks:2)
+
+DIN-AP3>========== splustasks:3 ==========
+splustasks:3
+Bad or Incomplete Command (splustasks:3)
+
+DIN-AP3>========== splustasks:4 ==========
+splustasks:4
+Bad or Incomplete Command (splustasks:4)
+
+DIN-AP3>========== splustasks:5 ==========
+splustasks:5
+Bad or Incomplete Command (splustasks:5)
+
+DIN-AP3>========== splustasks:6 ==========
+splustasks:6
+Bad or Incomplete Command (splustasks:6)
+
+DIN-AP3>========== splustasks:7 ==========
+splustasks:7
+Bad or Incomplete Command (splustasks:7)
+
+DIN-AP3>========== splustasks:8 ==========
+splustasks:8
+Bad or Incomplete Command (splustasks:8)
+
+DIN-AP3>========== splustasks:9 ==========
+splustasks:9
+Bad or Incomplete Command (splustasks:9)
+
+DIN-AP3>========== splustasks:10 ==========
+splustasks:10
+Bad or Incomplete Command (splustasks:10)
+
+DIN-AP3>========== autodiscovery query tableformat ==========
+autodiscovery query tableformat
+TableStart:[Discovered Nodes] 
+IP Address        |IP_ID|Interface|HostName                      |FirmwareName 
+------------------------------------------------------------------------------ 
+10.140.5.24       |0    |LAN      |AP4-ATRIUM                    |DIN-AP4 [v2.5001.00006 (Mar 16 2021), #8FE207BC] @E-00107ff0c60a 
+10.140.5.20       |0    |LAN      |AP4-GIFTSHOP                  |DIN-AP4 [v2.6000.00020 (Jun 16 2021), #90A20402] @E-00107ff19695 
+10.140.5.23       |3    |LAN      |TSW-GATHERING                 |TSW-1060 [v3.001.0026 (Wed Jun  2 19:13:38 EDT 2021), #8C624F96] @E-00107fd5b19a 
+10.140.5.25       |0    |LAN      |TSW-ATRIUM                    |TSW-1070 [v1.004.0115 (Wed Jul 21 17:55:51 EDT 2021), #8FA21482] @E-00107ff07fd7 
+10.140.5.21       |0    |LAN      |TSW-GIFTSHOP                  |TSW-1070 [v1.004.0115 (Wed Jul 21 17:55:51 EDT 2021), #91320AB8] @E-00107ffa9c2c 
+
+
+DIN-AP3>========== listactivemodules:1 ==========
+listactivemodules:1
+Symbol Number                  CodeLine        Name 
+
+
+DIN-AP3>========== listactivemodules:2 ==========
+listactivemodules:2
+Bad or Incomplete Command (listactivemodules:2)
+
+DIN-AP3>========== listactivemodules:3 ==========
+listactivemodules:3
+Bad or Incomplete Command (listactivemodules:3)
+
+DIN-AP3>========== listactivemodules:4 ==========
+listactivemodules:4
+Bad or Incomplete Command (listactivemodules:4)
+
+DIN-AP3>========== listactivemodules:5 ==========
+listactivemodules:5
+Bad or Incomplete Command (listactivemodules:5)
+
+DIN-AP3>========== listactivemodules:6 ==========
+listactivemodules:6
+Bad or Incomplete Command (listactivemodules:6)
+
+DIN-AP3>========== listactivemodules:7 ==========
+listactivemodules:7
+Bad or Incomplete Command (listactivemodules:7)
+
+DIN-AP3>========== listactivemodules:8 ==========
+listactivemodules:8
+Bad or Incomplete Command (listactivemodules:8)
+
+DIN-AP3>========== listactivemodules:9 ==========
+listactivemodules:9
+Bad or Incomplete Command (listactivemodules:9)
+
+DIN-AP3>========== listactivemodules:10 ==========
+listactivemodules:10
+Bad or Incomplete Command (listactivemodules:10)
+
+DIN-AP3>========== threadpoolinfo:1 ==========
+threadpoolinfo:1
+Maximum number of threads: 175
+Active threads: 84
+Waiting Callbacks: 0
+Threads currently executing: 0
+Max Threads concurrently executed: 84 at 1/18/2022 4:36:34 PM
+
+
+DIN-AP3>========== threadpoolinfo:2 ==========
+threadpoolinfo:2
+Maximum number of threads: 155
+Active threads (Idle or Executing): 2
+Waiting Callbacks: 0
+Threads currently executing: 0
+Max Threads concurrently executed: 0 at 1/18/2022 4:49:32 PM 
+
+
+
+DIN-AP3>========== threadpoolinfo:3 ==========
+threadpoolinfo:3
+Bad or Incomplete Command (threadpoolinfo:3)
+
+DIN-AP3>========== threadpoolinfo:4 ==========
+threadpoolinfo:4
+Bad or Incomplete Command (threadpoolinfo:4)
+
+DIN-AP3>========== threadpoolinfo:5 ==========
+threadpoolinfo:5
+Bad or Incomplete Command (threadpoolinfo:5)
+
+DIN-AP3>========== threadpoolinfo:6 ==========
+threadpoolinfo:6
+Bad or Incomplete Command (threadpoolinfo:6)
+
+DIN-AP3>========== threadpoolinfo:7 ==========
+threadpoolinfo:7
+Bad or Incomplete Command (threadpoolinfo:7)
+
+DIN-AP3>========== threadpoolinfo:8 ==========
+threadpoolinfo:8
+Bad or Incomplete Command (threadpoolinfo:8)
+
+DIN-AP3>========== threadpoolinfo:9 ==========
+threadpoolinfo:9
+Bad or Incomplete Command (threadpoolinfo:9)
+
+DIN-AP3>========== threadpoolinfo:10 ==========
+threadpoolinfo:10
+Bad or Incomplete Command (threadpoolinfo:10)
+
+DIN-AP3>========== listenstat ==========
+listenstat
+
+Port Number    |Max Listeners  |Current Connections
+-------------------------------------------------------------
+41797          |5              |0              
+41795          |5              |0              
+41794          |252            |1              
+41796          |252            |0              
+49200          |252            |0              
+843   (App  0) |1              |0     
+
+DIN-AP3>========== routerstatus ==========
+routerstatus
+Bad or Incomplete Command (routerstatus)
+
+DIN-AP3>========== routersendcmd GET VERSION ALL ==========
+routersendcmd GET VERSION ALL
+Bad or Incomplete Command (routersendcmd)
+
+DIN-AP3>========== startprogafterrouter ==========
+startprogafterrouter
+Bad or Incomplete Command (startprogafterrouter)
+
+DIN-AP3>========== routesymstat:1 ==========
+routesymstat:1
+C:[80, S-3.4.10.1] -> E[257, S-4.1.1] 
+C:[592, S-3.4.11.1:S-1] -> No Connections.
+C:[81, S-3.5.10.1] -> E[257, S-4.1.1] 
+C:[593, S-3.5.11.1:S-1] -> No Connections.
+C:[82, S-3.6.10.1] -> E[257, S-4.1.1] 
+C:[594, S-3.6.11.1:S-1] -> No Connections.
+E:[257, S-4.1.1] -> C[80, S-3.4.10.1] C[81, S-3.5.10.1] C[82, S-3.6.10.1] 
+
+
+DIN-AP3>========== routesymstat:2 ==========
+routesymstat:2
+Bad or Incomplete Command (routesymstat:2)
+
+DIN-AP3>========== routesymstat:3 ==========
+routesymstat:3
+Bad or Incomplete Command (routesymstat:3)
+
+DIN-AP3>========== routesymstat:4 ==========
+routesymstat:4
+Bad or Incomplete Command (routesymstat:4)
+
+DIN-AP3>========== routesymstat:5 ==========
+routesymstat:5
+Bad or Incomplete Command (routesymstat:5)
+
+DIN-AP3>========== routesymstat:6 ==========
+routesymstat:6
+Bad or Incomplete Command (routesymstat:6)
+
+DIN-AP3>========== routesymstat:7 ==========
+routesymstat:7
+Bad or Incomplete Command (routesymstat:7)
+
+DIN-AP3>========== routesymstat:8 ==========
+routesymstat:8
+Bad or Incomplete Command (routesymstat:8)
+
+DIN-AP3>========== routesymstat:9 ==========
+routesymstat:9
+Bad or Incomplete Command (routesymstat:9)
+
+DIN-AP3>========== routesymstat:10 ==========
+routesymstat:10
+Bad or Incomplete Command (routesymstat:10)
+
+DIN-AP3>========== dhcpleases ==========
+dhcpleases
+Bad or Incomplete Command (dhcpleases)
+
+DIN-AP3>========== userpatlist ==========
+userpatlist
+Bad or Incomplete Command (userpatlist)
+
+DIN-AP3>========== showportmap -all ==========
+showportmap -all
+Bad or Incomplete Command (showportmap)
+
+DIN-AP3>========== showdiskinfo ==========
+showdiskinfo
+
+Volume: 'ROMDISK'
+--------------------------------
+
+ File system block size : 4096
+ File system attributes : 0x14
+ File system flags      : 0x12F
+ File system partition  : Part00
+ File system store      : DSK1:
+ Store name             : SD Memory Card
+ Store type             : 0xA0000000
+ Store flags            : 0x1
+ Store attributes       : 0x0
+ Partition name         : Part00
+ Partition type         : 0xB
+ Partition attributes   : 0x10
+ Partition driver       : exfat.dll
+ Partition style        : MSIFS
+
+--------------------------------
+
+Volume Attributes:
+ -File system is read/write.
+ -File system is visable.
+ -File system is removable.
+ -File system is boot.
+
+Volume Flags:
+ -File system uses the 'WriteFile' function.
+ -File system supports scatter/gather for both read and write operations.
+ -File system supports file locking.
+ -File system supports 64 bit files.
+ -File system does *NOT* support file security.
+ -File system has a back-up store.
+ -File system is a local volume.
+ -File system is ROM based.
+ -File system is transaction safe.
+
+--------------------------------
+
+Store 'SD Memory Card' Attributes:
+
+Store Flags:
+ -Store is read/write.
+
+--------------------------------
+
+Partition 'Part00' Attributes:
+ -Partition is *NOT* boot.
+ -Partition is mounted.
+
+--------------------------------
+
+
+
+DIN-AP3>========== bacnetgetmemusage ==========
+bacnetgetmemusage
+Bad or Incomplete Command (bacnetgetmemusage)
+
+DIN-AP3>========== bacnethostcovlist ==========
+bacnethostcovlist
+Bad or Incomplete Command (bacnethostcovlist)
+
+DIN-AP3>========== bacnetremotecovlist ==========
+bacnetremotecovlist
+Bad or Incomplete Command (bacnetremotecovlist)
+
+DIN-AP3>========== bacnetdevicescantime ==========
+bacnetdevicescantime
+Bad or Incomplete Command (bacnetdevicescantime)
+
+DIN-AP3>========== bacnetobjectlist ==========
+bacnetobjectlist
+Bad or Incomplete Command (bacnetobjectlist)
+
+DIN-AP3>========== showextra ==========
+showextra
+Log Extra Errors: Disabled
+
+DIN-AP3>========== err plogprevious ==========
+err plogprevious
+Persistent log contents during previous boot:
+SDCardDetect: System SD card
+CSDSlot::SlotStateChange : DeviceInserted
+CM3: input file [\windows\firmware.bin] is 9932 bytes long
+CM3: firmware file read ok!
+PrcmCM3ResetAndHandshake: isM3IntReceived: 0
+PrcmDomainResetRelease DMN 0; mask 8
+Cm3ISR: M3 int recvd
+HwDogDriverInit: SystemID: 0x1
+Notice: nk.exe # 2021-09-27 14:14:06  # Power On
+detect_processor_board_id: ProcessorBoardID [0x00000003] 
+Notice: nk.exe # 2021-09-27 14:14:06  # System startup: DIN-AP3 [v1.8000.0014 (May 20 2021) #8C7209FE]
+setIP: Registry static IP setting = 192.168.1.60
+Info: nk.exe # 2021-09-27 14:14:06  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2021-09-27 14:14:06  #  UpdateDHCPOptions:HostName option selected 
+Error: nk.exe # 2021-09-27 14:14:06  # setDomainName: Setting Domain Name to (null)
+Info: nk.exe # 2021-09-27 14:14:06  # With changes
+Info: nk.exe # 2021-09-27 14:14:06  # Updating DHCP options on boot
+FPGA   Activated
+Cpsw3g_InitializeAdapter: mode=1, port=1, txCh=0, rxChMask=0x01, ActiveCpgmac=1
+Sec_Init pStorageInfo->dwNumBlobStored [1]
+OEMIoControl: Unsupported Code 0x1012010 - device 0x0101 func 2052
+SDHC: CPU revision 0xffffffff
++OALSetMemoryAttributes()
+-OALSetMemoryAttributes
+CSDSlot::SlotStateChange : DeviceEjected
+_cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100  DUPLEX:FD
+Info: CrestronMonitor.exe # 2021-09-27 14:14:11  # Crestron applications already installed
+ProcessPostInstall: No \windows\postinstall.bat file
+ProcessPostInstall: No \windows\shipwithinstall.bat file
+Info: nk.exe # 2021-09-27 14:14:15  # SDMemWriteCounterUpdate: InitialCounter is:5171714, MaxHourCounter is:121162
+Info: CrestronMonitor.exe # 2021-09-27 14:14:15  #  Prompt is DIN-AP3, Deleting setup project html now. 
+Info: TLDM.exe # 2021-09-27 14:14:26  #  THAL loading now  .. 
+Info: TLDM.exe # 2021-09-27 14:14:37  #  TLDM Starting.. 
+ Info: TLDM.exe # 2021-09-27 14:14:38  #  CTLDMWatchdogServer: Arm Watchdog is disabled 
+Info: CIPCommandProcessor.exe # 2021-09-27 14:14:40  #  SSL state read is True 
+
+Info: CIPCommandProcessor.exe # 2021-09-27 14:14:40  #  Product Name is DIN-AP3 
+
+Info: CIPCommandProcessor.exe # 2021-09-27 14:14:46  #  Launching TCP server now 
+[1632752087:5000] N:  SSL ciphers: 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES128-SHA256:!AES128-GCM-SHA256[1632752087:5000] N:  Vhost 'default' using TLS mode
+[1632752087:5000] N:  SSL ECDH curve 'prime256v1'
+Notice: CIPCommandProcessor.exe # 2021-09-27 14:14:47  # Secure WebSocket server Sucessfully Created at port 49200
+Info: CIPCommandProcessor.exe # 2021-09-27 14:14:47  #  TLDMInterfaceReadInMessageQueueSize - Queue size defaults to 500 
+[1632752087:5000] N:    vhost default: cert expiry: 347d
+Info: CloudClient.exe # 2021-09-27 14:14:48  #  Model is PLATFORM_WIN_CE 
+
+Info: CloudClient.exe # 2021-09-27 14:14:48  # CloudUrl: https://api.my.crestron.com/api/Registration
+Info: CrestronTimerEventEngine.exe # 2021-09-27 14:14:49  # CrestronTimerEventEngine: Application initialized 
+Ok: AutoUpdateInterface.exe # 2021-09-27 14:14:52  # AutoUpdate Interface Starting
+Info: AutoUpdateInterface.exe # 2021-09-27 14:14:56  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+Notice: CPHProcessor.exe # 2021-09-27 14:14:56  # CresStore: Connections OK to redis
+ 
+Notice: HydrogenManager.exe # 2021-09-27 14:15:14  # CresStore: Connections OK to redis
+ 
+Debug: HydrogenManager.exe # 2021-09-27 14:15:15  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+Info: webSocketToken.exe # 2021-09-27 14:15:18  #  CWS server created for getWebSocketToken
+Ok: SimplSharpPro.exe # 2021-09-27 14:15:32  # SimplSharpPro Version: 2.17.014
+Info: SimplSharpPro.exe # 2021-09-27 14:15:33  # Successfully registered the application with the TLDM 
+Notice: SimplSharpPro.exe # 2021-09-27 14:15:36  # Starting Programs...!
+Notice: SimplSharpPro.exe # 2021-09-27 14:15:37  # Flash Policy Server - Starting Server.
+Notice: SimplSharpPro.exe # 2021-09-27 14:15:37  # Flash Policy Server - Server Started.
+Info: LogicEngine.exe [App 1] # 2021-09-27 14:15:43  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2021-09-27 14:15:43  # Loading Program \simpl\app01\Pequot Museum Gathering Space v2a.bin.
+Error: CloudClient.exe # 2021-09-27 14:15:52  #  CloudClient Frame Response status : Cannot resolve host
+ 
+Info: CIPCommandProcessor.exe # 2021-09-27 14:16:00  #  Reading in IPTable now for App 1
+Notice: LogicEngine.exe # 2021-09-27 14:16:05  # **Program 1 Started**
+Info: LogicEngine.exe [App 1] # 2021-09-27 14:16:05  #  Going to steady state now 
+Notice: TLDM.exe # 2021-09-27 14:16:06  #  Event rcvd is 8 
+Info: CRESLOG.exe # 2021-09-27 14:16:06  # PersistentLog: Logging is started!
+Info: CIPCommandProcessor.exe # 2021-09-27 14:16:09  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":27} 
+
+Debug: HydrogenManager.exe # 2021-09-27 14:16:11  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+Error: HydrogenManager.exe # 2021-09-27 14:16:14  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 14:16:54  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 14:16:54  # Scheduled Event 'Late Day' for '9/27/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 14:16:54  # Scheduled Event 'Daytime' for '9/28/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 14:16:54  # Scheduled Event 'Off/stairs' for '9/27/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 14:16:54  # Scheduled Event 'My Event' for '9/28/2021 0:30' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 14:16:54  # Scheduled Event 'Early Open' for '9/28/2021 5:15' with state Enabled
+Error: HydrogenManager.exe # 2021-09-27 14:23:34  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+Info: nk.exe # 2021-09-27 15:17:50  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-09-27 15:17:51  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2021-09-27 15:18:10  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-09-27 15:18:11  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2021-09-27 15:20:28  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-09-27 15:20:30  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2021-09-27 15:21:21  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-09-27 15:21:22  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2021-09-27 15:21:43  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-09-27 15:21:44  # CRM1: Timeout waiting for response from 0x30
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-27 17:15:00  # Executing scheduled event 'Off/stairs'
+Info: nk.exe # 2021-09-28 13:28:10  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-09-28 13:28:11  # CRM1: Timeout waiting for response from 0x93
+[1632838487:5000] N:    vhost default: cert expiry: 346d
+Notice: ConsoleServiceCE.exe # 2021-09-28 15:04:33  # SHELL Connection from: 192.168.1.2 
+Info: TLDM.exe # 2021-09-28 15:10:24  #  RegisterAllOrSpecifiedProgram: Application at Id 1 stop status sent to XIO Cloud ..
+Notice: TLDM.exe # 2021-09-28 15:10:26  # **Program 1 Stopped**
+Info: LogicEngine.exe [App 1] # 2021-09-28 15:10:26  # Logic Engine exiting.
+Info: TLDM.exe # 2021-09-28 15:10:50  #  RegisterAllOrSpecifiedProgram: Application at Id 1 unregistration status sent to XIO Cloud ..
+Info: TLDM.exe # 2021-09-28 15:10:50  #  RegisterAllOrSpecifiedProgram: Application at Id 1 registration status sent to XIO Cloud ..
+Info: TLDM.exe # 2021-09-28 15:10:51  #  RegisterAllOrSpecifiedProgram: Application at Id 1 start status sent to XIO Cloud ..
+Warning: ConsoleServiceCE.exe # 2021-09-28 15:10:52  # Cleaning up commands from previous instance 1 that did not shutdown correctly.
+Info: TLDM.exe # 2021-09-28 15:10:53  # Save uploaded program name for program 1 in registry.
+Info: LogicEngine.exe [App 1] # 2021-09-28 15:10:58  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2021-09-28 15:10:58  # Loading Program \simpl\app01\Pequot Museum Gathering Space v2b.bin.
+Info: CIPCommandProcessor.exe # 2021-09-28 15:11:14  #  Reading in IPTable now for App 1
+Notice: LogicEngine.exe # 2021-09-28 15:11:19  # **Program 1 Started**
+Info: CIPCommandProcessor.exe # 2021-09-28 15:11:20  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":26} 
+
+Info: LogicEngine.exe [App 1] # 2021-09-28 15:11:21  #  Going to steady state now 
+Notice: TLDM.exe # 2021-09-28 15:11:21  #  Event rcvd is 8 
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 15:12:08  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 15:12:08  # Scheduled Event 'Late Day' for '9/29/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 15:12:08  # Scheduled Event 'Daytime' for '9/29/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 15:12:08  # Scheduled Event 'Off/stairs' for '9/28/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 15:12:08  # Scheduled Event 'My Event' for '9/29/2021 0:30' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 15:12:08  # Scheduled Event 'Early Open' for '9/29/2021 5:15' with state Enabled
+Warning: ConsoleServiceCE.exe # 2021-09-28 15:12:31  # SHELL connection being closed from address 192.168.1.2. 
+
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-28 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-29 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-29 08:00:00  # Executing scheduled event 'Daytime'
+[1632924887:5000] N:    vhost default: cert expiry: 345d
+Notice: splusmanagerapp.exe [App 1] # 2021-09-29 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-29 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-29 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-29 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-30 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-30 08:00:00  # Executing scheduled event 'Daytime'
+[1633011287:5000] N:    vhost default: cert expiry: 344d
+Notice: splusmanagerapp.exe [App 1] # 2021-09-30 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-30 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-30 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-09-30 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-01 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-01 08:00:00  # Executing scheduled event 'Daytime'
+[1633097687:5000] N:    vhost default: cert expiry: 343d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-01 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-01 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 05:15:00  # Scheduled event 'Early Open' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 05:15:00  # Executing scheduled event 'Early Open'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 08:00:00  # Executing scheduled event 'Daytime'
+[1633184087:5000] N:    vhost default: cert expiry: 342d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-02 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-03 00:30:00  # Scheduled event 'My Event' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-03 00:30:00  # Executing scheduled event 'My Event'
+[1633270487:5000] N:    vhost default: cert expiry: 341d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-03 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-03 17:15:00  # Executing scheduled event 'Off/stairs'
+[1633356887:5000] N:    vhost default: cert expiry: 340d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-04 15:41:23  # Scheduled Event 'Daytime' for '10/5/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-04 15:41:34  # Scheduled Event 'Off/stairs' for '10/4/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-05 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-05 08:00:00  # Executing scheduled event 'Daytime'
+[1633443287:5000] N:    vhost default: cert expiry: 339d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-05 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-05 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-06 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-06 08:00:00  # Executing scheduled event 'Daytime'
+[1633529687:5000] N:    vhost default: cert expiry: 338d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-06 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-06 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-06 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-06 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-07 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-07 08:00:00  # Executing scheduled event 'Daytime'
+[1633616087:5000] N:    vhost default: cert expiry: 337d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-07 15:00:01  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-07 15:00:01  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-07 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-07 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-08 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-08 08:00:00  # Executing scheduled event 'Daytime'
+[1633702487:5000] N:    vhost default: cert expiry: 336d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-08 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-08 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-08 17:24:27  # Scheduled Event 'Early Open' for '10/9/2021 5:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-09 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-09 08:00:00  # Executing scheduled event 'Daytime'
+[1633788887:5000] N:    vhost default: cert expiry: 335d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-09 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-09 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-09 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-09 17:15:00  # Executing scheduled event 'Off/stairs'
+Info: nk.exe # 2021-10-09 17:16:08  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-10-09 17:16:09  # CRM1: Timeout waiting for response from 0x12
+Notice: splusmanagerapp.exe [App 1] # 2021-10-10 00:30:00  # Scheduled event 'My Event' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-10 00:30:00  # Executing scheduled event 'My Event'
+[1633875287:5000] N:    vhost default: cert expiry: 334d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-10 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-10 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-11 08:33:38  # Scheduled Event 'Daytime' for '10/12/2021 8:00' with state Enabled
+[1633961687:5000] N:    vhost default: cert expiry: 333d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-12 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-12 08:00:00  # Executing scheduled event 'Daytime'
+[1634048087:5000] N:    vhost default: cert expiry: 332d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-12 14:16:49  # Scheduled Event 'Daytime' for '10/13/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-12 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-12 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 08:00:00  # Executing scheduled event 'Daytime'
+[1634134487:5000] N:    vhost default: cert expiry: 331d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 16:33:16  # Scheduled Event 'Daytime' for '10/14/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-13 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-14 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-14 08:00:00  # Executing scheduled event 'Daytime'
+[1634220887:5000] N:    vhost default: cert expiry: 330d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-14 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-14 15:00:00  # Executing scheduled event 'Late Day'
+Info: splusmanagerapp.exe [App 1] # 2021-10-14 17:20:48  # Delete event error, ClcScheduler1 Daytime not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-10-14 17:20:48  # Scheduled Event 'Daytime' for '10/15/2021 8:00' with state Disabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 07:58:26  # Scheduled Event 'Daytime' for '10/15/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 08:00:00  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 13:31:06  # Scheduled Event 'Daytime' for '10/16/2021 8:00' with state Enabled
+[1634307287:5000] N:    vhost default: cert expiry: 329d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-15 17:23:07  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-16 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-16 08:00:00  # Executing scheduled event 'Daytime'
+[1634393687:5000] N:    vhost default: cert expiry: 328d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-16 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-16 15:00:00  # Executing scheduled event 'Late Day'
+Info: splusmanagerapp.exe [App 1] # 2021-10-16 17:25:58  # Delete event error, ClcScheduler1 My Event not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-10-16 17:25:58  # Scheduled Event 'all off' for '10/16/2021 17:30' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-16 17:26:00  # Executing scheduled event 'all off'
+[1634480087:5000] N:    vhost default: cert expiry: 327d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-17 17:30:00  # Scheduled event 'all off' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-17 17:30:00  # Executing scheduled event 'all off'
+[1634566487:5000] N:    vhost default: cert expiry: 326d
+[1634652887:5000] N:    vhost default: cert expiry: 325d
+Info: splusmanagerapp.exe [App 1] # 2021-10-20 07:38:37  # Delete event error, ClcScheduler1 Off/stairs not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 07:38:37  # Scheduled Event 'Off/stairs' for '10/20/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 08:00:00  # Executing scheduled event 'Daytime'
+[1634739287:5000] N:    vhost default: cert expiry: 324d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-20 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-21 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-21 08:00:00  # Executing scheduled event 'Daytime'
+[1634825687:5000] N:    vhost default: cert expiry: 323d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-21 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-21 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-21 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-21 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-22 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-22 08:00:00  # Executing scheduled event 'Daytime'
+[1634912087:5000] N:    vhost default: cert expiry: 322d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-22 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-22 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-22 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-22 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-23 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-23 08:00:00  # Executing scheduled event 'Daytime'
+[1634998487:5000] N:    vhost default: cert expiry: 321d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-23 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-23 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-23 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-23 17:15:00  # Executing scheduled event 'Off/stairs'
+[1635084887:5000] N:    vhost default: cert expiry: 320d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-24 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-24 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-24 17:30:00  # Scheduled event 'all off' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-24 17:30:00  # Executing scheduled event 'all off'
+[1635171287:5000] N:    vhost default: cert expiry: 319d
+[1635257687:5000] N:    vhost default: cert expiry: 318d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-26 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-26 17:15:00  # Executing scheduled event 'Off/stairs'
+Info: nk.exe # 2021-10-26 20:42:59  # CRM1: Timeout waiting for response from 0x1d
+Info: nk.exe # 2021-10-26 22:22:44  # CRM1: Timeout waiting for response from 0x19
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 08:00:00  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 08:10:02  # Scheduled Event 'Late Day' for '10/27/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 08:10:06  # Scheduled Event 'Daytime' for '10/28/2021 8:00' with state Enabled
+[1635344087:5000] N:    vhost default: cert expiry: 317d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-27 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-28 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-28 08:00:00  # Executing scheduled event 'Daytime'
+[1635430487:5000] N:    vhost default: cert expiry: 316d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-28 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-28 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-28 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-28 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-29 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-29 08:00:00  # Executing scheduled event 'Daytime'
+[1635516887:5000] N:    vhost default: cert expiry: 315d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-29 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-29 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-29 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-29 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-30 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-30 08:00:00  # Executing scheduled event 'Daytime'
+[1635603287:5000] N:    vhost default: cert expiry: 314d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-30 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-30 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-30 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-30 17:15:00  # Executing scheduled event 'Off/stairs'
+[1635689687:5000] N:    vhost default: cert expiry: 313d
+Notice: splusmanagerapp.exe [App 1] # 2021-10-31 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-31 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-31 17:30:00  # Scheduled event 'all off' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-10-31 17:30:00  # Executing scheduled event 'all off'
+[1635776087:5000] N:    vhost default: cert expiry: 312d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-02 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-02 08:00:00  # Executing scheduled event 'Daytime'
+[1635862487:5000] N:    vhost default: cert expiry: 311d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-02 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-02 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-02 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-02 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-03 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-03 08:00:00  # Executing scheduled event 'Daytime'
+[1635948887:5000] N:    vhost default: cert expiry: 310d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-03 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-03 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-03 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-03 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-04 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-04 08:00:00  # Executing scheduled event 'Daytime'
+[1636035287:5000] N:    vhost default: cert expiry: 309d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-04 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-04 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-04 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-04 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-05 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-05 08:00:00  # Executing scheduled event 'Daytime'
+[1636121687:5000] N:    vhost default: cert expiry: 308d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-05 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-05 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-05 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-05 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-06 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-06 08:00:00  # Executing scheduled event 'Daytime'
+[1636208087:5000] N:    vhost default: cert expiry: 307d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-06 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-06 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-06 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-06 17:15:00  # Executing scheduled event 'Off/stairs'
+[1636290887:5000] N:    vhost default: cert expiry: 306d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-07 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-07 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-07 17:30:00  # Scheduled event 'all off' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-07 17:30:00  # Executing scheduled event 'all off'
+entering function mode
+Notice: ConsoleServiceCE.exe # 2021-11-08 10:12:26  # USB Connection has been made.
+setIP: Registry static IP setting = 192.168.1.60
+setIP: IP settings differ, change to Eboot values = 10.140.5.22
+IOCTL_HWDOG_ACT_REBOOT: reason 0x3
+Info: nk.exe # 2021-11-08 10:13:25  # SDMemWriteCounterUpdate: SDMemWriteCounterTotal updates to:5479308. MaxHourCounter updates to:121162
+Info: SSHD.exe # 2021-11-08 10:13:25  #  WDGSSHCallBackFunction - SYS_EVENT_REBOOT 
+Info: ConsoleServiceCE.exe # 2021-11-08 10:13:26  # System Reboot Notification 
+Info: CRESLOG.exe # 2021-11-08 10:13:26  # System Reboot Notification
+Persistent log contents during previous boot end
+
+
+
+DIN-AP3>========== err plogcurrent ==========
+err plogcurrent
+
+Persistent log contents during current boot:
+SDCardDetect: System SD card
+CSDSlot::SlotStateChange : DeviceInserted
+CM3: input file [\windows\firmware.bin] is 9932 bytes long
+CM3: firmware file read ok!
+PrcmCM3ResetAndHandshake: isM3IntReceived: 0
+PrcmDomainResetRelease DMN 0; mask 8
+Cm3ISR: M3 int recvd
+HwDogDriverInit: SystemID: 0x1
+Notice: nk.exe # 2021-11-08 10:13:40  # User Reboot
+detect_processor_board_id: ProcessorBoardID [0x00000003] 
+Notice: nk.exe # 2021-11-08 10:13:40  # System startup: DIN-AP3 [v1.8000.0014 (May 20 2021) #8C7209FE]
+setIP: Registry static IP setting = 10.140.5.22
+Info: nk.exe # 2021-11-08 10:13:40  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2021-11-08 10:13:40  #  UpdateDHCPOptions:HostName option selected 
+Error: nk.exe # 2021-11-08 10:13:40  # setDomainName: Setting Domain Name to (null)
+Info: nk.exe # 2021-11-08 10:13:40  # With changes
+Info: nk.exe # 2021-11-08 10:13:40  # Updating DHCP options on boot
+FPGA   Activated
+Cpsw3g_InitializeAdapter: mode=1, port=1, txCh=0, rxChMask=0x01, ActiveCpgmac=1
+Sec_Init pStorageInfo->dwNumBlobStored [1]
+OEMIoControl: Unsupported Code 0x1012010 - device 0x0101 func 2052
+SDHC: CPU revision 0xffffffff
++OALSetMemoryAttributes()
+-OALSetMemoryAttributes
+CSDSlot::SlotStateChange : DeviceEjected
+_cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100  DUPLEX:FD
+Info: CrestronMonitor.exe # 2021-11-08 10:13:45  # Crestron applications already installed
+ProcessPostInstall: No \windows\postinstall.bat file
+ProcessPostInstall: No \windows\shipwithinstall.bat file
+entering function mode
+Info: nk.exe # 2021-11-08 10:13:47  # SDMemWriteCounterUpdate: InitialCounter is:5479308, MaxHourCounter is:121162
+Info: CrestronMonitor.exe # 2021-11-08 10:13:47  #  Prompt is DIN-AP3, Deleting setup project html now. 
+Info: TLDM.exe # 2021-11-08 10:13:58  #  THAL loading now  .. 
+Notice: ConsoleServiceCE.exe # 2021-11-08 10:13:59  # USB Connection has been made.
+Info: TLDM.exe # 2021-11-08 10:14:10  #  TLDM Starting.. 
+ Info: TLDM.exe # 2021-11-08 10:14:11  #  CTLDMWatchdogServer: Arm Watchdog is disabled 
+Info: CIPCommandProcessor.exe # 2021-11-08 10:14:14  #  SSL state read is True 
+
+Info: CIPCommandProcessor.exe # 2021-11-08 10:14:14  #  Product Name is DIN-AP3 
+
+Info: CIPCommandProcessor.exe # 2021-11-08 10:14:19  #  Launching TCP server now 
+[1636366460:5000] N:  SSL ciphers: 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES128-SHA256:!AES128-GCM-SHA256[1636366460:5000] N:  Vhost 'default' using TLS mode
+[1636366460:5000] N:  SSL ECDH curve 'prime256v1'
+Notice: CIPCommandProcessor.exe # 2021-11-08 10:14:20  # Secure WebSocket server Sucessfully Created at port 49200
+[1636366460:5000] N:    vhost default: cert expiry: 305d
+Info: CIPCommandProcessor.exe # 2021-11-08 10:14:20  #  TLDMInterfaceReadInMessageQueueSize - Queue size defaults to 500 
+Info: CloudClient.exe # 2021-11-08 10:14:22  #  Model is PLATFORM_WIN_CE 
+
+Info: CloudClient.exe # 2021-11-08 10:14:22  # CloudUrl: https://api.my.crestron.com/api/Registration
+Info: CrestronTimerEventEngine.exe # 2021-11-08 10:14:22  # CrestronTimerEventEngine: Application initialized 
+Ok: AutoUpdateInterface.exe # 2021-11-08 10:14:26  # AutoUpdate Interface Starting
+Info: AutoUpdateInterface.exe # 2021-11-08 10:14:30  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+Notice: CPHProcessor.exe # 2021-11-08 10:14:30  # CresStore: Connections OK to redis
+ 
+Notice: HydrogenManager.exe # 2021-11-08 10:14:46  # CresStore: Connections OK to redis
+ 
+Debug: HydrogenManager.exe # 2021-11-08 10:14:46  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+Info: webSocketToken.exe # 2021-11-08 10:14:50  #  CWS server created for getWebSocketToken
+Ok: SimplSharpPro.exe # 2021-11-08 10:15:04  # SimplSharpPro Version: 2.17.014
+Info: SimplSharpPro.exe # 2021-11-08 10:15:05  # Successfully registered the application with the TLDM 
+Notice: SimplSharpPro.exe # 2021-11-08 10:15:08  # Starting Programs...!
+Notice: SimplSharpPro.exe # 2021-11-08 10:15:09  # Flash Policy Server - Starting Server.
+Notice: SimplSharpPro.exe # 2021-11-08 10:15:09  # Flash Policy Server - Server Started.
+Info: LogicEngine.exe [App 1] # 2021-11-08 10:15:15  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2021-11-08 10:15:15  # Loading Program \simpl\app01\Pequot Museum Gathering Space v2b.bin.
+Error: CloudClient.exe # 2021-11-08 10:15:24  #  CloudClient Frame Response status : Cannot resolve host
+ 
+Info: CIPCommandProcessor.exe # 2021-11-08 10:15:32  #  Reading in IPTable now for App 1
+Notice: LogicEngine.exe # 2021-11-08 10:15:37  # **Program 1 Started**
+Info: LogicEngine.exe [App 1] # 2021-11-08 10:15:38  #  Going to steady state now 
+Info: CRESLOG.exe # 2021-11-08 10:15:38  # PersistentLog: Logging is started!
+Notice: TLDM.exe # 2021-11-08 10:15:39  #  Event rcvd is 8 
+Debug: HydrogenManager.exe # 2021-11-08 10:15:43  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+Error: HydrogenManager.exe # 2021-11-08 10:15:47  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Late Day' for '11/8/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Daytime' for '11/9/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Off/stairs' for '11/8/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-08 10:16:25  # Scheduled Event 'Early Open' for '11/9/2021 5:15' with state Enabled
+Info: CIPCommandProcessor.exe # 2021-11-08 10:16:55  #  First device connect ... 
+Info: CIPCommandProcessor.exe # 2021-11-08 10:16:55  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+_cpsw3g_phy_update_link, Port:0  LINK:DOWN  SPEED:100  DUPLEX:FD
+Info: CIPCommandProcessor.exe # 2021-11-08 10:17:23  # Link status notification- LINK DOWN 
+Warning: CIPCommandProcessor.exe # 2021-11-08 10:17:23  # Lost Ethernet link on LAN A
+Info: CloudClient.exe # 2021-11-08 10:17:23  # Link status notification - LINK DOWN 
+Info: ConsoleServiceCE.exe # 2021-11-08 10:17:23  # Modified access level of user: riordan to 31
+Info: ConsoleServiceCE.exe # 2021-11-08 10:17:23  #  Updated console access levels.
+_cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100  DUPLEX:FD
+Info: CIPCommandProcessor.exe # 2021-11-08 10:17:28  # Link status notification - LINK UP 
+Notice: CIPCommandProcessor.exe # 2021-11-08 10:17:28  # Link established on LAN A
+Info: CloudClient.exe # 2021-11-08 10:17:28  # Link status notification - LINK UP 
+Info: ConsoleServiceCE.exe # 2021-11-08 10:17:28  # Modified access level of user: riordan to 31
+Info: ConsoleServiceCE.exe # 2021-11-08 10:17:28  #  Updated console access levels.
+Info: ConsoleServiceCE.exe # 2021-11-08 10:17:30  # Modified access level of user: riordan to 31
+Info: ConsoleServiceCE.exe # 2021-11-08 10:17:30  #  Updated console access levels.
+Info: CIPCommandProcessor.exe # 2021-11-08 10:17:42  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+leaving function mode
+Error: HydrogenManager.exe # 2021-11-08 10:22:53  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+Info: CIPCommandProcessor.exe # 2021-11-08 10:28:21  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Notice: splusmanagerapp.exe [App 1] # 2021-11-09 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-09 08:00:00  # Executing scheduled event 'Daytime'
+[1636452860:5000] N:    vhost default: cert expiry: 304d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-09 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-09 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-10 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-10 08:00:00  # Executing scheduled event 'Daytime'
+[1636539260:5000] N:    vhost default: cert expiry: 303d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-10 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-10 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-10 17:23:17  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-11 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-11 08:00:00  # Executing scheduled event 'Daytime'
+[1636625660:5000] N:    vhost default: cert expiry: 302d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-11 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-11 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-11 17:33:14  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-12 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-12 08:00:00  # Executing scheduled event 'Daytime'
+Info: nk.exe # 2021-11-12 08:07:10  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-11-12 08:07:11  # CRM1: Timeout waiting for response from 0x30
+[1636712060:5000] N:    vhost default: cert expiry: 301d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-12 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-12 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-12 17:20:46  # Executing scheduled event 'Off/stairs'
+[1636798460:5000] N:    vhost default: cert expiry: 300d
+[1636884860:5000] N:    vhost default: cert expiry: 299d
+[1636971260:5000] N:    vhost default: cert expiry: 298d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-16 08:51:14  # Executing scheduled event 'Daytime'
+[1637057660:5000] N:    vhost default: cert expiry: 297d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-16 16:14:26  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-16 17:29:27  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-17 07:48:19  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-17 07:48:27  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-17 08:11:16  # Executing scheduled event 'Daytime'
+[1637144060:5000] N:    vhost default: cert expiry: 296d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-17 15:18:07  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-18 08:05:07  # Executing scheduled event 'Daytime'
+[1637230460:5000] N:    vhost default: cert expiry: 295d
+Info: splusmanagerapp.exe [App 1] # 2021-11-19 07:57:49  # Delete event error, ClcScheduler1 Off/stairs not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 07:57:49  # Scheduled Event 'Off/stairs' for '11/19/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:03  # Scheduled Event 'Off/stairs' for '11/19/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:16  # Scheduled Event 'Off/stairs' for '11/19/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:25  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:26  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:30  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:31  # Executing scheduled event 'Daytime'
+Info: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:34  # Delete event error, ClcScheduler1 Daytime not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:34  # Scheduled Event 'Daytime' for '11/20/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:35  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:48  # Scheduled Event 'Daytime' for '11/20/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:17:59  # Scheduled Event 'Daytime' for '11/20/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:01  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:04  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:06  # Executing scheduled event 'Early Open'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:10  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:13  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 08:18:16  # Executing scheduled event 'Daytime'
+[1637316860:5000] N:    vhost default: cert expiry: 294d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 15:59:27  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-19 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 08:00:00  # Executing scheduled event 'Daytime'
+[1637403260:5000] N:    vhost default: cert expiry: 293d
+Info: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:03  # Delete event error, ClcScheduler1 Late Day not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:03  # Scheduled Event 'Late Day' for '11/21/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:07  # Scheduled Event 'Late Day' for '11/21/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:18  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:30  # Scheduled Event 'Off/stairs' for '11/20/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 16:43:34  # Scheduled Event 'Off/stairs' for '11/20/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-20 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-21 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-21 08:00:00  # Executing scheduled event 'Daytime'
+[1637489660:5000] N:    vhost default: cert expiry: 292d
+[1637576060:5000] N:    vhost default: cert expiry: 291d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 07:45:29  # Scheduled Event 'Daytime' for '11/23/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 07:45:38  # Scheduled Event 'Off/stairs' for '11/23/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 07:45:46  # Scheduled Event 'Late Day' for '11/23/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:00:00  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:55:53  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:55:56  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:05  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:08  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:22  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:23  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:33  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:36  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:51  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:56:52  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:07  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:09  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:10  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:11  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:11  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:13  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:13  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:13  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:16  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:20  # Executing scheduled event 'Daytime'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 08:57:35  # Scheduled Event 'Daytime' for '11/24/2021 8:00' with state Enabled
+[1637662460:5000] N:    vhost default: cert expiry: 290d
+Notice: ConsoleServiceCE.exe # 2021-11-23 14:46:22  # SHELL Connection from: 10.140.5.161 
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 15:00:00  # Executing scheduled event 'Late Day'
+Warning: ConsoleServiceCE.exe # 2021-11-23 15:07:02  # SHELL connection being closed from address 10.140.5.161. 
+
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-23 17:15:00  # Executing scheduled event 'Off/stairs'
+[1637748860:5000] N:    vhost default: cert expiry: 289d
+[1637835260:5000] N:    vhost default: cert expiry: 288d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-26 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-26 08:00:00  # Executing scheduled event 'Daytime'
+[1637921660:5000] N:    vhost default: cert expiry: 287d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-26 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-26 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-26 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-26 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-27 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-27 08:00:00  # Executing scheduled event 'Daytime'
+[1638008060:5000] N:    vhost default: cert expiry: 286d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-27 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-27 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-27 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-27 17:15:00  # Executing scheduled event 'Off/stairs'
+[1638094460:5000] N:    vhost default: cert expiry: 285d
+[1638180860:5000] N:    vhost default: cert expiry: 284d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-30 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-30 08:00:00  # Executing scheduled event 'Daytime'
+[1638267260:5000] N:    vhost default: cert expiry: 283d
+Notice: splusmanagerapp.exe [App 1] # 2021-11-30 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-30 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-30 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-11-30 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 07:26:49  # Scheduled Event 'Daytime' for '12/1/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 07:26:55  # Scheduled Event 'Late Day' for '12/1/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 07:27:07  # Scheduled Event 'Off/stairs' for '12/1/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 08:00:00  # Executing scheduled event 'Daytime'
+[1638353660:5000] N:    vhost default: cert expiry: 282d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 16:56:52  # Scheduled Event 'Off/stairs' for '12/1/2021 17:15' with state Enabled
+Info: splusmanagerapp.exe [App 1] # 2021-12-01 16:57:37  # Delete event error, ClcScheduler1 Early Open not found in callback list. 
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 16:57:37  # Scheduled Event 'late close' for '12/1/2021 18:30' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 16:57:56  # Scheduled Event 'Late Day' for '12/2/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-01 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-02 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-02 08:00:00  # Executing scheduled event 'Daytime'
+[1638440060:5000] N:    vhost default: cert expiry: 281d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-02 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-02 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-02 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-02 18:30:00  # Executing scheduled event 'late close'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-03 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-03 08:00:00  # Executing scheduled event 'Daytime'
+[1638526460:5000] N:    vhost default: cert expiry: 280d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-03 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-03 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-03 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-03 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 08:00:00  # Executing scheduled event 'Daytime'
+[1638612860:5000] N:    vhost default: cert expiry: 279d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 17:21:05  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-04 17:21:07  # Executing scheduled event 'Off/stairs'
+[1638699260:5000] N:    vhost default: cert expiry: 278d
+[1638785660:5000] N:    vhost default: cert expiry: 277d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-07 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-07 08:00:00  # Executing scheduled event 'Daytime'
+[1638872060:5000] N:    vhost default: cert expiry: 276d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-07 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-07 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-07 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-07 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 08:00:00  # Executing scheduled event 'Daytime'
+[1638958460:5000] N:    vhost default: cert expiry: 275d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 16:57:16  # Scheduled Event 'Daytime' for '12/9/2021 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 16:57:28  # Scheduled Event 'Late Day' for '12/9/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 16:57:46  # Scheduled Event 'Off/stairs' for '12/8/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 16:58:08  # Scheduled Event 'late close' for '12/8/2021 18:30' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 16:58:21  # Scheduled Event 'Off/stairs' for '12/8/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 16:58:32  # Scheduled Event 'Off/stairs' for '12/8/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-08 17:15:00  # Executing scheduled event 'Off/stairs'
+[1639044860:5000] N:    vhost default: cert expiry: 274d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-09 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-09 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-09 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-09 18:30:00  # Executing scheduled event 'late close'
+[1639131260:5000] N:    vhost default: cert expiry: 273d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-10 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-10 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-10 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-10 17:15:00  # Executing scheduled event 'Off/stairs'
+[1639217660:5000] N:    vhost default: cert expiry: 272d
+[1639304060:5000] N:    vhost default: cert expiry: 271d
+[1639390460:5000] N:    vhost default: cert expiry: 270d
+[1639476860:5000] N:    vhost default: cert expiry: 269d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 16:12:17  # Scheduled Event 'Late Day' for '12/15/2021 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 16:12:40  # Scheduled Event 'Off/stairs' for '12/14/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 16:12:55  # Scheduled Event 'Off/stairs' for '12/14/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 16:14:12  # Scheduled Event 'Off/stairs' for '12/14/2021 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 16:15:48  # Scheduled Event 'Dance Class' for '12/14/2021 16:45' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 16:16:57  # Scheduled Event 'Dance Class' for '12/14/2021 16:45' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-14 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-15 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-15 08:00:00  # Executing scheduled event 'Daytime'
+[1639563260:5000] N:    vhost default: cert expiry: 268d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-15 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-15 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-15 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-15 17:15:00  # Executing scheduled event 'Off/stairs'
+[1639649660:5000] N:    vhost default: cert expiry: 267d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-16 16:45:00  # Scheduled event 'Dance Class' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-16 16:45:00  # Executing scheduled event 'Dance Class'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-16 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-16 18:30:00  # Executing scheduled event 'late close'
+[1639736060:5000] N:    vhost default: cert expiry: 266d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-17 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-17 17:15:00  # Executing scheduled event 'Off/stairs'
+[1639822460:5000] N:    vhost default: cert expiry: 265d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-18 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-18 17:15:00  # Executing scheduled event 'Off/stairs'
+[1639908860:5000] N:    vhost default: cert expiry: 264d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-19 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-19 17:15:00  # Executing scheduled event 'Off/stairs'
+[1639995260:5000] N:    vhost default: cert expiry: 263d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-20 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-20 17:15:00  # Executing scheduled event 'Off/stairs'
+[1640081660:5000] N:    vhost default: cert expiry: 262d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-21 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-21 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-21 17:20:42  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-21 17:20:50  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-21 17:20:52  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-21 17:20:55  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-22 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-22 08:00:00  # Executing scheduled event 'Daytime'
+[1640168060:5000] N:    vhost default: cert expiry: 261d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-22 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-22 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-22 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-22 17:15:01  # Executing scheduled event 'Off/stairs'
+[1640254460:5000] N:    vhost default: cert expiry: 260d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-23 16:45:00  # Scheduled event 'Dance Class' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-23 16:45:00  # Executing scheduled event 'Dance Class'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-23 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-23 18:30:00  # Executing scheduled event 'late close'
+[1640340860:5000] N:    vhost default: cert expiry: 259d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-24 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-24 17:15:00  # Executing scheduled event 'Off/stairs'
+[1640427260:5000] N:    vhost default: cert expiry: 258d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-25 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-25 17:15:00  # Executing scheduled event 'Off/stairs'
+[1640513660:5000] N:    vhost default: cert expiry: 257d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-26 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-26 17:15:00  # Executing scheduled event 'Off/stairs'
+[1640600060:5000] N:    vhost default: cert expiry: 256d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-27 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-27 17:15:00  # Executing scheduled event 'Off/stairs'
+[1640686460:5000] N:    vhost default: cert expiry: 255d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-28 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-28 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-29 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-29 08:00:00  # Executing scheduled event 'Daytime'
+[1640772860:5000] N:    vhost default: cert expiry: 254d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-29 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-29 15:00:00  # Executing scheduled event 'Late Day'
+Info: nk.exe # 2021-12-29 17:10:41  # CRM1: Timeout waiting for response from 0x93
+Info: nk.exe # 2021-12-29 17:11:50  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2021-12-29 17:11:51  # CRM1: Timeout waiting for response from 0x30
+Notice: splusmanagerapp.exe [App 1] # 2021-12-29 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-29 17:15:00  # Executing scheduled event 'Off/stairs'
+[1640859260:5000] N:    vhost default: cert expiry: 253d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-30 16:45:00  # Scheduled event 'Dance Class' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-30 16:45:00  # Executing scheduled event 'Dance Class'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-30 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-30 18:30:00  # Executing scheduled event 'late close'
+[1640945660:5000] N:    vhost default: cert expiry: 252d
+Notice: splusmanagerapp.exe [App 1] # 2021-12-31 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2021-12-31 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641032060:5000] N:    vhost default: cert expiry: 251d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-01 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-01 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641118460:5000] N:    vhost default: cert expiry: 250d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-02 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-02 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641204860:5000] N:    vhost default: cert expiry: 249d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-03 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-03 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641291260:5000] N:    vhost default: cert expiry: 248d
+Info: nk.exe # 2022-01-04 13:08:39  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-04 13:08:40  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2022-01-04 16:18:47  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2022-01-04 16:18:53  # CRM1: Timeout waiting for response from 0x1e
+Info: nk.exe # 2022-01-04 16:19:29  # CRM1: Timeout waiting for response from 0x1f
+Info: nk.exe # 2022-01-04 16:20:03  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-04 16:20:04  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2022-01-04 16:22:15  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2022-01-04 16:22:56  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-04 16:22:57  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2022-01-04 16:23:16  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-04 16:23:17  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2022-01-04 16:27:11  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-04 16:27:13  # CRM1: Timeout waiting for response from 0x30
+Notice: splusmanagerapp.exe [App 1] # 2022-01-04 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-04 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-05 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-05 08:00:00  # Executing scheduled event 'Daytime'
+Error: nk.exe # 2022-01-05 09:24:17  # CRM: send packet error (code 258)
+Error: TLDM.exe # 2022-01-05 09:24:17  #  Sending Type 0x7 to Cresnet Id 0x18 failed with errCode 0  
+Info: nk.exe # 2022-01-05 09:24:17  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-05 09:24:18  # CRM1: Timeout waiting for response from 0x30
+Info: nk.exe # 2022-01-05 09:24:32  # CRM: timeout trying to send token (1460)
+Info: nk.exe # 2022-01-05 09:24:33  # CRM1: Timeout waiting for response from 0x30
+[1641377660:5000] N:    vhost default: cert expiry: 247d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-05 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-05 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-05 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-05 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641464060:5000] N:    vhost default: cert expiry: 246d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-06 16:45:00  # Scheduled event 'Dance Class' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-06 16:45:00  # Executing scheduled event 'Dance Class'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-06 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-06 18:30:00  # Executing scheduled event 'late close'
+[1641550460:5000] N:    vhost default: cert expiry: 245d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-07 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-07 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641636860:5000] N:    vhost default: cert expiry: 244d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-08 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-08 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641723260:5000] N:    vhost default: cert expiry: 243d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-09 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-09 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641809660:5000] N:    vhost default: cert expiry: 242d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-10 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-10 17:15:00  # Executing scheduled event 'Off/stairs'
+[1641896060:5000] N:    vhost default: cert expiry: 241d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-11 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-11 17:15:00  # Executing scheduled event 'Off/stairs'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-12 08:00:00  # Scheduled event 'Daytime' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-12 08:00:00  # Executing scheduled event 'Daytime'
+[1641982460:5000] N:    vhost default: cert expiry: 240d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-12 15:00:00  # Scheduled event 'Late Day' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-12 15:00:00  # Executing scheduled event 'Late Day'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-12 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-12 17:15:00  # Executing scheduled event 'Off/stairs'
+[1642068860:5000] N:    vhost default: cert expiry: 239d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-13 16:45:00  # Scheduled event 'Dance Class' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-13 16:45:00  # Executing scheduled event 'Dance Class'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-13 18:30:00  # Scheduled event 'late close' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-13 18:30:00  # Executing scheduled event 'late close'
+[1642155260:5000] N:    vhost default: cert expiry: 238d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-14 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-14 17:15:00  # Executing scheduled event 'Off/stairs'
+[1642241660:5000] N:    vhost default: cert expiry: 237d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-15 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-15 17:15:00  # Executing scheduled event 'Off/stairs'
+[1642328060:5000] N:    vhost default: cert expiry: 236d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-16 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-16 17:15:00  # Executing scheduled event 'Off/stairs'
+[1642414460:5000] N:    vhost default: cert expiry: 235d
+Notice: splusmanagerapp.exe [App 1] # 2022-01-17 17:15:00  # Scheduled event 'Off/stairs' triggered by 'NormalExpiration'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-17 17:15:00  # Executing scheduled event 'Off/stairs'
+[1642500860:5000] N:    vhost default: cert expiry: 234d
+Notice: ConsoleServiceCE.exe # 2022-01-18 15:20:45  # SHELL Connection from: 192.168.250.10 
+Warning: ConsoleServiceCE.exe # 2022-01-18 15:23:44  # SHELL connection being closed from address 192.168.250.10. 
+
+Notice: ConsoleServiceCE.exe # 2022-01-18 16:25:58  # SHELL Connection from: 192.168.250.10 
+Warning: ConsoleServiceCE.exe # 2022-01-18 16:28:40  # SHELL connection being closed from address 192.168.250.10. 
+
+Notice: ConsoleServiceCE.exe # 2022-01-18 16:35:18  # SHELL Connection from: 192.168.250.10 
+Info: TLDM.exe # 2022-01-18 16:35:40  #  RegisterAllOrSpecifiedProgram: Application at Id 1 stop status sent to XIO Cloud ..
+Notice: TLDM.exe # 2022-01-18 16:35:42  # **Program 1 Stopped**
+Info: LogicEngine.exe [App 1] # 2022-01-18 16:35:42  # Logic Engine exiting.
+Info: TLDM.exe # 2022-01-18 16:36:03  #  RegisterAllOrSpecifiedProgram: Application at Id 1 unregistration status sent to XIO Cloud ..
+Info: TLDM.exe # 2022-01-18 16:36:03  #  RegisterAllOrSpecifiedProgram: Application at Id 1 registration status sent to XIO Cloud ..
+Info: TLDM.exe # 2022-01-18 16:36:04  #  RegisterAllOrSpecifiedProgram: Application at Id 1 start status sent to XIO Cloud ..
+Warning: ConsoleServiceCE.exe # 2022-01-18 16:36:05  # Cleaning up commands from previous instance 1 that did not shutdown correctly.
+Info: TLDM.exe # 2022-01-18 16:36:06  # Save uploaded program name for program 1 in registry.
+Info: LogicEngine.exe [App 1] # 2022-01-18 16:36:11  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2022-01-18 16:36:11  # Loading Program \simpl\app01\Pequot Museum Gathering Space v3.bin.
+Info: CIPCommandProcessor.exe # 2022-01-18 16:36:28  #  Reading in IPTable now for App 1
+Notice: LogicEngine.exe # 2022-01-18 16:36:34  # **Program 1 Started**
+Info: CIPCommandProcessor.exe # 2022-01-18 16:36:34  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Info: LogicEngine.exe [App 1] # 2022-01-18 16:36:35  #  Going to steady state now 
+Notice: TLDM.exe # 2022-01-18 16:36:35  #  Event rcvd is 8 
+Notice: splusmanagerapp.exe [App 1] # 2022-01-18 16:37:23  # CLC Scheduler loaded config file '\USER\1\CLC_Scheduler\Schedule.json'
+Notice: splusmanagerapp.exe [App 1] # 2022-01-18 16:37:23  # Scheduled Event 'Late Day' for '1/19/2022 15:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2022-01-18 16:37:23  # Scheduled Event 'Daytime' for '1/19/2022 8:00' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2022-01-18 16:37:23  # Scheduled Event 'Off/stairs' for '1/18/2022 17:15' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2022-01-18 16:37:23  # Scheduled Event 'late close' for '1/18/2022 18:30' with state Enabled
+Notice: splusmanagerapp.exe [App 1] # 2022-01-18 16:37:23  # Scheduled Event 'Dance Class' for '1/18/2022 16:45' with state Enabled
+Warning: ConsoleServiceCE.exe # 2022-01-18 16:37:25  # SHELL connection being closed from address 192.168.250.10. 
+
+Notice: ConsoleServiceCE.exe # 2022-01-18 16:48:45  # SHELL Connection from: 192.168.250.10 
+Info: TLDM.exe # 2022-01-18 16:49:03  #  RegisterAllOrSpecifiedProgram: Application at Id 2 unregistration status sent to XIO Cloud ..
+Info: TLDM.exe # 2022-01-18 16:49:03  #  RegisterAllOrSpecifiedProgram: Application at Id 2 registration status sent to XIO Cloud ..
+Info: TLDM.exe # 2022-01-18 16:49:04  #  RegisterAllOrSpecifiedProgram: Application at Id 2 start status sent to XIO Cloud ..
+Info: TLDM.exe # 2022-01-18 16:49:04  # Save uploaded program name for program 2 in registry.
+Info: CustomAppManager.exe # 2022-01-18 16:49:11  #  App2 Main 
+
+Ok: SimplSharpPro.exe [App 2] # 2022-01-18 16:49:23  # SimplSharpPro Version: 2.14.182
+Info: SimplSharpPro.exe [App 2] # 2022-01-18 16:49:24  # Successfully registered the application with the TLDM 
+Info: SimplSharpPro.exe [App 2] # 2022-01-18 16:49:32  #  Creating 150 User threads with initial priority 253 
+Exception 'Data Abort' (0x4): Thread-Id=0a091a32(pth=95222088), Proc-Id=0b2323ce(pprc=95166a78) 'SimplSharpPro.exe', VM-active=0b2323ce(pprc=95166a78) 'SimplSharpPro.exe'
+PC=007049a0(???+0x007049a0) RA=006e1128(???+0x006e1128) SP=003be950, BVA=00000000
+Error: SimplSharpPro.exe [App 2] # 2022-01-18 16:49:34  # Error in InitializeSystem: NullReferenceException
+Notice: SimplSharpPro.exe [App 2] # 2022-01-18 16:49:34  # **Program 2 Started**
+Notice: TLDM.exe # 2022-01-18 16:49:38  #  Event rcvd is 8 
+Warning: ConsoleServiceCE.exe # 2022-01-18 16:49:56  # SHELL connection being closed from address 192.168.250.10. 
+
+Notice: ConsoleServiceCE.exe # 2022-01-18 16:58:06  # SHELL Connection from: 192.168.250.10 
+Persistent log contents during current boot end
+
+
+DIN-AP3>

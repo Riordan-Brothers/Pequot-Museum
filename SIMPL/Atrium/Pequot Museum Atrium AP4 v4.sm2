@@ -17,7 +17,7 @@ CnH=2
 S0Nd=1
 S1Nd=2
 SLNd=3
-PrNm=Pequot Museum Atrium AP4 v4.smw
+PrNm=Pequot Museum Atrium AP4 v3b.smw
 CmVr=3.03
 DbVr=206.05.004.00
 DvcDbVr=200.95.001.00
@@ -5998,6 +5998,34 @@ Sy1=0
 Mx1=0
 ]
 [
+ObjTp=Bw
+H=1
+Lx=0
+Ly=0
+Rx=944
+Ry=373
+Xm=-1
+Ym=-1
+SH=184
+Z=100
+Ht=1
+Hi=1
+]
+[
+ObjTp=Bw
+H=1
+Lx=0
+Ly=373
+Rx=944
+Ry=746
+Xm=-1
+Ym=-1
+SH=175
+Z=100
+Ht=1
+Hi=8
+]
+[
 ObjTp=Et
 H=1
 DvH=897
@@ -6114,7 +6142,7 @@ Nm=Logic
 ObjVer=1
 SmVr=1144
 CF=2
-mC=8
+mC=9
 C1=16
 C2=17
 C3=26
@@ -6122,7 +6150,8 @@ C4=70
 C5=145
 C6=149
 C7=158
-C8=192
+C8=193
+C9=192
 ]
 [
 ObjTp=Sm
@@ -6347,8 +6376,6 @@ SmVr=1144
 PrH=4
 CF=2
 Cmn1=Memory
-mC=1
-C1=193
 ]
 [
 ObjTp=Sm
@@ -11025,7 +11052,7 @@ mP=15
 P1=Area_AT
 P2=\\USER\\presets\\
 P3=3s
-P4=2s
+P4=4s
 P5=1.5s
 P6=0d
 P7=100%
@@ -13388,14 +13415,13 @@ SmVr=1144
 PrH=71
 CF=2
 Cmn1=timeclock
-mC=7
+mC=6
 C1=95
 C2=96
 C3=97
 C4=98
 C5=99
 C6=100
-C7=201
 ]
 [
 ObjTp=Sm
@@ -13468,7 +13494,6 @@ n1I=2
 n1O=10
 mI=2
 I1=2596
-I2=308
 mO=10
 tO=10
 O1=2621
@@ -17031,9 +17056,9 @@ O6=285
 O9=286
 mP=10
 P1=
-P2=41.2751
-P3=-71.5749
-P4=\\user
+P2=44.0321
+P3=-71.0742
+P4=\\USER
 P5=
 P6=
 P7=
@@ -18129,7 +18154,7 @@ SmC=858
 Nm=Make String Permanent
 ObjVer=1
 SmVr=1144
-PrH=16
+PrH=4
 CF=2
 n1I=4
 mI=4
@@ -18325,25 +18350,6 @@ O7=3207
 O8=3208
 O9=3209
 O10=3210
-]
-[
-ObjTp=Sm
-H=201
-SmC=72
-Nm=Serial/Analog One-Shot
-ObjVer=1
-SmVr=1144
-PrH=94
-CF=2
-n1I=1
-n1O=2
-mI=1
-I1=2596
-mO=2
-tO=2
-O1=308
-mP=1
-P1=1s
 ]
 [
 ObjTp=Sm
@@ -23337,11 +23343,6 @@ Nm=//Area_AT_preset08_fb
 ObjTp=Sg
 H=307
 Nm=//Area_AT_all_off_fb
-]
-[
-ObjTp=Sg
-H=308
-Nm=scheduler_area_AT_recall_scene_smv
 ]
 [
 ObjTp=Sg

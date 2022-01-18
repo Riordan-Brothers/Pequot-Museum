@@ -1,7 +1,7 @@
 <Device Model="DIN-AP3">
    <Network Type="Cresnet" Id="01">
       <Device Model="CNLDM-6" DeviceId="11"/>
-      <Device Model="CNLDM-6" DeviceId="12"/>
+      <Device Model="GLX-DIM6" DeviceId="12" Name="New 12"/>
       <Device Model="CNLDM-6" DeviceId="13"/>
       <Device Model="CNLDM-6" DeviceId="14"/>
       <Device Model="CNLDM-6" DeviceId="15"/>

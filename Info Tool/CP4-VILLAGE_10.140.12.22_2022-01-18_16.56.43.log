@@ -1,0 +1,1828 @@
+Crestron Information Tool v3.6.5.930 Results
+Started at 1/18/2022 4:56:07 PM Eastern Standard Time
+Using Built-In Command List: Commands_4-Series_Processor.txt
+
+Discovered Device Info:
+      ModelName : CP4
+       Hostname : CP4-VILLAGE
+      IpAddress : 10.140.12.22
+       Firmware : 2.5001.00006
+      BuildDate : Mar 16 2021
+           TSID : 8F8219ED
+   SerialNumber : 2040JBH06637
+     MacAddress : 00107FF043BF
+
+
+
+CP4 Control Console
+
+CP4>========== time ==========
+
+
+CP4>========== timezone ==========
+time
+ Current Time/Date: 16:55:56 01-18-2022
+
+CP4>tim========== hostname ==========
+ezone
+Eastern Standard Time  (UTC-05:00)
+DST Entry: 2nd Sunday in March at 02:00:00.000
+DST Exit:  1st Sunday in November at 02:00:00.000
+System is not currently in Daylight Savings Time mode.
+
+CP4>========== mycrestron ==========
+hostname
+Host Name: CP4-VILLAGE
+
+CP4>========== showhw ==========
+mycrestron
+
+MyCrestron Status: Not Registered
+System Last Successfully Registered: N/A
+Domain: , Password: Not Set
+IP Address Last Checked: N/A
+
+CP4>========== showlicense ==========
+showhw
+Current Hardware Configuration
+	Processor Type:    CP4
+	Num YBus Slots:    0
+	Num ZBus Slots:    1
+	   1: C2I-CP4CNET-1 Cresnet 
+	   2: C2I-CP4ENET-1 Ethernet 
+	   3: C2I-CP4-COM3-232 3 Port Internal COM 
+	   4: C2I-CP4-IO8 8 Port Internal IO 
+	   5: C2I-CP4-RY8 8 Port Internal Relay 
+	   6: C2I-CP4-IR8 8 Port Internal IR OUT 
+	   7: C2I-CP4-SYSMON System Monitor Slot 
+	   8: C2I-CP4-SNMP Slot 
+	   9: C2I-CP4-BACNET Slot 
+	  10: C2I-CP4-USB-HID1 1 Port USB HID 
+
+
+CP4>========== enablefeature ==========
+showlicense
+Vendor id | Module id | Expiration | Name   | Info
+-------------------------------------------------
+
+CP4>e========== ver -v ==========
+nablefeature
+TableStart:[Features] 
+FeatureName                    | Current State   | State After Reboot 
+------------------------------------------------------------------ 
+CLOUDCLIENT                    | Disabled        | Disabled        
+SNMPCOMMANDPROCESSOR           | Disabled        | Disabled        
+CRESTHKBRIDGE                  | Disabled        | Disabled        
+
+
+CP4>========== ver -all ==========
+ver -v
+CP4 Cntrl Eng [v2.5001.00006 (Mar 16 2021), #8F8219ED] @E-00107ff043bf
+Build: Mar 16 2021  (4704.396283)
+Updater: 2.5001.00006
+Bootloader: 02.010.000
+Cab: 1.7001.0008
+CCUI Version: 4.77.850566
+Build time: 14:59:01
+Product ID: 0x7D00
+Revision ID: 0x0000
+CPU ID: 0x0008
+PUF: 2.5001.00006
+IOPVersion: S3 - IO Processor [v1.3177.00007, #FFFFFFFF] slot:6
+Forced Auth Mode: True
+
+
+CP4>ve========== puf -log ==========
+r -all
+CP4 Cntrl Eng [v2.5001.00006 (Mar 16 2021), #8F8219ED] @E-00107ff043bf
+Build: Mar 16 2021  (4704.396283)
+Updater: 2.5001.00006
+Bootloader: 02.010.000
+Cab: 1.7001.0008
+CCUI Version: 4.77.850566
+Build time: 14:59:01
+Product ID: 0x7D00
+Revision ID: 0x0000
+CPU ID: 0x0008
+PUF: 2.5001.00006
+IOPVersion: S3 - IO Processor [v1.3177.00007, #FFFFFFFF] slot:6
+Forced Auth Mode: True
+
+
+CP4>puf -l========== cpuload ==========
+og
+Info: FW PUF Tool version: 1.3
+Info: Path to the PUF file: /romdisk/user/system/cp4_2.5001.00006.puf
+Info: Update options: 
+Info: Update Date/Time: Tue Aug 24 08:32:35 2021
+Info: FW PUF version: 2.5001.00006
+Info: Package Description: CP4 Series Firmware Update
+The components to be updated:
+---Name----+---Slot---+-FW File Version----+-Device FW Version--+---Description---
+OS         |          | v2.5001.00006      | v2.5000.00014      | Update CP4 OS 
+-----------+----------+--------------------+--------------------+-----------------
+The components being updated:
+---Name----+---Slot---+-FW File Version----+-Device FW Version--+-Update Status-+---Description---
+OS         |          | v2.5001.00006      | v2.5000.00014      | Updating      | Update CP4 OS 
+-----------+----------+--------------------+--------------------+---------------+-----------------
+Status: Set puf restart ON.
+Status: Set puf restart ON.
+Status: Restart Puf Command.
+The PUF update result by components:
+---Name----+---Slot---+-FW File Version----+-Device FW Version--+---Results---+-Signature-+---Description---
+IOP        |    6     | v1.3177.00007      | v1.3177.00007      |    N/A      |    N/A    | Update IO Processor 
+FPGA       |    6     | v11                | v11                |    N/A      |    N/A    | Update IO Processor FPGA 
+OS         |          | v2.5001.00006      | v2.5001.00006      |    Pass     |    Pass   | Update CP4 OS 
+-----------+----------+--------------------+--------------------+-------------+-----------+-----------------
+
+Time Table:
+---Name----+-------Start Time---------+-------End Time-----------+----Duration-----
+IOP        | N/A                      | N/A                      | 0 seconds
+FPGA       | N/A                      | N/A                      | 0 seconds
+OS         | Tue Aug 24 08:33:40 2021 | Tue Aug 24 08:41:21 2021 | 461 seconds
+
+Status: Set puf restart OFF.
+Status: Success!
+
+CP4>cpuload
+Mem: 540312K used, 1468240K free, 40380K shrd, 12800K buff, 152840K cached 
+CPU:  0.0% usr  2.3% sys  0.0% nic 97.6% idle  0.0% io  0.0% irq  0.0% sirq 
+Load average: 3.00 3.00 3.00 1/591 30919 
+cpu00: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu01: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu02: usr:  0.0%  sys:  2.0%  idle: 98.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu03: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+
+
+CP4>========== cpuload ==========
+cpuload
+Mem: 540344K used, 1468208K free, 40380K shrd, 12804K buff, 152840K cached 
+CPU:  0.0% usr  2.3% sys  0.0% nic 90.4% idle  7.1% io  0.0% irq  0.0% sirq 
+Load average: 3.00 3.00 3.00 1/591 30920 
+cpu00: usr:  2.0%  sys:  2.0%  idle: 96.1%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu01: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu02: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu03: usr:  0.0%  sys:  2.0%  idle: 96.0%  io:   2.0%  irq:  0.0%  sirq:  0.0%
+
+
+CP4>========== cpuload ==========
+cpuload
+Mem: 540092K used, 1468460K free, 40380K shrd, 12804K buff, 152844K cached 
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq 
+Load average: 3.00 3.00 3.00 1/591 30921 
+cpu00: usr:  2.0%  sys:  0.0%  idle: 98.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu01: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu02: usr:  0.0%  sys:  0.0%  idle:100.0%  io:   0.0%  irq:  0.0%  sirq:  0.0%
+cpu03: usr:  0.0%  sys:  2.0%  idle: 96.0%  io:   2.0%  irq:  0.0%  sirq:  0.0%
+
+
+CP4>========== ramfree ==========
+ramfree
+24 percent of memory in use
+2056757248 total bytes of physical memory
+478945280 bytes actually used
+1577811968 bytes free
+0 bytes reclaimable
+
+CP4>========== uptime ==========
+uptime
+The system has been running for 71 days 07:28:53.20
+The system last started on: Monday, November 08, 2021 at 09:27:21
+
+
+CP4>========== sntp ==========
+sntp
+time synchronization: disabled
+server = pool.ntp.org
+
+CP4>========== appstat ==========
+appstat
+ 
+ ***** Next Application Info ******* 
+ App Name: LogicEngine1 
+ Friendly Name: Lighting 
+ App Id: 0x1, App Index: 2 
+ Suspend Count: 0 
+ Logic App 
+ Application is registered 
+ 
+ Logic Engine Process Id: 0x00007678 
+ SplusManagerApp Process Id: 0x00007690 
+
+ Application has Cresnet Devices Registered 
+ Device At Id 0x5 Registered by App 
+ Device At Id 0x11 Registered by App 
+ Device At Id 0x12 Registered by App 
+ Device At Id 0x13 Registered by App 
+ Device At Id 0x14 Registered by App 
+ Device At Id 0x15 Registered by App 
+ Device At Id 0x16 Registered by App 
+ Device At Id 0x17 Registered by App 
+ Device At Id 0x18 Registered by App 
+ Device At Id 0x19 Registered by App 
+ Device At Id 0x1a Registered by App 
+ Device At Id 0x1b Registered by App 
+ Device At Id 0x1c Registered by App 
+ Device At Id 0x1d Registered by App 
+ Device At Id 0x1e Registered by App 
+ Device At Id 0x1f Registered by App 
+ Device At Id 0x20 Registered by App 
+ Device At Id 0x21 Registered by App 
+ Device At Id 0x22 Registered by App 
+ Device At Id 0x23 Registered by App 
+ Device At Id 0x24 Registered by App 
+ Device At Id 0x25 Registered by App 
+ Device At Id 0x26 Registered by App 
+ Device At Id 0x27 Registered by App 
+ Device At Id 0x28 Registered by App 
+ Device At Id 0x29 Registered by App 
+ Device At Id 0x2a Registered by App 
+ Device At Id 0x2b Registered by App 
+ Device At Id 0x2c Registered by App 
+ Device At Id 0x2d Registered by App 
+ Device At Id 0x2e Registered by App 
+ Device At Id 0x2f Registered by App 
+ Device At Id 0x30 Registered by App 
+ Device At Id 0x31 Registered by App 
+ Device At Id 0x32 Registered by App 
+ Device At Id 0x33 Registered by App 
+ Device At Id 0x34 Registered by App 
+ Device At Id 0x35 Registered by App 
+ Device At Id 0x36 Registered by App 
+ Device At Id 0x37 Registered by App 
+ Device At Id 0x38 Registered by App 
+ Device At Id 0x39 Registered by App 
+ Device At Id 0x3a Registered by App 
+ Device At Id 0x3b Registered by App 
+ Device At Id 0x3c Registered by App 
+ Device At Id 0x3d Registered by App 
+ Device At Id 0x3e Registered by App 
+ Device At Id 0x3f Registered by App 
+ Device At Id 0x40 Registered by App 
+ Device At Id 0x41 Registered by App 
+ Device At Id 0x42 Registered by App 
+ Device At Id 0x43 Registered by App 
+ Device At Id 0x44 Registered by App 
+ Device At Id 0x45 Registered by App 
+ Device At Id 0x46 Registered by App 
+ Device At Id 0x47 Registered by App 
+ Device At Id 0x48 Registered by App 
+ Device At Id 0x49 Registered by App 
+ Device At Id 0x4a Registered by App 
+ Device At Id 0x4b Registered by App 
+ Device At Id 0x4c Registered by App 
+ Device At Id 0x4d Registered by App 
+ Device At Id 0x4e Registered by App 
+ Device At Id 0x4f Registered by App 
+ Device At Id 0x50 Registered by App 
+ Device At Id 0x51 Registered by App 
+ Device At Id 0x52 Registered by App 
+ Device At Id 0x53 Registered by App 
+ 
+ Application has Ethernet Devices Registered 
+ Ethernet Device At Id 0x3 Registered by App 
+ Ethernet Device At Id 0x4 Registered by App 
+ Ethernet Device At Id 0x10 Registered by App 
+ Ethernet Device At Id 0x11 Registered by App 
+ Ethernet Device At Id 0xf0 Registered by App 
+ Ethernet Device At Id 0xf1 Registered by App 
+ Ethernet Device At Id 0xf2 Registered by App 
+ 
+ Application has Versiport Devices Registered 
+ Device At Id 0x1 Registered by App 
+ 
+ Application has IR Output Devices Registered 
+ 
+ Application Registered for the  System Monitor Slot 
+ Application registered for the USB HID slot
+ Device At Id 0x1 Registered by App 
+ 
+ App Manager - App State is ONLINE 
+ System Suspended count = 0 
+ ******** 
+ 
+ ***** Next Application Info ******* 
+ App Name: RBI-Fusion-Base 
+ Friendly Name: RBI-Fusion-Base 
+ Custom Logic App 
+ App Id: 0x2, App Index: 3 
+ Suspend Count: 0 
+ Logic App 
+ Application is registered 
+ 
+ Custom App Process Id: 0x0000785C
+
+ Application Registered for the  System Monitor Slot 
+ Application Registered for the SNMP Slot
+ App Manager - App State is ONLINE 
+ System Suspended count = 0 
+ ******** 
+ 
+
+CP4>========== progregister ==========
+progregister
+ Program 1 is registered: Lighting 
+ Program 2 is registered (#): RBI-Fusion-Base 
+ 
+
+CP4>========== ipconfig /all ==========
+ipconfig /all
+Ethernet Adapter FEC1 Connection:
+	Link Status ....... : OK
+	Link Speed ........ : 1000M FULL DUPLEX
+	DHCP .............. : OFF
+	MAC Address ....... : 00.10.7f.f0.43.bf
+	IP Address ........ : 10.140.12.22
+	Subnet Mask ....... : 255.255.255.0
+	IPV6 Address ...... : fe80::210:7fff:fef0:43bf%4293070296/64
+	Default Gateway ... : 10.140.12.1
+
+	Adapter Name ...... : FEC1
+
+	Description ....... : FEC1
+
+	Adapter Index ..... : 0
+
+	Address ........... : 00 10 7f f0 43 bf
+	Hostname .......... : CP4-VILLAGE
+	Domain Name ....... : localdomain
+	DNS Servers ....... : 0.0.0.0
+
+
+
+CP4>========== esatldmqtimeoutms ==========
+esatldmqtimeoutms
+ INFINITE timeout 
+ 
+
+CP4>========== esatldmlogicqsize ==========
+esatldmlogicqsize
+ Queuesize between Logic<->TLDM<->ESA is  500 
+ 
+
+CP4>========== who ==========
+who
+TableStart:[ Transport Connections ]
+Name                |Index |Current|Interface|User                |Uptime         |Address
+---------------------------------------------------------------------------------------------------------
+SHELL Connection    |     1|*      |LAN      |riordan             |       00:00:18|192.168.250.10:54681
+
+ 
+TableStart:[ Logic Connections ] 
+AppID |Type          |ID  |Interface|Uptime         |Address                                            
+----------------------------------------------------------------------
+1     |Gateway       |3   |LAN      |00:32:56.5114140|10.140.12.23                                      
+1     |Gateway       |4   |LAN      |00:33:07.9711290|10.140.12.24                                      
+ 
+TableStart:[ SPLUS Connections ] 
+AppID |Module         |Instance  |Type      |Interface|Uptime         |Address              
+-----------------------------------------------------------------------------
+ 
+
+CP4>========== fitcstatus ==========
+fitcstatus
+FITC Info message Received: False
+FITC Servers:
+
+FITC/GwRdy Devices:
+ 
+
+CP4>========== csfitcstatus ==========
+csfitcstatus
+ERROR: Bad or Incomplete Command
+CP4>========== cloudstatus ==========
+cloudstatus
+ERROR: Bad or Incomplete Command
+CP4>========== cloudenable ==========
+cloudenable
+ERROR: Bad or Incomplete Command
+CP4>========== taskstat ==========
+taskstat
+  pid    ppid  st  user%   sys%  core   pri nice  thd       rss        vsz    pss  name                 command
+    1       0   S   0.0%   0.0%     3   20     0    1      3888      12760   2376  systemd              /sbin/init
+    2       0   S   0.0%   0.0%     3   20     0    1         0          0      0  kthreadd             
+    3       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  rcu_gp               
+    4       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  rcu_par_gp           
+    8       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  mm_percpu_wq         
+    9       2   S   0.0%   0.0%     0   20     0    1         0          0      0  ksoftirqd/0          
+   10       2   I   0.0%   0.0%     2   20     0    1         0          0      0  rcu_preempt          
+   11       2   I   0.0%   0.0%     1   20     0    1         0          0      0  rcu_sched            
+   12       2   I   0.0%   0.0%     0   20     0    1         0          0      0  rcu_bh               
+   13       2   S   0.0%   0.0%     0 -100     0    1         0          0      0  migration/0          
+   14       2   S   0.0%   0.0%     0   20     0    1         0          0      0  cpuhp/0              
+   15       2   S   0.0%   0.0%     1   20     0    1         0          0      0  cpuhp/1              
+   16       2   S   0.0%   0.0%     1 -100     0    1         0          0      0  migration/1          
+   17       2   S   0.0%   0.0%     1   20     0    1         0          0      0  ksoftirqd/1          
+   18       2   D   0.0%   0.0%     1   20     0    1         0          0      0  kworker/1:0+events   
+   20       2   S   0.0%   0.0%     2   20     0    1         0          0      0  cpuhp/2              
+   21       2   S   0.0%   0.0%     2 -100     0    1         0          0      0  migration/2          
+   22       2   S   0.0%   0.0%     2   20     0    1         0          0      0  ksoftirqd/2          
+   24       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  kworker/2:0H-kblockd 
+   25       2   S   0.0%   0.0%     3   20     0    1         0          0      0  cpuhp/3              
+   26       2   S   0.0%   0.0%     3 -100     0    1         0          0      0  migration/3          
+   27       2   S   0.0%   0.0%     3   20     0    1         0          0      0  ksoftirqd/3          
+   30       2   S   0.0%   0.0%     1   20     0    1         0          0      0  kdevtmpfs            
+   31       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  netns                
+   34       2   S   0.0%   0.0%     1   20     0    1         0          0      0  rcu_tasks_kthre      
+  491       2   S   0.0%   0.0%     2   20     0    1         0          0      0  oom_reaper           
+  492       2   I   0.0%   0.0%     1    0   -20    1         0          0      0  writeback            
+  494       2   S   0.0%   0.0%     2   20     0    1         0          0      0  kcompactd0           
+  495       2   S   0.0%   0.0%     2   25     5    1         0          0      0  ksmd                 
+  496       2   S   0.0%   0.0%     1   39    19    1         0          0      0  khugepaged           
+  497       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  crypto               
+  498       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  kintegrityd          
+  500       2   I   0.0%   0.0%     1    0   -20    1         0          0      0  kblockd              
+  544       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  ata_sff              
+  568       2   S   0.0%   0.0%     1  -51     0    1         0          0      0  irq/48-bd718xx-      
+  598       2   S   0.0%   0.0%     0 -100     0    1         0          0      0  watchdogd            
+  690       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  rpciod               
+  691       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  kworker/u9:0         
+  692       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  xprtiod              
+  734       2   S   0.0%   0.0%     2   20     0    1         0          0      0  kswapd0              
+  822       2   I   0.0%   0.0%     1    0   -20    1         0          0      0  nfsiod               
+ 1188       2   S   0.0%   0.0%     0   20     0    1         0          0      0  spi2                 
+ 1191       2   S   0.0%   0.0%     3   20     0    1         0          0      0  spi1                 
+ 1303       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  ci_otg               
+ 1304       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  ci_power_lost        
+ 1312       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  ci_power_lost        
+ 1363       2   S   0.0%   0.0%     2 -100     0    1         0          0      0  cfinteractive        
+ 1375       2   S   0.0%   0.0%     0  -51     0    1         0          0      0  irq/31-mmc1          
+ 1379       2   S   0.0%   0.0%     1  -51     0    1         0          0      0  irq/51-30b40000      
+ 1381       2   S   0.0%   0.0%     0  -51     0    1         0          0      0  irq/32-mmc0          
+ 1432       2   D   0.0%   0.0%     1   20     0    1         0          0      0  kworker/1:3+events   
+ 1453       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  mmc_complete         
+ 1457       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  kworker/0:1H-mmc_complete 
+ 1471       2   I   0.0%   0.0%     1    0   -20    1         0          0      0  kworker/1:1H-kblockd 
+ 1472       2   S   0.0%   0.0%     3   20     0    1         0          0      0  jbd2/mmcblk0p5-      
+ 1473       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  ext4-rsv-conver      
+ 1480       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  kworker/3:2H-kblockd 
+ 1488       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  ipv6_addrconf        
+ 1531       2   D   0.0%   0.0%     1   20     0    1         0          0      0  kworker/1:4+events   
+ 1542       1   S   0.0%   0.0%     1   20     0    1      3232      35132   1622  systemd-journal      /lib/systemd/systemd-journald
+ 1974       1   S   0.0%   0.0%     0   20     0    1      2968      10444   1230  systemd-udevd        /lib/systemd/systemd-udevd
+ 2501       2   S   0.0%   0.0%     3   20     0    1         0          0      0  jbd2/mmcblk0p8-      
+ 2502       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  ext4-rsv-conver      
+ 2510       2   S   0.0%   0.0%     3   20     0    1         0          0      0  jbd2/mmcblk0p10      
+ 2511       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  ext4-rsv-conver      
+ 2513       2   S   0.0%   0.0%     2   20     0    1         0          0      0  jbd2/mmcblk0p9-      
+ 2514       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  ext4-rsv-conver      
+ 2523       2   S   0.0%   0.0%     3   20     0    1         0          0      0  jbd2/mmcblk0p7-      
+ 2524       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  ext4-rsv-conver      
+ 2535       1   S   0.0%   0.0%     1   20     0    2      2024      12664    408  systemd-timesyn      /lib/systemd/systemd-timesyncd
+ 2544       1   S   0.0%   0.0%     3   20     0    1      3860       7104    611  crestLinuxTime       /usr/bin/crestLinuxTime
+ 2545       1   S   0.0%   0.0%     0   20     0    1      2672       3984   1023  dbus-daemon          /usr/bin/dbus-daemon
+ 2546       1   S   0.0%   0.0%     1   20     0    1      2072       3648    636  systemd-resolve      /lib/systemd/systemd-resolved
+ 2547       1   S   0.0%   0.0%     0   20     0    1       388       2904    248  syslogd              /sbin/syslogd
+ 2551       1   S   0.0%   0.0%     2   20     0    1       396       2904    256  klogd                /sbin/klogd
+ 2556       1   S   0.0%   0.0%     0   20     0    1       552       2480    589  systemd-logind       /lib/systemd/systemd-logind
+ 2558       1   S   0.0%   0.0%     3   20     0    1      1320       2192    180  agetty               /sbin/agetty
+ 2699       2   S   0.0%   0.0%     1   20     0    1         0          0      0  jbd2/mmcblk0p11      
+ 2700       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  ext4-rsv-conver      
+ 2715       1   S   0.0%   0.0%     3   20     0    1      1056       3516    198  watchdogd            /usr/bin/watchdogd
+ 2755       1   S   0.0%   0.0%     0   20     0    2      5440      17508   1865  crestErrorLogSe      /usr/bin/crestErrorLogServer
+ 2758       1   S   0.0%   0.0%     3   20     0    4     16988      39784  13418  redis-server         /usr/bin/redis-server 127.0.0.1:6379
+ 2765    2755   S   0.0%   0.0%     2   20     0    1      2956      35240   1956  journalctl           journalctl
+ 2826       1   R   0.0%   2.0%     2   20     0    5     13940      57176   7090  a_console            /usr/bin/a_console
+ 2828       1   S   0.0%   0.0%     3   20     0    1      3176       6448    507  TestCmdMain          /usr/bin/TestCmdMain
+ 2831       1   S   0.0%   0.0%     0   20     0   22     23532        115m 11173  platformd_main       /usr/bin/platformd
+ 2860       1   S   0.0%   0.0%     1   20     0    1      5592       9012   1391  mdnsd                /usr/sbin/mdnsd
+ 2864       1   S   2.0%   0.0%     3   20     0    5     11608      55640   5978  ctpd                 /usr/bin/ctpd
+ 2918       1   S   0.0%   0.0%     2   20     0    5     20264      64012   6908  CEUDaemon            /usr/bin/CEUDaemon
+ 2925       1   S   0.0%   0.0%     1   20     0    3      4784      25308    892  LicenseSvc           /usr/bin/LicenseSvc
+ 2994       1   S   0.0%   0.0%     2   20     0    2      3384      14760    498  AuditLogService      /usr/bin/AuditLogService
+ 2998       1   S   0.0%   0.0%     3   20     0    2      3308      14772    510  IpBlockerServic      /usr/bin/IpBlockerService
+ 3012       1   S   0.0%   0.0%     1   20     0    1      5324      10020   1079  AccountMgmtServ      /usr/bin/AccountMgmtService
+ 3462       1   S   0.0%   0.0%     0   20     0    2      2372      16628    694  jwtprocessor         /usr/bin/jwtprocessor
+ 3465       1   S   0.0%   0.0%     0   20     0    2      4488       8784    711  NVRamSvc             /usr/bin/NVRamSvc
+ 3469       1   S   0.0%   0.0%     0   20     0    6      9064      38792   4343  AppWatchdog          /usr/bin/AppWatchdog
+ 3498       1   S   0.0%   0.0%     0   20     0    1      2116       2976    364  startlighttpd.s      /system/bin/bash
+ 3533       1   S   0.0%   0.0%     3   20     0    1      4352       7568    644  removeablemedia      /usr/bin/removeablemedialinux
+ 3570       1   S   0.0%   0.0%     2   20     0   26     19204      69052   5970  TLDM                 TLDM
+ 3602       1   S   2.0%   0.0%     0   20     0   24     72088        158m 51356  CIPCmdProcessor      CIPCommandProcessor
+ 3789       1   S   0.0%   0.0%     1   20     0   15      8036      37720   3491  CrestronTimerEv      CrestronTimerEventEngine
+ 3834       1   S   0.0%   0.0%     3   20     0    6     31940      60428  17711  CWSRouter            CwsRouter
+ 3866       1   S   0.0%   2.0%     3   20     0   29     21752        257m 18917  CPHProcessor         CPHProcessor
+ 3953       1   S   0.0%   0.0%     2   20     0    8     12144      71520   8028  HydrogenManager      HydrogenManager
+ 4000       1   S   0.0%   0.0%     2   20     0    6     39216      68644  21383  FPServer             FlashPolicyServerApp
+ 4023       1   S   0.0%   0.0%     0   20     0   32     37116      98612  22435  AUInterface          AutoUpdateInterface
+ 4074       1   S   0.0%   0.0%     2   20     0    5     35880      62380  19621  mono                 webSocketToken
+ 4089       1   S   0.0%   0.0%     2   20     0    5     17340      70492   5368  csprojectmanage      csprojectmanager
+ 4179       1   S   0.0%   0.0%     0   20     0    1      1532       1984    406  dhcpcd               dhcpcd
+ 4691    3498   S   0.0%   0.0%     1   20     0    2      8852      21416   2731  lighttpd             /system/bin/lighttpd
+30086       2   I   0.0%   0.0%     3   20     0    1         0          0      0  kworker/3:2-events   
+30171       2   I   0.0%   0.0%     3   20     0    1         0          0      0  kworker/3:0-cgroup_pidlist_destroy 
+30194       2   I   0.0%   0.0%     2   20     0    1         0          0      0  kworker/2:2-events   
+30252       2   I   0.0%   0.0%     1   20     0    1         0          0      0  kworker/1:5-events_freezable 
+30253       2   I   0.0%   0.0%     3   20     0    1         0          0      0  kworker/u8:0-events_unbound 
+30311       2   I   0.0%   0.0%     1    0   -20    1         0          0      0  kworker/1:0H         
+30326       1   S   0.0%   0.0%     2   20     0    1      2488       4244    521  su                   su
+30328   30326   S   0.0%   0.0%     0   20     0   19     32324      73920  19508  LogicE[App01]        LogicEngine_1
+30351   30328   S   0.0%   0.0%     0   20     0    1      2092       2976    349  bash                 /bin/bash
+30352   30351   S   0.0%   0.0%     2   20     0  211     56464        304m 42681  SPLUS[01]            SimplPlus[App01]
+30608       2   I   0.0%   0.0%     0   20     0    1         0          0      0  kworker/0:1-events   
+30699       2   I   0.0%   0.0%     3    0   -20    1         0          0      0  kworker/3:0H         
+30708       2   I   0.0%   0.0%     0    0   -20    1         0          0      0  kworker/0:2H         
+30746       2   I   0.0%   0.0%     2   20     0    1         0          0      0  kworker/u8:2-events_unbound 
+30793       1   S   0.0%   0.0%     2   20     0    8     34008      74440  17313  CAppM[02]            CustomAppManager_2
+30809   30793   S   0.0%   0.0%     3   20     0    1      2096       2976    357  bash                 /bin/bash
+30811   30809   S   0.0%   0.0%     0   20     0    1      2420       4244    569  su                   su
+30812   30811   S   0.0%   0.0%     3   20     0   19     54532         99m 38143  SSP[02]              SimplSharpPro[App02]
+30832       2   I   0.0%   0.0%     2    0   -20    1         0          0      0  kworker/2:2H         
+30847       2   I   0.0%   0.0%     1   20     0    1         0          0      0  kworker/1:1-events   
+30848       2   I   0.0%   0.0%     0   20     0    1         0          0      0  kworker/0:2-events   
+30849       2   I   0.0%   0.0%     2   20     0    1         0          0      0  kworker/2:0-events   
+30851       2   I   0.0%   0.0%     1   20     0    1         0          0      0  kworker/1:2-events   
+30852       2   I   0.0%   0.0%     0   20     0    1         0          0      0  kworker/0:0-events   
+30853       2   I   0.0%   0.0%     2   20     0    1         0          0      0  kworker/2:1-events   
+30856       1   S   0.0%   0.0%     1   20     0    1      7436      11360   2061  sshd                 sshd: riordan@pts/0
+30857       2   I   0.0%   0.0%     3   20     0    1         0          0      0  kworker/3:1-pm       
+30870   30856   S   0.0%   0.0%     3   20     0    1      1844       2508    301  sshdCommand.sh       /bin/bash
+30874   30870   S   0.0%   0.0%     0   20     0    2      1736      14112    413  telnetSSHProxy       /usr/bin/telnetSSHProxy
+30879       2   I   0.0%   0.0%     0   20     0    1         0          0      0  kworker/u8:1-events_unbound 
+
+CP4>========== reportcresnet ==========
+reportcresnet
+05: C2N-CBD-P Cameo Keypad [v1.003.0045, #8E024784]
+11: GLX-DIM6 6-channel Dimmer [v1.002.0042,#88328181]
+12: CNLDM-6, ver 4.1
+13: CNLDM-6, ver 4.1
+14: GLX-DIM6 6-channel Dimmer [v1.002.0042,#8872826C]
+15: CNLDM-6, ver 4.1
+16: CNLDM-6, ver 4.1
+17: CNLDM-6, ver 4.1
+18: GLX-DIM6 6-channel Dimmer [v1.002.0042,#8872826B]
+19: CNLDM-6, ver 4.1
+1A: GLX-DIM6 6-channel Dimmer [v1.002.0042,#88728277]
+1B: CNLFDB-4, ver 4.2.0
+1C: CNLDM-6, ver 4.1
+1D: CNLDM-6, ver 4.1
+1E: CNLDM-6, ver 4.1
+1F: CNLDM-6, ver 4.1
+20: CNLDM-4, ver 4.1
+21: CNLDM-4, ver 4.1
+22: CNLDM-4, ver 4.1
+23: CNLDM-4, ver 4.1
+24: CNLDM-6, ver 4.1
+25: CNLDM-6, ver 4.1
+26: CNLDM-6, ver 4.1
+27: CNLDM-6, ver 4.1
+28: CNLDM-6, ver 4.1
+29: GLX-DIM6 6-channel Dimmer [v1.002.0042,#8872826D]
+2A: CNLDM-6, ver 4.1
+2B: CNLDM-6, ver 4.1
+2C: CNLDM-6, ver 4.1
+2D: CNLDM-4, ver 4.1
+2E: CNLDM-6, ver 4.1
+2F: CNLDM-4, ver 4.1
+30: CNLDM-6, ver 4.1
+31: CNLDM-6, ver 4.1
+32: CNLDM-6, ver 4.1
+33: GLX-DIM6 6-channel Dimmer [v1.002.0042,#8872827B]
+34: CNLDM-6, ver 4.1
+35: CNLDM-6, ver 4.1
+36: CNLDM-4, ver 4.1
+37: CNLDM-6, ver 4.1
+38: CNLDM-6, ver 4.1
+39: CNLDM-4, ver 4.1
+3A: CNLDM-4, ver 4.1
+3B: CNLFDB-4, ver 4.2.0
+3C: CNLDM-6, ver 4.1
+3D: CNLDM-6, ver 4.1
+3E: CNLDM-6, ver 4.1
+3F: CNLDM-6, ver 4.1
+40: CNLDM-6, ver 4.1
+41: CNLDM-6, ver 4.1
+42: CNLDM-6, ver 4.1
+43: CNLDM-6, ver 4.1
+44: CNLDM-6, ver 4.1
+45: CNLDM-6, ver 4.1
+46: CNLDM-6, ver 4.1
+47: GLX-DIM6 6-channel Dimmer [v1.002.0042,#88728274]
+48: CNLDM-6, ver 4.1
+49: CNLDM-6, ver 4.1
+4A: CNLDM-6, ver 4.1
+4B: CNLDM-6, ver 4.1
+4C: CNLDM-6, ver 4.1
+4D: CNLDM-6, ver 4.1
+4E: CNLDM-6, ver 4.1
+4F: GLX-DIM6 6-channel Dimmer [v1.002.0042,#88A2954C]
+50: CNLDM-4, ver 4.1
+51: CNLDM-4, ver 4.1
+52: CNLDM-4, ver 4.1
+53: CNLFDB-4, ver 4.2.0
+
+ 
+CP4>========== iptable -P:all -T ==========
+iptable -P:all -T
+
+TableStart:[ IP Table for program 1 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+     3  |Gway    |ONLINE    |        |41794  |127.000.000.001  | TSW-1070  | tsw01  | Not Specified
+     4  |Gway    |ONLINE    |        |41794  |127.000.000.001  | TSW-1070  | tsw02  | Not Specified
+    10  |Gway    |OFFLINE   |        |41794  |127.000.000.001  | XPanel 2.0 Smart Graphics  | XPanel 2.0 Smart Graphics  | Not Specified
+    11  |Gway    |OFFLINE   |        |41794  |127.000.000.001  | Crestron App  | Crestron App  | Not Specified
+    F0  |CIP     |OFFLINE   |        |41794  |127.000.000.002  | 3 Series TCP/IP Ethernet Intersystem Communicati  | Fusion EISC - village zones 1-60  | Not Specified
+    F1  |CIP     |OFFLINE   |        |41794  |127.000.000.002  | 3 Series TCP/IP Ethernet Intersystem Communicati  | Fusion EISC - village zones 61-120  | Not Specified
+    F2  |CIP     |OFFLINE   |        |41794  |127.000.000.002  | 3 Series TCP/IP Ethernet Intersystem Communicati  | Fusion EISC - village zones 121-168  | Not Specified
+
+TableStart:[ IP Table for program 2 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 3 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 4 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 5 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 6 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 7 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 8 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 9 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+TableStart:[ IP Table for program 10 ]
+CIP_ID  |Type    |Status    |DevID   |Port   |IP Address/SiteName       |Model Name          |Description         |RoomId
+-------------------------------------------------------------------------------------------------------------------------
+
+
+CP4>========== netstat ==========
+netstat
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:6080          0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:40000         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:41794           0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:41795         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:41796           0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:843             0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:40235         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:40236         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:49200           0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:34104         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 10.140.12.22:41794      10.140.12.23:48306      ESTABLISHED 
+tcp        0      0 10.140.12.22:41794      10.140.12.24:56671      ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34128         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34090         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34076         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34132         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34126         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34112         ESTABLISHED 
+tcp        0      0 127.0.0.1:34154         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34130         ESTABLISHED 
+tcp        0      0 127.0.0.1:34078         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34164         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34094         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34146         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34120         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34122         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34126         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34106         ESTABLISHED 
+tcp        0      0 127.0.0.1:34064         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34124         ESTABLISHED 
+tcp        0      0 127.0.0.1:34086         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34108         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34068         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34096         ESTABLISHED 
+tcp        0      0 127.0.0.1:34132         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34152         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34100         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34064         ESTABLISHED 
+tcp        0      0 127.0.0.1:34124         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34104         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34146         ESTABLISHED 
+tcp        0      0 127.0.0.1:34110         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34074         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34116         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34164         ESTABLISHED 
+tcp        0      0 127.0.0.1:34150         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34066         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34110         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34152         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34150         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34118         ESTABLISHED 
+tcp        0      0 127.0.0.1:34076         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34114         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34068         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34080         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34100         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34070         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:29250         127.0.0.1:41795         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34162         ESTABLISHED 
+tcp        0      0 127.0.0.1:34116         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34088         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34086         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34088         ESTABLISHED 
+tcp        0      0 127.0.0.1:34096         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34080         ESTABLISHED 
+tcp        0      0 127.0.0.1:34092         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34090         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34128         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34160         ESTABLISHED 
+tcp        0      0 127.0.0.1:34130         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34118         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34094         ESTABLISHED 
+tcp        0      0 127.0.0.1:34160         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34070         ESTABLISHED 
+tcp        0      0 127.0.0.1:34162         127.0.0.1:6379          ESTABLISHED 
+tcp        0     80 127.0.0.1:41795         127.0.0.1:29250         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34166         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34082         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34084         ESTABLISHED 
+tcp        0      0 127.0.0.1:34066         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34156         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34112         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34082         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34166         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:34106         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34078         ESTABLISHED 
+tcp        0      0 127.0.0.1:34074         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34114         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34156         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34122         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34154         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34120         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34108         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:34092         ESTABLISHED 
+tcp        0      0 127.0.0.1:34084         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 :::22                   :::*                    LISTEN      
+tcp        0     64 ::ffff:10.140.12.22:22  ::ffff:192.168.250.10:54681 ESTABLISHED 
+udp        0      0 127.0.0.1:10454         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:11483         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           
+udp        0      0 0.0.0.0:35073           0.0.0.0:*                           
+udp        0      0 0.0.0.0:38183           0.0.0.0:*                           
+udp        0      0 127.0.0.1:36148         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 0.0.0.0:14674           0.0.0.0:*                           
+udp        0      0 127.0.0.1:40300         0.0.0.0:*                           
+udp        0      0 127.0.0.1:40301         0.0.0.0:*                           
+udp        0      0 127.0.0.1:20852         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:16774         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:26004         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:17823         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:14842         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:22091         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:35428         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:42676         0.0.0.0:*                           
+udp        0      0 127.0.0.1:56030         0.0.0.0:*                           
+udp        0      0 127.0.0.1:24302         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 0.0.0.0:24304           0.0.0.0:*                           
+udp        0      0 127.0.0.1:34550         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 0.0.0.0:17152           0.0.0.0:*                           
+udp        0      0 127.0.0.1:41793         0.0.0.0:*                           
+udp        0      0 0.0.0.0:41794           0.0.0.0:*                           
+udp        0      0 127.0.0.1:41797         0.0.0.0:*                           
+udp        0      0 127.0.0.1:18320         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:26526         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:55200         0.0.0.0:*                           
+udp        0      0 127.0.0.1:13252         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:20432         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:38867         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:37860         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           
+udp        0      0 127.0.0.1:39030         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 127.0.0.1:40100         0.0.0.0:*                           
+udp        0      0 127.0.0.1:38055         127.0.0.1:41793         ESTABLISHED 
+udp        0      0 :::5353                 :::*                                
+udp        0      0 :::5353                 :::*                                
+udp        0      0 :::14109                :::*                                
+
+
+CP4>========== listblocked ==========
+listblocked
+No IP Addresses Blocked
+
+
+CP4>========== iproute ==========
+iproute
+
+Network Address		Netmask		Gateway Address	Interface		Metric
+
+  0.  0.  0.  0	  0.  0.  0.  0	 10.140. 12.  1		2		201
+
+ 10.140. 12.  0	255.255.255.  0	  0.  0.  0.  0		2		0
+
+CP4>========== showarptable ==========
+showarptable
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.23		00:10:7f:f0:5c:83
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.180		3c:18:a0:44:5a:46
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.3		00:b6:70:36:2f:e1
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.24		00:10:7f:ef:fa:3a
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.1		00:00:0c:07:ac:03
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.20		c4:42:68:06:01:1c
+Interface index 2	Type: dynamic
+Internet address	Physical address
+
+10.140.12.2		00:b6:70:36:26:61
+
+
+CP4>========== telnetport ==========
+telnetport
+Error: Your user access prevents execution of this command.  Contact your administrator.
+CP4>========== webserver ==========
+webserver
+Web Server: ON
+
+CP4>========== webport ==========
+webport
+Webserver port =  80
+
+CP4>========== core3xpanelweb ==========
+core3xpanelweb
+Core3 XPanel Web: ON, Domain: *, Port(s): 41794, SECURE_OFF
+
+
+CP4>========== sshport ==========
+sshport
+SSH: ENABLED
+Current SSH Port = 22
+
+CP4>========== ssl ==========
+ssl
+SSL: On, Self Signed
+Only TLS1.2 Supported
+
+CP4>========== auth ==========
+auth
+AUTHENTICATION: ON.
+
+CP4>========== basicauth ==========
+basicauth
+ERROR: Bad or Incomplete Command
+CP4>========== userpageauth ==========
+userpageauth
+USERPAGEAUTH: OFF
+
+CP4>========== setcsauthentication ==========
+setcsauthentication
+Domain Name: Not Set 
+User Name: Not Set 
+Password: Not Set 
+
+
+CP4>========== progcomments:1 ==========
+progcomments:1
+
+Program Boot Directory: /simpl/app01
+Source File:  C:\github\Pequot-Museum\SIMPL\Village\Pequot Museum Village v3
+Program File: Pequot Museum Village v3.smw
+System Name:  Pequot
+Programmer:   Hope Roth
+Compiled On:  1/18/2022 4:21 PM
+Compiler Rev: 3.03
+CrestronDB:   209.05.001.00
+DeviceDB:     200.140.001.00
+SYMLIB Rev:   1156
+IOLIB Rev:    1156
+IOPCFG Rev:   4.1.75
+Source Env:   SIMPL Windows v4.1700.03
+Target Rack:  CP4
+Config Rev:   22
+Include4.dat: 2.18.015
+Friendly Name:Lighting
+
+
+CP4>========== progcomments:2 ==========
+progcomments:2
+
+Program Boot Directory: /simpl/app02 
+Friendly Name             : RBI-Fusion-Base 
+Application Name          : RBI-Fusion-Base 
+Program File              : RBI-Fusion-Base.dll 
+Min Firmware Version      : 1.009.0029 
+Program Tool              : SIMPL# Plugin 
+Design Tool ID            : 5 
+Program Tool ID           : 5 
+Archive Name              :  
+Programmer Name           : Hope Roth 
+Compiled On               : 12/10/2021 9:45:15 AM 
+Compiler Revision         : 1.0.0.17555 
+PlugInVersion             : 2.0.58.0 
+Include4.dat              : 2.14.182 
+Target Rack               : CP4 
+
+
+CP4>========== progcomments:3 ==========
+progcomments:3
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:4 ==========
+progcomments:4
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:5 ==========
+progcomments:5
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:6 ==========
+progcomments:6
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:7 ==========
+progcomments:7
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:8 ==========
+progcomments:8
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:9 ==========
+progcomments:9
+ERROR: Bad or Incomplete Command
+CP4>========== progcomments:10 ==========
+progcomments:10
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:1 ==========
+proguptime:1
+The program has been running for 0 days 00:32:43.00
+The program last started on: Tuesday Jan 18, 2022 at 16:23:35
+
+CP4>========== proguptime:2 ==========
+proguptime:2
+The program has been running for 0 days 00:10:14.821 
+The program last started on: Tuesday, 18 January 2022 at 16:46:03
+
+
+CP4>========== proguptime:3 ==========
+proguptime:3
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:4 ==========
+proguptime:4
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:5 ==========
+proguptime:5
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:6 ==========
+proguptime:6
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:7 ==========
+proguptime:7
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:8 ==========
+proguptime:8
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:9 ==========
+proguptime:9
+ERROR: Bad or Incomplete Command
+CP4>========== proguptime:10 ==========
+proguptime:10
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:1 ==========
+splustasks:1
+Module Name                    ThreadId     Priority  RunTime(ms)  CodeLine Information 
+
+
+CP4>========== splustasks:2 ==========
+splustasks:2
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:3 ==========
+splustasks:3
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:4 ==========
+splustasks:4
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:5 ==========
+splustasks:5
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:6 ==========
+splustasks:6
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:7 ==========
+splustasks:7
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:8 ==========
+splustasks:8
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:9 ==========
+splustasks:9
+ERROR: Bad or Incomplete Command
+CP4>========== splustasks:10 ==========
+splustasks:10
+ERROR: Bad or Incomplete Command
+CP4>========== autodiscovery query tableformat ==========
+autodiscovery query tableformat
+TableStart:[Discovered Nodes] 
+IP Address        |IP_ID|Interface|HostName                      |FirmwareName 
+------------------------------------------------------------------------------ 
+10.140.12.20      |0    |LAN      |DIN-AP4-WORLDOFICE            |DIN-AP4 [v2.6000.00026 (Aug 17 2021), #92020560] @E-c4426806011c 
+10.140.12.21      |0    |LAN      |TSW-WORLDOFICE                |TSW-1070 [v1.004.0115 (Wed Jul 21 17:55:51 EDT 2021), #91320B05] @E-00107ffa9c73 
+10.140.12.24      |4    |LAN      |TS-1070-00107FEFFA3A          |TS-1070 [v1.002.0040 (Fri Nov 20 19:28:27 EST 2020), #90321B09] @E-00107feffa3a 
+10.140.12.23      |3    |LAN      |TSW-VILLAGE                   |TSW-1070 [v1.004.0115 (Wed Jul 21 17:55:51 EDT 2021), #8F920BED] @E-00107ff05c83 
+
+
+CP4>========== listactivemodules:1 ==========
+listactivemodules:1
+Symbol Number                  CodeLine        Name 
+
+
+CP4>========== listactivemodules:2 ==========
+listactivemodules:2
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:3 ==========
+listactivemodules:3
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:4 ==========
+listactivemodules:4
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:5 ==========
+listactivemodules:5
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:6 ==========
+listactivemodules:6
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:7 ==========
+listactivemodules:7
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:8 ==========
+listactivemodules:8
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:9 ==========
+listactivemodules:9
+ERROR: Bad or Incomplete Command
+CP4>========== listactivemodules:10 ==========
+listactivemodules:10
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:1 ==========
+threadpoolinfo:1
+Maximum number of threads: 401
+Active threads: 199
+Waiting Callbacks: 0
+Threads currently executing: 0
+Max Threads concurrently executed: 199 at 01/18/2022 16:23:35
+
+
+CP4>========== threadpoolinfo:2 ==========
+threadpoolinfo:2
+Maximum number of threads: 155
+Active threads (Idle or Executing): 2
+Waiting Callbacks: 0
+Threads currently executing: 0
+Max Threads concurrently executed: 0 at 01/18/2022 16:46:03 
+
+
+
+CP4>========== threadpoolinfo:3 ==========
+threadpoolinfo:3
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:4 ==========
+threadpoolinfo:4
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:5 ==========
+threadpoolinfo:5
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:6 ==========
+threadpoolinfo:6
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:7 ==========
+threadpoolinfo:7
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:8 ==========
+threadpoolinfo:8
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:9 ==========
+threadpoolinfo:9
+ERROR: Bad or Incomplete Command
+CP4>========== threadpoolinfo:10 ==========
+threadpoolinfo:10
+ERROR: Bad or Incomplete Command
+CP4>========== listenstat ==========
+listenstat
+Port Number    |Max Listeners  |Current Connections 
+-------------------------------------------------------------
+41794          |252            |2              
+41796          |252            |0              
+49200          |252            |0               
+
+CP4>========== routesymstat:1 ==========
+routesymstat:1
+C:[80, S-3.4.10.1] -> E[257, S-4.1.1] 
+C:[592, S-3.4.11.1:S-1] -> No Connections.
+C:[81, S-3.5.10.1] -> E[257, S-4.1.1] 
+C:[593, S-3.5.11.1:S-1] -> No Connections.
+E:[257, S-4.1.1] -> C[80, S-3.4.10.1] C[81, S-3.5.10.1] 
+E:[258, S-4.1.2] -> No Connections.
+E:[259, S-4.1.3] -> No Connections.
+E:[260, S-4.1.4] -> No Connections.
+E:[261, S-4.1.5] -> No Connections.
+E:[262, S-4.1.6] -> No Connections.
+E:[263, S-4.1.7] -> No Connections.
+E:[264, S-4.1.8] -> No Connections.
+E:[265, S-4.1.9] -> No Connections.
+E:[272, S-4.1.10] -> No Connections.
+E:[273, S-4.1.11] -> No Connections.
+
+
+CP4>========== routesymstat:2 ==========
+routesymstat:2
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:3 ==========
+routesymstat:3
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:4 ==========
+routesymstat:4
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:5 ==========
+routesymstat:5
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:6 ==========
+routesymstat:6
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:7 ==========
+routesymstat:7
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:8 ==========
+routesymstat:8
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:9 ==========
+routesymstat:9
+ERROR: Bad or Incomplete Command
+CP4>========== routesymstat:10 ==========
+routesymstat:10
+ERROR: Bad or Incomplete Command
+CP4>========== bacnetgetmemusage ==========
+bacnetgetmemusage
+ERROR: Bad or Incomplete Command
+CP4>========== bacnethostcovlist ==========
+bacnethostcovlist
+ERROR: Bad or Incomplete Command
+CP4>========== bacnetremotecovlist ==========
+bacnetremotecovlist
+ERROR: Bad or Incomplete Command
+CP4>========== bacnetdevicescantime ==========
+bacnetdevicescantime
+ERROR: Bad or Incomplete Command
+CP4>========== bacnetobjectlist ==========
+bacnetobjectlist
+ERROR: Bad or Incomplete Command
+CP4>========== showextra ==========
+showextra
+Log Extra Errors: Disabled
+
+CP4>========== err plogprevious ==========
+err plogprevious
+Persistent log contents during previous boot:
+Persistent log contents during previous boot end
+
+
+CP4>========== err plogcurrent ==========
+err plogcurrent
+Persistent log contents during current boot:
+Notice: crestErrorLogServer # 2021-11-08 09:24:58 # Log started
+Ok: regedit # 2021-11-08 09:24:59 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:00 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:01 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:02 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:03 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:04 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:05 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:06 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:07 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:08 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:09 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:10 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:11 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:12 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:13 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:14 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:15 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:16 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:17 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:18 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:19 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:20 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:21 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:22 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:23 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:24 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:25 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:26 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:27 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: regedit # 2021-11-08 09:25:28 # (ConnectionMgr.cpp :78 :CreateConnection) "Connection error: Connection refused .. retrying connection"
+Ok: a_console # 2021-11-08 09:25:30 # UpdateZone: SetTimeZone zone America/New_York set
+Notice: a_console # 2021-11-08 09:25:30 # User Reboot
+Notice: a_console # 2021-11-08 09:25:30 # System startup CP4 Cntrl Eng [v2.5001.00006 (Mar 16 2021), #8F8219ED] @E-00107ff043bf
+Ok: ctpd # 2021-11-08 09:25:30 # [Puf] Checking [golden=false] [fwUpgrade=false]
+Ok: ctpd # 2021-11-08 09:25:30 # [Puf] Checking [golden=false] [fwUpgrade=false]
+Ok: CEUDaemon # 2021-11-08 09:25:30 # ConfigureAdapterState: Error 'No such file or directory' opening file /data/adapterstate
+Ok: platformd # 2021-11-08 09:25:30 #  TLDMInterfaceReadInMessageQueueSize - Queue size read. Size = 500 
+Ok: CEUDaemon # 2021-11-08 09:25:30 # CresStore: setting log level to 1
+Ok: platformd # 2021-11-08 09:25:31 # Init  gUIHALInterface
+Ok: platformd # 2021-11-08 09:25:31 # CUIHalInterface::ConfigureDriver
+Ok: platformd # 2021-11-08 09:25:31 # Created Key object
+Ok: platformd # 2021-11-08 09:25:31 # CUIHalHKY::Initialize()
+Ok: platformd # 2021-11-08 09:25:31 # Created Datastore object
+Ok: platformd # 2021-11-08 09:25:31 # Created GP LED object
+Ok: platformd # 2021-11-08 09:25:31 # Created (null) object
+Ok: platformd # 2021-11-08 09:25:31 # CUIHalHKY::Initialize()
+Ok: platformd # 2021-11-08 09:25:31 # Created (null) object
+Ok: platformd # 2021-11-08 09:25:31 # CUIHalHKY::Initialize()
+Ok: platformd # 2021-11-08 09:25:31 # Registering for total event == 0
+Ok: platformd # 2021-11-08 09:25:31 # Completed Registering for events
+Ok: platformd # 2021-11-08 09:25:31 # ConfigureRcvThread creating OS thread
+Ok: platformd # 2021-11-08 09:25:31 # ConfigureRcvThread finished creating OS thread
+Ok: platformd # 2021-11-08 09:25:31 # CresStore: setting log level to 1
+Ok: AppWatchdog # 2021-11-08 09:25:31 # Setting Adapter0: AdapterName:eth0 AdapterEnumType:2
+Ok: AppWatchdog # 2021-11-08 09:25:32 # process TLDM launched with process Id 3570
+Ok: TLDM # 2021-11-08 09:25:32 #  TLDM Starting.. 
+ 
+Ok: TLDM # 2021-11-08 09:25:32 # CresStore: setting log level to 1
+Ok: TLDM # 2021-11-08 09:25:32 # CTHALUSBHIDSlotDeviceDriver: UsbhidSlotNumber: 10, NumOfPorts: 1
+Ok: CIPCommandProcessor # 2021-11-08 09:25:34 # ReadInCIPPort: CIPPort=41794 Secure CIP=41796
+Ok: CIPCommandProcessor # 2021-11-08 09:25:34 #  SSL state read is True 
+
+Ok: CIPCommandProcessor # 2021-11-08 09:25:34 #  Product Name is CP4 
+
+Ok: CIPCommandProcessor # 2021-11-08 09:25:35 # CresStore: setting log level to 16
+Ok: CIPCommandProcessor # 2021-11-08 09:25:36 #  Launching TCP server now 
+Ok: CIPCommandProcessor # 2021-11-08 09:25:36 # GetSSLState(): SSL_STATE is Self 
+
+Notice: CIPCommandProcessor # 2021-11-08 09:25:36 # Secure WebSocket server Sucessfully Created at port 49200
+Ok: CIPCommandProcessor # 2021-11-08 09:25:36 #  TLDMInterfaceReadInMessageQueueSize - Queue size read. Size = 500 
+Ok: CIPCommandProcessor # 2021-11-08 09:25:36 # ESA: Successfully registered the application with the TLDM 
+
+Ok: AppWatchdog # 2021-11-08 09:25:36 # process CrestronTimerEventEngine launched with process Id 3789
+Ok: CIPCommandProcessor # 2021-11-08 09:25:36 # Link status notification - LINK UP 
+Notice: CIPCommandProcessor # 2021-11-08 09:25:36 # Link established on LAN A
+Ok: CrestronTimerEventEngine # 2021-11-08 09:25:36 # CrestronTimerEventEngine: Application initialized 
+Notice: CIPCommandProcessor # 2021-11-08 09:25:36 # New Address 10.140.12.22 obtained from 
+Ok: AppWatchdog # 2021-11-08 09:25:38 # process CPHProcessor launched with process Id 3866
+Ok: CPHProcessor # 2021-11-08 09:25:38 # [/home/builduser/Linux_am335x/src/cph/.//common/Handler/CresStore/CresstoreService.cpp:182] created the Cresstore handler thread successfully
+ 
+Notice: CPHProcessor # 2021-11-08 09:25:38 # [/home/builduser/Linux_am335x/src/cph/.//productfamily/base/CPHDeviceBase.cpp:1507]  Successfully Received CPH Ready Semaphore Event 
+ 
+Ok: CPHProcessor # 2021-11-08 09:25:38 # [/home/builduser/Linux_am335x/src/cph/.//plugins/wstunnel/WSTunnelPlugin.cpp:340] created the Websocket Server connection & ready to wait for accept connection in sockfd = 73 
+Ok: AppWatchdog # 2021-11-08 09:25:38 # process HydrogenManager launched with process Id 3953
+Ok: CPHProcessor # 2021-11-08 09:25:39 # [/home/builduser/Linux_am335x/src/cph/.//common/Handler/CresStore/CresstoreService.cpp:378] created the Cresstore Event Thread successfully
+ 
+Ok: CIPCommandProcessor # 2021-11-08 09:25:39 # Link status notification - LINK UP! 
+Notice: CIPCommandProcessor # 2021-11-08 09:25:39 # Link established on LAN A
+Notice: CIPCommandProcessor # 2021-11-08 09:25:39 # New Address 10.140.12.22 obtained from 
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:39 # !!!!FlashPolicyServerAppMain!!! 1.0.0.3.
+
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:40 # CresStore: setting log level to 16
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:40 # Config File Not Found, Using defaults...
+
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:40 # PolicyServerResponse: domain *, port 41794...
+
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:40 # FlashPolicyServer started!!!
+
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:40 # Flash Policy Server - Starting Server: 843.
+
+Ok: FlashPolicyServerApp # 2021-11-08 09:25:40 # Flash Policy Server - Server Started.
+
+Ok: AutoUpdateInterface # 2021-11-08 09:25:40 # AutoUpdate Interface Starting
+Ok: AutoUpdateInterface # 2021-11-08 09:25:42 # CresStore: setting log level to 16
+Ok: AppWatchdog # 2021-11-08 09:25:43 # process csprojectmanager launched with process Id 4089
+Ok: AutoUpdateInterface # 2021-11-08 09:25:43 # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+Ok: csprojectmanager # 2021-11-08 09:25:43 # CresStore: setting log level to 1
+Notice: TLDM # 2021-11-08 09:25:43 #  Got a Core apps started event.. 
+Ok: LogicEngine_1 # 2021-11-08 09:25:44 #  TLDMInterfaceReadInMessageQueueSize - Queue size read. Size = 500 
+Ok: webSocketToken # 2021-11-08 09:25:44 # Appid: 0, CWS server started ..
+Ok: webSocketToken # 2021-11-08 09:25:44 #  CWS server created for getWebSocketToken
+Ok: AppWatchdog # 2021-11-08 09:25:45 # process LogicEngine launched with process Id 4107
+Ok: LogicEngine_1 # 2021-11-08 09:25:45 # CeGetThreadPriority is an empty function.  This is the 1 call
+Ok: LogicEngine_1 # 2021-11-08 09:25:45 # Loading program from /simpl/app01
+Ok: LogicEngine_1 # 2021-11-08 09:25:45 # Loading Program /simpl/app01/Pequot Museum Village v2c.bin.
+Ok: LogicEngine_1 # 2021-11-08 09:25:47 # GetNewHandle: For information only, number of handles exceeds 1000 in process 4107
+Ok: LogicEngine_1 # 2021-11-08 09:25:47 # CresStore: setting log level to 1
+Ok: CIPCommandProcessor # 2021-11-08 09:25:48 #  Reading in IPTable now for App 1
+Ok: CIPCommandProcessor # 2021-11-08 09:25:50 # Link status notification - LINK UP! 
+Notice: CIPCommandProcessor # 2021-11-08 09:25:50 # Link established on LAN A
+Notice: CIPCommandProcessor # 2021-11-08 09:25:50 # New Address 10.140.12.22 obtained from 
+Notice: ctpd # 2021-11-08 09:25:52 # SHELL Connection 1 from: USB
+Ok: SimplPlus[App01] # 2021-11-08 09:25:53 # GetNewHandle: For information only, number of handles exceeds 1000 in process 4133
+Notice: LogicEngine_1 # 2021-11-08 09:25:56 # **Program 1 Started**
+Ok: LogicEngine_1 # 2021-11-08 09:25:56 #  Going to steady state now 
+Notice: TLDM # 2021-11-08 09:25:57 #  Event rcvd is 8 
+Ok: CreateCertChain # 2021-11-08 09:26:22 # /usr/bin/CreateCertChain: Removing empty chain file.
+Notice: SimplPlus[App01] # 2021-11-08 09:26:42 # CLC Scheduler loaded config file '\user/1/CLC_Scheduler/Schedule.json'
+Notice: SimplPlus[App01] # 2021-11-08 09:26:42 # Scheduled Event 'Start up' for '11/9/2021 7:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-08 09:26:42 # Scheduled Event 'Exhibts Open' for '11/9/2021 8:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-08 09:26:42 # Scheduled Event 'Time to Go' for '11/8/2021 16:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-08 09:26:42 # Scheduled Event 'Closed' for '11/8/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-08 09:26:42 # Scheduled Event 'All Off' for '11/8/2021 17:30' with state Enabled
+Ok: CIPCommandProcessor # 2021-11-08 09:37:41 #  First device connect ... 
+Ok: CIPCommandProcessor # 2021-11-08 09:37:41 #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Ok: CIPCommandProcessor # 2021-11-08 09:42:05 # Link status notification - LINK UP! 
+Notice: CIPCommandProcessor # 2021-11-08 09:42:05 # Link established on LAN A
+Notice: CIPCommandProcessor # 2021-11-08 09:42:05 # New Address 10.140.12.22 obtained from 
+Warning: ctpd # 2021-11-08 09:44:47 # SHELL connection 1 being closed from USB.
+Ok: CIPCommandProcessor # 2021-11-08 09:54:34 #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Notice: SimplPlus[App01] # 2021-11-08 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-08 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-09 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-09 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-09 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-09 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-09 09:25:00 # SD Card Write COUNTER: 19510370
+Notice: SimplPlus[App01] # 2021-11-10 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-10 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-10 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-10 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-10 09:25:03 # SD Card Write COUNTER: 19511168
+Notice: SimplPlus[App01] # 2021-11-10 17:19:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-11 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-11 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-11 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-11 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-11 09:25:05 # SD Card Write COUNTER: 19511756
+Notice: SimplPlus[App01] # 2021-11-12 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-12 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-12 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-12 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-12 09:25:08 # SD Card Write COUNTER: 19512130
+Notice: SimplPlus[App01] # 2021-11-12 17:17:26 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-12 17:17:38 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-13 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-13 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-13 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-13 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-13 09:25:11 # SD Card Write COUNTER: 19512748
+Notice: SimplPlus[App01] # 2021-11-13 17:21:52 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-13 17:27:52 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-14 09:25:13 # SD Card Write COUNTER: 19513314
+Notice: crestErrorLogServer # 2021-11-15 09:25:16 # SD Card Write COUNTER: 19513832
+Notice: SimplPlus[App01] # 2021-11-16 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-16 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-16 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-16 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-16 09:25:18 # SD Card Write COUNTER: 19514390
+Notice: SimplPlus[App01] # 2021-11-16 17:17:06 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-17 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-17 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-17 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-17 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-17 09:25:21 # SD Card Write COUNTER: 19515188
+Notice: SimplPlus[App01] # 2021-11-17 17:16:39 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-17 17:17:11 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-17 17:17:20 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-18 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-18 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-18 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-18 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-18 09:25:24 # SD Card Write COUNTER: 19515790
+Notice: SimplPlus[App01] # 2021-11-18 17:16:44 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-18 17:16:48 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-18 17:16:53 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-19 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-19 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-19 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-19 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-19 09:25:26 # SD Card Write COUNTER: 19516204
+Ok: SimplPlus[App01] # 2021-11-19 16:51:15 # Delete event error, ClcScheduler1 Time to Go not found in callback list. 
+Notice: SimplPlus[App01] # 2021-11-19 16:51:15 # Scheduled Event 'Time to Go' for '11/20/2021 16:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-19 16:51:17 # Executing scheduled event 'Time to Go'
+Ok: SimplPlus[App01] # 2021-11-19 17:13:56 # Delete event error, ClcScheduler1 Closed not found in callback list. 
+Notice: SimplPlus[App01] # 2021-11-19 17:13:56 # Scheduled Event 'Closed' for '11/19/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-19 17:14:09 # Scheduled Event 'Closed' for '11/19/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-19 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-19 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-20 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-20 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-20 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-20 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-20 09:25:28 # SD Card Write COUNTER: 19517230
+Notice: SimplPlus[App01] # 2021-11-20 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-20 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-20 16:46:13 # Scheduled Event 'Closed' for '11/20/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-20 16:46:17 # Scheduled Event 'Closed' for '11/20/2021 17:15' with state Enabled
+Ok: SimplPlus[App01] # 2021-11-20 16:46:22 # Delete event error, ClcScheduler1 All Off not found in callback list. 
+Notice: SimplPlus[App01] # 2021-11-20 16:46:22 # Scheduled Event 'All Off' for '11/20/2021 17:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-20 16:46:26 # Scheduled Event 'All Off' for '11/20/2021 17:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-20 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-20 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-20 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-20 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-21 09:25:32 # SD Card Write COUNTER: 19518074
+Notice: SimplPlus[App01] # 2021-11-21 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-21 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-22 09:25:34 # SD Card Write COUNTER: 19518612
+Notice: SimplPlus[App01] # 2021-11-22 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-22 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-23 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-23 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-23 07:56:36 # Scheduled Event 'Start up' for '11/24/2021 7:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-23 07:56:38 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-23 07:56:53 # Scheduled Event 'Exhibts Open' for '11/23/2021 8:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-23 07:56:59 # Scheduled Event 'Time to Go' for '11/23/2021 16:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-23 07:57:10 # Scheduled Event 'Closed' for '11/23/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-23 07:57:17 # Scheduled Event 'All Off' for '11/23/2021 17:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-11-23 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-23 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-23 09:25:37 # SD Card Write COUNTER: 19519730
+Notice: SimplPlus[App01] # 2021-11-23 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-23 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-23 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-23 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-23 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-23 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-24 09:25:39 # SD Card Write COUNTER: 19520324
+Notice: SimplPlus[App01] # 2021-11-24 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-24 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-25 09:25:41 # SD Card Write COUNTER: 19520856
+Notice: SimplPlus[App01] # 2021-11-25 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-25 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-26 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-26 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-26 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-26 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-26 09:25:45 # SD Card Write COUNTER: 19521450
+Notice: SimplPlus[App01] # 2021-11-26 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-26 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-26 16:57:41 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-26 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-26 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-26 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-26 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-27 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-27 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-27 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-27 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-27 09:25:47 # SD Card Write COUNTER: 19522130
+Notice: SimplPlus[App01] # 2021-11-27 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-27 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-27 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-27 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-27 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-27 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-28 09:25:49 # SD Card Write COUNTER: 19522720
+Notice: SimplPlus[App01] # 2021-11-28 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-28 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-11-29 09:25:52 # SD Card Write COUNTER: 19523258
+Notice: SimplPlus[App01] # 2021-11-29 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-29 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-11-30 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-30 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-11-30 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-30 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-11-30 09:25:54 # SD Card Write COUNTER: 19524078
+Notice: SimplPlus[App01] # 2021-11-30 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-30 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-11-30 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-30 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-11-30 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-11-30 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-01 07:46:49 # Scheduled Event 'Start up' for '12/2/2021 7:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-01 07:46:56 # Scheduled Event 'Exhibts Open' for '12/1/2021 8:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-01 07:47:06 # Scheduled Event 'Time to Go' for '12/1/2021 16:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-01 07:47:13 # Scheduled Event 'Closed' for '12/1/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-01 07:47:22 # Scheduled Event 'All Off' for '12/1/2021 17:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-01 07:47:27 # Scheduled Event 'All Off' for '12/1/2021 17:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-01 07:47:30 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-01 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-01 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-01 09:25:57 # SD Card Write COUNTER: 19525080
+Notice: SimplPlus[App01] # 2021-12-01 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-01 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-01 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-01 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-01 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-01 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-02 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-02 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-02 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-02 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-02 09:26:00 # SD Card Write COUNTER: 19525730
+Notice: SimplPlus[App01] # 2021-12-02 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-02 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-02 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-02 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-02 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-02 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-03 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-03 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-03 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-03 08:30:00 # Executing scheduled event 'Exhibts Open'
+Error: TLDM # 2021-12-03 08:30:13 #  CTHALCresnetDriverInterfaceCP4: Timed out while waiting for cresnet driver to indicate operation done 
+Error: TLDM # 2021-12-03 08:30:26 #  CTHALCresnetDriverInterfaceCP4: Timed out while waiting for cresnet driver to indicate operation done 
+Notice: crestErrorLogServer # 2021-12-03 09:26:02 # SD Card Write COUNTER: 19526402
+Notice: SimplPlus[App01] # 2021-12-03 16:47:55 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-03 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-03 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-03 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-03 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-04 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-04 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-04 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-04 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-04 09:26:05 # SD Card Write COUNTER: 19527256
+Notice: SimplPlus[App01] # 2021-12-04 16:47:53 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-04 16:47:56 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-04 16:47:58 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-04 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-04 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-04 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-04 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-05 09:26:08 # SD Card Write COUNTER: 19527638
+Notice: SimplPlus[App01] # 2021-12-05 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-05 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-06 09:26:10 # SD Card Write COUNTER: 19528184
+Notice: SimplPlus[App01] # 2021-12-06 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-06 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-07 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-07 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-07 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-07 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-07 09:26:13 # SD Card Write COUNTER: 19528786
+Notice: SimplPlus[App01] # 2021-12-07 17:13:07 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-07 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-07 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-07 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-07 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-08 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-08 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-08 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-08 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-08 09:26:15 # SD Card Write COUNTER: 19529432
+Notice: SimplPlus[App01] # 2021-12-08 16:48:27 # Scheduled Event 'Start up' for '12/9/2021 7:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-08 16:48:34 # Scheduled Event 'Exhibts Open' for '12/9/2021 8:30' with state Enabled
+Ok: SimplPlus[App01] # 2021-12-08 16:48:41 # Delete event error, ClcScheduler1 Time to Go not found in callback list. 
+Notice: SimplPlus[App01] # 2021-12-08 16:48:41 # Scheduled Event 'Time to Go' for '12/9/2021 16:45' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-08 16:49:08 # Scheduled Event 'Closed' for '12/8/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-08 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-08 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-08 17:16:10 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-08 17:16:11 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-08 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-08 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-09 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-09 07:45:00 # Executing scheduled event 'Start up'
+Notice: crestErrorLogServer # 2021-12-09 09:26:18 # SD Card Write COUNTER: 19530558
+Notice: SimplPlus[App01] # 2021-12-09 15:08:44 # Scheduled Event 'Closed' for '12/9/2021 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-09 15:09:08 # Scheduled Event 'All Off' for '12/9/2021 17:16' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-09 15:09:22 # Scheduled Event 'All Off' for '12/9/2021 17:30' with state Enabled
+Notice: SimplPlus[App01] # 2021-12-09 15:09:59 # Scheduled Event 'Closed' for '12/9/2021 17:15' with state Enabled
+Error: SimplPlus[App01] # 2021-12-09 15:10:08 # Module S-3.4.13.1 : SimplSharp_SchedulerEditor at line 463: Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+  at UserModule_SIMPLSHARP_SCHEDULEREDITOR.UserModuleClass_SIMPLSHARP_SCHEDULEREDITOR.SEL
+Error: SimplPlus[App01] # 2021-12-09 15:10:08 # ECTEDSPACE_RECALLSCENE_OnChange_37 (System.Object __EventInfo__) [0x00030] in <dc4e4a1a97a84322aab807421f511ade>:0 
+Notice: SimplPlus[App01] # 2021-12-09 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-09 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-10 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-10 07:45:00 # Executing scheduled event 'Start up'
+Notice: crestErrorLogServer # 2021-12-10 09:26:21 # SD Card Write COUNTER: 19531516
+Notice: SimplPlus[App01] # 2021-12-10 15:02:31 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-10 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-10 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-11 09:26:23 # SD Card Write COUNTER: 19532078
+Notice: SimplPlus[App01] # 2021-12-11 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-11 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-12 09:26:25 # SD Card Write COUNTER: 19532626
+Notice: SimplPlus[App01] # 2021-12-12 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-12 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-13 09:26:28 # SD Card Write COUNTER: 19533164
+Notice: SimplPlus[App01] # 2021-12-13 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-13 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-14 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-14 07:45:00 # Executing scheduled event 'Start up'
+Notice: crestErrorLogServer # 2021-12-14 09:26:31 # SD Card Write COUNTER: 19533732
+Notice: SimplPlus[App01] # 2021-12-14 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-14 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-15 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-15 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-15 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-15 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-15 09:26:34 # SD Card Write COUNTER: 19534358
+Notice: SimplPlus[App01] # 2021-12-15 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-15 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-15 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-15 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-15 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-15 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-16 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-16 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-16 08:31:28 # Scheduled Event 'Start up' for '12/17/2021 7:45' with state Enabled
+Notice: crestErrorLogServer # 2021-12-16 09:26:36 # SD Card Write COUNTER: 19535194
+Ok: CIPCommandProcessor # 2021-12-16 14:23:36 #  ReceiveDataFromSocket: Receive failed with error code 10065 Device Id 4
+Ok: CIPCommandProcessor # 2021-12-16 14:26:33 #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Error: TLDM # 2021-12-16 14:50:19 #  CTHALCresnetDriverInterfaceCP4: Timed out while waiting for cresnet driver to indicate operation done 
+Error: TLDM # 2021-12-16 14:50:32 #  CTHALCresnetDriverInterfaceCP4: Timed out while waiting for cresnet driver to indicate operation done 
+Ok: CIPCommandProcessor # 2021-12-16 16:18:48 #  ReceiveDataFromSocket: Receive failed with error code 10060 Device Id 4
+Ok: CIPCommandProcessor # 2021-12-16 16:23:17 #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Notice: SimplPlus[App01] # 2021-12-16 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-16 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-17 09:26:38 # SD Card Write COUNTER: 19538222
+Notice: SimplPlus[App01] # 2021-12-17 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-17 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-18 09:26:41 # SD Card Write COUNTER: 19538782
+Notice: SimplPlus[App01] # 2021-12-18 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-18 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-19 09:26:44 # SD Card Write COUNTER: 19539328
+Notice: SimplPlus[App01] # 2021-12-19 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-19 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-20 09:26:46 # SD Card Write COUNTER: 19540082
+Notice: SimplPlus[App01] # 2021-12-20 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-20 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-21 07:57:22 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-21 07:57:48 # Executing scheduled event 'Start up'
+Notice: crestErrorLogServer # 2021-12-21 09:26:49 # SD Card Write COUNTER: 19540456
+Notice: SimplPlus[App01] # 2021-12-21 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-21 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-22 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-22 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-22 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-22 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-22 09:26:51 # SD Card Write COUNTER: 19541100
+Notice: SimplPlus[App01] # 2021-12-22 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-22 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-22 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-22 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-22 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-22 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-23 09:26:55 # SD Card Write COUNTER: 19541698
+Notice: SimplPlus[App01] # 2021-12-23 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-23 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-24 09:26:57 # SD Card Write COUNTER: 19542276
+Notice: SimplPlus[App01] # 2021-12-24 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-24 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-25 09:26:59 # SD Card Write COUNTER: 19542810
+Notice: SimplPlus[App01] # 2021-12-25 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-25 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-26 09:27:02 # SD Card Write COUNTER: 19543348
+Notice: SimplPlus[App01] # 2021-12-26 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-26 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-27 09:27:04 # SD Card Write COUNTER: 19543890
+Notice: SimplPlus[App01] # 2021-12-27 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-27 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-28 09:27:06 # SD Card Write COUNTER: 19544460
+Notice: SimplPlus[App01] # 2021-12-28 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-28 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2021-12-29 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-29 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2021-12-29 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-29 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2021-12-29 09:27:10 # SD Card Write COUNTER: 19545246
+Notice: SimplPlus[App01] # 2021-12-29 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-29 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2021-12-29 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-29 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2021-12-29 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-29 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-30 09:27:12 # SD Card Write COUNTER: 19546192
+Notice: SimplPlus[App01] # 2021-12-30 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-30 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2021-12-31 09:27:14 # SD Card Write COUNTER: 19546780
+Notice: SimplPlus[App01] # 2021-12-31 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2021-12-31 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-01 09:27:17 # SD Card Write COUNTER: 19547324
+Notice: SimplPlus[App01] # 2022-01-01 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-01 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-02 09:27:20 # SD Card Write COUNTER: 19548066
+Notice: SimplPlus[App01] # 2022-01-02 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-02 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-03 09:27:23 # SD Card Write COUNTER: 19548676
+Notice: SimplPlus[App01] # 2022-01-03 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-03 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-04 09:27:25 # SD Card Write COUNTER: 19549036
+Notice: SimplPlus[App01] # 2022-01-04 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-04 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2022-01-05 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-05 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2022-01-05 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-05 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2022-01-05 09:27:27 # SD Card Write COUNTER: 19549874
+Notice: SimplPlus[App01] # 2022-01-05 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-05 16:45:00 # Executing scheduled event 'Time to Go'
+Notice: SimplPlus[App01] # 2022-01-05 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-05 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2022-01-05 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-05 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-06 09:27:30 # SD Card Write COUNTER: 19550458
+Notice: SimplPlus[App01] # 2022-01-06 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-06 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-07 09:27:33 # SD Card Write COUNTER: 19550790
+Notice: SimplPlus[App01] # 2022-01-07 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-07 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-08 09:27:35 # SD Card Write COUNTER: 19551544
+Notice: SimplPlus[App01] # 2022-01-08 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-08 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-09 09:27:38 # SD Card Write COUNTER: 19552082
+Notice: SimplPlus[App01] # 2022-01-09 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-09 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-10 09:27:40 # SD Card Write COUNTER: 19552638
+Notice: SimplPlus[App01] # 2022-01-10 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-10 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-11 09:27:42 # SD Card Write COUNTER: 19553182
+Notice: SimplPlus[App01] # 2022-01-11 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-11 17:30:00 # Executing scheduled event 'All Off'
+Notice: SimplPlus[App01] # 2022-01-12 07:45:00 # Scheduled event 'Start up' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-12 07:45:00 # Executing scheduled event 'Start up'
+Notice: SimplPlus[App01] # 2022-01-12 08:30:00 # Scheduled event 'Exhibts Open' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-12 08:30:00 # Executing scheduled event 'Exhibts Open'
+Notice: crestErrorLogServer # 2022-01-12 09:27:46 # SD Card Write COUNTER: 19553772
+Notice: SimplPlus[App01] # 2022-01-12 16:45:00 # Scheduled event 'Time to Go' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-12 16:45:00 # Executing scheduled event 'Time to Go'
+Error: TLDM # 2022-01-12 16:45:13 #  CTHALCresnetDriverInterfaceCP4: Timed out while waiting for cresnet driver to indicate operation done 
+Error: TLDM # 2022-01-12 16:45:26 #  CTHALCresnetDriverInterfaceCP4: Timed out while waiting for cresnet driver to indicate operation done 
+Notice: SimplPlus[App01] # 2022-01-12 17:15:00 # Scheduled event 'Closed' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-12 17:15:00 # Executing scheduled event 'Closed'
+Notice: SimplPlus[App01] # 2022-01-12 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-12 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-13 09:27:48 # SD Card Write COUNTER: 19554150
+Notice: SimplPlus[App01] # 2022-01-13 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-13 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-14 09:27:51 # SD Card Write COUNTER: 19554754
+Notice: SimplPlus[App01] # 2022-01-14 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-14 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-15 09:27:53 # SD Card Write COUNTER: 19555304
+Notice: SimplPlus[App01] # 2022-01-15 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-15 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-16 09:27:55 # SD Card Write COUNTER: 19555842
+Notice: SimplPlus[App01] # 2022-01-16 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-16 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-17 09:27:59 # SD Card Write COUNTER: 19556378
+Notice: SimplPlus[App01] # 2022-01-17 17:30:00 # Scheduled event 'All Off' triggered by 'NormalExpiration'
+Notice: SimplPlus[App01] # 2022-01-17 17:30:00 # Executing scheduled event 'All Off'
+Notice: crestErrorLogServer # 2022-01-18 09:28:01 # SD Card Write COUNTER: 19556914
+Notice: ctpd # 2022-01-18 16:19:32 # SHELL Connection 1 from: 192.168.250.10
+Ok: TLDM # 2022-01-18 16:22:59 #  RegisterAllOrSpecifiedProgram: Application at Id 1 stop status sent to XIO Cloud ..
+Ok: SimplPlus[App01] # 2022-01-18 16:23:00 # WaitForSingleObject handle: 277 failed! Timeout = -1
+Ok: CIPCommandProcessor # 2022-01-18 16:23:01 # WaitForSingleObject handle: 360 failed! Timeout = -1
+Notice: TLDM # 2022-01-18 16:23:03 # **Program 1 Stopped**
+Ok: LogicEngine_1 # 2022-01-18 16:23:03 # Logic Engine exiting.
+Ok: TLDM # 2022-01-18 16:23:11 # FindFirstFile: /sdcard/SIMPL/programbackup/ Unable to scan Directory
+Ok: TLDM # 2022-01-18 16:23:22 #  RegisterAllOrSpecifiedProgram: Application at Id 1 unregistration status sent to XIO Cloud ..
+Ok: TLDM # 2022-01-18 16:23:23 #  RegisterAllOrSpecifiedProgram: Application at Id 1 registration status sent to XIO Cloud ..
+Ok: LogicEngine_1 # 2022-01-18 16:23:23 #  TLDMInterfaceReadInMessageQueueSize - Queue size read. Size = 500 
+Ok: AppWatchdog # 2022-01-18 16:23:24 # process LogicEngine launched with process Id 30328
+Ok: TLDM # 2022-01-18 16:23:24 #  RegisterAllOrSpecifiedProgram: Application at Id 1 start status sent to XIO Cloud ..
+Ok: LogicEngine_1 # 2022-01-18 16:23:24 # CeGetThreadPriority is an empty function.  This is the 1 call
+Ok: LogicEngine_1 # 2022-01-18 16:23:24 # Loading program from /simpl/app01
+Ok: LogicEngine_1 # 2022-01-18 16:23:24 # Loading Program /simpl/app01/Pequot Museum Village v3.bin.
+Ok: TLDM # 2022-01-18 16:23:25 # Save uploaded program name for program 1 in registry.
+Ok: LogicEngine_1 # 2022-01-18 16:23:27 # GetNewHandle: For information only, number of handles exceeds 1000 in process 30328
+Ok: LogicEngine_1 # 2022-01-18 16:23:27 # CresStore: setting log level to 1
+Ok: CIPCommandProcessor # 2022-01-18 16:23:28 #  Reading in IPTable now for App 1
+Ok: SimplPlus[App01] # 2022-01-18 16:23:33 # GetNewHandle: For information only, number of handles exceeds 1000 in process 30352
+Notice: LogicEngine_1 # 2022-01-18 16:23:35 # **Program 1 Started**
+Ok: CIPCommandProcessor # 2022-01-18 16:23:35 #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Ok: CIPCommandProcessor # 2022-01-18 16:23:35 #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":0} 
+
+Ok: LogicEngine_1 # 2022-01-18 16:23:35 #  Going to steady state now 
+Notice: TLDM # 2022-01-18 16:23:36 #  Event rcvd is 8 
+Warning: ctpd # 2022-01-18 16:23:59 # SHELL connection 1 being closed from address 192.168.250.10.
+Notice: SimplPlus[App01] # 2022-01-18 16:24:22 # CLC Scheduler loaded config file '\user/1/CLC_Scheduler/Schedule.json'
+Notice: SimplPlus[App01] # 2022-01-18 16:24:22 # Scheduled Event 'Start up' for '1/19/2022 7:45' with state Enabled
+Notice: SimplPlus[App01] # 2022-01-18 16:24:22 # Scheduled Event 'Exhibts Open' for '1/19/2022 8:30' with state Enabled
+Notice: SimplPlus[App01] # 2022-01-18 16:24:22 # Scheduled Event 'Time to Go' for '1/18/2022 16:45' with state Enabled
+Notice: SimplPlus[App01] # 2022-01-18 16:24:22 # Scheduled Event 'Closed' for '1/18/2022 17:15' with state Enabled
+Notice: SimplPlus[App01] # 2022-01-18 16:24:22 # Scheduled Event 'All Off' for '1/18/2022 17:30' with state Enabled
+Notice: ctpd # 2022-01-18 16:45:48 # SHELL Connection 1 from: 192.168.250.10
+Ok: TLDM # 2022-01-18 16:45:57 # FindFirstFile: /sdcard/SIMPL/programbackup/ Unable to scan Directory
+Ok: TLDM # 2022-01-18 16:45:57 #  RegisterAllOrSpecifiedProgram: Application at Id 2 unregistration status sent to XIO Cloud ..
+Ok: TLDM # 2022-01-18 16:45:58 #  RegisterAllOrSpecifiedProgram: Application at Id 2 registration status sent to XIO Cloud ..
+Ok: CustomAppManager_2 # 2022-01-18 16:45:58 #  TLDMInterfaceReadInMessageQueueSize - Queue size read. Size = 500 
+Ok: TLDM # 2022-01-18 16:45:59 #  RegisterAllOrSpecifiedProgram: Application at Id 2 start status sent to XIO Cloud ..
+Ok: TLDM # 2022-01-18 16:45:59 # Save uploaded program name for program 2 in registry.
+Ok: CustomAppManager_2 # 2022-01-18 16:46:00 #  App2 Main 
+
+Ok: SimplSharpPro[App02] # 2022-01-18 16:46:01 # SimplSharpPro Version: 2.14.182
+Ok: SimplSharpPro[App02] # 2022-01-18 16:46:01 #  TLDMInterfaceReadInMessageQueueSize - Queue size read. Size = 500 
+Ok: SimplSharpPro[App02] # 2022-01-18 16:46:02 # CresStore: setting log level to 16
+Ok: SimplSharpPro[App02] # 2022-01-18 16:46:02 # Successfully registered the application with the TLDM 
+Ok: SimplSharpPro[App02] # 2022-01-18 16:46:03 #  Creating 150 User threads with initial priority 253 
+Error: SimplSharpPro[App02] # 2022-01-18 16:46:04 # Error in InitializeSystem: Object reference not set to an instance of an object.
+Notice: SimplSharpPro[App02] # 2022-01-18 16:46:04 # **Program 2 Started**
+Notice: TLDM # 2022-01-18 16:46:04 #  Event rcvd is 8 
+Warning: ctpd # 2022-01-18 16:46:46 # SHELL connection 1 being closed from address 192.168.250.10.
+Notice: ctpd # 2022-01-18 16:55:56 # SHELL Connection 1 from: 192.168.250.10
+Persistent log contents during current boot end
+
+
+CP4>

@@ -1,0 +1,1666 @@
+Crestron Information Tool v3.6.5.930 Results
+Started at 1/18/2022 4:56:25 PM Eastern Standard Time
+Using Built-In Command List: Commands_TSW-TST-TSS.txt
+
+Discovered Device Info:
+      ModelName : TSW-1060
+       Hostname : TSW-GATHERING
+      IpAddress : 10.140.5.23
+       Firmware : 3.001.0026
+      BuildDate : Wed Jun  2 19:13:38 EDT 2021
+           TSID : 8C624F96
+   SerialNumber : 1942JBH20374
+     MacAddress : 00107FD5B19A
+
+
+
+TSW-1060 Control Console
+
+TSW-1060>========== time ==========
+
+
+TSW-1060>time
+ Current Time/Date: 16:58:09 01-18-2022
+
+TSW-1060>========== timezone ==========
+timezone
+Greenwich Standard Time  (UTC+00:00)
+DST is not valid for this timezone.
+
+TSW-1060>========== info ==========
+info
+	Category:          TouchPanel
+	DisplayList:       YES
+	Web Server:        Enabled: Level 1
+	FTP Transfers:     Enabled: Level 1
+	Ethernet Ports:    1
+	Ethernet Active:   Yes
+	IP Table:          Yes
+	IP Masters:        16
+	Max IP Entries:    16
+	DHCP Support:      Yes
+	Password:          Yes
+	Front Panel Type:  TouchScreen
+	Front Panel Slot:  2
+	SSL support:       SUPPORTED: Level 1
+	RConsole support:  SUPPORTED: Level 3
+	System Monitor:    SUPPORTED: Level 4
+	TJI support:       Level 2
+	Core3UILevel:      3.00
+	Max Host Name:     63
+
+
+TSW-1060>========== hostname ==========
+hostname
+Host Name: TSW-GATHERING
+
+TSW-1060>========== showhw ==========
+showhw
+Current Hardware Configuration
+	Processor Type:	TSW-1060
+	Num YBus Slots:	0
+	Num ZBus Slots:	1
+		1: C2I-TSW-1060ENET-1 Ethernet
+		2: C2I-TSW-1060-DISPLAY
+		3: C2I-TSW-1060-SYSMON System Monitor Slot
+
+
+TSW-1060>========== cards ==========
+cards
+		1: C2I-TSW-1060ENET-1 Ethernet
+		2: C2I-TSW-1060-DISPLAY
+		3: C2I-TSW-1060-SYSMON System Monitor Slot
+
+
+TSW-1060>========== showlicense ==========
+showlicense
+ERROR: Bad or Incomplete Command
+TSW-1060>========== enablefeature ==========
+enablefeature
+TableStart:[Features]
+     FeatureName |    Current State  |  State After Reboot
+------------------------------------------------------------
+     CLOUDCLIENT |         Disabled  |  Disabled
+            SNMP |         Disabled  |  Disabled
+
+TSW-1060>========== osd ==========
+osd
+OSD ON
+
+
+TSW-1060>========== ver -v ==========
+ver -v
+TSW-1060 [v3.001.0026 (Wed Jun  2 19:13:38 EDT 2021), #8C624F96] @E-00107fd5b19a
+Build: Wed Jun  2 19:13:38 EDT 2021  (412238)
+Updater: 3.001.0026
+Bootloader: 1.00.12
+Product ID: 0x7EFE
+Revision ID: 0x0000
+CPU ID: 0x0000
+UUID: a4158cc2-6726-4e67-b75f-df1b55988493
+PUF: 3.001.0026.001
+OOTBVersion: 1.3.9
+Video Player: 5.0
+Sonos: 9.0.1
+CH5: 1.2.0.10
+Forced Auth Mode: False
+
+
+TSW-1060>========== auth ==========
+auth
+AUTHENTICATION: ON.
+
+TSW-1060>========== setcsauthentication ==========
+setcsauthentication
+Domain Name: Not Set
+User Name: Not Set
+Password: Not Set
+
+TSW-1060>========== ssl ==========
+ssl
+SSL: Off, CA
+Only TLS1.2 Supported
+
+TSW-1060>========== cloudstatus ==========
+cloudstatus
+Cloud Status:
+The current Url is: https://api.my.crestron.com/api/Registration
+The unit is not registered
+SubscriptionMask: 0
+Timer Interval (sec): 10
+
+
+TSW-1060>========== fitcstatus ==========
+fitcstatus
+FITC connection: Disabled
+
+
+TSW-1060>========== core3uilevel ==========
+core3uilevel
+Core3UILevel: 3.00
+
+
+TSW-1060>========== core3version ==========
+core3version
+Core 3 Version: 2.15.06.01
+
+
+TSW-1060>========== uptime ==========
+uptime
+The system has been running for 71 days 06:30:49.41
+The system last started on: Monday, November 08, 2021 at 10:27:21
+
+
+TSW-1060>========== projectinfo ==========
+projectinfo
+[BEGIN_INFO][TPS]VTZ=Gathering Space TSW-1060 v2.vtzDate=November 5, 2020 10:00:13Panel=TSW-1060Video=falseRGB=falsePNG=falseRackname=CORE3_TOUCHSCREENMinCore3UILevel=2.0ProjectPlatform=Smart GraphicsOrientation=LandscapeVTpro-e=6201Database=21440000[END_INFO]
+
+TSW-1060>========== ipconfig /all ==========
+ipconfig /all
+Ethernet Adapter [FEC1]:
+	Link Status ....... : OK
+	DHCP .............. : OFF
+	MAC Address ....... : 00.10.7f.d5.b1.9a
+	IP Address ........ : 10.140.5.23
+	Subnet Mask ....... : 255.255.255.0
+	IPV6 Address ...... : fe80::210:7fff:fed5:b19a/64
+	Default Gateway ... : 10.140.5.1
+
+	Adapter Name ...... : FEC1
+
+	Description ....... : FEC1
+
+	Adapter Index ..... : 2
+
+	Address ........... : 00 10 7f d5 b1 9a
+	Hostname ........... : TSW-GATHERING
+	Domain Name ....... : localdomain
+	DNS Servers ........ : 
+    | DHCP        |
+
+
+
+TSW-1060>========== wifidiag ==========
+wifidiag
+WIFIDIAGnostics command only available for WiFi devices
+
+TSW-1060>
+
+TSW-1060>========== batterydiag ==========
+batterydiag
+========== ethwdog ==========
+========== sysmsg ==========
+========== who ==========
+========== taskstat ==========
+========== netstat ==========
+========== listblocked ==========
+========== iptable ==========
+========== autodiscovery ==========
+========== cpuload ==========
+========== cpuload ==========
+========== cpuload ==========
+========== ramfree ==========
+========== temperature ==========
+========== 8021xau ==========
+========== mediastreaminfo ==========
+========== sipinfo ==========
+========== sipvideo ==========
+========== sipearlymedia ==========
+ethwdog
+ERROR: Bad or Incomplete Command
+TSW-1060>sy========== nvramreboot ==========
+smsg
+Current SYSMSG State: On
+
+
+TSW-1060>========== upgraderesults ==========
+who
+TableStart:[ Transport Connections ]
+Name                |Index |Current|Interface|User                |Uptime         |Address
+---------------------------------------------------------------------------------------------------------
+SHELL Connection    |     1|*      |LAN      |riordan             |       00:02:25|192.168.250.10:53237
+
+TableStart:[ Logic Connections ]
+AppID |Type          |ID  |Interface|Uptime          |Address
+---------------------------------------------------------------------
+0     |TCP Gateway Client|03  |LAN       |00:24:51        |10.140.5.22:41794
+
+
+TSW-1060>taskstat
+PID   USER     TIME   COMMAND
+    1 root       0:03 /init ${bootargs_console} earlyprintk
+    2 root       0:00 [kthreadd]
+    3 root       9:26 [ksoftirqd/0]
+    5 root       0:00 [kworker/0:0H]
+    7 root       0:25 [migration/0]
+    8 root     289:58 [rcu_preempt]
+    9 root       0:00 [rcu_bh]
+   10 root       0:09 [rcu_sched]
+   11 root       3:58 [watchdog/0]
+   12 root       0:02 [watchdog/1]
+   13 root       0:25 [migration/1]
+   14 root       0:08 [ksoftirqd/1]
+   16 root       0:03 [kworker/1:0H]
+   17 root       0:00 [watchdog/2]
+   18 root       0:00 [migration/2]
+   19 root       0:00 [ksoftirqd/2]
+   20 root       0:00 [kworker/2:0]
+   21 root       0:00 [kworker/2:0H]
+   22 root       0:00 [watchdog/3]
+   23 root       0:00 [migration/3]
+   24 root       0:00 [ksoftirqd/3]
+   25 root       0:00 [kworker/3:0]
+   26 root       0:00 [kworker/3:0H]
+   27 root       0:00 [khelper]
+   28 root       0:00 [kdevtmpfs]
+   29 root       0:00 [suspend]
+   31 root       1:06 [kworker/1:1]
+   32 root       0:00 [kworker/2:1]
+   33 root       0:00 [kworker/3:1]
+   34 root      62:23 [kthread_hdmi]
+   35 root       0:00 [writeback]
+   36 root       0:00 [bioset]
+   37 root       0:00 [kblockd]
+   38 root       0:00 [khubd]
+   39 root       0:00 [cfg80211]
+   40 root       0:00 [khungtaskd]
+   41 root       0:00 [kswapd0]
+   42 root       0:00 [fsnotify_mark]
+   43 root       0:00 [cifsiod]
+   44 root       0:00 [crypto]
+   67 root       0:00 [kpsmoused]
+   68 root       0:00 [dm_bufio_cache]
+   69 root       0:00 [cfinteractive]
+   70 root       0:00 [NULL_task_for_h]
+   71 root       5:07 [cpu_hotplug_gdb]
+   72 root       0:00 [cpu_idle_gdbs]
+   73 root       0:00 [binder]
+   74 root       0:00 [ge2d_monitor]
+   75 root       0:00 [bl_power_on_que]
+   76 root       0:00 [kpled_power_on_]
+   77 root     322:06 [kthread_di]
+   78 root       0:00 [dwc_otg]
+   79 root       0:00 [dwc_otg]
+   80 root       0:00 [encode_monitor]
+   81 root     479:42 [kthread_h265]
+   82 root       0:00 [2-0038]
+   86 root       0:06 [irq/60-sdio]
+   87 root       0:00 [irq/99-mmc_in]
+   88 root       0:00 [irq/101-mmc_out]
+   89 root       0:10 [mmcqd/0]
+   90 root       0:01 [irq/110-sdhc]
+   91 root       0:00 [rtc]
+   92 root       0:00 [mmcqd/0]
+   93 root       0:00 [mmcqd/0boot0]
+   94 root      56:18 [kthread_hdcp]
+   95 root       0:00 [mmcqd/0boot1]
+   96 root       0:00 [vmalloc_ion]
+  104 root       0:00 [krfcommd]
+  105 root       0:00 [deferwq]
+  106 root       0:00 [f_mtp]
+  107 root       0:00 [file-storage]
+  108 root       0:00 [goodix_wq]
+  109 root       0:00 [cec_work]
+  110 root       0:00 /sbin/ueventd
+  111 root       0:00 [kworker/u9:0]
+  113 root       0:00 [kworker/3:1H]
+  114 root       0:00 [jbd2/mmcblk1p8-]
+  115 root       0:00 [ext4-dio-unwrit]
+  116 root       0:00 [kworker/2:1H]
+  119 root       0:00 [ext4-dio-unwrit]
+  122 root       0:00 [ext4-dio-unwrit]
+  125 root       0:00 [ext4-dio-unwrit]
+  129 root       0:02 [jbd2/mmcblk0p8-]
+  130 root       0:00 [ext4-dio-unwrit]
+  131 logd     280:34 /system/bin/logd
+  132 root       0:00 /sbin/healthd
+  133 root       0:00 /system/bin/lmkd
+  134 system     0:00 /system/bin/servicemanager
+  135 root       0:00 /system/bin/vold
+  136 system   674:41 /system/bin/surfaceflinger
+  140 root       0:00 [kauditd]
+  147 root       0:00 /system/bin/sh
+  148 root       2:02 /system/bin/netd
+  149 root       0:00 /system/bin/debuggerd
+  150 drm        0:00 /system/bin/drmserver
+  151 media      0:01 /system/bin/mediaserver
+  152 install    0:00 /system/bin/installd
+  153 keystore   0:00 /system/bin/keystore /data/misc/keystore
+  155 root       0:00 /system/bin/systemcontrol
+  158 root       1:59 /system/bin/dig
+  163 root       0:03 {main} zygote
+  170 root       0:00 [kworker/1:1H]
+  201 root       0:00 [kworker/0:1H]
+  406 root       0:04 [aml_buf_toggle]
+  637 root       0:00 [jbd2/zram0-8]
+  638 root       0:00 [ext4-dio-unwrit]
+ 1372 system   1052:1 system_server
+ 1418 root       2:47 /system/bin/lldpd -d -u /dev/shm/crestron/lldpd.socket -L /system/bin/lldpcli.sh
+ 1419 root       0:00 [lldpcli]
+ 3468 root       0:19 [kworker/0:0]
+ 3485 root     402:54 /system/bin/redis-server --module-add /system/lib/json.so --save 300 10 --save 600 1 --dir /data/cresstore/ --bind 127.0.0.1
+ 3487 root       5:51 /system/bin/crestErrorLogServer
+ 3489 root       2:28 /system/bin/a_console
+ 3496 root       0:30 /system/bin/ctpd
+ 3662 root       0:30 /system/bin/AuditLogService
+ 3675 root       2:45 /system/bin/IpBlockerService
+ 4377 root       0:04 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLog -v time -n 1 -s *:W
+ 4380 root       0:06 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLogVerbose -v time -n 1 -s *:I
+ 4392 root       0:07 /system/bin/logcat -v time
+ 4513 root       1:25 /system/bin/FITCProxy
+ 4515 root      78:54 /system/bin/HydrogenManager
+ 4520 root       6:03 {recovercloudcli} /system/bin/bash /system/bin/recovercloudclient.sh
+ 4626 u0_a6     10:18 {d.process.media} android.process.media
+ 4662 u0_a12    98:35 {ndroid.systemui} com.android.systemui
+ 4743 media_rw   0:00 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -t 4 -d /mnt/media_rw/sdcard1 /storage/sdcard1
+ 4754 u0_a7     10:15 {externalstorage} com.android.externalstorage
+ 4883 u0_a27    10:22 {putmethod.latin} com.android.inputmethod.latin
+ 4901 u0_a37     9:23 {chtotextservice} com.crestron.speechtotextservice
+ 4920 u0_a8      9:20 {restron.service} com.crestron.service
+ 4938 system   705:26 {ron.txrxservice} com.crestron.txrxservice
+ 4957 u0_a3     10:18 {m.crestron.home} com.crestron.home
+ 4984 u0_a2     10:13 {d.process.acore} android.process.acore
+ 5033 u0_a15   436:24 .SplashWindow
+ 5187 u0_a15    10:18 {SplashAppServer} .SplashAppServer
+ 5667 root       0:27 [kworker/0:1]
+ 7992 root     5861:5 /system/bin/platformd
+ 7998 root       2:24 /system/bin/pet 20
+ 8012 root      10:39 /system/bin/CrestronDiscovery
+ 8170 root       0:00 /system/bin/sshd: riordan@ptmx
+ 8178 root       0:00 {sshShell.sh} /system/bin/bash /system/bin/sshShell.sh riordan
+ 8181 root       0:00 /system/bin/telnetSSHProxy SSH riordan
+ 8563 root       0:00 sleep 60
+ 8578 root       0:00 busybox ps l
+12230 u0_a26    10:20 {estron.platform} com.crestron.platform
+15849 root       0:11 [kworker/u8:0]
+18162 u0_a46   2052:2 {r.Core3Launcher} air.air.Core3Launcher
+18325 root       0:00 [fw_printenv]
+19418 root       1:38 [kworker/1:2]
+21228 u0_a28    10:20 {m.android.music} com.android.music
+21247 bluetoot   9:09 {droid.bluetooth} com.android.bluetooth
+21271 system    10:14 {ndroid.keychain} com.android.keychain
+21306 u0_a15    10:15 {crestron.splash} com.crestron.splash
+21490 root       0:00 {startCPHProcess} /system/bin/bash /system/bin/webserverscripts/startCPHProcessor.sh
+21492 root     165:35 /system/bin/CPHProcessor
+21494 root       0:00 {startlighttpd.s} /system/bin/bash /system/bin/webserverscripts/startlighttpd.sh
+23843 u0_a37    10:50 {vice:background} com.crestron.speechtotextservice:background
+23905 root       0:00 /system/bin/logwrapper /system/bin/csio
+23909 root      37:29 /system/bin/csio
+23925 root       0:00 /system/bin/logwrapper /system/bin/autoUpdater
+23927 root      22:35 /system/bin/autoUpdater
+24198 root       0:58 [kworker/u8:1]
+24896 root       0:00 /system/bin/logwrapper /system/bin/ravaApp
+24897 root     2837:0 /system/bin/ravaApp
+25144 root     110:59 /system/bin/cipclientd
+25272 root       0:00 {startSSHD.sh} /system/bin/bash /system/bin/startSSHD.sh
+25283 root       0:00 /system/bin/sshd: /system/bin/sshd -p 22 -D [listener] 0 of 10-100 startups
+27363 root      62:45 /system/bin/lighttpd -D -f /data/web/conf/lighttpd-authon.conf
+
+
+TSW-1060>netstat
+========== err plogprevious ==========
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 127.0.0.1:6080          0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:40000         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:41795         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:40236         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:49301         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:42872         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:49304         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:49305         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:49306         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:49307         0.0.0.0:*               LISTEN      
+tcp        0      0 127.0.0.1:38760         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:49304         127.0.0.1:37324         ESTABLISHED 
+tcp        0      0 127.0.0.1:38751         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38775         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 10.140.5.23:56526       10.140.5.22:41794       ESTABLISHED 
+tcp        0      0 127.0.0.1:49307         127.0.0.1:54119         ESTABLISHED 
+tcp        0      0 127.0.0.1:49301         127.0.0.1:49311         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38760         ESTABLISHED 
+tcp        0      0 127.0.0.1:38756         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38753         ESTABLISHED 
+tcp        0      0 127.0.0.1:51565         127.0.0.1:42872         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38752         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38749         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38761         ESTABLISHED 
+tcp        0      0 127.0.0.1:49306         127.0.0.1:57593         ESTABLISHED 
+tcp        0      0 127.0.0.1:54119         127.0.0.1:49307         ESTABLISHED 
+tcp        0      0 127.0.0.1:49311         127.0.0.1:49301         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38772         ESTABLISHED 
+tcp        0      0 127.0.0.1:38772         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:42872         127.0.0.1:51565         ESTABLISHED 
+tcp        0      0 127.0.0.1:38759         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38753         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38771         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38782         ESTABLISHED 
+tcp        0   2864 10.140.5.23:22          192.168.250.10:53237    ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38756         ESTABLISHED 
+tcp        0      0 127.0.0.1:38748         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38750         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38770         ESTABLISHED 
+tcp        0      0 127.0.0.1:57593         127.0.0.1:49306         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38776         ESTABLISHED 
+tcp        0      0 127.0.0.1:38782         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38770         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38758         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38755         ESTABLISHED 
+tcp        0      0 127.0.0.1:38781         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38757         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38757         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38759         ESTABLISHED 
+tcp        0      0 127.0.0.1:38776         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38761         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38758         ESTABLISHED 
+tcp        0      0 127.0.0.1:38773         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38775         ESTABLISHED 
+tcp        0      0 127.0.0.1:45150         127.0.0.1:9876          ESTABLISHED 
+tcp        0      0 127.0.0.1:38749         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38773         ESTABLISHED 
+tcp        0      0 127.0.0.1:49250         127.0.0.1:1298          ESTABLISHED 
+tcp        0      0 127.0.0.1:53446         127.0.0.1:41795         ESTABLISHED 
+tcp        0      0 127.0.0.1:38752         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38781         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38750         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38751         ESTABLISHED 
+tcp        0      0 127.0.0.1:38754         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38771         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:38755         127.0.0.1:6379          ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38754         ESTABLISHED 
+tcp       27      0 127.0.0.1:41795         127.0.0.1:53446         ESTABLISHED 
+tcp        0      0 127.0.0.1:6379          127.0.0.1:38748         ESTABLISHED 
+tcp        0      0 ::ffff:127.0.0.1:1298   :::*                    LISTEN      
+tcp        0      0 ::ffff:127.0.0.1:9876   :::*                    LISTEN      
+tcp        0      0 :::22                   :::*                    LISTEN      
+tcp        0      0 ::ffff:127.0.0.1:37324  ::ffff:127.0.0.1:49304  ESTABLISHED 
+tcp        0      0 ::ffff:127.0.0.1:1298   ::ffff:127.0.0.1:49250  ESTABLISHED 
+tcp        0      0 ::ffff:127.0.0.1:9876   ::ffff:127.0.0.1:45150  ESTABLISHED 
+udp        0      0 0.0.0.0:40492           0.0.0.0:*                           
+udp        0      0 0.0.0.0:53319           0.0.0.0:*                           
+udp        0      0 0.0.0.0:48714           0.0.0.0:*                           
+udp        0      0 0.0.0.0:32857           0.0.0.0:*                           
+udp        0      0 0.0.0.0:47242           0.0.0.0:*                           
+udp        0      0 127.0.0.1:40100         0.0.0.0:*                           
+udp        0      0 127.0.0.1:40101         0.0.0.0:*                           
+udp        0      0 127.0.0.1:56030         0.0.0.0:*                           
+udp        0      0 0.0.0.0:52981           0.0.0.0:*                           
+udp        0      0 0.0.0.0:54518           0.0.0.0:*                           
+udp        0      0 0.0.0.0:48900           0.0.0.0:*                           
+udp        0      0 0.0.0.0:58649           0.0.0.0:*                           
+udp        0      0 0.0.0.0:41279           0.0.0.0:*                           
+udp        0      0 127.0.0.1:41793         0.0.0.0:*                           
+udp        0      0 0.0.0.0:41794           0.0.0.0:*                           
+udp        0      0 127.0.0.1:41797         0.0.0.0:*                           
+udp        0      0 0.0.0.0:35676           0.0.0.0:*                           
+udp        0      0 127.0.0.1:40300         0.0.0.0:*                           
+udp        0      0 127.0.0.1:40301         0.0.0.0:*                           
+udp        0      0 0.0.0.0:37748           0.0.0.0:*                           
+udp        0      0 127.0.0.1:55200         0.0.0.0:*                           
+udp        0      0 0.0.0.0:5060            0.0.0.0:*                           
+udp        0      0 0.0.0.0:36330           0.0.0.0:*                           
+udp        0      0 0.0.0.0:52204           0.0.0.0:*                           
+udp        0      0 0.0.0.0:49656           0.0.0.0:*                           
+
+
+TSW-1060>listblocked
+No IP Addresses Blocked
+
+
+TSW-1060>iptable
+IP Table:
+CIP_ID  Type    Status     DevID  Port   IP Address/SiteName      RoomId
+     3  Gway    ONLINE            41794  10.140.5.22              
+
+TSW-1060>autodiscovery
+Autodiscovery: ON
+
+TSW-1060>cpuload
+Mem: 728964K used, 1029060K free, 0K shrd, 2120K buff, 224756K cached 
+CPU:  4.3% usr  4.3% sys  0.0% nic 91.3% idle  0.0% io  0.0% irq  0.0% sirq 
+Load average: 0.69 0.75 0.78 1/765 8591 
+
+
+TSW-1060>cpuload
+Mem: 729332K used, 1028692K free, 0K shrd, 2120K buff, 224756K cached 
+CPU:  9.0% usr  0.0% sys  0.0% nic 90.9% idle  0.0% io  0.0% irq  0.0% sirq 
+Load average: 0.69 0.75 0.78 1/765 8594 
+
+
+TSW-1060>cpuload
+Mem: 729144K used, 1028880K free, 0K shrd, 2120K buff, 224756K cached 
+CPU:  4.5% usr  0.0% sys  0.0% nic 95.4% idle  0.0% io  0.0% irq  0.0% sirq 
+Load average: 0.69 0.75 0.78 1/765 8597 
+
+
+TSW-1060>ramfree
+29 percent of memory in use
+1800216576 total bytes of physical memory
+514654208 bytes actually used
+1285562368 bytes free
+0 bytes reclaimable
+
+TSW-1060>temperature
+Current CPU/SATA Temperature: 38C
+Current PMIC Junction Temperature: 38C
+
+
+TSW-1060>8021xau
+
+8021xAuthenticate OFF
+
+
+TSW-1060>mediastreaminfo
+ERROR: Bad or Incomplete Command
+TSW-1060>sipinfo
+SIP Parameters
+-------------------------------
+SIP: ENABLED
+-------------------------------
+SIP audio mode: FD
+SIP auto mode: NONE
+SIP local ext: 2239018052
+SIP local name: CRESTRON
+SIP local port: 5060
+SIP connection mode: PEER
+SIP page group(s): CRESTRON
+SIP realm: *
+SIP remote config file: NONE
+SIP server name: NONE
+SIP server port: 5060
+SIP server ip address: NONE
+SIP server username: guest
+SIP server password: ****
+SIP Name server: NONE
+SIP proxy server: NONE:5060
+SIP STUN server: NONE
+SIP STUN domain: NONE
+SIP multicast address: 227.1.1.1
+SIP multicast port: 1234
+SIP transport type: UDP
+SIP protocol qos: 24
+SIP media port: 40000
+SIP rtp qos: 46
+SIP session timer: optional
+SIP Interface: LAN
+SIP registration timeout: 300
+
+
+TSW-1060>sipvideo
+SIP video: auto
+
+
+TSW-1060>sipearlymedia
+	SIP early media: auto
+
+
+TSW-1060>nvramreboot
+ 2021-11-08 10:26:09  manual
+
+TSW-1060>upgraderesults
+--- Results of GOLDEN IMAGE update ----
+Start Upgrade on Tue Aug 24 15:59:05 GMT 2021
+Archive:  /mnt/sdcard/ROMDISK/romdisk/user/system/image_3.001.0026_r412238.zip
+  inflating: system.img.hash
+  inflating: u-boot.bin.hash
+  inflating: boot.img.hash
+  inflating: boot-golden.img.hash
+  inflating: logo.img.hash
+  inflating: manifest
+  inflating: new_manifest
+  inflating: system.img
+  inflating: u-boot.bin
+  inflating: boot.img
+  inflating: boot-golden.img
+  inflating: logo.img
+  inflating: crestronUbootVersion.txt
+Finish Unzip on Tue Aug 24 16:00:38 GMT 2021
+Starting bulk Verify
+Validated hash for upgrade file boot-golden.img...updating
+Validated hash for upgrade file boot.img...updating
+Validated hash for upgrade file logo.img...updating
+Validated hash for upgrade file system.img...updating
+Validated hash for upgrade file u-boot.bin...updating
+Upgrading kernel-golden
+Validated hash for upgrade file boot-golden.img...updating
+Upgrading filesystem-golden
+Validated hash for upgrade file system-golden.img...updating
+Finish Golden Upgrade on Tue Aug 24 16:04:34 GMT 2021
+Bootanimation landscape 10 or 7 inch, before reboot
+--- Results of MAIN IMAGE update ----
+Start Upgrade on Tue Aug 24 16:04:53 GMT 2021
+Upgrading uboot
+Validated hash for upgrade file u-boot.bin...updating
+Upgrading kernel
+Validated hash for upgrade file boot.img...updating
+Validated hash for upgrade file logo.img...updating
+Upgrading filesystem
+Validated hash for upgrade file system.img...updating
+Upgrade complete
+Finish Upgrade on Tue Aug 24 16:07:31 GMT 2021
+STATUS: SUCCESS!
+Bootanimation landscape 10 or 7 inch, before reboot
+
+
+TSW-1060>err plogprevious
+
+System log:
+  1. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # softreboot=0
+  2. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # standaloneapp=0
+  3. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # stderr=serial
+  4. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # stdin=serial
+  5. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # stdout=serial
+  6. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # store=2
+  7. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # storeargs=if test ${lcdsize} = 5inch && test -n ${orientation} && test ${orientation} = portrait; then setenv bootargs ${initargs} vdaccfg=${vdac_config} logo=osd1,loaded,${fb_addr},${output
+  8. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # storeboot=secukey auto;secukey write keyexample 1234567890; echo Booting...; run bcb_cmd; get_key mac_bt auto;run set_bootargs_console;run storeargs;if unifykey get usid; then  setenv bootar
+  9. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # switch_bootmode=usb start 0;if fatexist usb 0 jabil.txt; then run jabil_factory; else   fi;
+  10. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # testaddr=0x12400000
+  11. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # tsid=8C624F96
+  12. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # txrx_mode=0
+  13. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # update_key=saradc open 0; if saradc get_in_range 0 0x50; then msleep 50; if saradc get_in_range 0 0x50; then echo update by key...; run update; fi;fi
+  14. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # updater_build=412238
+  15. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # updater_version=3.001.0026
+  16. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # upgrade_step=0
+  17. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # us_delay_step=1
+  18. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # vdac_config=0x10
+  19. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # video_dev=panel
+  20. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # wipe_cache=successful
+  21. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # wipe_data=successful
+  22. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # LCD in LANDSCAPE MODE
+  23. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Tue May 11 23:50:10 GMT 2021
+  24. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # boot animation landscape
+  25. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # boot animation landscape
+  26. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 1- 21
+  27. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 2- 21
+  28. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Filesystem               Size     Used     Free   Blksize
+  29. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /dev                   858.4M    52.0K   858.4M   4096
+  30. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /sys/fs/cgroup         858.4M    12.0K   858.4M   4096
+  31. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/asec              858.4M     0.0K   858.4M   4096
+  32. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/obb               858.4M     0.0K   858.4M   4096
+  33. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/shm                50.0M    12.0K    50.0M   4096
+  34. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /system                616.5M   592.9M    23.7M   4096
+  35. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/sdcard              1.4G    71.4M     1.4G   4096
+  36. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /data                  484.2M   328.8M   155.4M   1024
+  37. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /cache                  96.8M    18.0K    96.8M   1024
+  38. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /logs                  282.5M    13.6M   268.9M   1024
+  39. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /swap_zram0            484.3M   384.0K   483.9M   4096
+  40. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 3- 23
+  41. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Filesystem               Size     Used     Free   Blksize
+  42. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /dev                   858.4M    52.0K   858.4M   4096
+  43. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /sys/fs/cgroup         858.4M    12.0K   858.4M   4096
+  44. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/asec              858.4M     0.0K   858.4M   4096
+  45. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/obb               858.4M     0.0K   858.4M   4096
+  46. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/shm                50.0M    12.0K    50.0M   4096
+  47. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /system                616.5M   592.9M    23.7M   4096
+  48. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /mnt/sdcard              1.4G    71.4M     1.4G   4096
+  49. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /data                  484.2M   328.8M   155.4M   1024
+  50. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /cache                  96.8M    18.0K    96.8M   1024
+  51. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /logs                  282.5M    13.6M   268.9M   1024
+  52. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # /swap_zram0            484.3M   384.0K   483.9M   4096
+  53. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 4- 23
+  54. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 5- 23
+  55. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Running regparse to update the registry files as needed
+  56. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 6- 32
+  57. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # set date to 2021-09-27 08:36:52 UTC time from file /logs/MsgLog.txt
+  58. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # net.ipv4.ip_local_reserved_ports = 1298,6080,6090,6379,6380,9872-9876,40000-40020,40100-40120,40200-40220,40234-40236,41002,41004,41006,41008,41794-41799,42676,42872-42874,49202,49925,49300-
+  59. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # AndroidEthInit:: POEPLUS already initalize to 1...
+  60. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # AndroidEthInit: config eth0 mac
+  61. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # ANDROIDETHINIT: Using MAC Address in NVRAM: 00:10:7f:d5:b1:9a
+  62. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # AndroidEthInit: num of NIC 1
+  63. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # ANDROIDETHINIT: Using TSID in NVRAM: 8c624f96
+  64. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Data is the same @ 0x00001670 - 0x00001674
+  65. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # DISABLING DHCP FOR USB DONGLE - NONE FOUND
+  66. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # AndroidEthInit:: Setting Network Interfaces to LAN ENABLED
+  67. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # network enable flag: LAN 1, wifi 0
+  68. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Data is the same @ 0x000015f0 - 0x00001630
+  69. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # AndroidEthInit:: LAN 0 Static IP settings found: 192.168.1.65
+  70. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # setting static ip to 192.168.1.65
+  71. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # AndroidEthInit: Setting default router to 192.168.1.1 for eth0
+  72. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 7- 33
+  73. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 9- 33
+  74. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 10- 33
+  75. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Mon Sep 27 08:36:52 GMT 2021
+  76. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 11- 33
+  77. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 12- 33
+  78. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # reboot_reason=poweron
+  79. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Rebooting on Thu Aug 26 10:01:28 GMT 2021
+  80. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Mem: 1020500K used, 737524K free, 0K shrd, 30364K buff, 503504K cached
+  81. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # CPU: 60.0% usr  0.0% sys  0.0% nic 40.0% idle  0.0% io  0.0% irq  0.0% sirq
+  82. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # Load average: 1.12 0.85 0.73 2/739 10470
+  83. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  84. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 10469 10222 root     R    30100  1.7   1 38.5 app_process /system/bin com.android.commands.am.Am force-stop com.crestron.screensaver
+  85. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 25374   176 u0_a46   S    1682m 97.9   0  8.5 {r.Core3Launcher} air.air.Core3Launcher
+  86. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  1450   176 system   S <  1550m 90.2   0  4.2 system_server
+  87. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 31346     1 root     S    70360  4.0   0  4.2 /system/bin/ctpd
+  88. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 10470 10466 root     R     9848  0.5   0  4.2 /system/bin/busybox top -n 1 -b
+  89. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6936   176 system   S    1538m 89.5   1  0.0 {ron.txrxservice} com.crestron.txrxservice
+  90. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 21400   176 bluetoot S <  1492m 86.8   0  0.0 {droid.bluetooth} com.android.bluetooth
+  91. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 23939   176 u0_a37   S    1480m 86.1   0  0.0 {vice:background} com.crestron.speechtotextservice:background
+  92. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  7083   176 u0_a15   S    1478m 86.0   0  0.0 .SplashWindow
+  93. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6796   176 u0_a27   S    1477m 86.0   1  0.0 {putmethod.latin} com.android.inputmethod.latin
+  94. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6434   176 u0_a12   S    1476m 85.9   0  0.0 {ndroid.systemui} com.android.systemui
+  95. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6863   176 u0_a37   S    1473m 85.7   0  0.0 {chtotextservice} com.crestron.speechtotextservice
+  96. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  7017   176 u0_a2    S    1467m 85.4   0  0.0 {d.process.acore} android.process.acore
+  97. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6981   176 u0_a3    S    1467m 85.3   0  0.0 {m.crestron.home} com.crestron.home
+  98. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6362   176 u0_a6    S    1465m 85.3   0  0.0 {d.process.media} android.process.media
+  99. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  7165   176 u0_a15   S    1464m 85.2   1  0.0 {SplashAppServer} .SplashAppServer
+  100. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 21380   176 u0_a28   S    1463m 85.1   0  0.0 {m.android.music} com.android.music
+  101. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 21421   176 system   S    1462m 85.1   0  0.0 {ndroid.keychain} com.android.keychain
+  102. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6648   176 u0_a7    S    1462m 85.1   0  0.0 {externalstorage} com.android.externalstorage
+  103. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 21459   176 u0_a15   S    1461m 85.0   1  0.0 {crestron.splash} com.crestron.splash
+  104. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6900   176 u0_a8    S    1461m 85.0   0  0.0 {restron.service} com.crestron.service
+  105. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 13354   176 u0_a26   S    1461m 85.0   0  0.0 {estron.platform} com.crestron.platform
+  106. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   176     1 root     S    1453m 84.5   0  0.0 {main} zygote
+  107. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 10222     1 root     S     148m  8.6   0  0.0 /system/bin/platformd
+  108. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 21651 21649 root     S     118m  6.9   0  0.0 /system/bin/CPHProcessor
+  109. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   138     1 system   S <   101m  5.8   1  0.0 /system/bin/surfaceflinger
+  110. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 23992 23984 root     S    78596  4.4   1  0.0 /system/bin/csio
+  111. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 25216 25214 root     S    74316  4.2   0  0.0 /system/bin/ravaApp
+  112. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  3464     1 root     S    71736  4.0   0  0.0 /system/bin/a_console
+  113. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   164     1 media    S    70792  4.0   0  0.0 /system/bin/mediaserver
+  114. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 10236     1 root     S    70168  3.9   0  0.0 /system/bin/CrestronDiscovery
+  115. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  3459     1 root     S    65268  3.7   0  0.0 /system/bin/crestErrorLogServer
+  116. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 28272     1 root     S    63916  3.6   1  0.0 /system/bin/cipclientd
+  117. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 24018 24017 root     S    60592  3.4   0  0.0 /system/bin/autoUpdater
+  118. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  4505     1 root     S    60564  3.4   0  0.0 /system/bin/FITCProxy
+  119. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  3456     1 root     S    34492  1.9   1  0.0 /system/bin/redis-server --module-add /system/lib/json.so --save 300 10 --save 600 1 --dir /data/cresstore/ --bind 127.0.0.1
+  120. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   162     1 drm      S    27104  1.5   2  0.0 /system/bin/drmserver
+  121. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  4507     1 root     S    26504  1.5   0  0.0 /system/bin/HydrogenManager
+  122. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   160     1 root     S    22840  1.3   0  0.0 /system/bin/netd
+  123. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   133     1 logd     S    21716  1.2   1  0.0 /system/bin/logd
+  124. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  7753 31296 root     S    19436  1.1   1  0.0 /system/bin/lighttpd -D -f /data/web/conf/lighttpd-authon.conf
+  125. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 25555 25550 root     S    18164  1.0   0  0.0 /system/bin/sshd: /system/bin/sshd -p 22 -D [listener] 0 of 10-100 startups
+  126. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 # 10151 25555 root     S    18156  1.0   0  0.0 /system/bin/sshd: riordan@ptmx
+  127. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #   137     1 root     S    18036  1.0   0  0.0 /system/bin/vold
+  128. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:53 #  6572     1 media_rw S    17460  0.9   3  0.0 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -t 4 -d /mnt/media_rw/sdcard1 /storage/sdcard1
+  129. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   168     1 root     S    16412  0.9   0  0.0 /system/bin/systemcontrol
+  130. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3755     1 root     S    14632  0.8   0  0.0 /system/bin/IpBlockerService
+  131. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3749     1 root     S    14616  0.8   0  0.0 /system/bin/AuditLogService
+  132. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   166     1 keystore S    12504  0.7   1  0.0 /system/bin/keystore /data/misc/keystore
+  133. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10162 10159 root     S    10788  0.6   0  0.0 /system/bin/telnetSSHProxy SSH riordan
+  134. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10180  4509 root     S    10680  0.6   0  0.0 sleep 60
+  135. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   135     1 root     S    10632  0.6   0  0.0 /system/bin/lmkd
+  136. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   161     1 root     S    10060  0.5   0  0.0 /system/bin/debuggerd
+  137. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   134     1 root     S     9828  0.5   0  0.0 /sbin/healthd
+  138. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  1808     1 root     S     9488  0.5   0  0.0 /system/bin/lldpd -d -u /dev/shm/crestron/lldpd.socket -L /system/bin/lldpcli.sh
+  139. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   136     1 system   S     9464  0.5   0  0.0 /system/bin/servicemanager
+  140. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   165     1 install  S     9416  0.5   0  0.0 /system/bin/installd
+  141. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3990  3459 root     S     9216  0.5   0  0.0 /system/bin/logcat -v time
+  142. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3986     1 root     S     9216  0.5   1  0.0 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLogVerbose -v time -n 1 -s *:I
+  143. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3984     1 root     S     9216  0.5   1  0.0 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLog -v time -n 1 -s *:W
+  144. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 23984     1 root     S     9184  0.5   3  0.0 /system/bin/logwrapper /system/bin/csio
+  145. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 24017     1 root     S     9184  0.5   3  0.0 /system/bin/logwrapper /system/bin/autoUpdater
+  146. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25214     1 root     S     9184  0.5   0  0.0 /system/bin/logwrapper /system/bin/ravaApp
+  147. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10224     1 root     S     9176  0.5   0  0.0 /system/bin/pet 20
+  148. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     1     0 root     S     8872  0.5   0  0.0 /init ${bootargs_console} earlyprintk
+  149. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   112     1 root     S     8864  0.5   0  0.0 /sbin/ueventd
+  150. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   159     1 root     S     8772  0.5   3  0.0 /system/bin/sh
+  151. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   171     1 root     S     8716  0.5   0  0.0 /system/bin/dig
+  152. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  4509     1 root     S     1432  0.0   0  0.0 {recovercloudcli} /system/bin/bash /system/bin/recovercloudclient.sh
+  153. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10466  3464 root     S     1432  0.0   0  0.0 {reboot} /system/bin/bash /system/bin/reboot
+  154. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 31296     1 root     S     1432  0.0   0  0.0 {startlighttpd.s} /system/bin/bash /system/bin/webserverscripts/startlighttpd.sh
+  155. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10159 10151 root     S     1432  0.0   0  0.0 {sshShell.sh} /system/bin/bash /system/bin/sshShell.sh riordan
+  156. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25550     1 root     S     1428  0.0   2  0.0 {startSSHD.sh} /system/bin/bash /system/bin/startSSHD.sh
+  157. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21649     1 root     S     1428  0.0   0  0.0 {startCPHProcess} /system/bin/bash /system/bin/webserverscripts/startCPHProcessor.sh
+  158. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  8342     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+  159. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    81     2 root     SW       0  0.0   0  0.0 [kthread_h265]
+  160. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    77     2 root     SW       0  0.0   0  0.0 [kthread_di]
+  161. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     8     2 root     SW       0  0.0   0  0.0 [rcu_preempt]
+  162. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  8390     2 root     SW       0  0.0   1  0.0 [kworker/u8:0]
+  163. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    86     2 root     SW       0  0.0   0  0.0 [irq/60-sdio]
+  164. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    89     2 root     SW       0  0.0   0  0.0 [mmcqd/0]
+  165. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    34     2 root     SW       0  0.0   1  0.0 [kthread_hdmi]
+  166. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   104     2 root     SW       0  0.0   0  0.0 [kworker/u8:3]
+  167. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    90     2 root     SW       0  0.0   0  0.0 [irq/110-sdhc]
+  168. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    93     2 root     SW       0  0.0   0  0.0 [mmcqd/0]
+  169. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    92     2 root     SW       0  0.0   1  0.0 [kthread_hdcp]
+  170. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+  171. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    31     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+  172. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     7     2 root     SW       0  0.0   0  0.0 [migration/0]
+  173. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    71     2 root     SW       0  0.0   0  0.0 [cpu_hotplug_gdb]
+  174. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+  175. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    33     2 root     SW       0  0.0   3  0.0 [kworker/3:1]
+  176. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    19     2 root     RW       0  0.0   2  0.0 [ksoftirqd/2]
+  177. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    24     2 root     RW       0  0.0   3  0.0 [ksoftirqd/3]
+  178. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   163     2 root     SW       0  0.0   1  0.0 [aml_buf_toggle]
+  179. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    32     2 root     SW       0  0.0   2  0.0 [kworker/2:1]
+  180. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    13     2 root     SW       0  0.0   1  0.0 [migration/1]
+  181. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    23     2 root     RW       0  0.0   3  0.0 [migration/3]
+  182. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    18     2 root     RW       0  0.0   2  0.0 [migration/2]
+  183. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    96     2 root     SW       0  0.0   0  0.0 [vmalloc_ion]
+  184. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   118     2 root     SW<      0  0.0   0  0.0 [kworker/0:1H]
+  185. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+  186. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    87     2 root     SW       0  0.0   1  0.0 [irq/99-mmc_in]
+  187. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    20     2 root     SW       0  0.0   2  0.0 [kworker/2:0]
+  188. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   131     2 root     SW       0  0.0   0  0.0 [jbd2/mmcblk0p8-]
+  189. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  1811  1808 root     Z        0  0.0   2  0.0 [lldpcli]
+  190. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    88     2 root     SW       0  0.0   2  0.0 [irq/101-mmc_out]
+  191. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    15     2 root     SW       0  0.0   1  0.0 [kworker/1:0]
+  192. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   111     2 root     SW<      0  0.0   1  0.0 [cec_work]
+  193. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   110     2 root     SW<      0  0.0   0  0.0 [goodix_wq]
+  194. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   109     2 root     SW       0  0.0   2  0.0 [file-storage]
+  195. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   108     2 root     SW<      0  0.0   1  0.0 [f_mtp]
+  196. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   107     2 root     SW<      0  0.0   1  0.0 [deferwq]
+  197. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   106     2 root     SW<      0  0.0   2  0.0 [krfcommd]
+  198. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    95     2 root     SW       0  0.0   1  0.0 [mmcqd/0boot1]
+  199. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    94     2 root     SW       0  0.0   1  0.0 [mmcqd/0boot0]
+  200. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    91     2 root     SW<      0  0.0   1  0.0 [rtc]
+  201. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    82     2 root     SW<      0  0.0   2  0.0 [2-0038]
+  202. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    80     2 root     SW       0  0.0   2  0.0 [encode_monitor]
+  203. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    79     2 root     SW<      0  0.0   1  0.0 [dwc_otg]
+  204. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    78     2 root     SW<      0  0.0   1  0.0 [dwc_otg]
+  205. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    76     2 root     SW<      0  0.0   1  0.0 [kpled_power_on_]
+  206. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    75     2 root     SW<      0  0.0   2  0.0 [bl_power_on_que]
+  207. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    74     2 root     SW       0  0.0   2  0.0 [ge2d_monitor]
+  208. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    73     2 root     SW<      0  0.0   2  0.0 [binder]
+  209. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    72     2 root     RW       0  0.0   2  0.0 [cpu_idle_gdbs]
+  210. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    70     2 root     SW       0  0.0   2  0.0 [NULL_task_for_h]
+  211. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    69     2 root     SW       0  0.0   2  0.0 [cfinteractive]
+  212. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    68     2 root     SW<      0  0.0   2  0.0 [dm_bufio_cache]
+  213. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  8240  3464 root     Z        0  0.0   0  0.0 [fw_printenv]
+  214. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    67     2 root     SW<      0  0.0   2  0.0 [kpsmoused]
+  215. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    44     2 root     SW<      0  0.0   2  0.0 [crypto]
+  216. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    43     2 root     SW<      0  0.0   2  0.0 [cifsiod]
+  217. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    42     2 root     SW       0  0.0   1  0.0 [fsnotify_mark]
+  218. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    41     2 root     SW       0  0.0   2  0.0 [kswapd0]
+  219. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    40     2 root     SW       0  0.0   2  0.0 [khungtaskd]
+  220. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    39     2 root     SW<      0  0.0   1  0.0 [cfg80211]
+  221. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    38     2 root     SW       0  0.0   3  0.0 [khubd]
+  222. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    37     2 root     SW<      0  0.0   1  0.0 [kblockd]
+  223. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    36     2 root     SW<      0  0.0   1  0.0 [bioset]
+  224. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    35     2 root     SW<      0  0.0   1  0.0 [writeback]
+  225. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    29     2 root     SW<      0  0.0   1  0.0 [suspend]
+  226. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    28     2 root     SW       0  0.0   2  0.0 [kdevtmpfs]
+  227. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    27     2 root     SW<      0  0.0   1  0.0 [khelper]
+  228. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    26     2 root     SW<      0  0.0   3  0.0 [kworker/3:0H]
+  229. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    25     2 root     SW       0  0.0   3  0.0 [kworker/3:0]
+  230. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    22     2 root     RW       0  0.0   3  0.0 [watchdog/3]
+  231. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    21     2 root     SW<      0  0.0   2  0.0 [kworker/2:0H]
+  232. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    17     2 root     RW       0  0.0   2  0.0 [watchdog/2]
+  233. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+  234. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+  235. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    10     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+  236. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+  237. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+  238. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   142     2 root     SW       0  0.0   0  0.0 [kauditd]
+  239. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     2     0 root     SW       0  0.0   0  0.0 [kthreadd]
+  240. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   132     2 root     SW<      0  0.0   0  0.0 [ext4-dio-unwrit]
+  241. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   127     2 root     SW<      0  0.0   1  0.0 [ext4-dio-unwrit]
+  242. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   124     2 root     SW<      0  0.0   1  0.0 [ext4-dio-unwrit]
+  243. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   121     2 root     SW<      0  0.0   1  0.0 [ext4-dio-unwrit]
+  244. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   117     2 root     SW<      0  0.0   1  0.0 [ext4-dio-unwrit]
+  245. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   116     2 root     SW       0  0.0   1  0.0 [jbd2/mmcblk1p8-]
+  246. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   186     2 root     SW<      0  0.0   3  0.0 [kworker/3:1H]
+  247. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   193     2 root     SW<      0  0.0   2  0.0 [kworker/2:1H]
+  248. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   703     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+  249. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   714     2 root     SW       0  0.0   0  0.0 [jbd2/zram0-8]
+  250. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   715     2 root     SW<      0  0.0   2  0.0 [ext4-dio-unwrit]
+  251. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   115     2 root     SW<      0  0.0   1  0.0 [kworker/1:1H]
+  252. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   113     2 root     SW<      0  0.0   1  0.0 [kworker/u9:0]
+  253. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 
+  254. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # root      3464  1     71736  14520 ffffffff b6dc8244 S /system/bin/a_console
+  255. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # root      8240  3464  0      0     c003787c 00000000 Z fw_printenv
+  256. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # root      10466 3464  1432   672   c0036f90 000a8fa8 S /system/bin/bash
+  257. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 
+  258. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 
+  259. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # PID   USER     TIME   COMMAND
+  260. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     1 root       0:04 /init ${bootargs_console} earlyprintk
+  261. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     2 root       0:00 [kthreadd]
+  262. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     3 root       0:00 [ksoftirqd/0]
+  263. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     5 root       0:00 [kworker/0:0H]
+  264. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     7 root       0:00 [migration/0]
+  265. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     8 root       0:02 [rcu_preempt]
+  266. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #     9 root       0:00 [rcu_bh]
+  267. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    10 root       0:00 [rcu_sched]
+  268. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    11 root       0:00 [watchdog/0]
+  269. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    12 root       0:00 [watchdog/1]
+  270. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    13 root       0:00 [migration/1]
+  271. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    14 root       0:00 [ksoftirqd/1]
+  272. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    15 root       0:00 [kworker/1:0]
+  273. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    16 root       0:00 [kworker/1:0H]
+  274. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    17 root       0:00 [watchdog/2]
+  275. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    18 root       0:00 [migration/2]
+  276. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    19 root       0:00 [ksoftirqd/2]
+  277. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    20 root       0:00 [kworker/2:0]
+  278. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    21 root       0:00 [kworker/2:0H]
+  279. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    22 root       0:00 [watchdog/3]
+  280. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    23 root       0:00 [migration/3]
+  281. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    24 root       0:00 [ksoftirqd/3]
+  282. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    25 root       0:00 [kworker/3:0]
+  283. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    26 root       0:00 [kworker/3:0H]
+  284. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    27 root       0:00 [khelper]
+  285. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    28 root       0:00 [kdevtmpfs]
+  286. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    29 root       0:00 [suspend]
+  287. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    31 root       0:00 [kworker/1:1]
+  288. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    32 root       0:00 [kworker/2:1]
+  289. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    33 root       0:00 [kworker/3:1]
+  290. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    34 root       0:01 [kthread_hdmi]
+  291. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    35 root       0:00 [writeback]
+  292. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    36 root       0:00 [bioset]
+  293. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    37 root       0:00 [kblockd]
+  294. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    38 root       0:00 [khubd]
+  295. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    39 root       0:00 [cfg80211]
+  296. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    40 root       0:00 [khungtaskd]
+  297. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    41 root       0:00 [kswapd0]
+  298. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    42 root       0:00 [fsnotify_mark]
+  299. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    43 root       0:00 [cifsiod]
+  300. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    44 root       0:00 [crypto]
+  301. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    67 root       0:00 [kpsmoused]
+  302. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    68 root       0:00 [dm_bufio_cache]
+  303. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    69 root       0:00 [cfinteractive]
+  304. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    70 root       0:00 [NULL_task_for_h]
+  305. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    71 root       0:00 [cpu_hotplug_gdb]
+  306. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    72 root       0:00 [cpu_idle_gdbs]
+  307. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    73 root       0:00 [binder]
+  308. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    74 root       0:00 [ge2d_monitor]
+  309. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    75 root       0:00 [bl_power_on_que]
+  310. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    76 root       0:00 [kpled_power_on_]
+  311. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    77 root       0:03 [kthread_di]
+  312. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    78 root       0:00 [dwc_otg]
+  313. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    79 root       0:00 [dwc_otg]
+  314. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    80 root       0:00 [encode_monitor]
+  315. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    81 root       0:04 [kthread_h265]
+  316. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    82 root       0:00 [2-0038]
+  317. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    86 root       0:01 [irq/60-sdio]
+  318. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    87 root       0:00 [irq/99-mmc_in]
+  319. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    88 root       0:00 [irq/101-mmc_out]
+  320. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    89 root       0:01 [mmcqd/0]
+  321. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    90 root       0:00 [irq/110-sdhc]
+  322. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    91 root       0:00 [rtc]
+  323. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    92 root       0:00 [kthread_hdcp]
+  324. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    93 root       0:00 [mmcqd/0]
+  325. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    94 root       0:00 [mmcqd/0boot0]
+  326. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    95 root       0:00 [mmcqd/0boot1]
+  327. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #    96 root       0:00 [vmalloc_ion]
+  328. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   104 root       0:01 [kworker/u8:3]
+  329. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   106 root       0:00 [krfcommd]
+  330. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   107 root       0:00 [deferwq]
+  331. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   108 root       0:00 [f_mtp]
+  332. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   109 root       0:00 [file-storage]
+  333. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   110 root       0:00 [goodix_wq]
+  334. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   111 root       0:00 [cec_work]
+  335. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   112 root       0:00 /sbin/ueventd
+  336. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   113 root       0:00 [kworker/u9:0]
+  337. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   115 root       0:00 [kworker/1:1H]
+  338. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   116 root       0:00 [jbd2/mmcblk1p8-]
+  339. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   117 root       0:00 [ext4-dio-unwrit]
+  340. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   118 root       0:00 [kworker/0:1H]
+  341. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   121 root       0:00 [ext4-dio-unwrit]
+  342. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   124 root       0:00 [ext4-dio-unwrit]
+  343. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   127 root       0:00 [ext4-dio-unwrit]
+  344. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   131 root       0:00 [jbd2/mmcblk0p8-]
+  345. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   132 root       0:00 [ext4-dio-unwrit]
+  346. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   133 logd       0:03 /system/bin/logd
+  347. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   134 root       0:00 /sbin/healthd
+  348. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   135 root       0:00 /system/bin/lmkd
+  349. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   136 system     0:00 /system/bin/servicemanager
+  350. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   137 root       0:00 /system/bin/vold
+  351. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   138 system     0:04 /system/bin/surfaceflinger
+  352. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   142 root       0:00 [kauditd]
+  353. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   159 root       0:00 /system/bin/sh
+  354. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   160 root       0:00 /system/bin/netd
+  355. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   161 root       0:00 /system/bin/debuggerd
+  356. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   162 drm        0:00 /system/bin/drmserver
+  357. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   163 root       0:00 [aml_buf_toggle]
+  358. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   164 media      0:01 /system/bin/mediaserver
+  359. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   165 install    0:00 /system/bin/installd
+  360. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   166 keystore   0:00 /system/bin/keystore /data/misc/keystore
+  361. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   168 root       0:00 /system/bin/systemcontrol
+  362. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   171 root       0:00 /system/bin/dig
+  363. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   176 root       0:02 {main} zygote
+  364. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   186 root       0:00 [kworker/3:1H]
+  365. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   193 root       0:00 [kworker/2:1H]
+  366. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   703 root       0:00 [kworker/0:2]
+  367. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   714 root       0:00 [jbd2/zram0-8]
+  368. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #   715 root       0:00 [ext4-dio-unwrit]
+  369. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  1450 system     0:13 system_server
+  370. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  1808 root       0:00 /system/bin/lldpd -d -u /dev/shm/crestron/lldpd.socket -L /system/bin/lldpcli.sh
+  371. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  1811 root       0:00 [lldpcli]
+  372. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3456 root       0:03 /system/bin/redis-server --module-add /system/lib/json.so --save 300 10 --save 600 1 --dir /data/cresstore/ --bind 127.0.0.1
+  373. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3459 root       0:01 /system/bin/crestErrorLogServer
+  374. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3464 root       0:02 /system/bin/a_console
+  375. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3749 root       0:00 /system/bin/AuditLogService
+  376. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3755 root       0:00 /system/bin/IpBlockerService
+  377. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3984 root       0:00 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLog -v time -n 1 -s *:W
+  378. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3986 root       0:00 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLogVerbose -v time -n 1 -s *:I
+  379. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  3990 root       0:00 /system/bin/logcat -v time
+  380. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  4505 root       0:00 /system/bin/FITCProxy
+  381. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  4507 root       0:00 /system/bin/HydrogenManager
+  382. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  4509 root       0:00 {recovercloudcli} /system/bin/bash /system/bin/recovercloudclient.sh
+  383. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6362 u0_a6      0:00 {d.process.media} android.process.media
+  384. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6434 u0_a12     0:01 {ndroid.systemui} com.android.systemui
+  385. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6572 media_rw   0:00 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -t 4 -d /mnt/media_rw/sdcard1 /storage/sdcard1
+  386. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6648 u0_a7      0:00 {externalstorage} com.android.externalstorage
+  387. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6796 u0_a27     0:00 {putmethod.latin} com.android.inputmethod.latin
+  388. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6863 u0_a37     0:00 {chtotextservice} com.crestron.speechtotextservice
+  389. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6900 u0_a8      0:00 {restron.service} com.crestron.service
+  390. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6936 system     0:08 {ron.txrxservice} com.crestron.txrxservice
+  391. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  6981 u0_a3      0:00 {m.crestron.home} com.crestron.home
+  392. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  7017 u0_a2      0:00 {d.process.acore} android.process.acore
+  393. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  7083 u0_a15     0:01 .SplashWindow
+  394. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  7165 u0_a15     0:00 {SplashAppServer} .SplashAppServer
+  395. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  7753 root       0:00 /system/bin/lighttpd -D -f /data/web/conf/lighttpd-authon.conf
+  396. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  8240 root       0:00 [fw_printenv]
+  397. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  8342 root       0:07 [kworker/0:0]
+  398. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 #  8390 root       0:01 [kworker/u8:0]
+  399. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10151 root       0:00 /system/bin/sshd: riordan@ptmx
+  400. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10159 root       0:00 {sshShell.sh} /system/bin/bash /system/bin/sshShell.sh riordan
+  401. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10162 root       0:00 /system/bin/telnetSSHProxy SSH riordan
+  402. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10180 root       0:00 sleep 60
+  403. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10222 root       0:58 /system/bin/platformd
+  404. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10224 root       0:00 /system/bin/pet 20
+  405. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10236 root       0:00 /system/bin/CrestronDiscovery
+  406. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10466 root       0:00 {reboot} /system/bin/bash /system/bin/reboot
+  407. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10469 root       0:00 app_process /system/bin com.android.commands.am.Am force-stop com.crestron.screensaver
+  408. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 10473 root       0:00 /system/bin/busybox ps
+  409. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 13354 u0_a26     0:00 {estron.platform} com.crestron.platform
+  410. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21380 u0_a28     0:00 {m.android.music} com.android.music
+  411. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21400 bluetoot   0:00 {droid.bluetooth} com.android.bluetooth
+  412. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21421 system     0:00 {ndroid.keychain} com.android.keychain
+  413. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21459 u0_a15     0:00 {crestron.splash} com.crestron.splash
+  414. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21649 root       0:00 {startCPHProcess} /system/bin/bash /system/bin/webserverscripts/startCPHProcessor.sh
+  415. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 21651 root       0:02 /system/bin/CPHProcessor
+  416. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 23939 u0_a37     0:00 {vice:background} com.crestron.speechtotextservice:background
+  417. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 23984 root       0:00 /system/bin/logwrapper /system/bin/csio
+  418. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 23992 root       0:00 /system/bin/csio
+  419. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 24017 root       0:00 /system/bin/logwrapper /system/bin/autoUpdater
+  420. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 24018 root       0:00 /system/bin/autoUpdater
+  421. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25214 root       0:00 /system/bin/logwrapper /system/bin/ravaApp
+  422. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25216 root       0:25 /system/bin/ravaApp
+  423. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25374 u0_a46     3:47 {r.Core3Launcher} air.air.Core3Launcher
+  424. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25550 root       0:00 {startSSHD.sh} /system/bin/bash /system/bin/startSSHD.sh
+  425. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 25555 root       0:00 /system/bin/sshd: /system/bin/sshd -p 22 -D [listener] 0 of 10-100 startups
+  426. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 28272 root       0:09 /system/bin/cipclientd
+  427. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 31296 root       0:00 {startlighttpd.s} /system/bin/bash /system/bin/webserverscripts/startlighttpd.sh
+  428. Notice: /system/bin/crestErrorLogServer # 2021-09-27 08:36:54 # 31346 root       0:01 /system/bin/ctpd
+  429. Notice: com.crestron.txrxservice # 2021-09-27 08:37:02 # Product type detected: 7E00
+  430. Notice: com.crestron.txrxservice # 2021-09-27 08:37:02 # Device type :0x7EFE
+  431. Notice: com.crestron.txrxservice # 2021-09-27 08:37:04 # Product type detected: 7E00
+  432. Notice: com.crestron.txrxservice # 2021-09-27 08:37:04 # Device type :0x7EFE
+  433. Notice: /system/bin/platformd # 2021-09-27 08:37:07 # module: 14, eUIH_RESOURCE_CRESNET
+  434. Notice: /system/bin/platformd # 2021-09-27 08:37:07 # CUIHalCresnet::Initialize +
+  435. Notice: /system/bin/platformd # 2021-09-27 08:37:07 # CUIHalCresnet::Initialize -
+  436. Notice: /system/bin/platformd # 2021-09-27 08:37:52 # CUIHalCresnet::GetCapabilities +
+  437. Notice: /system/bin/platformd # 2021-09-27 08:37:52 # CUIHalCresnet::GetCapabilities -
+  438. Notice: /system/bin/platformd # 2021-09-27 08:37:52 # CUIHalCresnet::SetCapabilities +
+  439. Notice: /system/bin/platformd # 2021-09-27 08:37:52 # CUIHalCresnet::SetCapabilities -
+  440. Notice: /system/bin/csio # 2021-09-27 08:38:00 # Product type detected: 7E00
+  441. Notice: /system/bin/csio # 2021-09-27 08:38:00 # Device type :0x7EFE
+  442. Notice: /system/bin/csio # 2021-09-27 08:38:00 # Product type detected: 7E00
+  443. Notice: /system/bin/cipclientd # 2021-09-27 08:38:26 # GATEWAY: Got Connect Response for License, sending {"CH5MobileTrialDays":27} to platform; datalength 25
+  444. Notice: /system/bin/HydrogenManager # 2021-09-27 14:16:12 # [external/crestron/HydrogenManager/source/XioSdk/../../source/Linux/HTTPProxy_sub.cpp:243] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+  445. Notice: /system/bin/AuditLogService # 2021-09-27 14:17:25 # Time Change of 20262 seconds
+  446. Notice: /system/bin/HydrogenManager # 2021-09-27 14:21:28 # [external/crestron/HydrogenManager/source/XioSdk/../../source/Linux/HTTPProxy_sub.cpp:243] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+  447. Notice: /system/bin/crestErrorLogServer # 2021-09-28 14:15:33 # SDCard Write COUNTER: 38959014
+  448. Notice: /system/bin/ctpd # 2021-09-28 15:03:52 # SHELL Connection 1 from: 192.168.1.2
+  449. Warning: /system/bin/ctpd # 2021-09-28 15:04:26 # SHELL connection 1 being closed from address 192.168.1.2.
+  450. Warning: /system/bin/cipclientd # 2021-09-28 15:10:24 # GW Closed Socket - Remote Closed
+  451. Notice: /system/bin/cipclientd # 2021-09-28 15:10:24 # GATEWAY: offline with 192.168.1.60
+  452. Warning: /system/bin/cipclientd # 2021-09-28 15:10:57 # GATEWAY: got Program (Not) Ready 1
+  453. Notice: /system/bin/cipclientd # 2021-09-28 15:11:20 # GATEWAY: Got Connect Response for License, sending {"CH5MobileTrialDays":26}6[FFh][FFh] to platform; datalength 25
+  454. Notice: /system/bin/crestErrorLogServer # 2021-09-29 14:16:27 # SDCard Write COUNTER: 38974884
+  455. Notice: /system/bin/crestErrorLogServer # 2021-09-30 14:17:24 # SDCard Write COUNTER: 38986794
+  456. Notice: /system/bin/crestErrorLogServer # 2021-10-01 14:18:19 # SDCard Write COUNTER: 38997036
+  457. Notice: /system/bin/crestErrorLogServer # 2021-10-02 14:19:12 # SDCard Write COUNTER: 39009508
+  458. Notice: /system/bin/crestErrorLogServer # 2021-10-03 14:20:06 # SDCard Write COUNTER: 39020204
+  459. Notice: /system/bin/crestErrorLogServer # 2021-10-04 14:21:02 # SDCard Write COUNTER: 39031134
+  460. Notice: /system/bin/crestErrorLogServer # 2021-10-05 14:21:56 # SDCard Write COUNTER: 39048632
+  461. Notice: /system/bin/crestErrorLogServer # 2021-10-06 14:22:49 # SDCard Write COUNTER: 39060612
+  462. Notice: /system/bin/crestErrorLogServer # 2021-10-07 14:23:42 # SDCard Write COUNTER: 39072882
+  463. Notice: /system/bin/crestErrorLogServer # 2021-10-08 14:24:37 # SDCard Write COUNTER: 39087622
+  464. Notice: /system/bin/crestErrorLogServer # 2021-10-09 14:25:34 # SDCard Write COUNTER: 39106008
+  465. Notice: /system/bin/crestErrorLogServer # 2021-10-10 14:26:29 # SDCard Write COUNTER: 39124932
+  466. Notice: /system/bin/crestErrorLogServer # 2021-10-11 14:27:24 # SDCard Write COUNTER: 39141690
+  467. Notice: /system/bin/crestErrorLogServer # 2021-10-12 14:28:16 # SDCard Write COUNTER: 39155900
+  468. Notice: /system/bin/crestErrorLogServer # 2021-10-13 14:29:11 # SDCard Write COUNTER: 39176340
+  469. Notice: /system/bin/crestErrorLogServer # 2021-10-14 14:30:03 # SDCard Write COUNTER: 39191758
+  470. Notice: /system/bin/crestErrorLogServer # 2021-10-15 14:30:57 # SDCard Write COUNTER: 39215252
+  471. Notice: /system/bin/crestErrorLogServer # 2021-10-16 14:31:51 # SDCard Write COUNTER: 39234508
+  472. Notice: /system/bin/crestErrorLogServer # 2021-10-17 14:32:47 # SDCard Write COUNTER: 39254860
+  473. Notice: /system/bin/crestErrorLogServer # 2021-10-18 14:33:42 # SDCard Write COUNTER: 39269456
+  474. Notice: /system/bin/crestErrorLogServer # 2021-10-19 14:34:36 # SDCard Write COUNTER: 39285784
+  475. Notice: /system/bin/crestErrorLogServer # 2021-10-20 14:35:29 # SDCard Write COUNTER: 39305916
+  476. Notice: /system/bin/crestErrorLogServer # 2021-10-21 14:36:26 # SDCard Write COUNTER: 39328040
+  477. Notice: /system/bin/crestErrorLogServer # 2021-10-22 14:37:20 # SDCard Write COUNTER: 39344138
+  478. Notice: /system/bin/crestErrorLogServer # 2021-10-23 14:38:16 # SDCard Write COUNTER: 39361576
+  479. Notice: /system/bin/crestErrorLogServer # 2021-10-24 14:39:11 # SDCard Write COUNTER: 39379032
+  480. Notice: /system/bin/crestErrorLogServer # 2021-10-25 14:40:06 # SDCard Write COUNTER: 39399696
+  481. Notice: /system/bin/crestErrorLogServer # 2021-10-26 14:40:57 # SDCard Write COUNTER: 39416180
+  482. Notice: /system/bin/crestErrorLogServer # 2021-10-27 14:41:50 # SDCard Write COUNTER: 39438330
+  483. Notice: /system/bin/crestErrorLogServer # 2021-10-28 14:42:43 # SDCard Write COUNTER: 39457422
+  484. Notice: /system/bin/crestErrorLogServer # 2021-10-29 14:43:37 # SDCard Write COUNTER: 39481064
+  485. Notice: /system/bin/crestErrorLogServer # 2021-10-30 14:44:27 # SDCard Write COUNTER: 39498610
+  486. Notice: /system/bin/crestErrorLogServer # 2021-10-31 14:45:22 # SDCard Write COUNTER: 39521874
+  487. Notice: /system/bin/crestErrorLogServer # 2021-11-01 14:46:18 # SDCard Write COUNTER: 39541772
+  488. Notice: /system/bin/crestErrorLogServer # 2021-11-02 14:47:08 # SDCard Write COUNTER: 39564946
+  489. Notice: /system/bin/crestErrorLogServer # 2021-11-03 14:47:58 # SDCard Write COUNTER: 39583614
+  490. Notice: /system/bin/crestErrorLogServer # 2021-11-04 14:48:46 # SDCard Write COUNTER: 39604044
+  491. Notice: /system/bin/crestErrorLogServer # 2021-11-05 14:49:35 # SDCard Write COUNTER: 39625220
+  492. Notice: /system/bin/crestErrorLogServer # 2021-11-06 14:50:29 # SDCard Write COUNTER: 39650996
+  493. Notice: /system/bin/AuditLogService # 2021-11-07 01:05:17 # Time Change of -3597 seconds
+  494. Notice: /system/bin/crestErrorLogServer # 2021-11-07 13:51:23 # SDCard Write COUNTER: 39670766
+  495. Error: /system/bin/cipclientd # 2021-11-08 10:13:28 # GW Closed Socket - Send Fail -1
+  496. Notice: /system/bin/cipclientd # 2021-11-08 10:13:28 # GATEWAY: offline with 192.168.1.60
+  497. Error: /system/bin/cipclientd # 2021-11-08 10:17:27 # GW Closed Socket - Send Fail -1
+  498. Notice: /system/bin/cipclientd # 2021-11-08 10:17:27 # GATEWAY: offline with 10.140.5.22
+  499. Notice: /system/bin/ctpd # 2021-11-08 10:25:24 # SHELL Connection 1 from: 10.140.5.244
+  500. Error: /system/bin/reboot # 2021-11-08 10:26:09 # Rebooting System Now....
+Total Errors Logged = 570
+
+
+TSW-1060>========== err plogcurrent ==========
+err plogcurrent
+
+System log:
+  1. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # boot animation landscape
+  2. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 1- 15
+  3. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 2- 15
+  4. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Filesystem               Size     Used     Free   Blksize
+  5. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /dev                   858.4M    52.0K   858.4M   4096
+  6. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /sys/fs/cgroup         858.4M    12.0K   858.4M   4096
+  7. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/asec              858.4M     0.0K   858.4M   4096
+  8. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/obb               858.4M     0.0K   858.4M   4096
+  9. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/shm                50.0M    12.0K    50.0M   4096
+  10. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /system                616.5M   592.9M    23.7M   4096
+  11. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/sdcard              1.4G    71.4M     1.4G   4096
+  12. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /data                  484.2M   328.8M   155.4M   1024
+  13. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /cache                  96.8M    18.0K    96.8M   1024
+  14. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /logs                  282.5M    18.9M   263.6M   1024
+  15. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /swap_zram0            484.3M   384.0K   483.9M   4096
+  16. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 3- 16
+  17. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Filesystem               Size     Used     Free   Blksize
+  18. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /dev                   858.4M    52.0K   858.4M   4096
+  19. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /sys/fs/cgroup         858.4M    12.0K   858.4M   4096
+  20. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/asec              858.4M     0.0K   858.4M   4096
+  21. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/obb               858.4M     0.0K   858.4M   4096
+  22. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/shm                50.0M    12.0K    50.0M   4096
+  23. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /system                616.5M   592.9M    23.7M   4096
+  24. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /mnt/sdcard              1.4G    71.4M     1.4G   4096
+  25. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /data                  484.2M   328.8M   155.4M   1024
+  26. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /cache                  96.8M    18.0K    96.8M   1024
+  27. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /logs                  282.5M    18.9M   263.6M   1024
+  28. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # /swap_zram0            484.3M   384.0K   483.9M   4096
+  29. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 4- 16
+  30. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 5- 16
+  31. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Running regparse to update the registry files as needed
+  32. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 6- 26
+  33. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # set date to 2021-11-08 10:26:09 UTC time from file /logs/MsgLog.txt
+  34. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # net.ipv4.ip_local_reserved_ports = 1298,6080,6090,6379,6380,9872-9876,40000-40020,40100-40120,40200-40220,40234-40236,41002,41004,41006,41008,41794-41799,42676,42872-42874,49202,49925,49300-
+  35. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # AndroidEthInit:: POEPLUS already initalize to 1...
+  36. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # AndroidEthInit: config eth0 mac
+  37. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # ANDROIDETHINIT: Using MAC Address in NVRAM: 00:10:7f:d5:b1:9a
+  38. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # AndroidEthInit: num of NIC 1
+  39. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # ANDROIDETHINIT: Using TSID in NVRAM: 8c624f96
+  40. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Data is the same @ 0x00001670 - 0x00001674
+  41. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # DISABLING DHCP FOR USB DONGLE - NONE FOUND
+  42. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # AndroidEthInit:: Setting Network Interfaces to LAN ENABLED
+  43. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # network enable flag: LAN 1, wifi 0
+  44. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Data is the same @ 0x000015f0 - 0x00001630
+  45. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # AndroidEthInit:: LAN 0 Static IP settings found: 10.140.5.23
+  46. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # setting static ip to 10.140.5.23
+  47. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # AndroidEthInit: Setting default router to 10.140.5.1 for eth0
+  48. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 7- 26
+  49. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 9- 26
+  50. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 10- 26
+  51. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Mon Nov  8 10:26:09 GMT 2021
+  52. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 11- 27
+  53. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 12- 27
+  54. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # reboot_reason=manual
+  55. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Rebooting on Mon Nov  8 10:26:01 GMT 2021
+  56. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Mem: 792052K used, 965972K free, 0K shrd, 3400K buff, 284504K cached
+  57. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # CPU:  9.5% usr  4.7% sys  0.0% nic 85.7% idle  0.0% io  0.0% irq  0.0% sirq
+  58. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # Load average: 0.52 0.73 0.91 1/774 24710
+  59. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  60. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  1361   164 system   S <  1572m 91.5   0  4.7 system_server
+  61. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24710 24706 root     R     9848  0.5   0  4.7 /system/bin/busybox top -n 1 -b
+  62. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21072   164 u0_a46   S    1668m 97.1   1  0.0 {r.Core3Launcher} air.air.Core3Launcher
+  63. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6341   164 system   S    1537m 89.4   0  0.0 {ron.txrxservice} com.crestron.txrxservice
+  64. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6225   164 u0_a27   S    1492m 86.8   0  0.0 {putmethod.latin} com.android.inputmethod.latin
+  65. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18001   164 bluetoot S <  1491m 86.8   0  0.0 {droid.bluetooth} com.android.bluetooth
+  66. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  5970   164 u0_a12   S    1483m 86.3   0  0.0 {ndroid.systemui} com.android.systemui
+  67. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20559   164 u0_a37   S    1481m 86.2   1  0.0 {vice:background} com.crestron.speechtotextservice:background
+  68. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6469   164 u0_a15   S    1477m 86.0   0  0.0 .SplashWindow
+  69. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6271   164 u0_a37   S    1473m 85.7   1  0.0 {chtotextservice} com.crestron.speechtotextservice
+  70. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6419   164 u0_a2    S    1467m 85.4   1  0.0 {d.process.acore} android.process.acore
+  71. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  5919   164 u0_a6    S    1465m 85.3   0  0.0 {d.process.media} android.process.media
+  72. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6380   164 u0_a3    S    1465m 85.3   1  0.0 {m.crestron.home} com.crestron.home
+  73. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18058   164 u0_a15   S    1464m 85.2   0  0.0 {crestron.splash} com.crestron.splash
+  74. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6528   164 u0_a15   S    1464m 85.2   0  0.0 {SplashAppServer} .SplashAppServer
+  75. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 17981   164 u0_a28   S    1463m 85.1   0  0.0 {m.android.music} com.android.music
+  76. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18019   164 system   S    1461m 85.0   0  0.0 {ndroid.keychain} com.android.keychain
+  77. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6306   164 u0_a8    S    1461m 85.0   1  0.0 {restron.service} com.crestron.service
+  78. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6168   164 u0_a7    S    1461m 85.0   0  0.0 {externalstorage} com.android.externalstorage
+  79. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  9951   164 u0_a26   S    1461m 85.0   1  0.0 {estron.platform} com.crestron.platform
+  80. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   164     1 root     S    1453m 84.5   0  0.0 {main} zygote
+  81. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24691  7058 root     S    1287m 74.9   1  0.0 {main} app_process /system/bin com.android.commands.am.Am force-stop com.crestron.screensaver
+  82. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  7058     1 root     S     161m  9.4   1  0.0 /system/bin/platformd
+  83. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18224 18222 root     S     122m  7.1   0  0.0 /system/bin/CPHProcessor
+  84. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   136     1 system   S <   101m  5.8   0  0.0 /system/bin/surfaceflinger
+  85. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20632 20622 root     S    78596  4.4   0  0.0 /system/bin/csio
+  86. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21681 21680 root     S    74316  4.2   0  0.0 /system/bin/ravaApp
+  87. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   152     1 media    S    73864  4.2   0  0.0 /system/bin/mediaserver
+  88. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3489     1 root     S    71736  4.0   0  0.0 /system/bin/a_console
+  89. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3496     1 root     S    70360  4.0   1  0.0 /system/bin/ctpd
+  90. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  7063     1 root     S    70168  3.9   0  0.0 /system/bin/CrestronDiscovery
+  91. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 19016     1 root     S    68012  3.8   0  0.0 /system/bin/cipclientd
+  92. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3487     1 root     S    65268  3.7   1  0.0 /system/bin/crestErrorLogServer
+  93. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20654 20647 root     S    60592  3.4   0  0.0 /system/bin/autoUpdater
+  94. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4668     1 root     S    60564  3.4   0  0.0 /system/bin/FITCProxy
+  95. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3485     1 root     S    34492  1.9   0  0.0 /system/bin/redis-server --module-add /system/lib/json.so --save 300 10 --save 600 1 --dir /data/cresstore/ --bind 127.0.0.1
+  96. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4676     1 root     S    26504  1.5   0  0.0 /system/bin/HydrogenManager
+  97. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   151     1 drm      S    26080  1.4   2  0.0 /system/bin/drmserver
+  98. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   149     1 root     S    22840  1.3   0  0.0 /system/bin/netd
+  99. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   131     1 logd     S    21716  1.2   3  0.0 /system/bin/logd
+  100. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24057 18233 root     S    19436  1.1   0  0.0 /system/bin/lighttpd -D -f /data/web/conf/lighttpd-authon.conf
+  101. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22406 22396 root     S    18164  1.0   0  0.0 /system/bin/sshd: /system/bin/sshd -p 22 -D [listener] 0 of 10-100 startups
+  102. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22660 22406 root     S    18156  1.0   0  0.0 /system/bin/sshd: riordan@ptmx
+  103. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   135     1 root     S    18036  1.0   0  0.0 /system/bin/vold
+  104. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6122     1 media_rw S    17460  0.9   3  0.0 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -t 4 -d /mnt/media_rw/sdcard1 /storage/sdcard1
+  105. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   156     1 root     S    16412  0.9   0  0.0 /system/bin/systemcontrol
+  106. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3695     1 root     S    14632  0.8   0  0.0 /system/bin/IpBlockerService
+  107. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3684     1 root     S    14616  0.8   0  0.0 /system/bin/AuditLogService
+  108. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   154     1 keystore S    12504  0.7   1  0.0 /system/bin/keystore /data/misc/keystore
+  109. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22671 22668 root     S    10788  0.6   0  0.0 /system/bin/telnetSSHProxy SSH riordan
+  110. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22879  4681 root     S    10680  0.6   0  0.0 sleep 60
+  111. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   133     1 root     S    10632  0.6   0  0.0 /system/bin/lmkd
+  112. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   150     1 root     S    10060  0.5   2  0.0 /system/bin/debuggerd
+  113. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   132     1 root     S     9828  0.5   0  0.0 /sbin/healthd
+  114. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  1403     1 root     S     9488  0.5   0  0.0 /system/bin/lldpd -d -u /dev/shm/crestron/lldpd.socket -L /system/bin/lldpcli.sh
+  115. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   134     1 system   S     9464  0.5   1  0.0 /system/bin/servicemanager
+  116. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   153     1 install  S     9416  0.5   0  0.0 /system/bin/installd
+  117. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4038  3487 root     S     9216  0.5   1  0.0 /system/bin/logcat -v time
+  118. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4034     1 root     S     9216  0.5   1  0.0 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLogVerbose -v time -n 1 -s *:I
+  119. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4030     1 root     S     9216  0.5   1  0.0 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLog -v time -n 1 -s *:W
+  120. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20622     1 root     S     9184  0.5   0  0.0 /system/bin/logwrapper /system/bin/csio
+  121. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20647     1 root     S     9184  0.5   0  0.0 /system/bin/logwrapper /system/bin/autoUpdater
+  122. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21680     1 root     S     9184  0.5   0  0.0 /system/bin/logwrapper /system/bin/ravaApp
+  123. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  7060     1 root     S     9176  0.5   0  0.0 /system/bin/pet 20
+  124. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     1     0 root     S     8872  0.5   0  0.0 /init ${bootargs_console} earlyprintk
+  125. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   110     1 root     S     8864  0.5   0  0.0 /sbin/ueventd
+  126. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   148     1 root     S     8772  0.5   1  0.0 /system/bin/sh
+  127. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   159     1 root     S     8716  0.5   0  0.0 /system/bin/dig
+  128. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4681     1 root     S     1432  0.0   0  0.0 {recovercloudcli} /system/bin/bash /system/bin/recovercloudclient.sh
+  129. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24706  3489 root     S     1432  0.0   0  0.0 {reboot} /system/bin/bash /system/bin/reboot
+  130. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18233     1 root     S     1432  0.0   0  0.0 {startlighttpd.s} /system/bin/bash /system/bin/webserverscripts/startlighttpd.sh
+  131. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22668 22660 root     S     1432  0.0   0  0.0 {sshShell.sh} /system/bin/bash /system/bin/sshShell.sh riordan
+  132. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22396     1 root     S     1428  0.0   0  0.0 {startSSHD.sh} /system/bin/bash /system/bin/startSSHD.sh
+  133. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18222     1 root     S     1428  0.0   0  0.0 {startCPHProcess} /system/bin/bash /system/bin/webserverscripts/startCPHProcessor.sh
+  134. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    81     2 root     SW       0  0.0   0  0.0 [kthread_h265]
+  135. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    77     2 root     SW       0  0.0   0  0.0 [kthread_di]
+  136. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     8     2 root     SW       0  0.0   1  0.0 [rcu_preempt]
+  137. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    34     2 root     SW       0  0.0   0  0.0 [kthread_hdmi]
+  138. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    95     2 root     SW       0  0.0   1  0.0 [kthread_hdcp]
+  139. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+  140. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    71     2 root     SW       0  0.0   0  0.0 [cpu_hotplug_gdb]
+  141. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+  142. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    31     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+  143. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 12353     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+  144. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 19578     2 root     SW       0  0.0   1  0.0 [kworker/u8:0]
+  145. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    13     2 root     SW       0  0.0   1  0.0 [migration/1]
+  146. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     7     2 root     SW       0  0.0   0  0.0 [migration/0]
+  147. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    15     2 root     SW       0  0.0   1  0.0 [kworker/1:0]
+  148. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    89     2 root     SW       0  0.0   0  0.0 [mmcqd/0]
+  149. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    10     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+  150. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+  151. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    86     2 root     SW       0  0.0   0  0.0 [irq/60-sdio]
+  152. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 28269     2 root     SW       0  0.0   0  0.0 [kworker/u8:1]
+  153. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   366     2 root     SW       0  0.0   0  0.0 [aml_buf_toggle]
+  154. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+  155. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+  156. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   129     2 root     SW       0  0.0   0  0.0 [jbd2/mmcblk0p8-]
+  157. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    90     2 root     SW       0  0.0   0  0.0 [irq/110-sdhc]
+  158. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    92     2 root     SW       0  0.0   0  0.0 [mmcqd/0]
+  159. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   171     2 root     SW<      0  0.0   1  0.0 [kworker/1:1H]
+  160. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     2     0 root     SW       0  0.0   0  0.0 [kthreadd]
+  161. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    96     2 root     SW       0  0.0   0  0.0 [vmalloc_ion]
+  162. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   175     2 root     SW<      0  0.0   0  0.0 [kworker/0:1H]
+  163. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    32     2 root     SW       0  0.0   2  0.0 [kworker/2:1]
+  164. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    19     2 root     RW       0  0.0   2  0.0 [ksoftirqd/2]
+  165. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    33     2 root     SW       0  0.0   3  0.0 [kworker/3:1]
+  166. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    24     2 root     RW       0  0.0   3  0.0 [ksoftirqd/3]
+  167. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    18     2 root     RW       0  0.0   2  0.0 [migration/2]
+  168. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    20     2 root     SW       0  0.0   2  0.0 [kworker/2:0]
+  169. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  1404  1403 root     Z        0  0.0   0  0.0 [lldpcli]
+  170. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    23     2 root     RW       0  0.0   3  0.0 [migration/3]
+  171. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    87     2 root     SW       0  0.0   1  0.0 [irq/99-mmc_in]
+  172. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   116     2 root     SW<      0  0.0   2  0.0 [kworker/2:1H]
+  173. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    88     2 root     SW       0  0.0   0  0.0 [irq/101-mmc_out]
+  174. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   119     2 root     SW<      0  0.0   2  0.0 [ext4-dio-unwrit]
+  175. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   115     2 root     SW<      0  0.0   3  0.0 [ext4-dio-unwrit]
+  176. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   114     2 root     SW       0  0.0   3  0.0 [jbd2/mmcblk1p8-]
+  177. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   113     2 root     SW<      0  0.0   3  0.0 [kworker/3:1H]
+  178. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   111     2 root     SW<      0  0.0   2  0.0 [kworker/u9:0]
+  179. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   109     2 root     SW<      0  0.0   3  0.0 [cec_work]
+  180. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   108     2 root     SW<      0  0.0   3  0.0 [goodix_wq]
+  181. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  5551  3489 root     Z        0  0.0   0  0.0 [fw_printenv]
+  182. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   107     2 root     SW       0  0.0   3  0.0 [file-storage]
+  183. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   106     2 root     SW<      0  0.0   3  0.0 [f_mtp]
+  184. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   105     2 root     SW<      0  0.0   3  0.0 [deferwq]
+  185. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   104     2 root     SW<      0  0.0   3  0.0 [krfcommd]
+  186. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    94     2 root     SW       0  0.0   3  0.0 [mmcqd/0boot1]
+  187. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    93     2 root     SW       0  0.0   3  0.0 [mmcqd/0boot0]
+  188. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    91     2 root     SW<      0  0.0   2  0.0 [rtc]
+  189. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    82     2 root     SW<      0  0.0   2  0.0 [2-0038]
+  190. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    80     2 root     SW       0  0.0   0  0.0 [encode_monitor]
+  191. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    79     2 root     SW<      0  0.0   1  0.0 [dwc_otg]
+  192. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    78     2 root     SW<      0  0.0   2  0.0 [dwc_otg]
+  193. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    76     2 root     SW<      0  0.0   2  0.0 [kpled_power_on_]
+  194. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    75     2 root     SW<      0  0.0   2  0.0 [bl_power_on_que]
+  195. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    74     2 root     SW       0  0.0   2  0.0 [ge2d_monitor]
+  196. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    73     2 root     SW<      0  0.0   2  0.0 [binder]
+  197. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    72     2 root     RW       0  0.0   2  0.0 [cpu_idle_gdbs]
+  198. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    70     2 root     SW       0  0.0   2  0.0 [NULL_task_for_h]
+  199. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    69     2 root     SW       0  0.0   2  0.0 [cfinteractive]
+  200. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    68     2 root     SW<      0  0.0   2  0.0 [dm_bufio_cache]
+  201. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    67     2 root     SW<      0  0.0   2  0.0 [kpsmoused]
+  202. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    44     2 root     SW<      0  0.0   2  0.0 [crypto]
+  203. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    43     2 root     SW<      0  0.0   2  0.0 [cifsiod]
+  204. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    42     2 root     SW       0  0.0   0  0.0 [fsnotify_mark]
+  205. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    41     2 root     SW       0  0.0   2  0.0 [kswapd0]
+  206. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    40     2 root     SW       0  0.0   2  0.0 [khungtaskd]
+  207. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    39     2 root     SW<      0  0.0   1  0.0 [cfg80211]
+  208. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    38     2 root     SW       0  0.0   3  0.0 [khubd]
+  209. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    37     2 root     SW<      0  0.0   1  0.0 [kblockd]
+  210. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    36     2 root     SW<      0  0.0   1  0.0 [bioset]
+  211. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    35     2 root     SW<      0  0.0   1  0.0 [writeback]
+  212. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    29     2 root     SW<      0  0.0   1  0.0 [suspend]
+  213. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    28     2 root     SW       0  0.0   0  0.0 [kdevtmpfs]
+  214. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21891     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+  215. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    27     2 root     SW<      0  0.0   1  0.0 [khelper]
+  216. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    26     2 root     SW<      0  0.0   3  0.0 [kworker/3:0H]
+  217. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    25     2 root     SW       0  0.0   3  0.0 [kworker/3:0]
+  218. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    22     2 root     RW       0  0.0   3  0.0 [watchdog/3]
+  219. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    21     2 root     SW<      0  0.0   2  0.0 [kworker/2:0H]
+  220. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    17     2 root     RW       0  0.0   2  0.0 [watchdog/2]
+  221. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+  222. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   773     2 root     SW<      0  0.0   0  0.0 [kworker/u9:1]
+  223. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+  224. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   577     2 root     SW<      0  0.0   2  0.0 [ext4-dio-unwrit]
+  225. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   576     2 root     SW       0  0.0   2  0.0 [jbd2/zram0-8]
+  226. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   141     2 root     SW       0  0.0   2  0.0 [kauditd]
+  227. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   130     2 root     SW<      0  0.0   2  0.0 [ext4-dio-unwrit]
+  228. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   125     2 root     SW<      0  0.0   2  0.0 [ext4-dio-unwrit]
+  229. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   122     2 root     SW<      0  0.0   2  0.0 [ext4-dio-unwrit]
+  230. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 
+  231. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # root      3489  1     71736  14272 ffffffff b6e10244 S /system/bin/a_console
+  232. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # root      5551  3489  0      0     c003787c 00000000 Z fw_printenv
+  233. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # root      24706 3489  1432   672   c0036f90 000a8fa8 S /system/bin/bash
+  234. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 
+  235. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 
+  236. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # PID   USER     TIME   COMMAND
+  237. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     1 root       0:04 /init ${bootargs_console} earlyprintk
+  238. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     2 root       0:00 [kthreadd]
+  239. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     3 root       5:12 [ksoftirqd/0]
+  240. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     5 root       0:00 [kworker/0:0H]
+  241. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     7 root       0:14 [migration/0]
+  242. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     8 root     162:58 [rcu_preempt]
+  243. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #     9 root       0:00 [rcu_bh]
+  244. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    10 root       0:05 [rcu_sched]
+  245. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    11 root       2:02 [watchdog/0]
+  246. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    12 root       0:01 [watchdog/1]
+  247. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    13 root       0:15 [migration/1]
+  248. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    14 root       0:05 [ksoftirqd/1]
+  249. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    15 root       0:14 [kworker/1:0]
+  250. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    16 root       0:02 [kworker/1:0H]
+  251. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    17 root       0:00 [watchdog/2]
+  252. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    18 root       0:00 [migration/2]
+  253. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    19 root       0:00 [ksoftirqd/2]
+  254. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    20 root       0:00 [kworker/2:0]
+  255. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    21 root       0:00 [kworker/2:0H]
+  256. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    22 root       0:00 [watchdog/3]
+  257. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    23 root       0:00 [migration/3]
+  258. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    24 root       0:00 [ksoftirqd/3]
+  259. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    25 root       0:00 [kworker/3:0]
+  260. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    26 root       0:00 [kworker/3:0H]
+  261. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    27 root       0:00 [khelper]
+  262. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    28 root       0:00 [kdevtmpfs]
+  263. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    29 root       0:00 [suspend]
+  264. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    31 root       1:41 [kworker/1:1]
+  265. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    32 root       0:00 [kworker/2:1]
+  266. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    33 root       0:00 [kworker/3:1]
+  267. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    34 root      35:08 [kthread_hdmi]
+  268. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    35 root       0:00 [writeback]
+  269. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    36 root       0:00 [bioset]
+  270. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    37 root       0:00 [kblockd]
+  271. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    38 root       0:00 [khubd]
+  272. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    39 root       0:00 [cfg80211]
+  273. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    40 root       0:00 [khungtaskd]
+  274. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    41 root       0:00 [kswapd0]
+  275. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    42 root       0:00 [fsnotify_mark]
+  276. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    43 root       0:00 [cifsiod]
+  277. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    44 root       0:00 [crypto]
+  278. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    67 root       0:00 [kpsmoused]
+  279. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    68 root       0:00 [dm_bufio_cache]
+  280. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    69 root       0:00 [cfinteractive]
+  281. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    70 root       0:00 [NULL_task_for_h]
+  282. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    71 root       2:59 [cpu_hotplug_gdb]
+  283. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    72 root       0:00 [cpu_idle_gdbs]
+  284. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    73 root       0:00 [binder]
+  285. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    74 root       0:00 [ge2d_monitor]
+  286. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    75 root       0:00 [bl_power_on_que]
+  287. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    76 root       0:00 [kpled_power_on_]
+  288. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    77 root     178:57 [kthread_di]
+  289. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    78 root       0:00 [dwc_otg]
+  290. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    79 root       0:00 [dwc_otg]
+  291. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    80 root       0:00 [encode_monitor]
+  292. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    81 root     269:34 [kthread_h265]
+  293. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    82 root       0:00 [2-0038]
+  294. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    86 root       0:05 [irq/60-sdio]
+  295. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    87 root       0:00 [irq/99-mmc_in]
+  296. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    88 root       0:00 [irq/101-mmc_out]
+  297. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    89 root       0:06 [mmcqd/0]
+  298. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    90 root       0:01 [irq/110-sdhc]
+  299. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    91 root       0:00 [rtc]
+  300. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    92 root       0:00 [mmcqd/0]
+  301. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    93 root       0:00 [mmcqd/0boot0]
+  302. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    94 root       0:00 [mmcqd/0boot1]
+  303. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    95 root      31:59 [kthread_hdcp]
+  304. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #    96 root       0:00 [vmalloc_ion]
+  305. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   104 root       0:00 [krfcommd]
+  306. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   105 root       0:00 [deferwq]
+  307. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   106 root       0:00 [f_mtp]
+  308. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   107 root       0:00 [file-storage]
+  309. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   108 root       0:00 [goodix_wq]
+  310. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   109 root       0:00 [cec_work]
+  311. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   110 root       0:00 /sbin/ueventd
+  312. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   111 root       0:00 [kworker/u9:0]
+  313. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   113 root       0:00 [kworker/3:1H]
+  314. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   114 root       0:00 [jbd2/mmcblk1p8-]
+  315. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   115 root       0:00 [ext4-dio-unwrit]
+  316. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   116 root       0:00 [kworker/2:1H]
+  317. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   119 root       0:00 [ext4-dio-unwrit]
+  318. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   122 root       0:00 [ext4-dio-unwrit]
+  319. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   125 root       0:00 [ext4-dio-unwrit]
+  320. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   129 root       0:01 [jbd2/mmcblk0p8-]
+  321. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   130 root       0:00 [ext4-dio-unwrit]
+  322. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   131 logd     165:48 /system/bin/logd
+  323. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   132 root       0:00 /sbin/healthd
+  324. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   133 root       0:00 /system/bin/lmkd
+  325. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   134 system     0:00 /system/bin/servicemanager
+  326. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   135 root       0:00 /system/bin/vold
+  327. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   136 system   377:07 /system/bin/surfaceflinger
+  328. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   141 root       0:00 [kauditd]
+  329. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   148 root       0:00 /system/bin/sh
+  330. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   149 root       1:14 /system/bin/netd
+  331. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   150 root       0:00 /system/bin/debuggerd
+  332. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   151 drm        0:00 /system/bin/drmserver
+  333. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   152 media      0:01 /system/bin/mediaserver
+  334. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   153 install    0:00 /system/bin/installd
+  335. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   154 keystore   0:00 /system/bin/keystore /data/misc/keystore
+  336. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   156 root       0:00 /system/bin/systemcontrol
+  337. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   159 root       1:07 /system/bin/dig
+  338. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   164 root       0:03 {main} zygote
+  339. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   171 root       0:00 [kworker/1:1H]
+  340. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   175 root       0:00 [kworker/0:1H]
+  341. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   366 root       0:02 [aml_buf_toggle]
+  342. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   576 root       0:00 [jbd2/zram0-8]
+  343. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   577 root       0:00 [ext4-dio-unwrit]
+  344. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #   773 root       0:00 [kworker/u9:1]
+  345. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  1361 system   596:33 system_server
+  346. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  1403 root       1:33 /system/bin/lldpd -d -u /dev/shm/crestron/lldpd.socket -L /system/bin/lldpcli.sh
+  347. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  1404 root       0:00 [lldpcli]
+  348. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3485 root     227:30 /system/bin/redis-server --module-add /system/lib/json.so --save 300 10 --save 600 1 --dir /data/cresstore/ --bind 127.0.0.1
+  349. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3487 root       3:34 /system/bin/crestErrorLogServer
+  350. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3489 root       1:21 /system/bin/a_console
+  351. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3496 root       0:12 /system/bin/ctpd
+  352. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3684 root       0:17 /system/bin/AuditLogService
+  353. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  3695 root       1:33 /system/bin/IpBlockerService
+  354. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4030 root       0:02 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLog -v time -n 1 -s *:W
+  355. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4034 root       0:03 /system/bin/logcat -r 2048 -f /dev/crestron/ramLogs/sysLogVerbose -v time -n 1 -s *:I
+  356. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4038 root       0:06 /system/bin/logcat -v time
+  357. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4668 root       0:45 /system/bin/FITCProxy
+  358. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4676 root      44:02 /system/bin/HydrogenManager
+  359. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  4681 root       3:36 {recovercloudcli} /system/bin/bash /system/bin/recovercloudclient.sh
+  360. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  5551 root       0:00 [fw_printenv]
+  361. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  5919 u0_a6      5:42 {d.process.media} android.process.media
+  362. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  5970 u0_a12    58:40 {ndroid.systemui} com.android.systemui
+  363. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6122 media_rw   0:00 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -t 4 -d /mnt/media_rw/sdcard1 /storage/sdcard1
+  364. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6168 u0_a7      5:39 {externalstorage} com.android.externalstorage
+  365. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6225 u0_a27     5:46 {putmethod.latin} com.android.inputmethod.latin
+  366. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6271 u0_a37     5:07 {chtotextservice} com.crestron.speechtotextservice
+  367. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6306 u0_a8      5:02 {restron.service} com.crestron.service
+  368. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6341 system   395:06 {ron.txrxservice} com.crestron.txrxservice
+  369. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6380 u0_a3      5:42 {m.crestron.home} com.crestron.home
+  370. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6419 u0_a2      5:40 {d.process.acore} android.process.acore
+  371. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6469 u0_a15   233:24 .SplashWindow
+  372. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  6528 u0_a15     5:41 {SplashAppServer} .SplashAppServer
+  373. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  7058 root     3323:1 /system/bin/platformd
+  374. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  7060 root       1:20 /system/bin/pet 20
+  375. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  7063 root       5:50 /system/bin/CrestronDiscovery
+  376. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 #  9951 u0_a26     5:39 {estron.platform} com.crestron.platform
+  377. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 12353 root       0:50 [kworker/0:0]
+  378. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 17981 u0_a28     5:39 {m.android.music} com.android.music
+  379. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18001 bluetoot   5:06 {droid.bluetooth} com.android.bluetooth
+  380. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18019 system     5:38 {ndroid.keychain} com.android.keychain
+  381. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18058 u0_a15     5:42 {crestron.splash} com.crestron.splash
+  382. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18222 root       0:00 {startCPHProcess} /system/bin/bash /system/bin/webserverscripts/startCPHProcessor.sh
+  383. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18224 root      93:03 /system/bin/CPHProcessor
+  384. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 18233 root       0:00 {startlighttpd.s} /system/bin/bash /system/bin/webserverscripts/startlighttpd.sh
+  385. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 19016 root       0:01 /system/bin/cipclientd
+  386. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 19578 root       0:16 [kworker/u8:0]
+  387. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20559 u0_a37     6:00 {vice:background} com.crestron.speechtotextservice:background
+  388. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20622 root       0:00 /system/bin/logwrapper /system/bin/csio
+  389. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20632 root      20:52 /system/bin/csio
+  390. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20647 root       0:00 /system/bin/logwrapper /system/bin/autoUpdater
+  391. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 20654 root      12:43 /system/bin/autoUpdater
+  392. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21072 u0_a46     1:54 {r.Core3Launcher} air.air.Core3Launcher
+  393. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21680 root       0:00 /system/bin/logwrapper /system/bin/ravaApp
+  394. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21681 root     1584:0 /system/bin/ravaApp
+  395. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 21891 root       0:00 [kworker/0:2]
+  396. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22396 root       0:00 {startSSHD.sh} /system/bin/bash /system/bin/startSSHD.sh
+  397. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22406 root       0:00 /system/bin/sshd: /system/bin/sshd -p 22 -D [listener] 0 of 10-100 startups
+  398. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22660 root       0:00 /system/bin/sshd: riordan@ptmx
+  399. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22668 root       0:00 {sshShell.sh} /system/bin/bash /system/bin/sshShell.sh riordan
+  400. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22671 root       0:00 /system/bin/telnetSSHProxy SSH riordan
+  401. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 22879 root       0:00 sleep 60
+  402. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24057 root      35:05 /system/bin/lighttpd -D -f /data/web/conf/lighttpd-authon.conf
+  403. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24691 root       0:00 {main} app_process /system/bin com.android.commands.am.Am force-stop com.crestron.screensaver
+  404. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24706 root       0:00 {reboot} /system/bin/bash /system/bin/reboot
+  405. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 24713 root       0:00 /system/bin/busybox ps
+  406. Notice: /system/bin/crestErrorLogServer # 2021-11-08 10:26:11 # 28269 root       0:02 [kworker/u8:1]
+  407. Notice: com.crestron.txrxservice # 2021-11-08 10:26:19 # Product type detected: 7E00
+  408. Notice: com.crestron.txrxservice # 2021-11-08 10:26:19 # Device type :0x7EFE
+  409. Notice: com.crestron.txrxservice # 2021-11-08 10:26:21 # Product type detected: 7E00
+  410. Notice: com.crestron.txrxservice # 2021-11-08 10:26:21 # Device type :0x7EFE
+  411. Notice: /system/bin/platformd # 2021-11-08 10:26:25 # module: 14, eUIH_RESOURCE_CRESNET
+  412. Notice: /system/bin/platformd # 2021-11-08 10:26:25 # CUIHalCresnet::Initialize +
+  413. Notice: /system/bin/platformd # 2021-11-08 10:26:25 # CUIHalCresnet::Initialize -
+  414. Notice: /system/bin/platformd # 2021-11-08 10:27:11 # CUIHalCresnet::GetCapabilities +
+  415. Notice: /system/bin/platformd # 2021-11-08 10:27:11 # CUIHalCresnet::GetCapabilities -
+  416. Notice: /system/bin/platformd # 2021-11-08 10:27:11 # CUIHalCresnet::SetCapabilities +
+  417. Notice: /system/bin/platformd # 2021-11-08 10:27:11 # CUIHalCresnet::SetCapabilities -
+  418. Notice: /system/bin/csio # 2021-11-08 10:27:19 # Product type detected: 7E00
+  419. Notice: /system/bin/csio # 2021-11-08 10:27:19 # Device type :0x7EFE
+  420. Notice: /system/bin/csio # 2021-11-08 10:27:19 # Product type detected: 7E00
+  421. Notice: /system/bin/ctpd # 2021-11-08 10:27:34 # SHELL Connection 1 from: 10.140.5.244
+  422. Notice: /system/bin/HydrogenManager # 2021-11-08 10:28:22 # [external/crestron/HydrogenManager/source/XioSdk/../../source/Linux/HTTPProxy_sub.cpp:243] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+  423. Warning: /system/bin/ctpd # 2021-11-08 10:29:08 # SHELL connection 1 being closed from address 10.140.5.244.
+  424. Notice: /system/bin/AuditLogService # 2021-11-08 10:29:37 # Time Change of 35 seconds
+  425. Notice: /system/bin/HydrogenManager # 2021-11-08 10:34:43 # [external/crestron/HydrogenManager/source/XioSdk/../../source/Linux/HTTPProxy_sub.cpp:243] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+  426. Notice: /system/bin/crestErrorLogServer # 2021-11-09 10:27:43 # SDCard Write COUNTER: 39747268
+  427. Notice: /system/bin/crestErrorLogServer # 2021-11-10 10:28:35 # SDCard Write COUNTER: 39763348
+  428. Notice: /system/bin/crestErrorLogServer # 2021-11-11 10:29:29 # SDCard Write COUNTER: 39779554
+  429. Notice: /system/bin/crestErrorLogServer # 2021-11-12 10:30:22 # SDCard Write COUNTER: 39798460
+  430. Notice: /system/bin/crestErrorLogServer # 2021-11-13 10:31:16 # SDCard Write COUNTER: 39818932
+  431. Notice: /system/bin/crestErrorLogServer # 2021-11-14 10:32:10 # SDCard Write COUNTER: 39833964
+  432. Notice: /system/bin/crestErrorLogServer # 2021-11-15 10:33:03 # SDCard Write COUNTER: 39846974
+  433. Notice: /system/bin/crestErrorLogServer # 2021-11-16 10:33:55 # SDCard Write COUNTER: 39861250
+  434. Notice: /system/bin/crestErrorLogServer # 2021-11-17 10:34:52 # SDCard Write COUNTER: 39875462
+  435. Notice: /system/bin/crestErrorLogServer # 2021-11-18 10:35:45 # SDCard Write COUNTER: 39886354
+  436. Notice: /system/bin/crestErrorLogServer # 2021-11-19 10:36:44 # SDCard Write COUNTER: 39898272
+  437. Notice: /system/bin/crestErrorLogServer # 2021-11-20 10:37:38 # SDCard Write COUNTER: 39910618
+  438. Notice: /system/bin/crestErrorLogServer # 2021-11-21 10:38:33 # SDCard Write COUNTER: 39923910
+  439. Notice: /system/bin/crestErrorLogServer # 2021-11-22 10:39:25 # SDCard Write COUNTER: 39935380
+  440. Notice: /system/bin/crestErrorLogServer # 2021-11-23 10:40:17 # SDCard Write COUNTER: 39948446
+  441. Notice: /system/bin/AuditLogService # 2021-11-23 14:50:19 # Time Change of -102 seconds
+  442. Notice: /system/bin/crestErrorLogServer # 2021-11-24 10:39:23 # SDCard Write COUNTER: 39962152
+  443. Notice: /system/bin/crestErrorLogServer # 2021-11-25 10:40:16 # SDCard Write COUNTER: 39975428
+  444. Notice: /system/bin/crestErrorLogServer # 2021-11-26 10:41:10 # SDCard Write COUNTER: 39988456
+  445. Notice: /system/bin/crestErrorLogServer # 2021-11-27 10:42:03 # SDCard Write COUNTER: 40001512
+  446. Notice: /system/bin/crestErrorLogServer # 2021-11-28 10:42:55 # SDCard Write COUNTER: 40014734
+  447. Notice: /system/bin/crestErrorLogServer # 2021-11-29 10:43:48 # SDCard Write COUNTER: 40029442
+  448. Notice: /system/bin/crestErrorLogServer # 2021-11-30 10:44:41 # SDCard Write COUNTER: 40043316
+  449. Notice: /system/bin/crestErrorLogServer # 2021-12-01 10:45:35 # SDCard Write COUNTER: 40059178
+  450. Notice: /system/bin/crestErrorLogServer # 2021-12-02 10:46:30 # SDCard Write COUNTER: 40074670
+  451. Notice: /system/bin/crestErrorLogServer # 2021-12-03 10:47:22 # SDCard Write COUNTER: 40091622
+  452. Notice: /system/bin/crestErrorLogServer # 2021-12-04 10:48:10 # SDCard Write COUNTER: 40107190
+  453. Notice: /system/bin/crestErrorLogServer # 2021-12-05 10:49:05 # SDCard Write COUNTER: 40123484
+  454. Notice: /system/bin/crestErrorLogServer # 2021-12-06 10:50:00 # SDCard Write COUNTER: 40139170
+  455. Notice: /system/bin/crestErrorLogServer # 2021-12-07 10:50:57 # SDCard Write COUNTER: 40156472
+  456. Notice: /system/bin/crestErrorLogServer # 2021-12-08 10:51:52 # SDCard Write COUNTER: 40172834
+  457. Notice: /system/bin/crestErrorLogServer # 2021-12-09 10:52:45 # SDCard Write COUNTER: 40190692
+  458. Notice: /system/bin/crestErrorLogServer # 2021-12-10 10:53:36 # SDCard Write COUNTER: 40208258
+  459. Notice: /system/bin/crestErrorLogServer # 2021-12-11 10:54:31 # SDCard Write COUNTER: 40226606
+  460. Notice: /system/bin/crestErrorLogServer # 2021-12-12 10:55:25 # SDCard Write COUNTER: 40243812
+  461. Notice: /system/bin/crestErrorLogServer # 2021-12-13 10:56:20 # SDCard Write COUNTER: 40261514
+  462. Notice: /system/bin/crestErrorLogServer # 2021-12-14 10:57:12 # SDCard Write COUNTER: 40279976
+  463. Notice: /system/bin/crestErrorLogServer # 2021-12-15 10:58:06 # SDCard Write COUNTER: 40300640
+  464. Notice: /system/bin/crestErrorLogServer # 2021-12-16 10:58:59 # SDCard Write COUNTER: 40319476
+  465. Notice: /system/bin/crestErrorLogServer # 2021-12-17 10:59:52 # SDCard Write COUNTER: 40338918
+  466. Notice: /system/bin/crestErrorLogServer # 2021-12-18 11:00:42 # SDCard Write COUNTER: 40359722
+  467. Notice: /system/bin/crestErrorLogServer # 2021-12-19 11:01:36 # SDCard Write COUNTER: 40380514
+  468. Notice: /system/bin/crestErrorLogServer # 2021-12-20 11:02:33 # SDCard Write COUNTER: 40400536
+  469. Notice: /system/bin/crestErrorLogServer # 2021-12-21 11:03:25 # SDCard Write COUNTER: 40420996
+  470. Notice: /system/bin/crestErrorLogServer # 2021-12-22 11:04:19 # SDCard Write COUNTER: 40441892
+  471. Notice: /system/bin/crestErrorLogServer # 2021-12-23 11:05:13 # SDCard Write COUNTER: 40463746
+  472. Notice: /system/bin/crestErrorLogServer # 2021-12-24 11:06:05 # SDCard Write COUNTER: 40484014
+  473. Notice: /system/bin/crestErrorLogServer # 2021-12-25 11:07:00 # SDCard Write COUNTER: 40504584
+  474. Notice: /system/bin/crestErrorLogServer # 2021-12-26 11:07:53 # SDCard Write COUNTER: 40526406
+  475. Notice: /system/bin/crestErrorLogServer # 2021-12-27 11:08:47 # SDCard Write COUNTER: 40549674
+  476. Notice: /system/bin/crestErrorLogServer # 2021-12-28 11:09:42 # SDCard Write COUNTER: 40571388
+  477. Notice: /system/bin/crestErrorLogServer # 2021-12-29 11:10:38 # SDCard Write COUNTER: 40594444
+  478. Notice: /system/bin/crestErrorLogServer # 2021-12-30 11:11:34 # SDCard Write COUNTER: 40619584
+  479. Notice: /system/bin/crestErrorLogServer # 2021-12-31 11:12:30 # SDCard Write COUNTER: 40644380
+  480. Notice: /system/bin/crestErrorLogServer # 2022-01-01 11:13:23 # SDCard Write COUNTER: 40666912
+  481. Notice: /system/bin/crestErrorLogServer # 2022-01-02 11:14:18 # SDCard Write COUNTER: 40689760
+  482. Notice: /system/bin/crestErrorLogServer # 2022-01-03 11:15:14 # SDCard Write COUNTER: 40713964
+  483. Notice: /system/bin/crestErrorLogServer # 2022-01-04 11:16:10 # SDCard Write COUNTER: 40740666
+  484. Notice: /system/bin/crestErrorLogServer # 2022-01-05 11:17:02 # SDCard Write COUNTER: 40769058
+  485. Notice: /system/bin/crestErrorLogServer # 2022-01-06 11:17:59 # SDCard Write COUNTER: 40795038
+  486. Notice: /system/bin/crestErrorLogServer # 2022-01-07 11:18:53 # SDCard Write COUNTER: 40819474
+  487. Notice: /system/bin/crestErrorLogServer # 2022-01-08 11:19:48 # SDCard Write COUNTER: 40846234
+  488. Notice: /system/bin/crestErrorLogServer # 2022-01-09 11:20:43 # SDCard Write COUNTER: 40871402
+  489. Notice: /system/bin/crestErrorLogServer # 2022-01-10 11:21:39 # SDCard Write COUNTER: 40897606
+  490. Notice: /system/bin/crestErrorLogServer # 2022-01-11 11:22:34 # SDCard Write COUNTER: 40924584
+  491. Notice: /system/bin/crestErrorLogServer # 2022-01-12 11:23:27 # SDCard Write COUNTER: 40952464
+  492. Notice: /system/bin/crestErrorLogServer # 2022-01-13 11:24:18 # SDCard Write COUNTER: 40978792
+  493. Notice: /system/bin/crestErrorLogServer # 2022-01-14 11:25:12 # SDCard Write COUNTER: 41005086
+  494. Notice: /system/bin/crestErrorLogServer # 2022-01-15 11:26:05 # SDCard Write COUNTER: 41031658
+  495. Notice: /system/bin/crestErrorLogServer # 2022-01-16 11:27:02 # SDCard Write COUNTER: 41060828
+  496. Notice: /system/bin/crestErrorLogServer # 2022-01-17 11:27:56 # SDCard Write COUNTER: 41088200
+  497. Notice: /system/bin/crestErrorLogServer # 2022-01-18 11:28:48 # SDCard Write COUNTER: 41116270
+  498. Warning: /system/bin/cipclientd # 2022-01-18 16:35:38 # GW Closed Socket - Remote Closed
+  499. Notice: /system/bin/cipclientd # 2022-01-18 16:35:38 # GATEWAY: offline with 10.140.5.22
+  500. Warning: /system/bin/cipclientd # 2022-01-18 16:35:42 # GATEWAY: got Program (Not) Ready 1
+Total Errors Logged = 594
+
+
+TSW-1060>========== errstatus flush ==========
+errstatus flush
+
+
+TSW-1060>
