@@ -2054,9 +2054,10 @@
             <summary>
             Scheduled event group constructor
             </summary>
-            <param name="EventGroupName"> Event </param>
+            <param name="EventGroupName"> Group Name with out any '.' character in it. </param>
             <exception cref="T:System.ArgumentOutOfRangeException"> This exception is returned if event group is empty or too long </exception>
             <exception cref="T:System.ArgumentException"> This exception is returned if event group already exist </exception>
+            <exception cref="T:System.ArgumentException"> This exception is returned if event group has a '.' charecter in it. </exception>
         </member>
         <member name="M:Crestron.SimplSharp.Scheduler.ScheduledEventGroup.Dispose">
             <summary>
@@ -2383,10 +2384,11 @@
             <summary>
             This is the scheduled event constructor
             </summary>
-            <param name="EventName"> Event name </param>
+            <param name="EventName"> Event name with out any '.' character in it. </param>
             <param name="EventGroupRef"> Event group </param>
             <exception cref="T:System.ArgumentOutOfRangeException"> This exception is thrown if event name is too long or empty </exception> 
             <exception cref="T:System.ArgumentNullException"> This exception is thrown if event name or group is null </exception> 
+            <exception cref="T:System.ArgumentException"> This exception is returned if event name has a '.' charecter in it. </exception>
         </member>
         <member name="M:Crestron.SimplSharp.Scheduler.ScheduledEvent.Finalize">
             <summary>

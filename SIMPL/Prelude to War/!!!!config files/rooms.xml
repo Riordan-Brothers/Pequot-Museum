@@ -75,7 +75,7 @@
 		<equip_ID>104</equip_ID>
 		<num_zones>2</num_zones>
 		<uses_presets>1</uses_presets>
-		<num_presets>4</num_presets>
+		<num_presets>5</num_presets>
 		<has_shades>0</has_shades>
 		<num_shades>0</num_shades>
 		<all_on_name>All On</all_on_name>
@@ -98,7 +98,7 @@
 		<equip_ID>105</equip_ID>
 		<num_zones>2</num_zones>
 		<uses_presets>1</uses_presets>
-		<num_presets>4</num_presets>
+		<num_presets>5</num_presets>
 		<has_shades>0</has_shades>
 		<num_shades>0</num_shades>
 		<all_on_name>All On</all_on_name>

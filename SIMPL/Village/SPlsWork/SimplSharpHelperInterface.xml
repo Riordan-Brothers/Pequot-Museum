@@ -4311,6 +4311,13 @@
             <exception cref="T:System.NotSupportedException">This method is currently not supported.
             <para>If the API is not supported on this platform. Use <see cref="P:Crestron.SimplSharp.CrestronEnvironment.DevicePlatform"/> to determine the running platform type.</para></exception>
         </member>
+        <member name="M:Crestron.SimplSharp.CrestronAuthentication.Authentication.ValidatePassword(System.String,Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules@,System.String@)">
+            <summary> Validate a password satisfies all system cuurent password rules </summary>
+            <param name="password"> password to qualify </param>
+            <param name="errors"> password check error code return </param>
+            <param name="errorText">Text representation of errors</param>
+            <returns> returns true if successful </returns>
+        </member>
         <member name="M:Crestron.SimplSharp.CrestronAuthentication.Authentication.AddToken(Crestron.SimplSharp.CrestronAuthentication.Authentication.UserToken)">
             <summary>
             Add a new token to the list
@@ -4877,7 +4884,12 @@
         </member>
         <member name="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.PasswordRules">
             <summary>
-            Structure returned from the <see cref="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.PasswordRules"/> to contain the current rules of the system.
+            Structure returned from the <see cref="P:Crestron.SimplSharp.CrestronAuthentication.Authentication.CurrentPasswordRules"/> to contain the current rules of the system.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.PasswordRules.MaxLength">
+            <summary>
+            Maximum length the password can be.
             </summary>
         </member>
         <member name="P:Crestron.SimplSharp.CrestronAuthentication.Authentication.PasswordRules.Length">
@@ -4898,6 +4910,46 @@
         <member name="P:Crestron.SimplSharp.CrestronAuthentication.Authentication.PasswordRules.SpecialCharacterRequired">
             <summary>
             Flag to indicate that the password must contain atleast one special character.
+            </summary>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules">
+            <summary>
+            Crestron password rules enums for local users
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.None">
+            <summary>
+            No rule is enabled
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.Length">
+            <summary>
+            Must have min length
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.Lower">
+            <summary>
+            Must have lower case character
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.Upper">
+            <summary>
+            Must have upper case character
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.Digit">
+            <summary>
+            Must have numeric number
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.Special">
+            <summary>
+            Must have special character
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronAuthentication.Authentication.ePasswordRules.Allowed">
+            <summary>
+            Must be an allowed character
             </summary>
         </member>
         <member name="T:Crestron.SimplSharp.CrestronAuthentication.Authentication.eFirmwareFeature">
@@ -8833,6 +8885,809 @@
             <param name="hostNameToResolve"> HostName to resolve</param>
             <param name="resolvedHostName"> Resolved Host Name</param>
             <returns></returns>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes">
+            <summary>
+            Enum for write Message Opcodes
+            Enum eWebSocketMessageWriteOpcodes is mapped with Native code enum.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes.WEBSOCKET_WRITE_TEXT">
+            <summary>
+            Indicates that the Message send to client is of type TEXT
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes.WEBSOCKET_WRITE_BINARY">
+            <summary>
+            Indicates that the Message send to client is of type BINARY
+            </summary>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus">
+            <summary>
+            Enum for error codes returned by the socket functions
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_INVALID_STATE">
+            <summary>
+            Server not in initial state
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_INVALID_PORT_NUMBER">
+            <summary>
+            Port not in range of 0-65535.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_NOT_CONNECTED">
+            <summary>
+            Unable to establish a connection
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_BUFFER_NOT_ALLOCATED">
+            <summary>
+            Unable to allocate socket buffer
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_ADDRESS_NOT_SPECIFIED">
+            <summary>
+            Address not specified
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_OUT_OF_MEMORY">
+            <summary>
+            Out of memory
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_CONNECTION_IN_PROGRESS">
+            <summary>
+            Socket connection in progress
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_NOT_ALLOWED_IN_SECURE_MODE">
+            <summary>
+            Indicates that the sockets are not allowed in the secure mode
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_SPECIFIED_PORT_ALREADY_IN_USE">
+            <summary>
+            Indicates that the specified port is already in use. 
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_INVALID_CLIENT_INDEX">
+            <summary>
+            Indicates that the client (socket) index is invalid
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_MAXIMUM_CONNECTIONS_REACHED">
+            <summary>
+            Indicates that the client connections reached the MAXIMUM limit.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_OPERATION_PENDING">
+            <summary>
+            Indicates that a socket operation is pending
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_SERVER_ALREADY_STARTED">
+            <summary>
+            Indicates that a websocket is already started
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_FAILED_TO_CREATE_SERVER">
+            <summary>
+            Indicates that a websocket server creation failed.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_HOSTNAME_RESOLUTATION_ERROR">
+            <summary>
+            Indicates that a hostname can not be resolved.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_DISCONNECT_SUCCESS">
+            <summary>
+            Indicates that a websocket client disconnect successful.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_DISCONNECT_FAIL">
+            <summary>
+            Indicates that a websocket client failed to disconnect.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_FAILED_TO_START_SERVER">
+            <summary>
+            Indicate that websocket server start is failure.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_FAILED_TO_STOP_SERVER">
+            <summary>
+            Indicate that websocket server stop is failure.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketStatus.WEBSOCKET_SUCCESS">
+            <summary>
+            Indicate that websocket operation is successful.
+            </summary>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer">
+            <summary>
+            Crestron WebSocket Server class
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.pWebSocketGatewayConnectsCB">
+            <summary>
+            WebSocketGatewayConnects for connect callback.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.pWebsocketIncomingGatewayDataCB">
+            <summary>
+            WebsocketIncomingGatewayData variable for Incoming Data callback.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.pWebSocketGatewayDisConnectsCB">
+            <summary>
+            WebSocketGatewayDisConnects variable for disconnect callback.
+            </summary>
+        </member>
+        <member name="F:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.pWebSocketGatewayErrorHandlerCB">
+            <summary>
+            WebSocketGatewayErrorHandler variable for error callback.
+            </summary>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.UpdateDSMemoryRegion(System.UInt32,System.String,Crestron.SimplSharp.CrestronSockets.SocketStatus,System.DateTime,Crestron.Infrastructure.EthernetCommandUtilityNativeInterface.ETHERNET_ADAPTERS)">
+            <summary>
+            Update the socket info also
+            </summary>
+            <param name="clientIndex"></param>
+            <param name="address"></param>
+            <param name="currentValue"></param>
+            <param name="socketConnectTime"></param>
+            <param name="adapter"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.#ctor">
+            <summary>
+            Default constructor for the websocket Server 
+            Initializes the port number to be a invalid value.            
+            Initailize to create a secure websocket Server
+            </summary>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.#ctor(System.UInt32)">
+            <summary>
+            constructor of the class 
+            Initailize to create a secure websocket Server
+            </summary>
+            <param name="paramPort">websocket Server Port</param>            
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.#ctor(Crestron.SimplSharp.IPEndPoint,System.UInt32)">
+            <summary>
+            constructor of the class
+            Initailize to create a secure websocket Server
+            </summary>
+            <param name="endPointForClient">IP end point for client.</param>
+            <param name="paramPort">websocket Server Port.</param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.#ctor(System.String,System.UInt32)">
+            <summary>
+            constructor of the class
+            Initailize to create a secure websocket Server
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Client's IP Address or '0.0.0.0' for any client.</param>
+            <param name="paramPort">websocket Server Port</param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.doPreConnectErrorChecking">
+            <summary>
+            This function performs error check before connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection">
+            <summary>
+            Function to accept an incoming connection on the server. This is a blocking call and will block until a connection is made or an
+            error occurs.
+            Invoking WaitForConnection multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <returns>SocketErrorCode indicating success or an error</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(System.UInt32@)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a blocking call and will block until a connection is made or an
+            error occurs.
+            Invoking WaitForConnection multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="clientIndex"> Client Index</param>
+            <returns>SocketErrorCode indicating success or an error</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(Crestron.SimplSharp.IPAddress)">
+            <summary>
+            Function to accept an incoming connection on the server from the specified address. This is a blocking call and will block until
+            a connection is made or an error occurs.
+            Invoking WaitForConnection multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <returns> Socket Error Code indicating success or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(Crestron.SimplSharp.IPAddress,System.UInt32@)">
+            <summary>
+            Function to accept an incoming connection on the server from the specified address. This is a blocking call and will block until
+            a connection is made or an error occurs.
+            Invoking WaitForConnection multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientIndex"> Client Index</param>
+            <returns> Socket Error Code indicating success or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(Crestron.SimplSharp.IPAddress,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a blocking call. This invokes the callback once a connection gets established
+            The callback needs to exit or else this function will not return. 
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientConnectedCallbackHandler"> Callback invoked when the client gets connected.</param>
+            <returns> Socket Error Code indicating success or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(System.String)">
+            <summary>
+            Function to accept an incoming connection on the server from the specified address. This is a blocking call and will block until
+            a connection is made or an error occurs.
+            Invoking WaitForConnection multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <returns> Socket Error Code indicating success or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(System.String,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a blocking call. This invokes the callback once a connection gets established
+            The callback needs to exit or else this function will not return. 
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientConnectedCallbackHandler"> Callback invoked when the client gets connected.</param>
+            <returns> Socket Error Code indicating success or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(System.String,System.UInt32@)">
+            <summary>
+            Function to accept an incoming connection on the server from the specified address. This is a blocking call and will block until
+            a connection is made or an error occurs.
+            Invoking WaitForConnection multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientIndex"> Client Index</param>
+            <returns> Socket Error Code indicating success or failure.</returns>           
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnection(System.String,System.UInt32@,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a blocking call and will block until a connection is made or an
+            error occurs.
+            Invoking WaitForConnection multiple times will throw a WEBSOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            </summary>
+            <param name="addressToAcceptConnectionFrom"> Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientIndex"> client index.</param>
+            <param name="clientConnectCallbackHandler"> Callback invoked when the client gets connected.</param>
+            <returns>eWebSocketStatus indicating websocket operation success or an error </returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+            <exception cref="T:System.Exception"> WebSocketServer stopped.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionAsync(Crestron.SimplSharp.IPAddress,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function to accept an incoming connection on the server from the specified address. This is a non blocking call. The call will 
+            check for the parameters and will start an asynchronous operation. The callback gets invoked when the connection succeeds or an error occurs.
+            Invoking WaitForConnectionAsync multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientConnectedCallbackHandler"> Callback invoked when the client gets connected.</param>
+            <returns> Socket Error Code indicating operation is pending or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionAsync(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a non blocking call. The call will check for the parameters
+            and will start an asynchronous operation. The callback gets invoked when the connection succeeds or an error occurs.
+            Invoking WaitForConnectionAsync multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="pCallBackFunction"> Callback invoked when the client gets connected or an error occurred.</param>
+            <returns>SocketErrorCode indicating socket operation pending or an error </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionAsync(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback,System.Object)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a non blocking call. The call will check for the parameters
+            and will start an asynchronous operation. The callback gets invoked when the connection succeeds or an error occurs.
+            Invoking WaitForConnectionAsync multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="pCallBackFunction"> Callback invoked when the client gets connected or an error occurred.</param>
+            <param name="userSpecifiedObject"> User specified callback object passed to the callback </param>
+            <returns>SocketErrorCode indicating socket operation pending or an error </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionAsync(Crestron.SimplSharp.IPAddress,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback,System.Object)">
+            <summary>
+            Function to accept an incoming connection on the server from the specified address. This is a non blocking call. The call will 
+            check for the parameters and will start an asynchronous operation. The callback gets invoked when the connection succeeds or an error occurs.
+            Invoking WaitForConnectionAsync multiple times will throw a SOCKET_MAX_CONNECTIONS_REACHED error, if the server already has the max number 
+            of connections active as specified by the MaxNumberOfClientSupported property.
+            </summary>
+            <param name="addressToAcceptConnectionFrom">Specific IP Address or '0.0.0.0' to accept a connection from any IP Address.</param>
+            <param name="clientConnectedCallbackHandler"> Callback invoked when the client gets connected.</param>
+            <param name="userSpecifiedObject"> User specified callback object passed to the callback</param>
+            <returns> Socket Error Code indicating operation is pending or failure.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionAsync(System.String,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function to accept an incoming connection on the server. This is a non blocking call. The call will check for the parameters
+            and will start an asynchronous operation. The callback gets invoked when the connection succeeds.
+            </summary>            
+            <param name="addressToAcceptConnectionFrom"></param>
+            <param name="pClientConnectedCallbackHandler"></param>
+            <returns>eWebSocketStatus indicating websocket operation pending or an error </returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+            <exception cref="T:System.Exception"> WebSocketServer can not be started.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionAsync(System.String,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback,System.Object)">
+             <summary>
+             Function to accept an incoming connection on the server. This is a non blocking call. The call will check for the parameters
+             and will start an asynchronous operation. The callback gets invoked when the connection succeeds.
+             </summary>            
+             <param name="addressToAcceptConnectionFrom"></param>
+             <param name="pClientConnectedCallbackHandler"></param>
+            <param name="userSpecifiedObject"></param> 
+             <returns>eWebSocketStatus indicating websocket operation pending or an error </returns>
+             <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+             <exception cref="T:System.Exception"> WebSocketServer can not be started.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WaitForConnectionsAlways(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback)">
+            <summary>
+            Function that accepts all incoming connections and triggers the given callback per connection that is accepted.
+            </summary>
+            <param name="clientConnectedCallbackHandler">Customer callback function</param>
+            <returns></returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.SendData(System.Byte[],System.Int32,Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes)">
+            <summary>
+            Function to send data to the client
+            This assumes a single client is connected to the server and will send the data to that client.
+            </summary>
+            <param name="pBufferToSend">Data Buffer to send socket</param>
+            <param name="msgLen">Message Length</param>
+            <param name="msgType"></param>
+            <returns>On success, the number of bytes sent is returned.  On error, -1 is returned.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSockSendMessageToClient(System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.Int32)">
+            Return Type: VOID
+            param1: INT
+            param0: CHAR            
+            param2: STRING
+            param3: INT
+            param4: UNIT
+            TODO: Name will change from sampleWebSocketServer.so to LibWebSocketClient.so
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSockSendMessageToClientSync(System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.Int32)">
+            Return Type: VOID
+            param1: INT
+            param0: CHAR            
+            param2: STRING
+            param3: INT
+            param4: UNIT
+            TODO: Name will change from sampleWebSocketServer.so to LibWebSocketClient.so
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.SendData(System.UInt32,System.Byte[],System.Int32,Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes)">
+            <summary>
+             Send data to the Websocket client
+            </summary>
+            <param name="pBufferToSend">Data Buffer to send socket</param>
+            <param name="clientIndex">client Index of the Client</param>
+            <param name="msgLen">Message Length</param>
+            <param name="msgType"></param>
+            <returns>On success, the number of bytes sent is returned.  On error, -1 is returned </returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.SendDataInternal(System.UInt32,System.Byte[],System.Int32,Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes,System.Boolean)">
+            <summary>
+             Send data to the Websocket client
+            </summary>
+            <param name="pBufferToSend">Data Buffer to send socket</param>
+            <param name="clientIndex">client Index of the Client</param>
+            <param name="msgLen">Message Length</param>
+            <param name="msgType"></param>
+            <param name="isSync">Is Synchronous call or not</param>
+            <returns>On success, the number of bytes sent is returned.  On error, -1 is returned </returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.SendDataAsync(System.UInt32,System.Byte[],System.Int32,Crestron.SimplSharp.CrestronWebSocketServer.eWebSocketMessageWriteOpcodes)">
+            <summary>
+             Send data synchronously to the Websocket client
+            </summary>
+            <param name="pBufferToSend">Data Buffer to send socket</param>
+            <param name="clientIndex">client Index of the Client</param>
+            <param name="msgLen">Message Length</param>
+            <param name="msgType"></param>
+            <returns>On success, the number of bytes sent is returned.  On error, -1 is returned </returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ReceiveData(System.Byte[]@)">
+            <summary>
+            Function to read data from the client
+            This assumes a single client is connected to the server and reads data from that client.
+            </summary>
+            <param name="data"></param>
+            <returns>WEBSOCKET_SUCCESS for successful reception of the data</returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ReceiveData(System.UInt32,System.Byte[]@)">
+            <summary>
+            Function to read data from the client at the specified index.
+            </summary>
+            <param name="clientIndex">client Index of received data</param>
+            <param name="data">received data</param>
+            <returns>WEBSOCKET_SUCCESS for successful reciption of the data</returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ReceiveDataAsync(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerReceiveCallback)">
+            <summary>
+            Function to read data asynchronously from the TCP client. This is a non-blocking call.
+            This method installs GetMessageHandler of a specified client. 
+            The provided callback function gets invoked when requested client sends the data.
+            </summary>
+            <param name="pReceiveCallback"> Callback function to get invoked when data has been received or an error occurs</param>
+            <returns> Socket error code indicating operation pending or an error </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ReceiveDataAsync(System.UInt32,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerReceiveCallback)">
+            <summary>
+            Function to read data from the client at the specified index
+            This function will clear out the buffer before reading in new data.
+            The callback function gets invoked once the read succeeds or an error occurs.
+            </summary>
+            <param name="clientIndex"> Client Index</param>
+            <param name="pReceiveCallback"> Callback function to get invoked when data has been received or an error occurs</param>
+            <returns> Socket error code indicating operation pending or an error </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ReceiveDataAsync(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerReceiveCallback,System.Object)">
+            <summary>
+            Function to read data asynchronously from the TCP client. This is a non-blocking call.
+            This assumes a single client is connected to the server and reads data from that client.
+            This will clear out the buffer before reading in new data.
+            The callback function gets invoked once the read succeeds or an error occurs.
+            </summary>
+            <param name="pReceiveCallback"> Callback function to get invoked when data has been received or an error occurs</param>
+            <param name="userSpecifiedCallbackObject">User specified callback object passed to the callback</param>
+            <returns> Socket error code indicating operation pending or an error </returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ReceiveDataAsync(System.UInt32,Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerReceiveCallback,System.Object)">
+            <summary>
+            Function to read data asynchronously from the Websocket client. This is a non-blocking call. 
+            This method installs GetMessageHandler of a specified client. 
+            The provided callback function gets invoked when requested client sends the data.
+            </summary>
+            <param name="clientIndex">client Index </param>
+            <param name="pReceiveCallback">callback method</param>         
+            <returns> eWebSocketStatus error code indicating operation pending or an error </returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSockDisconnectClient(System.IntPtr,System.Int32)">
+            <summary>
+            Function to disconnect from the client.
+            </summary>
+            <param name="clientID"></param>
+            <param name="ipaddress"></param>            
+            <returns></returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Disconnect">
+            <summary>
+            Function to disconnect the client from the server.
+            This assumes a single client is connected to the server and will close that client.
+            </summary>
+            <returns>eWebSocketStatus indicating a failure or a success</returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetAddressServerAcceptedConnectionFromForSpecificClient(System.UInt32)">
+            <summary>
+            Address of the client which got connected to the server at the specified index 
+            </summary>
+            <param name="clientIndex"> Unique Client Index</param>
+            <returns>String or null</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Disconnect(System.UInt32)">
+            <summary>
+            Function to disconnect a specific client at the specified index
+            </summary>
+            <param name="clientIndex"> Unique client Index</param>
+            <returns>eWebSocketStatus indicating a failure or a success</returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.DisconnectAll">
+            <summary>
+            Function to disconnect all connected clients from server.
+            </summary>
+            <returns>eWebSocketStatus indicating a failure or a success</returns>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.removeClientIndexFromList(System.UInt32,System.UInt32@,System.Boolean)">
+            <summary>
+            Function to remove client from list based on client Index
+            </summary>
+            <param name="clientIndex"> Unique clientIndex</param>
+            <param name="WebSocketClientID"> WebSocketClientID</param>
+            <param name="removeAll"> remove all </param>
+            <returns>indicating a failure or a success</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.removeClientIdFromList(System.UInt32,System.UInt32@,System.Boolean)">
+            <summary>
+            Function to remove client from list based on client ID
+            </summary>
+            <param name="WebSocketClientID"> Unique WebSocketClientID</param>
+            <param name="clientIndex"> clientIndex</param>
+            <param name="removeAll"> remove all </param>
+            <returns>indicating a failure or a success</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketServerStatusChangeEventHandler(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerDisconnectCallback)">
+            <summary>
+            The function to handle the disconnect from client side.
+            </summary>
+            <param name="pClientDisconnectCallbackHandler"></param>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketServerStatusChangeEventHandler(Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerErrorCallback)">
+            <summary>
+            The function to handle the error from client side.
+            </summary>
+            <param name="pClientErrorCallbackHandler"></param>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ClientConnected(System.UInt32)">
+            <summary>
+            Function to check if a client at the specified index is connected or not
+            </summary>
+            <param name="clientIndex"> Client Index</param>
+            <returns>true or false.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetClientIndexFromClientId(System.UInt32)">
+            <summary>
+            Function to get client Index from clientID
+            </summary>
+            <param name="clientID"> client ID</param>
+            <returns>client Index.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetIfDataAvailableForSpecificClient(System.UInt32)">
+            <summary>
+            Function to return whether data is available to be read from the client at the specified index              
+            </summary>
+            <param name="clientIndex">Client Index</param>
+            <returns> True if there is data available or false</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetClientIDFromIndex(System.UInt32)">
+            <summary>
+            Function to get client Id from client Index
+            </summary>
+            <param name="clientIndex"> Client Index</param>
+            <returns>Client ID.</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSockCreateServer(System.Int32,System.Int32,System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)">
+            <summary>
+            Method to create websocket server
+            </summary>
+            <param name="port"></param>
+            <param name="secure"></param>
+            <param name="SSLcertficateBuf"></param>
+            <param name="SSLcertficateLength"></param>
+            <param name="SSLcertficateKeyBuf"></param>
+            <param name="SSLcertficateKeyLength"></param>
+            <param name="serverMount"></param>
+            <param name="pConnectCallBack"></param>
+            <param name="pMessageRecvCallBack"></param>
+            <param name="pDisconnectCallBack"></param>
+            <param name="pErrorCallBack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Start(System.UInt32,System.Boolean)">
+            <summary>
+            This is the function for creating the websocket server
+            </summary>
+            <param name="paramPort">Port number to start the websocket server</param>
+            <param name="paramSecure">secure - 1-&gt;secure server, 0-&gt;unsecure server.</param>
+            <exception cref="T:System.NotSupportedException"> WebSocketServer is not supported on this firmware version.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.getSelfSignedSSLCertificateKey">
+            <summary>
+            Function to get the self signed certificate Key
+            </summary>
+            <returns>Byte array containing PEM-encoded key, or null if error</returns>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Finalize">
+            <summary>
+            Class destructor
+            </summary>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Dispose">
+            <summary>
+            Dispose releases all resources used by WebSocketServer.
+            </summary>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.addNewClientInfoToList(System.UInt32,System.String)">
+            <summary>
+            addNewClientInfoToList - Method to add new client to list.
+            </summary>
+            <param name="clientId"></param>
+            <param name="ipAddress"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ProcessWebSocketGatewayConnects(System.IntPtr,System.Int32)">
+            <summary>
+            ProcessWebSocketGatewayConnects - Method gets call to connects client.
+            </summary>
+            <param name="clientId"></param>
+            <param name="pIpaddress"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ProcessWebSocketGatewayErrorHandler(System.IntPtr,System.Int32,System.IntPtr,System.Int32)">
+            <summary>
+            ProcessWebSocketGatewayErrorHandler- For handling the error.
+            </summary>
+            <param name="clientId"></param>
+            <param name="pIpaddress"></param>
+            <param name="message"></param>
+            <param name="length"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ProcessWebSocketGatewayDisconnect(System.IntPtr,System.Int32)">
+            <summary>
+             ProcessWebSocketGatewayDisconnect - Function to process a Websocket  Disconnect
+            </summary>
+            <param name="clientId"></param>
+            <param name="pIpaddress"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ProcessIncomingGatewayData(System.IntPtr,System.Int32,System.IntPtr,System.Int32)">
+            <summary>
+            ProcessIncomingGatewayData - Handle incoming data on the WebSocket server....
+            </summary>
+            <param name="clientId"></param>
+            <param name="pIpaddress"></param>
+            <param name="pcData"></param>
+            <param name="msgLen"></param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Stop">
+            <summary>
+            Stop the websocket server
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetErrorHandler">
+            <summary>
+            GetErrorHandler for error callback.
+            </summary>            
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetAcceptHandler">
+            <summary>
+            GetAcceptHandler for connect callback.
+            </summary>            
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.GetCloseHandler">
+            <summary>
+            GetCloseHandler for close callback.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.IsSecureServer">
+            <summary>
+            IsSecureServer represent whether server to be created as secure/unsecure.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ServerPortNumber">
+            <summary>
+            ServerPortNumber represent port number of the server.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.AddressToAcceptConnectionFrom">
+            <summary>
+            IP Address To Accept Connection From a specific client, "0.0.0.0" for any.
+            </summary>           
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.userDefinedObject">
+            <summary>
+            user defined object.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.Supported">
+            <summary>
+            Returns True if websocket server support is available on this firmware or false otherwise.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketIndex">
+            <summary>
+            Returns the number of connected websocket client.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.NumberOfClientsConnected">
+            <summary>
+            Indicates number of clients connected to server at the current time.
+            This will return -1 if we are unable to get the count.
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.AddressServerAcceptedConnectionFrom">
+            <summary>
+            Address of the client which got connected to the server.
+            This assumes a single client is connected to the server and returns the address of that client
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.DataAvailable">
+            <summary>
+            Indicates whether data is available on the client to be read.
+            This assumes a single client is connected to the server and returns true if there is data which can be read from that specific client.
+            </summary>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerClientConnectCallback">
+            <summary>
+            Callback which is invoked whenever a client gets connected
+            </summary>
+            <param name="myWebSocketServer"> WebSocketServer server </param>
+            <param name="clientIndex"> Client Index</param>
+            <param name="ipaddress"> Ip Address of client</param>
+            <param name="userSpecifiedObject"> User Specified Object</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerReceiveCallback">
+            <summary>
+            Callback for the asynchronous receive function
+            </summary>
+            <param name="myWebSocketServer"> WebSocketServer server </param>
+            <param name="clientIndex"> Client Index</param>
+            <param name="ipaddress"> Ip Address of client</param>
+            <param name="pcData"> Recieved data buffer</param>
+            <param name="numberOfBytesReceived"> Number of bytes actually received. 0 or Negative count indicates that the socket got closed.</param>
+            <param name=" userSpecifiedObject"> User specified object</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerDisconnectCallback">
+            <summary>
+            User Callback function to be used when a websocket client disconnects.
+            Used by SSP user program
+            </summary>            
+            <param name="clientIndex">client Index of the requested connection</param>
+            <param name="myWebSocketServer">WebSocketServer</param>
+            <param name="ipaddress">Ipaddress of the client</param>
+            <param name=" userSpecifiedObject"> User specified object</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.webSocketServerErrorCallback">
+            <summary>
+            Callback which is invoked whenever a client encontred any error.
+            </summary>
+            <param name="myWebSocketServer"> WebSocketServer server </param>
+            <param name="clientIndex"> Client Index</param>
+            <param name="ipaddress"> Ip Address of client</param>
+            <param name="message"> Recieved data buffer</param>
+            <param name="numberOfBytesReceived"> Number of bytes actually received. 0 or Negative count indicates that the socket got closed.</param>
+            <param name=" userSpecifiedObject"> User specified object</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketConnectCB">
+            <summary>
+            Callback function to be used when a websocket client connects.
+            </summary>            
+            <param name="ipaddress">Ipaddress of the client</param>
+            <param name="clientID">Client ID of the requested connection</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketIncomingDataCB">
+            <summary>
+            Callback function to be used when a websocket client send the data(or when a server receive data from client).
+            </summary>            
+            <param name="ipaddress">Ipaddress of the client</param>
+            <param name="clientID">Client ID of the requested connection</param>
+            <param name="pcData">Received data from client</param>
+            <param name="messageLength">Length of the message</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketDisconnectCB">
+            <summary>
+            Callback function to be used when a websocket client disconnect from websocket server.
+            </summary>
+            <param name="ipaddress">Ipaddress of the client</param>
+            <param name="clientID">Client ID of the requested connection</param>            
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.WebSocketErrorHandlerCB">
+            <summary>
+            Callback Function to be used when a websocket client encountered any error. 
+            </summary>
+            <param name="ipaddress">Ipaddress of the client</param>
+            <param name="clientID">Client ID of the requested connection</param>                       
+            <param name="message">Error Message</param>
+            <param name="length">Length of the message</param>
+        </member>
+        <member name="T:Crestron.SimplSharp.CrestronWebSocketServer.WebSocketServer.ActiveWebSocket">
+            <summary>
+            private class for the active websocket client. 
+            </summary>
         </member>
         <member name="T:Crestron.SimplSharp.CMonitor">
             <summary>
@@ -12815,9 +13670,20 @@
             </summary>
             <param name="data">DER encoded private key data.</param>
         </member>
+        <member name="M:Crestron.SimplSharp.Ssh.Security.Key.#ctor(System.Byte[],System.Security.Cryptography.HashAlgorithm)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.Key"/> class with specific hash algo.
+            </summary>
+            <param name="data">DER encoded private key data.</param>
+        </member>
         <member name="M:Crestron.SimplSharp.Ssh.Security.Key.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.Key"/> class.
+            </summary>
+        </member>
+        <member name="M:Crestron.SimplSharp.Ssh.Security.Key.#ctor(System.Security.Cryptography.HashAlgorithm)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.Key"/> class with specific hash algo.
             </summary>
         </member>
         <member name="M:Crestron.SimplSharp.Ssh.Security.Key.Sign(System.Byte[])">
@@ -12857,6 +13723,11 @@
             <value>
             The length of the key.
             </value>
+        </member>
+        <member name="P:Crestron.SimplSharp.Ssh.Security.Key.Hash">
+            <summary>
+            Hash Algo for Digital Signature
+            </summary>
         </member>
         <member name="M:Crestron.SimplSharp.Ssh.Security.DsaKey.#ctor">
             <summary>
@@ -18028,6 +18899,27 @@
             <remarks>Can only execute commands that specify up to (and including) programmer access level.</remarks>
             <exception cref="T:System.NotSupportedException">Feature is unavailable.</exception>
         </member>
+        <member name="M:Crestron.SimplSharp.ICrestronConsole.SendControlSystemCommand(System.String,System.Text.StringBuilder@)">
+            <summary>
+            Function to allow the user to send a console command and receive a response from the control system.
+            </summary>
+            <param name="commandToSend">The console command to send; end line not needed.</param>
+            <param name="pResponse">The controller's response will be stored here. 'null' on failure.</param>
+            <returns>True/False if the command was sent correctly.</returns>
+            <remarks>Can only execute commands that specify up to (and including) programmer access level.</remarks>
+            <exception cref="T:System.NotSupportedException">Feature is unavailable.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.ICrestronConsole.SendControlSystemCommand(System.String,System.Text.StringBuilder@,System.UInt32)">
+            <summary>
+            Function to allow the user to send a console command and receive a response from the control system.
+            </summary>
+            <param name="commandToSend">The console command to send; end line not needed.</param>
+            <param name="pResponse">The controller's response will be stored here. 'null' on failure.</param>
+            <param name="timeOutInMsec">Timeout in millisec.</param>
+            <returns>True/False if the command was sent correctly.</returns>
+            <remarks>Can only execute commands that specify up to (and including) programmer access level.</remarks>
+            <exception cref="T:System.NotSupportedException">Feature is unavailable.</exception>
+        </member>
         <member name="M:Crestron.SimplSharp.ICrestronConsole.SendControlSystemCommand(System.String,System.String@,System.UInt32)">
             <summary>
             Function to allow the user to send a console command and receive a response from the control system.
@@ -18151,6 +19043,25 @@
             <returns>True/False if the command was sent correctly.</returns>
             <exception cref="T:System.NotSupportedException">This feature is only available in SIMPL# Pro.</exception>
         </member>
+        <member name="M:Crestron.SimplSharp.CrestronConsole.SendControlSystemCommand(System.String,System.Text.StringBuilder@)">
+            <summary>
+            Function to allow the user to send a console command and receive a response from the control system.
+            </summary>
+            <param name="commandToSend">The console command to send; end line not needed.</param>
+            <param name="pResponse">Reference to a string where the controller's response will be stored.</param>
+            <returns>True/False if the command was sent correctly.</returns>
+            <exception cref="T:System.NotSupportedException">This feature is only available in SIMPL# Pro.</exception>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronConsole.SendControlSystemCommand(System.String,System.Text.StringBuilder@,System.UInt32)">
+            <summary>
+            Function to allow the user to send a console command and receive a response from the control system with timeout override (Only available on Mercury).
+            </summary>
+            <param name="commandToSend">The console command to send; end line not needed.</param>
+            <param name="pResponse">Reference to a string where the controller's response will be stored.</param>
+            <param name="timeOutInMsec">The time out in msec.</param>
+            <returns>True/False if the command was sent correctly.</returns>
+            <exception cref="T:System.NotSupportedException">This feature is only available on Mercury products.</exception>
+        </member>
         <member name="M:Crestron.SimplSharp.CrestronConsole.SendControlSystemCommand(System.String,System.String@,System.UInt32)">
             <summary>
             Function to allow the user to send a console command and receive a response from the control system with timeout override (Only available on Mercury).
@@ -18258,6 +19169,27 @@
             <returns>True/False if the command was sent correctly.</returns>
             <exception cref="T:System.NotSupportedException">Feature is unavailable.</exception>
             <remarks>Can only execute commands that specify up to (and including) programmer access level.</remarks>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronConsoleSupportClass.SendControlSystemCommand(System.String,System.Text.StringBuilder@)">
+            <summary>
+            Function to allow the user to send a console command and receive a response from the control system.
+            </summary>
+            <param name="commandToSend">The console command to send; end line not needed.</param>
+            <param name="pResponse">The controller's response will be stored here. 'null' on failure.</param>
+            <returns>True/False if the command was sent correctly.</returns>
+            <exception cref="T:System.NotSupportedException">Feature is unavailable.</exception>
+            <remarks>Can only execute commands that specify up to (and including) programmer access level.</remarks>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronConsoleSupportClass.SendControlSystemCommand(System.String,System.Text.StringBuilder@,System.UInt32)">
+            <summary>
+            Function to allow the user to send a console command and receive a response from the control system with timeout override (Only available on Mercury).
+            </summary>
+            <param name="commandToSend">The console command to send; end line not needed.</param>
+            <param name="pResponse">The controller's response will be stored here. 'null' on failure.</param>
+            <param name="timeOutInMsec">Timeout in Millisec.</param>
+            <returns>True/False if the command was sent correctly.</returns>
+            <exception cref="T:System.NotSupportedException">Feature is unavailable.</exception>
+            <remarks>Can only execute commands that specify up to (and including) programmer access level. Only supported for Mercury</remarks>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronConsoleSupportClass.SendControlSystemCommand(System.String,System.String@,System.UInt32)">
             <summary>
@@ -18999,7 +19931,7 @@
             <returns>eCresnetDiscoveryReturnValues - enum indicating return value</returns>
             <exception cref="T:System.NotSupportedException">Cresnet is not supported on this platform. Use <see cref="P:Crestron.SimplSharp.CrestronEnvironment.DevicePlatform"/> to determine the running platform type.</exception>
         </member>
-        <member name="M:Crestron.SimplSharp.CrestronCresnetHelper.ParseString(System.String@,System.Byte@,System.String@,System.UInt32@,System.String@)">
+        <member name="M:Crestron.SimplSharp.CrestronCresnetHelper.ParseString(System.String@,System.Byte@,System.String@,System.UInt32@,System.String@,System.String@)">
             <summary>
             Method to parse the string...
             this is only used for the ReportCresnet currently and not for PPNDIscover
@@ -19223,6 +20155,16 @@
             <param name="TSID">TSID.</param>
             <param name="versionString">Version number.</param>
         </member>
+        <member name="M:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.#ctor(System.Byte,System.String,System.UInt32,System.String,System.String)">
+            <summary>
+            Creates a discovered device element.
+            </summary>
+            <param name="cresnetId">Cresnet ID.</param>
+            <param name="ModelName">Model name.</param>
+            <param name="TSID">TSID.</param>
+            <param name="versionString">Version number.</param>
+            <param name="serialString">Universal Serial Number</param>
+        </member>
         <member name="M:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.#ctor(System.Byte,System.Byte,System.String,System.UInt32,System.String)">
             <summary>
             Creates a discovered device element.
@@ -19232,6 +20174,17 @@
             <param name="ModelName">Model name.</param>
             <param name="TSID">TSID.</param>
             <param name="versionString">Version number.</param>
+        </member>
+        <member name="M:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.#ctor(System.Byte,System.Byte,System.String,System.UInt32,System.String,System.String)">
+            <summary>
+            Creates a discovered device element.
+            </summary>
+            <param name="cresnetId">Cresnet ID.</param>
+            <param name="cresnetBranchId">Branch ID.</param>
+            <param name="ModelName">Model name.</param>
+            <param name="TSID">TSID.</param>
+            <param name="versionString">Version number.</param>
+            <param name="serialString">Universal Serial Number</param>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.ToString">
             <summary>
@@ -19257,6 +20210,11 @@
         <member name="P:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.TouchSettableId">
             <summary>
             Device Touch Settable Identification string 
+            </summary>
+        </member>
+        <member name="P:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.SerialNumber">
+            <summary>
+            Universal Serial Number of the device 
             </summary>
         </member>
         <member name="P:Crestron.SimplSharp.CrestronCresnetHelper.DiscoveredDeviceElement.Version">
@@ -21276,6 +22234,11 @@
             Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.RsaKey"/> class.
             </summary>
         </member>
+        <member name="M:Crestron.SimplSharp.Ssh.Security.RsaKey.#ctor(System.Security.Cryptography.HashAlgorithm,Crestron.SimplSharp.Ssh.Common.ObjectIdentifier)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.RsaKey"/> class with specific hash algo.
+            </summary>
+        </member>
         <member name="M:Crestron.SimplSharp.Ssh.Security.RsaKey.#ctor(System.Byte[])">
             <summary>
             Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.RsaKey"/> class.
@@ -21365,6 +22328,11 @@
             <value>
             The public.
             </value>
+        </member>
+        <member name="P:Crestron.SimplSharp.Ssh.Security.RsaKey.OID">
+            <summary>
+            OID for Digital Signature
+            </summary>
         </member>
         <member name="T:Crestron.SimplSharp.Ssh.Security.Cryptography.RIPEMD160Hash">
             <summary>
@@ -22070,7 +23038,7 @@
             Implements RSA digital signature algorithm.
             </summary>
         </member>
-        <member name="M:Crestron.SimplSharp.Ssh.Security.Cryptography.RsaDigitalSignature.#ctor(Crestron.SimplSharp.Ssh.Security.RsaKey)">
+        <member name="M:Crestron.SimplSharp.Ssh.Security.Cryptography.RsaDigitalSignature.#ctor(Crestron.SimplSharp.Ssh.Security.RsaKey,System.Security.Cryptography.HashAlgorithm,Crestron.SimplSharp.Ssh.Common.ObjectIdentifier)">
             <summary>
             Initializes a new instance of the <see cref="T:Crestron.SimplSharp.Ssh.Security.Cryptography.RsaDigitalSignature"/> class.
             </summary>
@@ -27724,7 +28692,6 @@
             <param name="buffer">the data stream</param>
             <param name="size">size of item</param>
             <param name="nmemb">the number of items to deliver</param>
-            <param name="response">User data</param>
             <returns>The number of items delivered</returns>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.RequestStream(System.IntPtr,System.Int32,System.Int32,System.IntPtr)">
@@ -27784,7 +28751,6 @@
             <param name="buffer">the data stream</param>
             <param name="size">size of item</param>
             <param name="nmemb">the number of items to deliver</param>
-            <param name="response">The response stream as user data</param>
             <returns>The number of items delivered</returns>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.StreamWrite(System.Byte[],System.Int32,System.Int32)">
@@ -27833,7 +28799,6 @@
             <param name="buffer">the data stream</param>
             <param name="size">size of item</param>
             <param name="nmemb">the number of items to deliver</param>
-            <param name="request">The request stream as user data</param>
             <returns>The number of items delivered</returns>
         </member>
         <member name="M:Crestron.SimplSharp.CrestronFileTransferClient.#cctor">
